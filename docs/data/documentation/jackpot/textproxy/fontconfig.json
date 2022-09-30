@@ -1,0 +1,431 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/JackPot\/documentation\/JackPot",
+        "doc:\/\/JackPot\/documentation\/JackPot\/TextProxy"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/JackPot\/documentation\/JackPot\/TextProxy\/FontConfig"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7JackPot9TextProxyC10FontConfigV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "FontConfig"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JackPot"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "FontConfig"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "TextProxy.FontConfig"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "FontConfig"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/5JXKit13JXConvertibleP",
+        "doc:\/\/JackPot\/4Jack8JackableP",
+        "doc:\/\/JackPot\/Se",
+        "doc:\/\/JackPot\/SE"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/TextProxy\/FontConfig\/init(from:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/TextProxy\/FontConfig\/size",
+        "doc:\/\/JackPot\/documentation\/JackPot\/TextProxy\/FontConfig\/style",
+        "doc:\/\/JackPot\/documentation\/JackPot\/TextProxy\/FontConfig\/weight"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/TextProxy\/FontConfig\/Decodable-Implementations",
+        "doc:\/\/JackPot\/documentation\/JackPot\/TextProxy\/FontConfig\/Encodable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jackpot\/textproxy\/fontconfig"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://JackPot/4Jack8JackableP": {
+  "identifier" : "doc:\/\/JackPot\/4Jack8JackableP",
+  "title" : "Jack.Jackable",
+  "type" : "unresolvable"
+},
+"doc://JackPot/5JXKit13JXConvertibleP": {
+  "identifier" : "doc:\/\/JackPot\/5JXKit13JXConvertibleP",
+  "title" : "JXKit.JXConvertible",
+  "type" : "unresolvable"
+},
+"doc://JackPot/SE": {
+  "identifier" : "doc:\/\/JackPot\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://JackPot/Se": {
+  "identifier" : "doc:\/\/JackPot\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://JackPot/documentation/JackPot": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JackPot",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot"
+},
+"doc://JackPot/documentation/JackPot/TextProxy": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TextProxy"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/TextProxy",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TextProxy"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TextProxy",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/textproxy"
+},
+"doc://JackPot/documentation/JackPot/TextProxy/FontConfig": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FontConfig"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/TextProxy\/FontConfig",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FontConfig"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TextProxy.FontConfig",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/textproxy\/fontconfig"
+},
+"doc://JackPot/documentation/JackPot/TextProxy/FontConfig/Decodable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/TextProxy\/FontConfig\/Decodable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Decodable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/textproxy\/fontconfig\/decodable-implementations"
+},
+"doc://JackPot/documentation/JackPot/TextProxy/FontConfig/Encodable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/TextProxy\/FontConfig\/Encodable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Encodable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/textproxy\/fontconfig\/encodable-implementations"
+},
+"doc://JackPot/documentation/JackPot/TextProxy/FontConfig/init(from:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7DecoderP",
+      "text" : "Decoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/TextProxy\/FontConfig\/init(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/textproxy\/fontconfig\/init(from:)"
+},
+"doc://JackPot/documentation/JackPot/TextProxy/FontConfig/size": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "size"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/TextProxy\/FontConfig\/size",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "size",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/textproxy\/fontconfig\/size"
+},
+"doc://JackPot/documentation/JackPot/TextProxy/FontConfig/style": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "style"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7JackPot9FontProxyO",
+      "text" : "FontProxy"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7JackPot9FontProxyO9TextStyleO",
+      "text" : "TextStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/TextProxy\/FontConfig\/style",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "style",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/textproxy\/fontconfig\/style"
+},
+"doc://JackPot/documentation/JackPot/TextProxy/FontConfig/weight": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "weight"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7JackPot9FontProxyO",
+      "text" : "FontProxy"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7JackPot9FontProxyO6WeightO",
+      "text" : "Weight"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/TextProxy\/FontConfig\/weight",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "weight",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/textproxy\/fontconfig\/weight"
+}
+}
+}

@@ -1,0 +1,283 @@
+{
+  "abstract" : [
+    {
+      "text" : "",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/JackPot\/documentation\/JackPot"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "JackPot",
+    "modules" : [
+      {
+        "name" : "JackPot"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "JackPot"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/TextProxy",
+        "doc:\/\/JackPot\/documentation\/JackPot\/UIPod",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy"
+      ],
+      "title" : "Classes"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/JackedView"
+      ],
+      "title" : "Protocols"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/JackPot"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy"
+      ],
+      "title" : "Enumerations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jackpot"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://JackPot/documentation/JackPot": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JackPot",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot"
+},
+"doc://JackPot/documentation/JackPot/FontProxy": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FontProxy"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FontProxy"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FontProxy",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/fontproxy"
+},
+"doc://JackPot/documentation/JackPot/JackPot": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JackPot"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/JackPot",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JackPot"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JackPot",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/jackpot"
+},
+"doc://JackPot/documentation/JackPot/JackedView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JackedView"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/JackedView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JackedView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JackedView",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/jackedview"
+},
+"doc://JackPot/documentation/JackPot/TextProxy": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TextProxy"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/TextProxy",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TextProxy"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TextProxy",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/textproxy"
+},
+"doc://JackPot/documentation/JackPot/UIPod": {
+  "abstract" : [
+    {
+      "text" : "A JackPod that provides support for constructing SwiftUI view hierarchies from JavaScript.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UIPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/UIPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UIPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UIPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/uipod"
+},
+"doc://JackPot/documentation/JackPot/ViewProxy": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ViewProxy"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ViewProxy"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ViewProxy",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewproxy"
+}
+}
+}

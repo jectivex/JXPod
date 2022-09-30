@@ -1,0 +1,728 @@
+{
+  "abstract" : [
+    {
+      "text" : "Analogue to ",
+      "type" : "text"
+    },
+    {
+      "code" : "SwiftUI.Font.Weight",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " as a string enum so automatic Jack bridging magic can happen",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/JackPot\/documentation\/JackPot",
+        "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7JackPot9FontProxyO6WeightO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Weight"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JackPot"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Weight"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "FontProxy.Weight"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "Weight"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/5JXKit13JXConvertibleP",
+        "doc:\/\/JackPot\/Se",
+        "doc:\/\/JackPot\/SE",
+        "doc:\/\/JackPot\/SQ",
+        "doc:\/\/JackPot\/SH",
+        "doc:\/\/JackPot\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/black",
+        "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/bold",
+        "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/heavy",
+        "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/light",
+        "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/medium",
+        "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/regular",
+        "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/semibold",
+        "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/thin",
+        "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/ultraLight"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/getJX(from:)"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/makeJX(from:)-9g5xj"
+      ],
+      "title" : "Type Methods"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/Decodable-Implementations",
+        "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/Encodable-Implementations",
+        "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/Equatable-Implementations",
+        "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jackpot\/fontproxy\/weight"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://JackPot/5JXKit13JXConvertibleP": {
+  "identifier" : "doc:\/\/JackPot\/5JXKit13JXConvertibleP",
+  "title" : "JXKit.JXConvertible",
+  "type" : "unresolvable"
+},
+"doc://JackPot/SE": {
+  "identifier" : "doc:\/\/JackPot\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://JackPot/SH": {
+  "identifier" : "doc:\/\/JackPot\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://JackPot/SQ": {
+  "identifier" : "doc:\/\/JackPot\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://JackPot/SY": {
+  "identifier" : "doc:\/\/JackPot\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://JackPot/Se": {
+  "identifier" : "doc:\/\/JackPot\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://JackPot/documentation/JackPot": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JackPot",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot"
+},
+"doc://JackPot/documentation/JackPot/FontProxy": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FontProxy"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FontProxy"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FontProxy",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/fontproxy"
+},
+"doc://JackPot/documentation/JackPot/FontProxy/Weight": {
+  "abstract" : [
+    {
+      "text" : "Analogue to ",
+      "type" : "text"
+    },
+    {
+      "code" : "SwiftUI.Font.Weight",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " as a string enum so automatic Jack bridging magic can happen",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Weight"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Weight"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FontProxy.Weight",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/fontproxy\/weight"
+},
+"doc://JackPot/documentation/JackPot/FontProxy/Weight/Decodable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/Decodable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Decodable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/fontproxy\/weight\/decodable-implementations"
+},
+"doc://JackPot/documentation/JackPot/FontProxy/Weight/Encodable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/Encodable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Encodable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/fontproxy\/weight\/encodable-implementations"
+},
+"doc://JackPot/documentation/JackPot/FontProxy/Weight/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/fontproxy\/weight\/equatable-implementations"
+},
+"doc://JackPot/documentation/JackPot/FontProxy/Weight/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/fontproxy\/weight\/rawrepresentable-implementations"
+},
+"doc://JackPot/documentation/JackPot/FontProxy/Weight/black": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "black"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/black",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FontProxy.Weight.black",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/fontproxy\/weight\/black"
+},
+"doc://JackPot/documentation/JackPot/FontProxy/Weight/bold": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bold"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/bold",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FontProxy.Weight.bold",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/fontproxy\/weight\/bold"
+},
+"doc://JackPot/documentation/JackPot/FontProxy/Weight/getJX(from:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getJX"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit9JXContextC",
+      "text" : "JXContext"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit7JXValueC",
+      "text" : "JXValue"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/getJX(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getJX(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/fontproxy\/weight\/getjx(from:)"
+},
+"doc://JackPot/documentation/JackPot/FontProxy/Weight/heavy": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "heavy"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/heavy",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FontProxy.Weight.heavy",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/fontproxy\/weight\/heavy"
+},
+"doc://JackPot/documentation/JackPot/FontProxy/Weight/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/fontproxy\/weight\/init(rawvalue:)"
+},
+"doc://JackPot/documentation/JackPot/FontProxy/Weight/light": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "light"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/light",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FontProxy.Weight.light",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/fontproxy\/weight\/light"
+},
+"doc://JackPot/documentation/JackPot/FontProxy/Weight/makeJX(from:)-9g5xj": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "makeJX"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit7JXValueC",
+      "text" : "JXValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7JackPot9FontProxyO",
+      "text" : "FontProxy"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7JackPot9FontProxyO6WeightO",
+      "text" : "Weight"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/makeJX(from:)-9g5xj",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "makeJX(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/fontproxy\/weight\/makejx(from:)-9g5xj"
+},
+"doc://JackPot/documentation/JackPot/FontProxy/Weight/medium": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "medium"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/medium",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FontProxy.Weight.medium",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/fontproxy\/weight\/medium"
+},
+"doc://JackPot/documentation/JackPot/FontProxy/Weight/regular": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "regular"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/regular",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FontProxy.Weight.regular",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/fontproxy\/weight\/regular"
+},
+"doc://JackPot/documentation/JackPot/FontProxy/Weight/semibold": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "semibold"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/semibold",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FontProxy.Weight.semibold",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/fontproxy\/weight\/semibold"
+},
+"doc://JackPot/documentation/JackPot/FontProxy/Weight/thin": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "thin"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/thin",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FontProxy.Weight.thin",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/fontproxy\/weight\/thin"
+},
+"doc://JackPot/documentation/JackPot/FontProxy/Weight/ultraLight": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ultraLight"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy\/Weight\/ultraLight",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FontProxy.Weight.ultraLight",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/fontproxy\/weight\/ultralight"
+}
+}
+}
