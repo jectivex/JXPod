@@ -210,6 +210,10 @@ public struct DOMMatrixAPI : Codable, JXConvertible {
 #if canImport(CoreGraphics)
 import CoreGraphics
 
+#if canImport(CoreText)
+import CoreText
+#endif
+
 //@available(*, deprecated, message: "TODO")
 func wipcanvas<T>(_ value: T) -> T { value }
 
@@ -584,6 +588,7 @@ open class CoreGraphicsCanvasPod : AbstractCanvasPod {
     }
 
     private func renderText(mode: CGTextDrawingMode, _ text: String, _ x: Double, _ y: Double, _ maxWidth: Double) {
+        #if canImport(CoreText)
         restoringContext {
             self.ctx.concatenate(flippedYTransform().inverted()) // flip back…
             var position = CGPoint(x: x, y: y).applying(flippedYTransform()) // …and re-apply transform to origin
@@ -602,6 +607,7 @@ open class CoreGraphicsCanvasPod : AbstractCanvasPod {
             let line = CTLineCreateWithAttributedString(astr)
             CTLineDraw(line, self.ctx)
         }
+        #endif
     }
 
     /// Returns the current text attributes for drawing text
