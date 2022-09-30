@@ -1,0 +1,1248 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/JackPot\/documentation\/JackPot"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7JackPot17AbstractCanvasPodC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "AbstractCanvasPod"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JackPot"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "AbstractCanvasPod"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "AbstractCanvasPod"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "AbstractCanvasPod"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/CoreGraphicsCanvasPod"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherited By",
+      "type" : "inheritedBy"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/CanvasPod",
+        "doc:\/\/JackPot\/7Combine16ObservableObjectP",
+        "doc:\/\/JackPot\/4Jack0A3PodP",
+        "doc:\/\/JackPot\/4Jack12JackedObjectP"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/TextMetrics"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/fillStyle",
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/font",
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/globalAlpha",
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/globalCompositeOperation",
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/height",
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/imageSmoothingEnabled",
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/lineCap",
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/lineDashOffset",
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/lineJoin",
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/lineWidth",
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/metadata",
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/miterLimit",
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/pod",
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/shadowBlur",
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/shadowColor",
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/shadowOffsetX",
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/shadowOffsetY",
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/strokeStyle",
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/textAlign",
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/textBaseline",
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/width"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/measureText(value:)"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/JackedObject-Implementations",
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/ObservableObject-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jackpot\/abstractcanvaspod"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://JackPot/4Jack0A3PodP": {
+  "identifier" : "doc:\/\/JackPot\/4Jack0A3PodP",
+  "title" : "Jack.JackPod",
+  "type" : "unresolvable"
+},
+"doc://JackPot/4Jack12JackedObjectP": {
+  "identifier" : "doc:\/\/JackPot\/4Jack12JackedObjectP",
+  "title" : "Jack.JackedObject",
+  "type" : "unresolvable"
+},
+"doc://JackPot/7Combine16ObservableObjectP": {
+  "identifier" : "doc:\/\/JackPot\/7Combine16ObservableObjectP",
+  "title" : "Combine.ObservableObject",
+  "type" : "unresolvable"
+},
+"doc://JackPot/documentation/JackPot": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JackPot",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AbstractCanvasPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AbstractCanvasPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AbstractCanvasPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/JackedObject-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/JackedObject-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "JackedObject Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/jackedobject-implementations"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/ObservableObject-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/ObservableObject-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "ObservableObject Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/observableobject-implementations"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/TextMetrics": {
+  "abstract" : [
+    {
+      "text" : "A structure describing text measurments.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TextMetrics"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/TextMetrics",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TextMetrics"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AbstractCanvasPod.TextMetrics",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/fillStyle": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fillStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/fillStyle",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fillStyle",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/fillstyle"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/font": {
+  "abstract" : [
+    {
+      "text" : "The current text style to use when drawing text. This string uses the same syntax as the CSS font specifier.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "font"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/font",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "font",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/font"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/globalAlpha": {
+  "abstract" : [
+    {
+      "text" : "The alpha (transparency) value that is applied to shapes and images before they are drawn onto the canvas.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "globalAlpha"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/globalAlpha",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "globalAlpha",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/globalalpha"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/globalCompositeOperation": {
+  "abstract" : [
+    {
+      "text" : "The type of compositing operation to apply when drawing new shapes.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "globalCompositeOperation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/globalCompositeOperation",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "globalCompositeOperation",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/globalcompositeoperation"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/height": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "height"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/height",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "height",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/height"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/imageSmoothingEnabled": {
+  "abstract" : [
+    {
+      "text" : "The imageSmoothingEnabled property of the CanvasRenderingContext2D interface, part of the Canvas API, determines whether scaled images are smoothed (true, default) or not (false). On getting the imageSmoothingEnabled property, the last value it was set to is returned.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "imageSmoothingEnabled"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/imageSmoothingEnabled",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "imageSmoothingEnabled",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/imagesmoothingenabled"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/init()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/init()"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/lineCap": {
+  "abstract" : [
+    {
+      "text" : "The shape used to draw the end points of lines.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lineCap"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/lineCap",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lineCap",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/linecap"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/lineDashOffset": {
+  "abstract" : [
+    {
+      "text" : "Sets the line dash offset, or “phase.”",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "See: ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/CanvasRenderingContext2D\/lineDashOffset",
+      "isActive" : true,
+      "type" : "reference"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lineDashOffset"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/lineDashOffset",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lineDashOffset",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/linedashoffset"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/lineJoin": {
+  "abstract" : [
+    {
+      "text" : "The shape used to join two line segments where they meet.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lineJoin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/lineJoin",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lineJoin",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/linejoin"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/lineWidth": {
+  "abstract" : [
+    {
+      "text" : "The thickness of lines.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lineWidth"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/lineWidth",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lineWidth",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/linewidth"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/measureText(value:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "measureText"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "value"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7JackPot17AbstractCanvasPodC",
+      "text" : "AbstractCanvasPod"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7JackPot17AbstractCanvasPodC11TextMetricsV",
+      "text" : "TextMetrics"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/measureText(value:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "measureText(value:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/measuretext(value:)"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/metadata": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "metadata"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:4Jack0A11PodMetaDataV",
+      "text" : "JackPodMetaData"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/metadata",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "metadata",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/metadata"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/miterLimit": {
+  "abstract" : [
+    {
+      "text" : "The miter limit ratio.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "miterLimit"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/miterLimit",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "miterLimit",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/miterlimit"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/pod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pod"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit7JXValueC",
+      "text" : "JXValue"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/pod",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "pod",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/pod"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/shadowBlur": {
+  "abstract" : [
+    {
+      "text" : "The amount of blur applied to shadows.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shadowBlur"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/shadowBlur",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "shadowBlur",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/shadowblur"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/shadowColor": {
+  "abstract" : [
+    {
+      "text" : "The color of shadows",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "See: ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/CanvasRenderingContext2D\/shadowColor",
+      "isActive" : true,
+      "type" : "reference"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shadowColor"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/shadowColor",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "shadowColor",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/shadowcolor"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/shadowOffsetX": {
+  "abstract" : [
+    {
+      "text" : "The distance that shadows will be offset horizontally.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shadowOffsetX"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/shadowOffsetX",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "shadowOffsetX",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/shadowoffsetx"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/shadowOffsetY": {
+  "abstract" : [
+    {
+      "text" : "The distance that shadows will be offset vertically.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shadowOffsetY"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/shadowOffsetY",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "shadowOffsetY",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/shadowoffsety"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/strokeStyle": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "strokeStyle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/strokeStyle",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "strokeStyle",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/strokestyle"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/textAlign": {
+  "abstract" : [
+    {
+      "text" : "The current text alignment used when drawing text.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "textAlign"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/textAlign",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "textAlign",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/textalign"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/textBaseline": {
+  "abstract" : [
+    {
+      "text" : "The current text baseline used when drawing text.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "textBaseline"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/textBaseline",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "textBaseline",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/textbaseline"
+},
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/width": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "width"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/width",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "width",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/width"
+},
+"doc://JackPot/documentation/JackPot/CanvasPod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CanvasPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/CanvasPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CanvasPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CanvasPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/canvaspod"
+},
+"doc://JackPot/documentation/JackPot/CoreGraphicsCanvasPod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CoreGraphicsCanvasPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/CoreGraphicsCanvasPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CoreGraphicsCanvasPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CoreGraphicsCanvasPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/coregraphicscanvaspod"
+},
+"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineDashOffset": {
+  "identifier" : "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/CanvasRenderingContext2D\/lineDashOffset",
+  "title" : "MDN",
+  "titleInlineContent" : [
+    {
+      "text" : "MDN",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/CanvasRenderingContext2D\/lineDashOffset"
+},
+"https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowColor": {
+  "identifier" : "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/CanvasRenderingContext2D\/shadowColor",
+  "title" : "MDN",
+  "titleInlineContent" : [
+    {
+      "text" : "MDN",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/CanvasRenderingContext2D\/shadowColor"
+}
+}
+}
