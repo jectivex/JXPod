@@ -1,41 +1,10 @@
-import Jack
-import Foundation
-
-// MARK: TimersPod
-
-// setTimeout()
-// await sleep(123)
-
-public class TimersPod : JackPod {
-    public var metadata: JackPodMetaData {
-        JackPodMetaData(homePage: URL(string: "https://www.example.com")!)
-    }
-
-    @Jack("sleep") var _sleep = sleep
-    func sleep(duration: TimeInterval) async throws {
-        if duration.isNaN {
-            throw Errors.sleepDurationNaN
-        }
-        if duration < 0 {
-            throw Errors.sleepDurationNegative
-        }
-        try await Task.sleep(nanoseconds: .init(duration * 1_000_000_000))
-    }
-
-    enum Errors : Error {
-        case sleepDurationNaN
-        case sleepDurationNegative
-    }
-
-    public lazy var pod = jack()
-}
-
-#if canImport(XCTest)
+import JXKit
+import JackPot
 import XCTest
 
 final class TimePodTests: XCTestCase {
     func testTimePod() async throws {
-        let pod = TimersPod()
+        let pod = TimePod()
         let jxc = pod.jack().env
 
         try await jxc.eval("sleep()", priority: .high)
@@ -53,4 +22,3 @@ final class TimePodTests: XCTestCase {
         }
     }
 }
-#endif

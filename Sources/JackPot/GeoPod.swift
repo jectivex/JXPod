@@ -2,9 +2,9 @@ import Foundation
 import Jack
 
 
-// MARK: LocationPod
+// MARK: GeoPod
 
-public protocol LocationPod : JackPod {
+public protocol GeoPod : JackPod {
     func currentLocation() async throws -> Location
 }
 
@@ -16,14 +16,14 @@ public struct Location : Codable, Equatable, JXConvertible {
 }
 
 
-// MARK: CoreLocationPod
+// MARK: CoreLocationGeoPod
 
 // await location.current()
 
 #if canImport(CoreLocation)
 import CoreLocation
 
-public class CoreLocationPod : NSObject, CLLocationManagerDelegate, LocationPod {
+open class CoreLocationGeoPod : NSObject, CLLocationManagerDelegate, GeoPod {
     private let manager: CLLocationManager
 
     @Stack var locations: [Location] = []
@@ -55,20 +55,3 @@ public class CoreLocationPod : NSObject, CLLocationManagerDelegate, LocationPod 
 #endif
 
 
-#if canImport(XCTest)
-import XCTest
-
-#if canImport(CoreLocation)
-import CoreLocation
-
-final class LocationPodTests: XCTestCase {
-    func testLocationPod() async throws {
-        let pod = CoreLocationPod()
-        let jxc = pod.jack().env
-        //try await jxc.eval("sleep()", priority: .high)
-        XCTAssertEqual(3, try jxc.eval("1+2").numberValue)
-    }
-}
-#endif
-
-#endif
