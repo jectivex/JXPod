@@ -111,9 +111,16 @@
       "identifiers" : [
         "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy\/ViewConfig\/id",
         "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy\/ViewConfig\/opacity",
-        "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy\/ViewConfig\/padding"
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy\/ViewConfig\/padding",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy\/ViewConfig\/transition-swift.property"
       ],
       "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy\/ViewConfig\/Transition-swift.enum"
+      ],
+      "title" : "Enumerations"
     },
     {
       "generated" : true,
@@ -252,6 +259,48 @@
   "title" : "Encodable Implementations",
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/viewproxy\/viewconfig\/encodable-implementations"
+},
+"doc://JackPot/documentation/JackPot/ViewProxy/ViewConfig/Transition-swift.enum": {
+  "abstract" : [
+    {
+      "text" : "Analogue to ",
+      "type" : "text"
+    },
+    {
+      "code" : "SwiftUI.Font.TextStyle",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " as a string enum so automatic Jack bridging magic can happen",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Transition"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy\/ViewConfig\/Transition-swift.enum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Transition"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ViewProxy.ViewConfig.Transition",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewproxy\/viewconfig\/transition-swift.enum"
 },
 "doc://JackPot/documentation/JackPot/ViewProxy/ViewConfig/id": {
   "abstract" : [
@@ -425,6 +474,65 @@
   "title" : "padding",
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/viewproxy\/viewconfig\/padding"
+},
+"doc://JackPot/documentation/JackPot/ViewProxy/ViewConfig/transition-swift.property": {
+  "abstract" : [
+    {
+      "text" : "The transition the view should use",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "transition"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7JackPot9ViewProxyC",
+      "text" : "ViewProxy"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7JackPot9ViewProxyC0C6ConfigV",
+      "text" : "ViewConfig"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7JackPot9ViewProxyC0C6ConfigV10TransitionO",
+      "text" : "Transition"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy\/ViewConfig\/transition-swift.property",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "transition",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewproxy\/viewconfig\/transition-swift.property"
 }
 }
 }

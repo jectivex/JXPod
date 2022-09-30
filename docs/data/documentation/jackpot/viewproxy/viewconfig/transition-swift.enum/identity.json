@@ -1,0 +1,241 @@
+{
+  "abstract" : [
+    {
+      "text" : "No overview available.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/JackPot\/documentation\/JackPot",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy\/ViewConfig",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy\/ViewConfig\/Transition-swift.enum"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy\/ViewConfig\/Transition-swift.enum\/identity"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7JackPot9ViewProxyC0C6ConfigV10TransitionO8identityyA2GmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "identity"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JackPot"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "ViewProxy.ViewConfig.Transition.identity"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "identity"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jackpot\/viewproxy\/viewconfig\/transition-swift.enum\/identity"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://JackPot/documentation/JackPot": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JackPot",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot"
+},
+"doc://JackPot/documentation/JackPot/ViewProxy": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ViewProxy"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ViewProxy"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ViewProxy",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewproxy"
+},
+"doc://JackPot/documentation/JackPot/ViewProxy/ViewConfig": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ViewConfig"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy\/ViewConfig",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ViewConfig"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ViewProxy.ViewConfig",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewproxy\/viewconfig"
+},
+"doc://JackPot/documentation/JackPot/ViewProxy/ViewConfig/Transition-swift.enum": {
+  "abstract" : [
+    {
+      "text" : "Analogue to ",
+      "type" : "text"
+    },
+    {
+      "code" : "SwiftUI.Font.TextStyle",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " as a string enum so automatic Jack bridging magic can happen",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Transition"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy\/ViewConfig\/Transition-swift.enum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Transition"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ViewProxy.ViewConfig.Transition",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewproxy\/viewconfig\/transition-swift.enum"
+},
+"doc://JackPot/documentation/JackPot/ViewProxy/ViewConfig/Transition-swift.enum/identity": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "identity"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy\/ViewConfig\/Transition-swift.enum\/identity",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ViewProxy.ViewConfig.Transition.identity",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewproxy\/viewconfig\/transition-swift.enum\/identity"
+}
+}
+}

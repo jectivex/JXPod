@@ -181,6 +181,8 @@ open class UIPod : JackPod {
             binding.wrappedValue = getFunction.env.number(newValue)
         }
 
+        return SliderProxy(label: label, binding: numericBinding)
+
         class SliderProxy : ViewProxy {
             let label: ViewProxy
             let binding: Binding<Double>
@@ -197,17 +199,50 @@ open class UIPod : JackPod {
             }
 
             var body: some View {
-                #if os(tvOS)
+#if os(tvOS)
                 Text("Slider unavailable in tvOS", bundle: .module, comment: "error message string")
-                #else
+#else
                 Slider(value: binding, label: {
                     label.anyView
                 })
-                #endif
+#endif
             }
         }
 
-        return SliderProxy(label: label, binding: numericBinding)
+    }
+
+    @Jack("Toggle") var _toggle = toggle
+    func toggle(label: ViewProxy, get getFunction: JXValue, set setFunction: JXValue) throws -> ViewProxy {
+        let binding = try createBinding(get: getFunction, set: setFunction)
+        let booleanBinding = Binding<Bool> {
+            self.fallback({ try binding.wrappedValue.booleanValue }, default: false)
+        } set: { newValue in
+            binding.wrappedValue = getFunction.env.boolean(newValue)
+        }
+
+        return ToggleProxy(label: label, binding: booleanBinding)
+
+        class ToggleProxy : ViewProxy {
+            let label: ViewProxy
+            let binding: Binding<Bool>
+
+            init(label: ViewProxy, binding: Binding<Bool>) {
+                self.label = label
+                self.binding = binding
+            }
+
+            override var childViews: [JackedView]? { [label] }
+
+            override var anyView: AnyView {
+                AnyView(body)
+            }
+
+            var body: some View {
+                Toggle(isOn: binding, label: {
+                    label.anyView
+                })
+            }
+        }
     }
 }
 
@@ -236,6 +271,12 @@ open class ViewProxy : JackedReference, JackedView {
         nil
     }
 
+    @Jack("id") var _id = id
+    func id(_ value: String?) -> Self {
+        self.viewConfig.id = value
+        return self
+    }
+
     @Jack("opacity") var _opacity = opacity
     func opacity(_ value: Double?) -> Self {
         // assigning(\.viewConfig.opacity, to: value) // error: Fatal error: could not demangle keypath type from <garbled>
@@ -245,18 +286,25 @@ open class ViewProxy : JackedReference, JackedView {
 
     @Jack("padding") var _padding = padding
     func padding(_ value: CGFloat?) -> Self {
-        //assigning(\.viewConfig.padding, to: value ?? .nan)
         self.viewConfig.padding = value ?? .nan
         return self
     }
 
+    @Jack("transition") var _transition = transition
+    func transition(_ value: String?) -> Self {
+        self.viewConfig.transition = value.flatMap(ViewConfig.Transition.init(rawValue:))
+        return self
+    }
+
     public struct ViewConfig : Codable, Jackable {
+        /// The identifier of the view
+        public var id: String? // TODO: allow other Codables, list enums and numbers
         /// The opacity of the view, from 0.0–1.0
         public var opacity: Double?
         /// The padding of the view; `.nan` indicates default padding
         public var padding: CGFloat?
-        /// The identifier of the view
-        public var id: String? // TODO: allow other Codables, list enums and numbers
+        /// The transition the view should use
+        public var transition: Transition?
 
         func applyConfig<V: View>(_ view: V) -> some View {
 
@@ -266,6 +314,14 @@ open class ViewProxy : JackedReference, JackedView {
                 } else {
                     view
                 }
+            }
+
+            @ViewBuilder func withID<V: View>(_ v: V) -> some View {
+                withChoice(id, view: v, apply: v.id)
+            }
+
+            @ViewBuilder func withTransition<V: View>(_ v: V) -> some View {
+                withChoice(transition?.uiTransition, view: v, apply: v.transition)
             }
 
             @ViewBuilder func withOpacity<V: View>(_ v: V) -> some View {
@@ -280,8 +336,30 @@ open class ViewProxy : JackedReference, JackedView {
                 }
             }
 
-            return withPadding(withOpacity(view))
+            return withID(withTransition(withPadding(withOpacity(view))))
         }
+
+        /// Analogue to `SwiftUI.Font.TextStyle` as a string enum so automatic Jack bridging magic can happen
+        public enum Transition : String, Codable, JXConvertible {
+            case identity
+            case opacity
+            case scale
+            case slide
+
+            var uiTransition: SwiftUI.AnyTransition {
+                switch self {
+                case .identity: return .identity
+                case .opacity: return .opacity
+                case .scale: return .scale
+                case .slide: return .slide
+                }
+            }
+
+            // Both Codable and RawRepresentable implement JXConvertible, so we need to manually dis-ambiguate
+            public static func makeJX(from value: JXValue) throws -> Self { try makeJXRaw(from: value) }
+            public func getJX(from context: JXContext) throws -> JXValue { try getJXRaw(from: context) }
+        }
+
     }
 }
 

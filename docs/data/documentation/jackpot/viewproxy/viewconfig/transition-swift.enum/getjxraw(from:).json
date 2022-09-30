@@ -1,0 +1,436 @@
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "RawRepresentable.getJXRaw(from:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/JackPot\/documentation\/JackPot",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy\/ViewConfig",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy\/ViewConfig\/Transition-swift.enum",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy\/ViewConfig\/Transition-swift.enum\/RawRepresentable-Implementations"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy\/ViewConfig\/Transition-swift.enum\/getJXRaw(from:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "conformance" : {
+      "availabilityPrefix" : [
+        {
+          "text" : "Available when",
+          "type" : "text"
+        }
+      ],
+      "conformancePrefix" : [
+        {
+          "text" : "Conforms when",
+          "type" : "text"
+        }
+      ],
+      "constraints" : [
+        {
+          "code" : "RawValue",
+          "type" : "codeVoice"
+        },
+        {
+          "text" : " conforms to ",
+          "type" : "text"
+        },
+        {
+          "code" : "Jackable",
+          "type" : "codeVoice"
+        },
+        {
+          "text" : ".",
+          "type" : "text"
+        }
+      ]
+    },
+    "extendedModule" : "Swift",
+    "externalID" : "s:SY4JackAA8Jackable8RawValueRpzrlE8getJXRaw4from5JXKit7JXValueCAG9JXContextC_tKF::SYNTHESIZED::s:7JackPot9ViewProxyC0C6ConfigV10TransitionO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "getJXRaw"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "from"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:5JXKit9JXContextC",
+        "text" : "JXContext"
+      },
+      {
+        "kind" : "text",
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:5JXKit7JXValueC",
+        "text" : "JXValue"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JackPot"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "getJXRaw(from:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "getJXRaw"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "from"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "context"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:5JXKit9JXContextC",
+              "text" : "JXContext"
+            },
+            {
+              "kind" : "text",
+              "text" : ") "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "throws"
+            },
+            {
+              "kind" : "text",
+              "text" : " -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:5JXKit7JXValueC",
+              "text" : "JXValue"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jackpot\/viewproxy\/viewconfig\/transition-swift.enum\/getjxraw(from:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://JackPot/documentation/JackPot": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JackPot",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot"
+},
+"doc://JackPot/documentation/JackPot/ViewProxy": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ViewProxy"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ViewProxy"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ViewProxy",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewproxy"
+},
+"doc://JackPot/documentation/JackPot/ViewProxy/ViewConfig": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ViewConfig"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy\/ViewConfig",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ViewConfig"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ViewProxy.ViewConfig",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewproxy\/viewconfig"
+},
+"doc://JackPot/documentation/JackPot/ViewProxy/ViewConfig/Transition-swift.enum": {
+  "abstract" : [
+    {
+      "text" : "Analogue to ",
+      "type" : "text"
+    },
+    {
+      "code" : "SwiftUI.Font.TextStyle",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " as a string enum so automatic Jack bridging magic can happen",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Transition"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy\/ViewConfig\/Transition-swift.enum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Transition"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ViewProxy.ViewConfig.Transition",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewproxy\/viewconfig\/transition-swift.enum"
+},
+"doc://JackPot/documentation/JackPot/ViewProxy/ViewConfig/Transition-swift.enum/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy\/ViewConfig\/Transition-swift.enum\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewproxy\/viewconfig\/transition-swift.enum\/rawrepresentable-implementations"
+},
+"doc://JackPot/documentation/JackPot/ViewProxy/ViewConfig/Transition-swift.enum/getJXRaw(from:)": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "RawValue",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "Jackable",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getJXRaw"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit9JXContextC",
+      "text" : "JXContext"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit7JXValueC",
+      "text" : "JXValue"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy\/ViewConfig\/Transition-swift.enum\/getJXRaw(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getJXRaw(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewproxy\/viewconfig\/transition-swift.enum\/getjxraw(from:)"
+}
+}
+}
