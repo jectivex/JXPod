@@ -1,7 +1,5 @@
+import Foundation
 import Jack
-
-import struct Foundation.URL
-import struct Foundation.CharacterSet
 
 // MARK: CanvasPod
 
@@ -211,10 +209,6 @@ public struct DOMMatrixAPI : Codable, JXConvertible {
 
 #if canImport(CoreGraphics)
 import CoreGraphics
-
-import class Foundation.NSAttributedString
-import func CoreText.CTLineDraw
-import func CoreText.CTLineCreateWithAttributedString
 
 //@available(*, deprecated, message: "TODO")
 func wipcanvas<T>(_ value: T) -> T { value }
