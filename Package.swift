@@ -1,23 +1,22 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.6
 import PackageDescription
 
 let package = Package(
     name: "JackPot",
+    platforms: [ .macOS(.v12), .iOS(.v15), .tvOS(.v15) ],
     products: [
         .library(
             name: "JackPot",
             targets: ["JackPot"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/jectivex/SwiftJack.git", branch: "HEAD"),
-        .package(url: "https://github.com/jectivex/Judo.git", branch: "HEAD"),
+        .package(url: "https://github.com/jectivex/Jack.git", branch: "HEAD"),
     ],
     targets: [
         .target(
             name: "JackPot",
             dependencies: [
-                .product(name: "SwiftJack", package: "SwiftJack"),
-                .product(name: "Judo", package: "Judo"),
+                .product(name: "Jack", package: "Jack"),
             ],
             resources: [.process("Resources")]),
         .testTarget(
