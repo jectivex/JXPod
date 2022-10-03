@@ -25,6 +25,7 @@ final class JackPotTests: XCTestCase {
                 return try decoder.decode(Metadata.self, from: data)
             } catch let error as NSError {
                 // the convention for decoding errors is that it is an NSError with a single underlying error, which itself has a `NSJSONSerializationErrorIndex` property with the failing index; this will be the fastest way to identify where a well-formed prelude JSON may have ended and the remainder of the script begun, so we first try to parse up to the initial JSON error
+                #if canImport(ObjectiveC)
                 if #available(macOS 11.3, iOS 14.5, *) {
                     for e in error.underlyingErrors {
                         if let errorIndex = (e as NSError).userInfo["NSJSONSerializationErrorIndex"] as? Int,
@@ -34,6 +35,7 @@ final class JackPotTests: XCTestCase {
                         }
                     }
                 }
+                #endif
 
                 // we don't have access to the error index (e.g., we are running on Linux), so
                 // fall back to brute-force parsing it from the beginning up to every potentially-vaid closing
