@@ -27,7 +27,6 @@ open class NetPod : JackPod {
         false
     }
 
-    public lazy var pod = jack()
 }
 #endif
 

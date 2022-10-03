@@ -1,3 +1,4 @@
+import JXKit
 import JackPot
 import XCTest
 
@@ -21,7 +22,10 @@ class CanvasPodTest : XCTestCase {
         let pod = CoreGraphicsCanvasPod(context: ctx, size: size)
         ctx.beginPDFPage(nil)
 
-        let jxc = pod.jack(as: "canvas").env
+        let jxc = JXContext()
+        let cob = jxc.object()
+        try jxc.global.setProperty("canvas", cob)
+        try pod.jack(into: cob)
         //try pod.jxc.eval("transform(1,2,3,4,5,6)")
 
         func metrics(_ string: String) throws -> CoreGraphicsCanvasPod.TextMetrics {

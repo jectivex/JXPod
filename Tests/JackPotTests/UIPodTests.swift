@@ -17,10 +17,10 @@ final class UIPodTests: XCTestCase {
         }
 
         let vm = ViewModel()
-        let jxc = vm.jack().env
+        let jxc = try vm.jack().ctx
 
         let uipod = UIPod() // need to retain or else Error: jumpContextInvalid
-        uipod.jack(into: jxc) // , as: "ui" // TODO: should be namespace?
+        try uipod.jack(into: jxc.global) // , as: "ui" // TODO: should be namespace?
 
         XCTAssertEqual(3, try jxc.eval("1+2").numberValue)
 
@@ -170,7 +170,6 @@ final class UIPodTests: XCTestCase {
                 JackPodMetaData(homePage: URL(string: "https://www.example.com")!)
             }
 
-            public lazy var pod = jack()
         }
 
         let pod = DemoObject()

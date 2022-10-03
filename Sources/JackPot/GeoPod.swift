@@ -50,7 +50,6 @@ open class CoreLocationGeoPod : NSObject, CLLocationManagerDelegate, GeoPod {
 
     }
 
-    public lazy var pod = jack()
 }
 #endif
 

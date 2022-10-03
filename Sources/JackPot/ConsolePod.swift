@@ -14,8 +14,6 @@ open class CapturingConsolePod : JackPod, ConsolePod {
     public var metadata: JackPodMetaData {
         JackPodMetaData(homePage: URL(string: "https://www.example.com")!)
     }
-
-    public lazy var pod = jack()
 }
 
 #if canImport(OSLog)
@@ -27,7 +25,6 @@ open class OSLogConsolePod : JackPod, ConsolePod {
         JackPodMetaData(homePage: URL(string: "https://www.example.com")!)
     }
 
-    open lazy var pod = jack()
 
     public init() {
     }

@@ -16,7 +16,6 @@ open class FilePod : JackPod {
         JackPodMetaData(homePage: URL(string: "https://www.example.com")!)
     }
 
-    public lazy var pod = jack()
 
     @Jack("fileExists") var _fileExists = fileExists
     func fileExists(atPath path: String) -> Bool {
