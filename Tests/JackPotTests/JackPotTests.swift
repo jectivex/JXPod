@@ -23,11 +23,11 @@ final class JackPotTests: XCTestCase {
             do {
                 // attempt to parse the whole data blob
                 return try decoder.decode(Metadata.self, from: data)
-            } catch let error as NSError {
+            } catch let error {
                 // the convention for decoding errors is that it is an NSError with a single underlying error, which itself has a `NSJSONSerializationErrorIndex` property with the failing index; this will be the fastest way to identify where a well-formed prelude JSON may have ended and the remainder of the script begun, so we first try to parse up to the initial JSON error
                 #if canImport(ObjectiveC)
                 if #available(macOS 11.3, iOS 14.5, *) {
-                    for e in error.underlyingErrors {
+                    for e in (error as NSError).underlyingErrors {
                         if let errorIndex = (e as NSError).userInfo["NSJSONSerializationErrorIndex"] as? Int,
                            errorIndex < data.count {
                             // try again, this time parsing up until the first failure in order to extract the preamble
@@ -39,7 +39,7 @@ final class JackPotTests: XCTestCase {
 
                 // TODO: on Linux, this will be:
                 // dataCorrupted(Swift.DecodingError.Context(codingPath: [], debugDescription: "The given data was not valid JSON.", underlyingError: Optional(Foundation.JSONError.unexpectedCharacter(ascii: 49, characterIndex: 39))))
-                // we can try to oarse out the index, but `Foundation.JSONError` is not public
+                // we can try to parse out the index, but `Foundation.JSONError` is not public
 
                 // we don't have access to the error index (e.g., we are running on Linux), so
                 // fall back to brute-force parsing it from the beginning up to every potentially-vaid closing
@@ -53,7 +53,8 @@ final class JackPotTests: XCTestCase {
                         // ignore decoding errors during brute-force parse
                     }
                 }
-                throw error
+
+                throw error // just throw the original error
             }
         }
 
