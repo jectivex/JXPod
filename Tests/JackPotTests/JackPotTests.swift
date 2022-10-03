@@ -24,16 +24,25 @@ final class JackPotTests: XCTestCase {
                 // in the rare case that a script consists exclusively of JSON,
                 return try decoder.decode(Metadata.self, from: data)
             } catch let error as NSError {
-                // the convention for decoding errors is that it is an NSError with a single underlying error, which itself has a `NSJSONSerializationErrorIndex` property with the failing index
-                for e in error.underlyingErrors {
-                    if let errorIndex = (e as NSError).userInfo["NSJSONSerializationErrorIndex"] as? Int,
-                       errorIndex < data.count {
-                        // try again, this time parsing up until the first failure in order to extract the preamble
-                        return try decoder.decode(Metadata.self, from: data[0..<errorIndex])
+                // the convention for decoding errors is that it is an NSError with a single underlying error, which itself has a `NSJSONSerializationErrorIndex` property with the failing index; this will be the fastest way to identify where a well-formed prelude JSON may have ended and the remainder of the script begun, so we first try to parse up to the initial JSON error
+                if #available(macOS 11.3, iOS 14.5, *) {
+                    for e in error.underlyingErrors {
+                        if let errorIndex = (e as NSError).userInfo["NSJSONSerializationErrorIndex"] as? Int,
+                           errorIndex < data.count {
+                            // try again, this time parsing up until the first failure in order to extract the preamble
+                            return try decoder.decode(Metadata.self, from: data[0..<errorIndex])
+                        }
                     }
                 }
 
-                // TODO: try other heuristics of locate the end of the JSON metadata XXX
+                // we don't have access to the error index (e.g., we are running on Linux), so
+                // fall back to brute-force parsing it from the beginning up to every potentially-vaid closing
+                // character (which must be "}" since the metadata must be an object)
+                let closeBrace = "}".utf8.first
+
+                for index in data.indices.lazy.filter({ data[$0] == closeBrace }) {
+                    return try decoder.decode(Metadata.self, from: data[0...index])
+                }
                 throw error
             }
         }
