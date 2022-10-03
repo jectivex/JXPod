@@ -16,7 +16,6 @@ open class SQLitePod : JackPod, SQLPod {
         JackPodMetaData(homePage: URL(string: "https://www.example.com")!)
     }
 
-    open lazy var pod = jack()
 
     public init() {
     }

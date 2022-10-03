@@ -98,8 +98,8 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/TextProxy",
-        "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy"
+        "doc:\/\/JackPot\/documentation\/JackPot\/TextTemplate",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate"
       ],
       "kind" : "relationships",
       "title" : "Conforming Types",
@@ -253,7 +253,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/jackedview\/childviews"
 },
-"doc://JackPot/documentation/JackPot/TextProxy": {
+"doc://JackPot/documentation/JackPot/TextTemplate": {
   "abstract" : [
 
   ],
@@ -268,23 +268,23 @@
     },
     {
       "kind" : "identifier",
-      "text" : "TextProxy"
+      "text" : "TextTemplate"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/TextProxy",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/TextTemplate",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "TextProxy"
+      "text" : "TextTemplate"
     }
   ],
   "role" : "symbol",
-  "title" : "TextProxy",
+  "title" : "TextTemplate",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/textproxy"
+  "url" : "\/documentation\/jackpot\/texttemplate"
 },
-"doc://JackPot/documentation/JackPot/ViewProxy": {
+"doc://JackPot/documentation/JackPot/ViewTemplate": {
   "abstract" : [
 
   ],
@@ -299,21 +299,21 @@
     },
     {
       "kind" : "identifier",
-      "text" : "ViewProxy"
+      "text" : "ViewTemplate"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "ViewProxy"
+      "text" : "ViewTemplate"
     }
   ],
   "role" : "symbol",
-  "title" : "ViewProxy",
+  "title" : "ViewTemplate",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/viewproxy"
+  "url" : "\/documentation\/jackpot\/viewtemplate"
 }
 }
 }

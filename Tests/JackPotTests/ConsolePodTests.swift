@@ -6,7 +6,7 @@ final class ConsolePodTests: XCTestCase {
     func testConsolePod() async throws {
         let pod = OSLogConsolePod()
 
-        let jxc = pod.jack().env
+        let jxc = try pod.jack().ctx
         XCTAssertEqual(3, try jxc.eval("1+2").numberValue)
     }
     #endif

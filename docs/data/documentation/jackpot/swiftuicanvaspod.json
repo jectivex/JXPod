@@ -164,8 +164,7 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/SwiftUICanvasPod\/metadata",
-        "doc:\/\/JackPot\/documentation\/JackPot\/SwiftUICanvasPod\/pod"
+        "doc:\/\/JackPot\/documentation\/JackPot\/SwiftUICanvasPod\/metadata"
       ],
       "title" : "Instance Properties"
     },
@@ -381,40 +380,6 @@
   "title" : "metadata",
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/swiftuicanvaspod\/metadata"
-},
-"doc://JackPot/documentation/JackPot/SwiftUICanvasPod/pod": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "pod"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit7JXValueC",
-      "text" : "JXValue"
-    }
-  ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/SwiftUICanvasPod\/pod",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "pod",
-  "type" : "topic",
-  "url" : "\/documentation\/jackpot\/swiftuicanvaspod\/pod"
 }
 }
 }

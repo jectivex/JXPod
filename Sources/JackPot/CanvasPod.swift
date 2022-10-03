@@ -90,7 +90,6 @@ open class AbstractCanvasPod : CanvasPod {
     /// See: [MDN](https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/imageSmoothingEnabled)
     @Stack open var imageSmoothingEnabled: Bool = true
 
-    public lazy var pod = jack()
 
     public init() {
     }
@@ -750,7 +749,6 @@ open class SwiftUICanvasPod<Symbols : SwiftUI.View> : JackPod, CanvasPod {
         JackPodMetaData(homePage: URL(string: "https://www.example.com")!)
     }
 
-    public lazy var pod = jack()
 }
 #endif
 #endif

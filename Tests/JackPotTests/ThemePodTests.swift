@@ -162,7 +162,7 @@ final class ThemePodTests: XCTestCase {
 
     @MainActor func testThemePod() async throws {
         let pod = ThemePod()
-        let jxc = pod.jack().env
+        let jxc = try pod.jack().ctx
 
         //try await jxc.eval("sleep()", priority: .high)
         XCTAssertEqual(3, try jxc.eval("1+2").numberValue)
@@ -213,7 +213,6 @@ final class ThemePodTests: XCTestCase {
                 }
             }
 
-            lazy var jxc = jack()
         }
 
         XCTAssertEqual(0, testDidSetCount)
@@ -225,7 +224,7 @@ final class ThemePodTests: XCTestCase {
             testDidSetCount += 1 // fired twice
         }
 
-        try ob.jxc.env.eval("XXX = 'abc';") // doesn't invoke didSet
+        try ob.jack().ctx.eval("XXX = 'abc';") // doesn't invoke didSet
         XCTAssertEqual(3, testDidSetCount) // TODO: didSet is not getting called from the JS side; need to fix this
 
         ob.XXX = "XYZ";

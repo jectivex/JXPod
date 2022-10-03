@@ -47,7 +47,7 @@
       "generated" : true,
       "identifiers" : [
         "doc:\/\/JackPot\/documentation\/JackPot\/UIPod\/inject(into:)",
-        "doc:\/\/JackPot\/documentation\/JackPot\/UIPod\/jack(into:as:)"
+        "doc:\/\/JackPot\/documentation\/JackPot\/UIPod\/jack(into:)"
       ],
       "title" : "Instance Methods"
     }
@@ -217,7 +217,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/uipod\/inject(into:)"
 },
-"doc://JackPot/documentation/JackPot/UIPod/jack(into:as:)": {
+"doc://JackPot/documentation/JackPot/UIPod/jack(into:)": {
   "abstract" : [
     {
       "text" : "Jack into the given context, exposing all this instance’s ",
@@ -267,29 +267,20 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit9JXContextC",
-      "text" : "JXContext"
+      "preciseIdentifier" : "s:5JXKit7JXValueC",
+      "text" : "JXValue"
     },
     {
       "kind" : "text",
-      "text" : ", "
+      "text" : ") "
     },
     {
-      "kind" : "externalParam",
-      "text" : "as"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:SS",
-      "text" : "String"
+      "kind" : "keyword",
+      "text" : "throws"
     },
     {
       "kind" : "text",
-      "text" : "?) -> "
+      "text" : " -> "
     },
     {
       "kind" : "typeIdentifier",
@@ -297,12 +288,12 @@
       "text" : "JXValue"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/UIPod\/jack(into:as:)",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/UIPod\/jack(into:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "jack(into:as:)",
+  "title" : "jack(into:)",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/uipod\/jack(into:as:)"
+  "url" : "\/documentation\/jackpot\/uipod\/jack(into:)"
 },
 "doc://JackPot/documentation/JackPot/UIPod/objectWillChange-l7re": {
   "abstract" : [

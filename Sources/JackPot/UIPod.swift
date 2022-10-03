@@ -1,5 +1,4 @@
 import Jack
-//import JackUI
 
 // MARK: UIPod
 
@@ -8,6 +7,7 @@ import SwiftUI
 
 /// A JackPod that provides support for constructing SwiftUI view hierarchies from JavaScript.
 open class UIPod : JackPod {
+
     public init() {
     }
 
@@ -16,90 +16,97 @@ open class UIPod : JackPod {
     }
 
     @Jack("Divider") var _divider = divider
-    func divider() -> ViewProxy {
-        class DividerProxy : ViewProxy {
+    func divider() -> ViewTemplate {
+        class DividerTemplate : ViewTemplate {
             override var anyView: AnyView { AnyView(body) }
             public var body: some View { Divider() }
         }
-        return DividerProxy()
+        return DividerTemplate()
     }
 
     @Jack("Spacer") var _spacer = spacer
-    func spacer() -> ViewProxy {
-        class SpacerProxy : ViewProxy {
+    func spacer() -> ViewTemplate {
+        class SpacerTemplate : ViewTemplate {
             override var anyView: AnyView { AnyView(body) }
             public var body: some View { Spacer() }
         }
-        return SpacerProxy()
+        return SpacerTemplate()
     }
 
     @Jack("Group") var _group = group
-    func group(views: [ViewProxy]?) -> ViewProxy {
+    func group(views: [ViewTemplate]?) -> ViewTemplate {
         ContainerBuilder(views) { v1, v2, v3, v4, v5, v6, v7, v8, v9, v10 in
             Group { v1; v2; v3; v4; v5; v6; v7; v8; v9; v10 }
         }
     }
 
+    @Jack("ScrollView") var _scrollView = scrollView
+    func scrollView(views: [ViewTemplate]?) -> ViewTemplate {
+        ContainerBuilder(views) { v1, v2, v3, v4, v5, v6, v7, v8, v9, v10 in
+            ScrollView { v1; v2; v3; v4; v5; v6; v7; v8; v9; v10 }
+        }
+    }
+
     @Jack("List") var _list = list
-    func list(views: [ViewProxy]?) -> ViewProxy {
+    func list(views: [ViewTemplate]?) -> ViewTemplate {
         ContainerBuilder(views) { v1, v2, v3, v4, v5, v6, v7, v8, v9, v10 in
             List { v1; v2; v3; v4; v5; v6; v7; v8; v9; v10 }
         }
     }
 
     @Jack("Form") var _form = form
-    func form(views: [ViewProxy]?) -> ViewProxy {
+    func form(views: [ViewTemplate]?) -> ViewTemplate {
         ContainerBuilder(views) { v1, v2, v3, v4, v5, v6, v7, v8, v9, v10 in
             Form { v1; v2; v3; v4; v5; v6; v7; v8; v9; v10 }
         }
     }
 
     @Jack("VStack") var _vstack = vstack
-    func vstack(views: [ViewProxy]?) -> ViewProxy {
+    func vstack(views: [ViewTemplate]?) -> ViewTemplate {
         ContainerBuilder(views) { v1, v2, v3, v4, v5, v6, v7, v8, v9, v10 in
             VStack { v1; v2; v3; v4; v5; v6; v7; v8; v9; v10 }
         }
     }
 
     @Jack("HStack") var _hstack = hstack
-    func hstack(views: [ViewProxy]?) -> ViewProxy {
+    func hstack(views: [ViewTemplate]?) -> ViewTemplate {
         ContainerBuilder(views) { v1, v2, v3, v4, v5, v6, v7, v8, v9, v10 in
             HStack { v1; v2; v3; v4; v5; v6; v7; v8; v9; v10 }
         }
     }
 
     @Jack("LazyVStack") var _lazyvstack = lazyvstack
-    func lazyvstack(views: [ViewProxy]?) -> ViewProxy {
+    func lazyvstack(views: [ViewTemplate]?) -> ViewTemplate {
         ContainerBuilder(views) { v1, v2, v3, v4, v5, v6, v7, v8, v9, v10 in
             LazyVStack { v1; v2; v3; v4; v5; v6; v7; v8; v9; v10 }
         }
     }
 
     @Jack("LazyHStack") var _lazyhstack = lazyhstack
-    func lazyhstack(views: [ViewProxy]?) -> ViewProxy {
+    func lazyhstack(views: [ViewTemplate]?) -> ViewTemplate {
         ContainerBuilder(views) { v1, v2, v3, v4, v5, v6, v7, v8, v9, v10 in
             LazyHStack { v1; v2; v3; v4; v5; v6; v7; v8; v9; v10 }
         }
     }
 
     @Jack("Text") var _text = text
-    func text(value: String) -> ViewProxy {
-        let proxy = TextProxy()
+    func text(value: String) -> ViewTemplate {
+        let proxy = TextTemplate()
         proxy.value = value
         return proxy
     }
 
     @Jack("Button") var _button = button
-    func button(label: ViewProxy, action: JXValue) throws -> ViewProxy {
+    func button(label: ViewTemplate, action: JXValue) throws -> ViewTemplate {
         if !action.isFunction {
-            throw JXError(env: action.env, value: action.env.string("Second argument to Button constructor must be the callback function"))
+            throw JXError(ctx: action.ctx, value: action.ctx.string("Second argument to Button constructor must be the callback function"))
         }
 
-        class ButtonProxy : ViewProxy {
-            let label: ViewProxy
+        class ButtonTemplate : ViewTemplate {
+            let label: ViewTemplate
             let action: JXValue
 
-            init(label: ViewProxy, action: JXValue) {
+            init(label: ViewTemplate, action: JXValue) {
                 self.label = label
                 self.action = action
             }
@@ -126,7 +133,7 @@ open class UIPod : JackPod {
             }
         }
 
-        return ButtonProxy(label: label, action: action)
+        return ButtonTemplate(label: label, action: action)
     }
 
     private func fallback<T>(_ block: () throws -> T, default defaultValue: T) -> T {
@@ -149,45 +156,45 @@ open class UIPod : JackPod {
             let symbol = getFunction
 
             return Binding(get: {
-                self.fallback({ try symbol.env.global[symbol: symbol] }, default: symbol.env.undefined())
+                self.fallback({ try symbol.ctx.global[symbol: symbol] }, default: symbol.ctx.undefined())
             }, set: { newValue in
-                self.fallback({ try symbol.env.global.setProperty(symbol: symbol, newValue) }, default: ())
+                self.fallback({ try symbol.ctx.global.setProperty(symbol: symbol, newValue) }, default: ())
             })
         }
 
         // non-symbol argumnt: assume args are getter and setter functions
 
         if !getFunction.isFunction {
-            throw JXError(env: getFunction.env, value: getFunction.env.string("Second Slider argument must be the value getter function"))
+            throw JXError(ctx: getFunction.ctx, value: getFunction.ctx.string("Second Slider argument must be the value getter function"))
         }
 
         if !setFunction.isFunction {
-            throw JXError(env: setFunction.env, value: setFunction.env.string("Third Slider argument must be the value setter function"))
+            throw JXError(ctx: setFunction.ctx, value: setFunction.ctx.string("Third Slider argument must be the value setter function"))
         }
 
         return Binding(get: {
-            self.fallback({ try getFunction.call() }, default: getFunction.env.undefined())
+            self.fallback({ try getFunction.call() }, default: getFunction.ctx.undefined())
         }, set: { newValue in
             self.fallback({ try setFunction.call(withArguments: [newValue]) }, default: ())
         })
     }
 
     @Jack("Slider") var _slider = slider
-    func slider(label: ViewProxy, get getFunction: JXValue, set setFunction: JXValue) throws -> ViewProxy {
+    func slider(label: ViewTemplate, get getFunction: JXValue, set setFunction: JXValue) throws -> ViewTemplate {
         let binding = try createBinding(get: getFunction, set: setFunction)
         let numericBinding = Binding<Double> {
             self.fallback({ try binding.wrappedValue.numberValue }, default: .nan)
         } set: { newValue in
-            binding.wrappedValue = getFunction.env.number(newValue)
+            binding.wrappedValue = getFunction.ctx.number(newValue)
         }
 
-        return SliderProxy(label: label, binding: numericBinding)
+        return SliderTemplate(label: label, binding: numericBinding)
 
-        class SliderProxy : ViewProxy {
-            let label: ViewProxy
+        class SliderTemplate : ViewTemplate {
+            let label: ViewTemplate
             let binding: Binding<Double>
 
-            init(label: ViewProxy, binding: Binding<Double>) {
+            init(label: ViewTemplate, binding: Binding<Double>) {
                 self.label = label
                 self.binding = binding
             }
@@ -212,21 +219,21 @@ open class UIPod : JackPod {
     }
 
     @Jack("Toggle") var _toggle = toggle
-    func toggle(label: ViewProxy, get getFunction: JXValue, set setFunction: JXValue) throws -> ViewProxy {
+    func toggle(label: ViewTemplate, get getFunction: JXValue, set setFunction: JXValue) throws -> ViewTemplate {
         let binding = try createBinding(get: getFunction, set: setFunction)
         let booleanBinding = Binding<Bool> {
-            self.fallback({ try binding.wrappedValue.booleanValue }, default: false)
+            self.fallback({ binding.wrappedValue.booleanValue }, default: false)
         } set: { newValue in
-            binding.wrappedValue = getFunction.env.boolean(newValue)
+            binding.wrappedValue = getFunction.ctx.boolean(newValue)
         }
 
-        return ToggleProxy(label: label, binding: booleanBinding)
+        return ToggleTemplate(label: label, binding: booleanBinding)
 
-        class ToggleProxy : ViewProxy {
-            let label: ViewProxy
+        class ToggleTemplate : ViewTemplate {
+            let label: ViewTemplate
             let binding: Binding<Bool>
 
-            init(label: ViewProxy, binding: Binding<Bool>) {
+            init(label: ViewTemplate, binding: Binding<Bool>) {
                 self.label = label
                 self.binding = binding
             }
@@ -260,7 +267,7 @@ public protocol JackedView : JackedReference {
 //    }
 //}
 
-open class ViewProxy : JackedReference, JackedView {
+open class ViewTemplate : JackedReference, JackedView {
     @Stack var viewConfig: ViewConfig = ViewConfig()
 
     open var anyView: AnyView {
@@ -336,7 +343,7 @@ open class ViewProxy : JackedReference, JackedView {
                 }
             }
 
-            return withID(withTransition(withPadding(withOpacity(view))))
+            return withTransition(withPadding(withOpacity(withID(view))))
         }
 
         /// Analogue to `SwiftUI.Font.TextStyle` as a string enum so automatic Jack bridging magic can happen
@@ -364,11 +371,11 @@ open class ViewProxy : JackedReference, JackedView {
 }
 
 /// A container type that can hold a list of up to 10 children
-class ContainerBuilder<Body : View> : ViewProxy {
+class ContainerBuilder<Body : View> : ViewTemplate {
     let children: [JackedView]?
     let builder: (AnyView?, AnyView?, AnyView?, AnyView?, AnyView?, AnyView?, AnyView?, AnyView?, AnyView?, AnyView?) -> Body
 
-    init(_ children: [ViewProxy]?, builder: @escaping (AnyView?, AnyView?, AnyView?, AnyView?, AnyView?, AnyView?, AnyView?, AnyView?, AnyView?, AnyView?) -> Body) {
+    init(_ children: [ViewTemplate]?, builder: @escaping (AnyView?, AnyView?, AnyView?, AnyView?, AnyView?, AnyView?, AnyView?, AnyView?, AnyView?, AnyView?) -> Body) {
         self.children = children
         self.builder = builder
     }
@@ -399,7 +406,7 @@ extension JackedView {
     }
 }
 
-open class TextProxy : ViewProxy {
+open class TextTemplate : ViewTemplate {
     @Stack public var value: String?
     @Stack public var config: FontConfig = FontConfig()
 
@@ -418,32 +425,32 @@ open class TextProxy : ViewProxy {
     }
 
 //    deinit {
-//        print(wip("TextProxy deinit"))
+//        print(wip("TextTemplate deinit"))
 //    }
 
     @Jack("fontSize") var _fontSize = fontSize
-    func fontSize(size: Double) -> TextProxy {
+    func fontSize(size: Double) -> TextTemplate {
         assigning(\.config.size, to: size)
     }
 
     @Jack("fontStyle") var _fontStyle = fontStyle
-    func fontStyle(style: FontProxy.TextStyle) -> TextProxy {
+    func fontStyle(style: FontTemplate.TextStyle) -> TextTemplate {
         assigning(\.config.style, to: style)
     }
 
     @Jack("fontWeight") var _fontWeight = fontWeight
-    func fontWeight(weight: FontProxy.Weight) -> TextProxy {
+    func fontWeight(weight: FontTemplate.Weight) -> TextTemplate {
         assigning(\.config.weight, to: weight)
     }
 
     public struct FontConfig : Codable, Jackable {
         public var size: Double?
-        public var weight: FontProxy.Weight?
-        public var style: FontProxy.TextStyle?
+        public var weight: FontTemplate.Weight?
+        public var style: FontTemplate.TextStyle?
     }
 }
 
-public enum FontProxy {
+public enum FontTemplate {
 
     /// Analogue to `SwiftUI.Font.Weight` as a string enum so automatic Jack bridging magic can happen
     public enum Weight : String, Codable, JXConvertible {
@@ -513,4 +520,3 @@ public enum FontProxy {
 }
 
 #endif
-

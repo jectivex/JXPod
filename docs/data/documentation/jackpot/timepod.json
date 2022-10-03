@@ -107,8 +107,7 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/TimePod\/metadata",
-        "doc:\/\/JackPot\/documentation\/JackPot\/TimePod\/pod"
+        "doc:\/\/JackPot\/documentation\/JackPot\/TimePod\/metadata"
       ],
       "title" : "Instance Properties"
     },
@@ -274,40 +273,6 @@
   "title" : "metadata",
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/timepod\/metadata"
-},
-"doc://JackPot/documentation/JackPot/TimePod/pod": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "pod"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit7JXValueC",
-      "text" : "JXValue"
-    }
-  ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/TimePod\/pod",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "pod",
-  "type" : "topic",
-  "url" : "\/documentation\/jackpot\/timepod\/pod"
 },
 "doc://JackPot/documentation/JackPot/TimePod/sleep(duration:)": {
   "abstract" : [

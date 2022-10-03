@@ -5,7 +5,7 @@ final class FilePodTests: XCTestCase {
     func testFilePod() async throws {
         let pod = FilePod()
 
-        let jxc = pod.jack().env
+        let jxc = try pod.jack().ctx
 
         XCTAssertEqual(3, try jxc.eval("1+2").numberValue)
         XCTAssertEqual(true, try jxc.eval("fileExists('/etc/hosts')").booleanValue)

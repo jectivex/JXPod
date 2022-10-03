@@ -16,7 +16,6 @@ open class ThemePod : JackPod {
         JackPodMetaData(homePage: URL(string: "https://www.example.com")!)
     }
 
-    open lazy var pod = jack()
 
     @Stack open var backgroundColor: CSSColor?
 

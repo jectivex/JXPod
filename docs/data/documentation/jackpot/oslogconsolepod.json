@@ -117,8 +117,7 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/OSLogConsolePod\/metadata",
-        "doc:\/\/JackPot\/documentation\/JackPot\/OSLogConsolePod\/pod"
+        "doc:\/\/JackPot\/documentation\/JackPot\/OSLogConsolePod\/metadata"
       ],
       "title" : "Instance Properties"
     },
@@ -321,40 +320,6 @@
   "title" : "metadata",
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/oslogconsolepod\/metadata"
-},
-"doc://JackPot/documentation/JackPot/OSLogConsolePod/pod": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "pod"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit7JXValueC",
-      "text" : "JXValue"
-    }
-  ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/OSLogConsolePod\/pod",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "pod",
-  "type" : "topic",
-  "url" : "\/documentation\/jackpot\/oslogconsolepod\/pod"
 }
 }
 }

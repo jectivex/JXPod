@@ -30,5 +30,4 @@ open class TimePod : JackPod {
         case sleepDurationNegative
     }
 
-    open lazy var pod = jack()
 }

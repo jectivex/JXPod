@@ -108,8 +108,7 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/SQLitePod\/metadata",
-        "doc:\/\/JackPot\/documentation\/JackPot\/SQLitePod\/pod"
+        "doc:\/\/JackPot\/documentation\/JackPot\/SQLitePod\/metadata"
       ],
       "title" : "Instance Properties"
     },
@@ -300,40 +299,6 @@
   "title" : "metadata",
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/sqlitepod\/metadata"
-},
-"doc://JackPot/documentation/JackPot/SQLitePod/pod": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "pod"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit7JXValueC",
-      "text" : "JXValue"
-    }
-  ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/SQLitePod\/pod",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "pod",
-  "type" : "topic",
-  "url" : "\/documentation\/jackpot\/sqlitepod\/pod"
 }
 }
 }

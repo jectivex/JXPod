@@ -49,11 +49,11 @@
         "doc:\/\/JackPot\/documentation\/JackPot\/OSLogConsolePod",
         "doc:\/\/JackPot\/documentation\/JackPot\/SQLitePod",
         "doc:\/\/JackPot\/documentation\/JackPot\/SwiftUICanvasPod",
-        "doc:\/\/JackPot\/documentation\/JackPot\/TextProxy",
+        "doc:\/\/JackPot\/documentation\/JackPot\/TextTemplate",
         "doc:\/\/JackPot\/documentation\/JackPot\/ThemePod",
         "doc:\/\/JackPot\/documentation\/JackPot\/TimePod",
         "doc:\/\/JackPot\/documentation\/JackPot\/UIPod",
-        "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy"
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate"
       ],
       "title" : "Classes"
     },
@@ -82,7 +82,7 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy"
+        "doc:\/\/JackPot\/documentation\/JackPot\/FontTemplate"
       ],
       "title" : "Enumerations"
     }
@@ -507,7 +507,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/filepod"
 },
-"doc://JackPot/documentation/JackPot/FontProxy": {
+"doc://JackPot/documentation/JackPot/FontTemplate": {
   "abstract" : [
 
   ],
@@ -522,21 +522,21 @@
     },
     {
       "kind" : "identifier",
-      "text" : "FontProxy"
+      "text" : "FontTemplate"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontProxy",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontTemplate",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "FontProxy"
+      "text" : "FontTemplate"
     }
   ],
   "role" : "symbol",
-  "title" : "FontProxy",
+  "title" : "FontTemplate",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/fontproxy"
+  "url" : "\/documentation\/jackpot\/fonttemplate"
 },
 "doc://JackPot/documentation/JackPot/GeoPod": {
   "abstract" : [
@@ -863,7 +863,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/swiftuicanvaspod"
 },
-"doc://JackPot/documentation/JackPot/TextProxy": {
+"doc://JackPot/documentation/JackPot/TextTemplate": {
   "abstract" : [
 
   ],
@@ -878,21 +878,21 @@
     },
     {
       "kind" : "identifier",
-      "text" : "TextProxy"
+      "text" : "TextTemplate"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/TextProxy",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/TextTemplate",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "TextProxy"
+      "text" : "TextTemplate"
     }
   ],
   "role" : "symbol",
-  "title" : "TextProxy",
+  "title" : "TextTemplate",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/textproxy"
+  "url" : "\/documentation\/jackpot\/texttemplate"
 },
 "doc://JackPot/documentation/JackPot/ThemePod": {
   "abstract" : [
@@ -990,7 +990,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/uipod"
 },
-"doc://JackPot/documentation/JackPot/ViewProxy": {
+"doc://JackPot/documentation/JackPot/ViewTemplate": {
   "abstract" : [
 
   ],
@@ -1005,21 +1005,21 @@
     },
     {
       "kind" : "identifier",
-      "text" : "ViewProxy"
+      "text" : "ViewTemplate"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewProxy",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "ViewProxy"
+      "text" : "ViewTemplate"
     }
   ],
   "role" : "symbol",
-  "title" : "ViewProxy",
+  "title" : "ViewTemplate",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/viewproxy"
+  "url" : "\/documentation\/jackpot\/viewtemplate"
 },
 "https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix": {
   "identifier" : "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/DOMMatrix",

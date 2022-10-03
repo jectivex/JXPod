@@ -134,7 +134,6 @@
         "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/lineWidth",
         "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/metadata",
         "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/miterLimit",
-        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/pod",
         "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/shadowBlur",
         "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/shadowColor",
         "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/shadowOffsetX",
@@ -820,40 +819,6 @@
   "title" : "miterLimit",
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/abstractcanvaspod\/miterlimit"
-},
-"doc://JackPot/documentation/JackPot/AbstractCanvasPod/pod": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "pod"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit7JXValueC",
-      "text" : "JXValue"
-    }
-  ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/pod",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "pod",
-  "type" : "topic",
-  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/pod"
 },
 "doc://JackPot/documentation/JackPot/AbstractCanvasPod/shadowBlur": {
   "abstract" : [

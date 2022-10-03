@@ -1,0 +1,639 @@
+{
+  "abstract" : [
+    {
+      "text" : "Analogue to ",
+      "type" : "text"
+    },
+    {
+      "code" : "SwiftUI.Font.TextStyle",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " as a string enum so automatic Jack bridging magic can happen",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/JackPot\/documentation\/JackPot",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7JackPot12ViewTemplateC0C6ConfigV10TransitionO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Transition"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JackPot"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Transition"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "ViewTemplate.ViewConfig.Transition"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "Transition"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/5JXKit13JXConvertibleP",
+        "doc:\/\/JackPot\/Se",
+        "doc:\/\/JackPot\/SE",
+        "doc:\/\/JackPot\/SQ",
+        "doc:\/\/JackPot\/SH",
+        "doc:\/\/JackPot\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 2,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/identity",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/opacity",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/scale",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/slide"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/getJX(from:)"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/makeJX(from:)-9a9fa"
+      ],
+      "title" : "Type Methods"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/Decodable-Implementations",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/Encodable-Implementations",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/Equatable-Implementations",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://JackPot/5JXKit13JXConvertibleP": {
+  "identifier" : "doc:\/\/JackPot\/5JXKit13JXConvertibleP",
+  "title" : "JXKit.JXConvertible",
+  "type" : "unresolvable"
+},
+"doc://JackPot/SE": {
+  "identifier" : "doc:\/\/JackPot\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://JackPot/SH": {
+  "identifier" : "doc:\/\/JackPot\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://JackPot/SQ": {
+  "identifier" : "doc:\/\/JackPot\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://JackPot/SY": {
+  "identifier" : "doc:\/\/JackPot\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://JackPot/Se": {
+  "identifier" : "doc:\/\/JackPot\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://JackPot/documentation/JackPot": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JackPot",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot"
+},
+"doc://JackPot/documentation/JackPot/ViewTemplate": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ViewTemplate"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ViewTemplate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ViewTemplate",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewtemplate"
+},
+"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ViewConfig"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ViewConfig"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ViewTemplate.ViewConfig",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig"
+},
+"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/Transition-swift.enum": {
+  "abstract" : [
+    {
+      "text" : "Analogue to ",
+      "type" : "text"
+    },
+    {
+      "code" : "SwiftUI.Font.TextStyle",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " as a string enum so automatic Jack bridging magic can happen",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Transition"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Transition"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ViewTemplate.ViewConfig.Transition",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum"
+},
+"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/Transition-swift.enum/Decodable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/Decodable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Decodable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/decodable-implementations"
+},
+"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/Transition-swift.enum/Encodable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/Encodable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Encodable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/encodable-implementations"
+},
+"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/Transition-swift.enum/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/equatable-implementations"
+},
+"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/Transition-swift.enum/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/rawrepresentable-implementations"
+},
+"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/Transition-swift.enum/getJX(from:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "getJX"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit9JXContextC",
+      "text" : "JXContext"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit7JXValueC",
+      "text" : "JXValue"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/getJX(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "getJX(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/getjx(from:)"
+},
+"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/Transition-swift.enum/identity": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "identity"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/identity",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ViewTemplate.ViewConfig.Transition.identity",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/identity"
+},
+"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/Transition-swift.enum/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/init(rawvalue:)"
+},
+"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/Transition-swift.enum/makeJX(from:)-9a9fa": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "makeJX"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit7JXValueC",
+      "text" : "JXValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7JackPot12ViewTemplateC",
+      "text" : "ViewTemplate"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7JackPot12ViewTemplateC0C6ConfigV",
+      "text" : "ViewConfig"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7JackPot12ViewTemplateC0C6ConfigV10TransitionO",
+      "text" : "Transition"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/makeJX(from:)-9a9fa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "makeJX(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/makejx(from:)-9a9fa"
+},
+"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/Transition-swift.enum/opacity": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "opacity"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/opacity",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ViewTemplate.ViewConfig.Transition.opacity",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/opacity"
+},
+"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/Transition-swift.enum/scale": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "scale"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/scale",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ViewTemplate.ViewConfig.Transition.scale",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/scale"
+},
+"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/Transition-swift.enum/slide": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "slide"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/slide",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ViewTemplate.ViewConfig.Transition.slide",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/slide"
+}
+}
+}

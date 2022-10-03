@@ -111,8 +111,7 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/CapturingConsolePod\/metadata",
-        "doc:\/\/JackPot\/documentation\/JackPot\/CapturingConsolePod\/pod"
+        "doc:\/\/JackPot\/documentation\/JackPot\/CapturingConsolePod\/metadata"
       ],
       "title" : "Instance Properties"
     },
@@ -263,40 +262,6 @@
   "title" : "metadata",
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/capturingconsolepod\/metadata"
-},
-"doc://JackPot/documentation/JackPot/CapturingConsolePod/pod": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "pod"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit7JXValueC",
-      "text" : "JXValue"
-    }
-  ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/CapturingConsolePod\/pod",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "pod",
-  "type" : "topic",
-  "url" : "\/documentation\/jackpot\/capturingconsolepod\/pod"
 },
 "doc://JackPot/documentation/JackPot/ConsolePod": {
   "abstract" : [

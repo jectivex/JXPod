@@ -107,8 +107,7 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/NetPod\/metadata",
-        "doc:\/\/JackPot\/documentation\/JackPot\/NetPod\/pod"
+        "doc:\/\/JackPot\/documentation\/JackPot\/NetPod\/metadata"
       ],
       "title" : "Instance Properties"
     },
@@ -285,40 +284,6 @@
   "title" : "metadata",
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/netpod\/metadata"
-},
-"doc://JackPot/documentation/JackPot/NetPod/pod": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "pod"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit7JXValueC",
-      "text" : "JXValue"
-    }
-  ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/NetPod\/pod",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "pod",
-  "type" : "topic",
-  "url" : "\/documentation\/jackpot\/netpod\/pod"
 }
 }
 }

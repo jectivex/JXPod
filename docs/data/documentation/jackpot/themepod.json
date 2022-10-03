@@ -108,8 +108,7 @@
     {
       "identifiers" : [
         "doc:\/\/JackPot\/documentation\/JackPot\/ThemePod\/backgroundColor",
-        "doc:\/\/JackPot\/documentation\/JackPot\/ThemePod\/metadata",
-        "doc:\/\/JackPot\/documentation\/JackPot\/ThemePod\/pod"
+        "doc:\/\/JackPot\/documentation\/JackPot\/ThemePod\/metadata"
       ],
       "title" : "Instance Properties"
     },
@@ -310,40 +309,6 @@
   "title" : "metadata",
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/themepod\/metadata"
-},
-"doc://JackPot/documentation/JackPot/ThemePod/pod": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "pod"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit7JXValueC",
-      "text" : "JXValue"
-    }
-  ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ThemePod\/pod",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "pod",
-  "type" : "topic",
-  "url" : "\/documentation\/jackpot\/themepod\/pod"
 }
 }
 }

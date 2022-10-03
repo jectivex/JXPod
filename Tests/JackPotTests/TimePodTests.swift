@@ -5,7 +5,7 @@ import XCTest
 final class TimePodTests: XCTestCase {
     func testTimePod() async throws {
         let pod = TimePod()
-        let jxc = pod.jack().env
+        let jxc = try pod.jack().ctx
 
         try await jxc.eval("sleep()", priority: .high)
         try await jxc.eval("sleep(0)", priority: .high)
