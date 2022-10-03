@@ -28,10 +28,10 @@ final class UIPodTests: XCTestCase {
         let obj = try jxc.eval("Text('\(str)')")
         XCTAssertEqual(str, try obj["value"].stringValue)
         XCTAssertTrue(try jxc.eval("Text('\(str)')").isObject)
-        XCTAssertNotNil(try jxc.eval("Text('\(str)')").convey(to: ViewProxy.self))
-        XCTAssertEqual(str, try jxc.eval("Text('\(str)')").convey(to: TextProxy.self).value)
+        XCTAssertNotNil(try jxc.eval("Text('\(str)')").convey(to: ViewTemplate.self))
+        XCTAssertEqual(str, try jxc.eval("Text('\(str)')").convey(to: TextTemplate.self).value)
 
-        @discardableResult func view(_ script: String) throws -> ViewProxy {
+        @discardableResult func view(_ script: String) throws -> ViewTemplate {
             try jxc.eval(script).convey()
         }
 
@@ -61,7 +61,7 @@ final class UIPodTests: XCTestCase {
         XCTAssertEqual(2, try view("VStack([Group(), Group()])").childViews?.count, "should have 2 children")
         XCTAssertEqual(6, try view("VStack([Group(), Form(), Spacer(), HStack(), LazyHStack(), LazyVStack()])").childViews?.count)
 
-        @discardableResult func txt(_ script: String) throws -> TextProxy {
+        @discardableResult func txt(_ script: String) throws -> TextTemplate {
             try jxc.eval(script).convey()
         }
 
