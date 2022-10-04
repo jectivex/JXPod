@@ -85,4 +85,3 @@ See [LICENSE.LGPL](LICENSE.LGPL) for details.
 [Swift5Badge]: https://img.shields.io/badge/swift-5-orange.svg?style=flat
 [Swift5Link]: https://developer.apple.com/swift/
 [SwiftPlatforms]: https://img.shields.io/badge/Platforms-macOS%20|%20iOS%20|%20tvOS%20|%20Linux-teal.svg
-
