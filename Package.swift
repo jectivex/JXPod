@@ -11,8 +11,8 @@ let package = Package(
     ],
     dependencies: [ .package(name: "swift-docc-plugin", url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"), 
         .package(url: "https://github.com/jectivex/Jack.git", from: "2.0.0"),
+        .package(url: "https://github.com/jectivex/SQLPod.git", from: "0.0.1"),
         //.package(url: "https://github.com/jectivex/ConsolePod.git", from: "0.0.1"),
-        //.package(url: "https://github.com/jectivex/SQLPod.git", from: "0.0.1"),
         //.package(url: "https://github.com/jectivex/UIPod.git", from: "0.0.1"),
         //.package(url: "https://github.com/jectivex/FilePod.git", from: "0.0.1"),
         //.package(url: "https://github.com/jectivex/NetPod.git", from: "0.0.1"),
@@ -27,6 +27,7 @@ let package = Package(
             name: "JackPot",
             dependencies: [
                 .product(name: "Jack", package: "Jack"),
+                .product(name: "SQLPod", package: "SQLPod"),
             ],
             resources: [.process("Resources")]),
         .testTarget(
@@ -35,3 +36,5 @@ let package = Package(
             resources: [.copy("TestResources")]),
     ]
 )
+
+

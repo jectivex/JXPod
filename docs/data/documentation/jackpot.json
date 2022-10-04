@@ -47,7 +47,6 @@
         "doc:\/\/JackPot\/documentation\/JackPot\/FilePod",
         "doc:\/\/JackPot\/documentation\/JackPot\/NetPod",
         "doc:\/\/JackPot\/documentation\/JackPot\/OSLogConsolePod",
-        "doc:\/\/JackPot\/documentation\/JackPot\/SQLitePod",
         "doc:\/\/JackPot\/documentation\/JackPot\/SwiftUICanvasPod",
         "doc:\/\/JackPot\/documentation\/JackPot\/TextTemplate",
         "doc:\/\/JackPot\/documentation\/JackPot\/ThemePod",
@@ -62,8 +61,7 @@
         "doc:\/\/JackPot\/documentation\/JackPot\/CanvasPod",
         "doc:\/\/JackPot\/documentation\/JackPot\/ConsolePod",
         "doc:\/\/JackPot\/documentation\/JackPot\/GeoPod",
-        "doc:\/\/JackPot\/documentation\/JackPot\/JackedView",
-        "doc:\/\/JackPot\/documentation\/JackPot\/SQLPod"
+        "doc:\/\/JackPot\/documentation\/JackPot\/JackedView"
       ],
       "title" : "Protocols"
     },
@@ -769,68 +767,6 @@
   "title" : "OSLogConsolePod",
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/oslogconsolepod"
-},
-"doc://JackPot/documentation/JackPot/SQLPod": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "protocol"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "SQLPod"
-    }
-  ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/SQLPod",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "SQLPod"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "SQLPod",
-  "type" : "topic",
-  "url" : "\/documentation\/jackpot\/sqlpod"
-},
-"doc://JackPot/documentation/JackPot/SQLitePod": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "class"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "SQLitePod"
-    }
-  ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/SQLitePod",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "SQLitePod"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "SQLitePod",
-  "type" : "topic",
-  "url" : "\/documentation\/jackpot\/sqlitepod"
 },
 "doc://JackPot/documentation/JackPot/SwiftUICanvasPod": {
   "abstract" : [
