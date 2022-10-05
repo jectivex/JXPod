@@ -11,16 +11,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/jectivex/Jack.git", from: "2.0.0"),
-        .package(url: "https://github.com/jectivex/SQLPod.git", from: "0.0.1"),
-        //.package(url: "https://github.com/jectivex/ConsolePod.git", from: "0.0.1"),
-        //.package(url: "https://github.com/jectivex/UIPod.git", from: "0.0.1"),
-        //.package(url: "https://github.com/jectivex/FilePod.git", from: "0.0.1"),
-        //.package(url: "https://github.com/jectivex/NetPod.git", from: "0.0.1"),
-        //.package(url: "https://github.com/jectivex/GeoPod.git", from: "0.0.1"),
-        //.package(url: "https://github.com/jectivex/ThemePod.git", from: "0.0.1"),
-        //.package(url: "https://github.com/jectivex/TimePod.git", from: "0.0.1"),
-        //.package(url: "https://github.com/jectivex/CanvasPod.git", from: "0.0.1"),
-        //.package(url: "https://github.com/jectivex/ChartPod.git", from: "0.0.1"),
+        .package(url: "https://github.com/sqlenclave/SQLPod.git", from: "0.0.1"),
     ],
     targets: [
         .target(
