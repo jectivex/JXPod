@@ -45,6 +45,7 @@
         "doc:\/\/JackPot\/documentation\/JackPot\/CoreGraphicsCanvasPod",
         "doc:\/\/JackPot\/documentation\/JackPot\/CoreLocationGeoPod",
         "doc:\/\/JackPot\/documentation\/JackPot\/FilePod",
+        "doc:\/\/JackPot\/documentation\/JackPot\/KeyPod",
         "doc:\/\/JackPot\/documentation\/JackPot\/NetPod",
         "doc:\/\/JackPot\/documentation\/JackPot\/OSLogConsolePod",
         "doc:\/\/JackPot\/documentation\/JackPot\/SwiftUICanvasPod",
@@ -659,6 +660,37 @@
   "title" : "JackedView",
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/jackedview"
+},
+"doc://JackPot/documentation/JackPot/KeyPod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "KeyPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/KeyPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "KeyPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "KeyPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/keypod"
 },
 "doc://JackPot/documentation/JackPot/Location": {
   "abstract" : [
