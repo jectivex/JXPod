@@ -11,14 +11,12 @@ let package = Package(
     ],
     dependencies: [ .package(name: "swift-docc-plugin", url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"), 
         .package(url: "https://github.com/jectivex/Jack.git", from: "2.0.0"),
-        .package(url: "https://github.com/sqlenclave/SQLPod.git", from: "0.0.1"),
     ],
     targets: [
         .target(
             name: "JackPot",
             dependencies: [
                 .product(name: "Jack", package: "Jack"),
-                .product(name: "SQLPod", package: "SQLPod"),
             ],
             resources: [.process("Resources")]),
         .testTarget(
