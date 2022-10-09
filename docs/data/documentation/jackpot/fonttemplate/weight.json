@@ -133,13 +133,13 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/FontTemplate\/Weight\/getJX(from:)"
+        "doc:\/\/JackPot\/documentation\/JackPot\/FontTemplate\/Weight\/toJX(in:)"
       ],
       "title" : "Instance Methods"
     },
     {
       "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/FontTemplate\/Weight\/makeJX(from:)-5qjaw"
+        "doc:\/\/JackPot\/documentation\/JackPot\/FontTemplate\/Weight\/fromJX(_:)-1n5hu"
       ],
       "title" : "Type Methods"
     },
@@ -376,11 +376,19 @@
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/fonttemplate\/weight\/bold"
 },
-"doc://JackPot/documentation/JackPot/FontTemplate/Weight/getJX(from:)": {
+"doc://JackPot/documentation/JackPot/FontTemplate/Weight/fromJX(_:)-1n5hu": {
   "abstract" : [
 
   ],
   "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
     {
       "kind" : "keyword",
       "text" : "func"
@@ -391,24 +399,16 @@
     },
     {
       "kind" : "identifier",
-      "text" : "getJX"
+      "text" : "fromJX"
     },
     {
       "kind" : "text",
       "text" : "("
     },
     {
-      "kind" : "externalParam",
-      "text" : "from"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit9JXContextC",
-      "text" : "JXContext"
+      "preciseIdentifier" : "s:5JXKit7JXValueC",
+      "text" : "JXValue"
     },
     {
       "kind" : "text",
@@ -424,16 +424,25 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit7JXValueC",
-      "text" : "JXValue"
+      "preciseIdentifier" : "s:7JackPot12FontTemplateO",
+      "text" : "FontTemplate"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7JackPot12FontTemplateO6WeightO",
+      "text" : "Weight"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontTemplate\/Weight\/getJX(from:)",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontTemplate\/Weight\/fromJX(_:)-1n5hu",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "getJX(from:)",
+  "title" : "fromJX(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/fonttemplate\/weight\/getjx(from:)"
+  "url" : "\/documentation\/jackpot\/fonttemplate\/weight\/fromjx(_:)-1n5hu"
 },
 "doc://JackPot/documentation/JackPot/FontTemplate/Weight/heavy": {
   "abstract" : [
@@ -522,82 +531,6 @@
   "title" : "FontTemplate.Weight.light",
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/fonttemplate\/weight\/light"
-},
-"doc://JackPot/documentation/JackPot/FontTemplate/Weight/makeJX(from:)-5qjaw": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "static"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "func"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "makeJX"
-    },
-    {
-      "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "from"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit7JXValueC",
-      "text" : "JXValue"
-    },
-    {
-      "kind" : "text",
-      "text" : ") "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "throws"
-    },
-    {
-      "kind" : "text",
-      "text" : " -> "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7JackPot12FontTemplateO",
-      "text" : "FontTemplate"
-    },
-    {
-      "kind" : "text",
-      "text" : "."
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:7JackPot12FontTemplateO6WeightO",
-      "text" : "Weight"
-    }
-  ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontTemplate\/Weight\/makeJX(from:)-5qjaw",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "makeJX(from:)",
-  "type" : "topic",
-  "url" : "\/documentation\/jackpot\/fonttemplate\/weight\/makejx(from:)-5qjaw"
 },
 "doc://JackPot/documentation/JackPot/FontTemplate/Weight/medium": {
   "abstract" : [
@@ -698,6 +631,65 @@
   "title" : "FontTemplate.Weight.thin",
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/fonttemplate\/weight\/thin"
+},
+"doc://JackPot/documentation/JackPot/FontTemplate/Weight/toJX(in:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "toJX"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "in"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit9JXContextC",
+      "text" : "JXContext"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit7JXValueC",
+      "text" : "JXValue"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontTemplate\/Weight\/toJX(in:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "toJX(in:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/fonttemplate\/weight\/tojx(in:)"
 },
 "doc://JackPot/documentation/JackPot/FontTemplate/Weight/ultraLight": {
   "abstract" : [

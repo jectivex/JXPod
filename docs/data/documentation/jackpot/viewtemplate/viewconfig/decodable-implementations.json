@@ -40,8 +40,8 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/makeJX(from:)",
-        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/makeJXCodable(from:)"
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/fromJX(_:)",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/fromJXCodable(_:)"
       ],
       "title" : "Type Methods"
     }
@@ -133,7 +133,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig"
 },
-"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/makeJX(from:)": {
+"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/fromJX(_:)": {
   "abstract" : [
 
   ],
@@ -188,19 +188,11 @@
     },
     {
       "kind" : "identifier",
-      "text" : "makeJX"
+      "text" : "fromJX"
     },
     {
       "kind" : "text",
       "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "from"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
     },
     {
       "kind" : "typeIdentifier",
@@ -224,14 +216,14 @@
       "text" : "Self"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/makeJX(from:)",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/fromJX(_:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "makeJX(from:)",
+  "title" : "fromJX(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/makejx(from:)"
+  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/fromjx(_:)"
 },
-"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/makeJXCodable(from:)": {
+"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/fromJXCodable(_:)": {
   "abstract" : [
 
   ],
@@ -286,19 +278,11 @@
     },
     {
       "kind" : "identifier",
-      "text" : "makeJXCodable"
+      "text" : "fromJXCodable"
     },
     {
       "kind" : "text",
       "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "from"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
     },
     {
       "kind" : "typeIdentifier",
@@ -322,12 +306,12 @@
       "text" : "Self"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/makeJXCodable(from:)",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/fromJXCodable(_:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "makeJXCodable(from:)",
+  "title" : "fromJXCodable(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/makejxcodable(from:)"
+  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/fromjxcodable(_:)"
 }
 }
 }

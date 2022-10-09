@@ -40,8 +40,8 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/TextTemplate\/FontConfig\/getJX(from:)",
-        "doc:\/\/JackPot\/documentation\/JackPot\/TextTemplate\/FontConfig\/getJXCodable(from:)"
+        "doc:\/\/JackPot\/documentation\/JackPot\/TextTemplate\/FontConfig\/toJX(in:)",
+        "doc:\/\/JackPot\/documentation\/JackPot\/TextTemplate\/FontConfig\/toJXCodable(in:)"
       ],
       "title" : "Instance Methods"
     }
@@ -133,7 +133,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/texttemplate\/fontconfig"
 },
-"doc://JackPot/documentation/JackPot/TextTemplate/FontConfig/getJX(from:)": {
+"doc://JackPot/documentation/JackPot/TextTemplate/FontConfig/toJX(in:)": {
   "abstract" : [
 
   ],
@@ -180,7 +180,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "getJX"
+      "text" : "toJX"
     },
     {
       "kind" : "text",
@@ -188,7 +188,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "from"
+      "text" : "in"
     },
     {
       "kind" : "text",
@@ -217,14 +217,14 @@
       "text" : "JXValue"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/TextTemplate\/FontConfig\/getJX(from:)",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/TextTemplate\/FontConfig\/toJX(in:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "getJX(from:)",
+  "title" : "toJX(in:)",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/texttemplate\/fontconfig\/getjx(from:)"
+  "url" : "\/documentation\/jackpot\/texttemplate\/fontconfig\/tojx(in:)"
 },
-"doc://JackPot/documentation/JackPot/TextTemplate/FontConfig/getJXCodable(from:)": {
+"doc://JackPot/documentation/JackPot/TextTemplate/FontConfig/toJXCodable(in:)": {
   "abstract" : [
 
   ],
@@ -271,7 +271,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "getJXCodable"
+      "text" : "toJXCodable"
     },
     {
       "kind" : "text",
@@ -279,7 +279,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "from"
+      "text" : "in"
     },
     {
       "kind" : "text",
@@ -308,12 +308,12 @@
       "text" : "JXValue"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/TextTemplate\/FontConfig\/getJXCodable(from:)",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/TextTemplate\/FontConfig\/toJXCodable(in:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "getJXCodable(from:)",
+  "title" : "toJXCodable(in:)",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/texttemplate\/fontconfig\/getjxcodable(from:)"
+  "url" : "\/documentation\/jackpot\/texttemplate\/fontconfig\/tojxcodable(in:)"
 }
 }
 }

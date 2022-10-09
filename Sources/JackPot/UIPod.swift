@@ -99,7 +99,7 @@ open class UIPod : JackPod {
     @Jack("Button") var _button = button
     func button(label: ViewTemplate, action: JXValue) throws -> ViewTemplate {
         if !action.isFunction {
-            throw JXError(ctx: action.ctx, value: action.ctx.string("Second argument to Button constructor must be the callback function"))
+            throw JXEvalError(context: action.context, value: action.context.string("Second argument to Button constructor must be the callback function"))
         }
 
         class ButtonTemplate : ViewTemplate {
@@ -156,24 +156,24 @@ open class UIPod : JackPod {
             let symbol = getFunction
 
             return Binding(get: {
-                self.fallback({ try symbol.ctx.global[symbol: symbol] }, default: symbol.ctx.undefined())
+                self.fallback({ try symbol.context.global[symbol: symbol] }, default: symbol.context.undefined())
             }, set: { newValue in
-                self.fallback({ try symbol.ctx.global.setProperty(symbol: symbol, newValue) }, default: ())
+                self.fallback({ try symbol.context.global.setProperty(symbol: symbol, newValue) }, default: ())
             })
         }
 
         // non-symbol argumnt: assume args are getter and setter functions
 
         if !getFunction.isFunction {
-            throw JXError(ctx: getFunction.ctx, value: getFunction.ctx.string("Second Slider argument must be the value getter function"))
+            throw JXEvalError(context: getFunction.context, value: getFunction.context.string("Second Slider argument must be the value getter function"))
         }
 
         if !setFunction.isFunction {
-            throw JXError(ctx: setFunction.ctx, value: setFunction.ctx.string("Third Slider argument must be the value setter function"))
+            throw JXEvalError(context: setFunction.context, value: setFunction.context.string("Third Slider argument must be the value setter function"))
         }
 
         return Binding(get: {
-            self.fallback({ try getFunction.call() }, default: getFunction.ctx.undefined())
+            self.fallback({ try getFunction.call() }, default: getFunction.context.undefined())
         }, set: { newValue in
             self.fallback({ try setFunction.call(withArguments: [newValue]) }, default: ())
         })
@@ -183,9 +183,9 @@ open class UIPod : JackPod {
     func slider(label: ViewTemplate, get getFunction: JXValue, set setFunction: JXValue) throws -> ViewTemplate {
         let binding = try createBinding(get: getFunction, set: setFunction)
         let numericBinding = Binding<Double> {
-            self.fallback({ try binding.wrappedValue.numberValue }, default: .nan)
+            self.fallback({ try binding.wrappedValue.double }, default: .nan)
         } set: { newValue in
-            binding.wrappedValue = getFunction.ctx.number(newValue)
+            binding.wrappedValue = getFunction.context.number(newValue)
         }
 
         return SliderTemplate(label: label, binding: numericBinding)
@@ -222,9 +222,9 @@ open class UIPod : JackPod {
     func toggle(label: ViewTemplate, get getFunction: JXValue, set setFunction: JXValue) throws -> ViewTemplate {
         let binding = try createBinding(get: getFunction, set: setFunction)
         let booleanBinding = Binding<Bool> {
-            self.fallback({ binding.wrappedValue.booleanValue }, default: false)
+            self.fallback({ binding.wrappedValue.bool }, default: false)
         } set: { newValue in
-            binding.wrappedValue = getFunction.ctx.boolean(newValue)
+            binding.wrappedValue = getFunction.context.boolean(newValue)
         }
 
         return ToggleTemplate(label: label, binding: booleanBinding)
@@ -363,8 +363,8 @@ open class ViewTemplate : JackedReference, JackedView {
             }
 
             // Both Codable and RawRepresentable implement JXConvertible, so we need to manually dis-ambiguate
-            public static func makeJX(from value: JXValue) throws -> Self { try makeJXRaw(from: value) }
-            public func getJX(from context: JXContext) throws -> JXValue { try getJXRaw(from: context) }
+            public static func fromJX(_ value: JXValue) throws -> Self { try makeJXRaw(from: value) }
+            public func toJX(in context: JXContext) throws -> JXValue { try getJXRaw(from: context) }
         }
 
     }
@@ -479,8 +479,8 @@ public enum FontTemplate {
         }
 
         // Both Codable and RawRepresentable implement JXConvertible, so we need to manually dis-ambiguate
-        public static func makeJX(from value: JXValue) throws -> Self { try makeJXRaw(from: value) }
-        public func getJX(from context: JXContext) throws -> JXValue { try getJXRaw(from: context) }
+        public static func fromJX(_ value: JXValue) throws -> Self { try makeJXRaw(from: value) }
+        public func toJX(in context: JXContext) throws -> JXValue { try getJXRaw(from: context) }
     }
 
     /// Analogue to `SwiftUI.Font.TextStyle` as a string enum so automatic Jack bridging magic can happen
@@ -514,8 +514,8 @@ public enum FontTemplate {
         }
 
         // Both Codable and RawRepresentable implement JXConvertible, so we need to manually dis-ambiguate
-        public static func makeJX(from value: JXValue) throws -> Self { try makeJXRaw(from: value) }
-        public func getJX(from context: JXContext) throws -> JXValue { try getJXRaw(from: context) }
+        public static func fromJX(_ value: JXValue) throws -> Self { try makeJXRaw(from: value) }
+        public func toJX(in context: JXContext) throws -> JXValue { try getJXRaw(from: context) }
     }
 }
 

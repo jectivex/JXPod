@@ -41,7 +41,7 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/getJXCodable(from:)"
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/toJXCodable(in:)"
       ],
       "title" : "Instance Methods"
     }
@@ -175,7 +175,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum"
 },
-"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/Transition-swift.enum/getJXCodable(from:)": {
+"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/Transition-swift.enum/toJXCodable(in:)": {
   "abstract" : [
 
   ],
@@ -222,7 +222,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "getJXCodable"
+      "text" : "toJXCodable"
     },
     {
       "kind" : "text",
@@ -230,7 +230,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "from"
+      "text" : "in"
     },
     {
       "kind" : "text",
@@ -259,12 +259,12 @@
       "text" : "JXValue"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/getJXCodable(from:)",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/toJXCodable(in:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "getJXCodable(from:)",
+  "title" : "toJXCodable(in:)",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/getjxcodable(from:)"
+  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/tojxcodable(in:)"
 }
 }
 }

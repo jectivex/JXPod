@@ -63,7 +63,7 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/FontTemplate\/TextStyle\/makeJX(from:)-50kv4",
+        "doc:\/\/JackPot\/documentation\/JackPot\/FontTemplate\/TextStyle\/fromJX(_:)-1fexr",
         "doc:\/\/JackPot\/documentation\/JackPot\/FontTemplate\/TextStyle\/makeJXRaw(from:)"
       ],
       "title" : "Type Methods"
@@ -264,6 +264,96 @@
   "title" : "encode(to:)",
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/encode(to:)"
+},
+"doc://JackPot/documentation/JackPot/FontTemplate/TextStyle/fromJX(_:)-1fexr": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "RawValue",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "Jackable",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fromJX"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit7JXValueC",
+      "text" : "JXValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontTemplate\/TextStyle\/fromJX(_:)-1fexr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fromJX(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/fromjx(_:)-1fexr"
 },
 "doc://JackPot/documentation/JackPot/FontTemplate/TextStyle/getJXRaw(from:)": {
   "abstract" : [
@@ -629,104 +719,6 @@
   "title" : "init(from:)",
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/init(from:)"
-},
-"doc://JackPot/documentation/JackPot/FontTemplate/TextStyle/makeJX(from:)-50kv4": {
-  "abstract" : [
-
-  ],
-  "conformance" : {
-    "availabilityPrefix" : [
-      {
-        "text" : "Available when",
-        "type" : "text"
-      }
-    ],
-    "conformancePrefix" : [
-      {
-        "text" : "Conforms when",
-        "type" : "text"
-      }
-    ],
-    "constraints" : [
-      {
-        "code" : "RawValue",
-        "type" : "codeVoice"
-      },
-      {
-        "text" : " conforms to ",
-        "type" : "text"
-      },
-      {
-        "code" : "Jackable",
-        "type" : "codeVoice"
-      },
-      {
-        "text" : ".",
-        "type" : "text"
-      }
-    ]
-  },
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "static"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "func"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "makeJX"
-    },
-    {
-      "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "from"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit7JXValueC",
-      "text" : "JXValue"
-    },
-    {
-      "kind" : "text",
-      "text" : ") "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "throws"
-    },
-    {
-      "kind" : "text",
-      "text" : " -> "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Self"
-    }
-  ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontTemplate\/TextStyle\/makeJX(from:)-50kv4",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "makeJX(from:)",
-  "type" : "topic",
-  "url" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/makejx(from:)-50kv4"
 },
 "doc://JackPot/documentation/JackPot/FontTemplate/TextStyle/makeJXRaw(from:)": {
   "abstract" : [

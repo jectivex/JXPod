@@ -92,7 +92,7 @@ final class JackPotTests: XCTestCase {
             let ji = try ctx.global["rnd"]
             XCTAssertTrue(ji.isObject)
             XCTAssertTrue(ji.isFunction)
-            XCTAssertLessThan(0, try ji.call().numberValue)
+            XCTAssertLessThan(0, try ji.call().double)
         }
 
         do {
@@ -105,7 +105,7 @@ final class JackPotTests: XCTestCase {
             let ji = try ctx.global["rnd"]
             XCTAssertTrue(ji.isObject)
             XCTAssertTrue(ji.isFunction)
-            XCTAssertLessThan(0, try ji.call().numberValue)
+            XCTAssertLessThan(0, try ji.call().double)
         }
 
         do {

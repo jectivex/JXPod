@@ -55,16 +55,16 @@
       "generated" : true,
       "identifiers" : [
         "doc:\/\/JackPot\/documentation\/JackPot\/CSSColor\/NamedColor\/encode(to:)",
-        "doc:\/\/JackPot\/documentation\/JackPot\/CSSColor\/NamedColor\/getJX(from:)",
         "doc:\/\/JackPot\/documentation\/JackPot\/CSSColor\/NamedColor\/getJXRaw(from:)",
-        "doc:\/\/JackPot\/documentation\/JackPot\/CSSColor\/NamedColor\/hash(into:)"
+        "doc:\/\/JackPot\/documentation\/JackPot\/CSSColor\/NamedColor\/hash(into:)",
+        "doc:\/\/JackPot\/documentation\/JackPot\/CSSColor\/NamedColor\/toJX(in:)"
       ],
       "title" : "Instance Methods"
     },
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/CSSColor\/NamedColor\/makeJX(from:)",
+        "doc:\/\/JackPot\/documentation\/JackPot\/CSSColor\/NamedColor\/fromJX(_:)",
         "doc:\/\/JackPot\/documentation\/JackPot\/CSSColor\/NamedColor\/makeJXRaw(from:)"
       ],
       "title" : "Type Methods"
@@ -255,7 +255,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/csscolor\/namedcolor\/encode(to:)"
 },
-"doc://JackPot/documentation/JackPot/CSSColor/NamedColor/getJX(from:)": {
+"doc://JackPot/documentation/JackPot/CSSColor/NamedColor/fromJX(_:)": {
   "abstract" : [
 
   ],
@@ -294,6 +294,14 @@
   "fragments" : [
     {
       "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
       "text" : "func"
     },
     {
@@ -302,24 +310,16 @@
     },
     {
       "kind" : "identifier",
-      "text" : "getJX"
+      "text" : "fromJX"
     },
     {
       "kind" : "text",
       "text" : "("
     },
     {
-      "kind" : "externalParam",
-      "text" : "from"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit9JXContextC",
-      "text" : "JXContext"
+      "preciseIdentifier" : "s:5JXKit7JXValueC",
+      "text" : "JXValue"
     },
     {
       "kind" : "text",
@@ -335,16 +335,15 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit7JXValueC",
-      "text" : "JXValue"
+      "text" : "Self"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/CSSColor\/NamedColor\/getJX(from:)",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/CSSColor\/NamedColor\/fromJX(_:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "getJX(from:)",
+  "title" : "fromJX(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/csscolor\/namedcolor\/getjx(from:)"
+  "url" : "\/documentation\/jackpot\/csscolor\/namedcolor\/fromjx(_:)"
 },
 "doc://JackPot/documentation/JackPot/CSSColor/NamedColor/getJXRaw(from:)": {
   "abstract" : [
@@ -711,104 +710,6 @@
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/csscolor\/namedcolor\/init(from:)"
 },
-"doc://JackPot/documentation/JackPot/CSSColor/NamedColor/makeJX(from:)": {
-  "abstract" : [
-
-  ],
-  "conformance" : {
-    "availabilityPrefix" : [
-      {
-        "text" : "Available when",
-        "type" : "text"
-      }
-    ],
-    "conformancePrefix" : [
-      {
-        "text" : "Conforms when",
-        "type" : "text"
-      }
-    ],
-    "constraints" : [
-      {
-        "code" : "RawValue",
-        "type" : "codeVoice"
-      },
-      {
-        "text" : " conforms to ",
-        "type" : "text"
-      },
-      {
-        "code" : "Jackable",
-        "type" : "codeVoice"
-      },
-      {
-        "text" : ".",
-        "type" : "text"
-      }
-    ]
-  },
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "static"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "func"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "makeJX"
-    },
-    {
-      "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "from"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit7JXValueC",
-      "text" : "JXValue"
-    },
-    {
-      "kind" : "text",
-      "text" : ") "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "throws"
-    },
-    {
-      "kind" : "text",
-      "text" : " -> "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Self"
-    }
-  ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/CSSColor\/NamedColor\/makeJX(from:)",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "makeJX(from:)",
-  "type" : "topic",
-  "url" : "\/documentation\/jackpot\/csscolor\/namedcolor\/makejx(from:)"
-},
 "doc://JackPot/documentation/JackPot/CSSColor/NamedColor/makeJXRaw(from:)": {
   "abstract" : [
 
@@ -906,6 +807,97 @@
   "title" : "makeJXRaw(from:)",
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/csscolor\/namedcolor\/makejxraw(from:)"
+},
+"doc://JackPot/documentation/JackPot/CSSColor/NamedColor/toJX(in:)": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "RawValue",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "Jackable",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "toJX"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "in"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit9JXContextC",
+      "text" : "JXContext"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit7JXValueC",
+      "text" : "JXValue"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/CSSColor\/NamedColor\/toJX(in:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "toJX(in:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/csscolor\/namedcolor\/tojx(in:)"
 }
 }
 }

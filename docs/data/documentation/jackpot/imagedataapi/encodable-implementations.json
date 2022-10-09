@@ -39,8 +39,8 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/ImageDataAPI\/getJX(from:)",
-        "doc:\/\/JackPot\/documentation\/JackPot\/ImageDataAPI\/getJXCodable(from:)"
+        "doc:\/\/JackPot\/documentation\/JackPot\/ImageDataAPI\/toJX(in:)",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ImageDataAPI\/toJXCodable(in:)"
       ],
       "title" : "Instance Methods"
     }
@@ -101,7 +101,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/imagedataapi"
 },
-"doc://JackPot/documentation/JackPot/ImageDataAPI/getJX(from:)": {
+"doc://JackPot/documentation/JackPot/ImageDataAPI/toJX(in:)": {
   "abstract" : [
 
   ],
@@ -148,7 +148,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "getJX"
+      "text" : "toJX"
     },
     {
       "kind" : "text",
@@ -156,7 +156,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "from"
+      "text" : "in"
     },
     {
       "kind" : "text",
@@ -185,14 +185,14 @@
       "text" : "JXValue"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ImageDataAPI\/getJX(from:)",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ImageDataAPI\/toJX(in:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "getJX(from:)",
+  "title" : "toJX(in:)",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/imagedataapi\/getjx(from:)"
+  "url" : "\/documentation\/jackpot\/imagedataapi\/tojx(in:)"
 },
-"doc://JackPot/documentation/JackPot/ImageDataAPI/getJXCodable(from:)": {
+"doc://JackPot/documentation/JackPot/ImageDataAPI/toJXCodable(in:)": {
   "abstract" : [
 
   ],
@@ -239,7 +239,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "getJXCodable"
+      "text" : "toJXCodable"
     },
     {
       "kind" : "text",
@@ -247,7 +247,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "from"
+      "text" : "in"
     },
     {
       "kind" : "text",
@@ -276,12 +276,12 @@
       "text" : "JXValue"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ImageDataAPI\/getJXCodable(from:)",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ImageDataAPI\/toJXCodable(in:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "getJXCodable(from:)",
+  "title" : "toJXCodable(in:)",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/imagedataapi\/getjxcodable(from:)"
+  "url" : "\/documentation\/jackpot\/imagedataapi\/tojxcodable(in:)"
 }
 }
 }

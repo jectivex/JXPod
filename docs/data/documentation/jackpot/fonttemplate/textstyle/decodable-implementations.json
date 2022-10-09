@@ -40,8 +40,8 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/FontTemplate\/TextStyle\/makeJX(from:)-9c9w8",
-        "doc:\/\/JackPot\/documentation\/JackPot\/FontTemplate\/TextStyle\/makeJXCodable(from:)"
+        "doc:\/\/JackPot\/documentation\/JackPot\/FontTemplate\/TextStyle\/fromJX(_:)-48ij8",
+        "doc:\/\/JackPot\/documentation\/JackPot\/FontTemplate\/TextStyle\/fromJXCodable(_:)"
       ],
       "title" : "Type Methods"
     }
@@ -144,7 +144,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/fonttemplate\/textstyle"
 },
-"doc://JackPot/documentation/JackPot/FontTemplate/TextStyle/makeJX(from:)-9c9w8": {
+"doc://JackPot/documentation/JackPot/FontTemplate/TextStyle/fromJX(_:)-48ij8": {
   "abstract" : [
 
   ],
@@ -199,19 +199,11 @@
     },
     {
       "kind" : "identifier",
-      "text" : "makeJX"
+      "text" : "fromJX"
     },
     {
       "kind" : "text",
       "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "from"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
     },
     {
       "kind" : "typeIdentifier",
@@ -235,14 +227,14 @@
       "text" : "Self"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontTemplate\/TextStyle\/makeJX(from:)-9c9w8",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontTemplate\/TextStyle\/fromJX(_:)-48ij8",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "makeJX(from:)",
+  "title" : "fromJX(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/makejx(from:)-9c9w8"
+  "url" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/fromjx(_:)-48ij8"
 },
-"doc://JackPot/documentation/JackPot/FontTemplate/TextStyle/makeJXCodable(from:)": {
+"doc://JackPot/documentation/JackPot/FontTemplate/TextStyle/fromJXCodable(_:)": {
   "abstract" : [
 
   ],
@@ -297,19 +289,11 @@
     },
     {
       "kind" : "identifier",
-      "text" : "makeJXCodable"
+      "text" : "fromJXCodable"
     },
     {
       "kind" : "text",
       "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "from"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
     },
     {
       "kind" : "typeIdentifier",
@@ -333,12 +317,12 @@
       "text" : "Self"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontTemplate\/TextStyle\/makeJXCodable(from:)",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/FontTemplate\/TextStyle\/fromJXCodable(_:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "makeJXCodable(from:)",
+  "title" : "fromJXCodable(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/makejxcodable(from:)"
+  "url" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/fromjxcodable(_:)"
 }
 }
 }

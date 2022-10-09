@@ -39,8 +39,8 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/CanvasRenderingContext2DSettingsAPI\/makeJX(from:)",
-        "doc:\/\/JackPot\/documentation\/JackPot\/CanvasRenderingContext2DSettingsAPI\/makeJXCodable(from:)"
+        "doc:\/\/JackPot\/documentation\/JackPot\/CanvasRenderingContext2DSettingsAPI\/fromJX(_:)",
+        "doc:\/\/JackPot\/documentation\/JackPot\/CanvasRenderingContext2DSettingsAPI\/fromJXCodable(_:)"
       ],
       "title" : "Type Methods"
     }
@@ -101,7 +101,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/canvasrenderingcontext2dsettingsapi"
 },
-"doc://JackPot/documentation/JackPot/CanvasRenderingContext2DSettingsAPI/makeJX(from:)": {
+"doc://JackPot/documentation/JackPot/CanvasRenderingContext2DSettingsAPI/fromJX(_:)": {
   "abstract" : [
 
   ],
@@ -156,19 +156,11 @@
     },
     {
       "kind" : "identifier",
-      "text" : "makeJX"
+      "text" : "fromJX"
     },
     {
       "kind" : "text",
       "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "from"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
     },
     {
       "kind" : "typeIdentifier",
@@ -192,14 +184,14 @@
       "text" : "Self"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/CanvasRenderingContext2DSettingsAPI\/makeJX(from:)",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/CanvasRenderingContext2DSettingsAPI\/fromJX(_:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "makeJX(from:)",
+  "title" : "fromJX(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/canvasrenderingcontext2dsettingsapi\/makejx(from:)"
+  "url" : "\/documentation\/jackpot\/canvasrenderingcontext2dsettingsapi\/fromjx(_:)"
 },
-"doc://JackPot/documentation/JackPot/CanvasRenderingContext2DSettingsAPI/makeJXCodable(from:)": {
+"doc://JackPot/documentation/JackPot/CanvasRenderingContext2DSettingsAPI/fromJXCodable(_:)": {
   "abstract" : [
 
   ],
@@ -254,19 +246,11 @@
     },
     {
       "kind" : "identifier",
-      "text" : "makeJXCodable"
+      "text" : "fromJXCodable"
     },
     {
       "kind" : "text",
       "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "from"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
     },
     {
       "kind" : "typeIdentifier",
@@ -290,12 +274,12 @@
       "text" : "Self"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/CanvasRenderingContext2DSettingsAPI\/makeJXCodable(from:)",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/CanvasRenderingContext2DSettingsAPI\/fromJXCodable(_:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "makeJXCodable(from:)",
+  "title" : "fromJXCodable(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/canvasrenderingcontext2dsettingsapi\/makejxcodable(from:)"
+  "url" : "\/documentation\/jackpot\/canvasrenderingcontext2dsettingsapi\/fromjxcodable(_:)"
 }
 }
 }

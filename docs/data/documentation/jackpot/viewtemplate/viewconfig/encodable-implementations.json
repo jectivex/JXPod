@@ -40,8 +40,8 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/getJX(from:)",
-        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/getJXCodable(from:)"
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/toJX(in:)",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/toJXCodable(in:)"
       ],
       "title" : "Instance Methods"
     }
@@ -133,7 +133,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig"
 },
-"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/getJX(from:)": {
+"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/toJX(in:)": {
   "abstract" : [
 
   ],
@@ -180,7 +180,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "getJX"
+      "text" : "toJX"
     },
     {
       "kind" : "text",
@@ -188,7 +188,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "from"
+      "text" : "in"
     },
     {
       "kind" : "text",
@@ -217,14 +217,14 @@
       "text" : "JXValue"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/getJX(from:)",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/toJX(in:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "getJX(from:)",
+  "title" : "toJX(in:)",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/getjx(from:)"
+  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/tojx(in:)"
 },
-"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/getJXCodable(from:)": {
+"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/toJXCodable(in:)": {
   "abstract" : [
 
   ],
@@ -271,7 +271,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "getJXCodable"
+      "text" : "toJXCodable"
     },
     {
       "kind" : "text",
@@ -279,7 +279,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "from"
+      "text" : "in"
     },
     {
       "kind" : "text",
@@ -308,12 +308,12 @@
       "text" : "JXValue"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/getJXCodable(from:)",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/toJXCodable(in:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "getJXCodable(from:)",
+  "title" : "toJXCodable(in:)",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/getjxcodable(from:)"
+  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/tojxcodable(in:)"
 }
 }
 }

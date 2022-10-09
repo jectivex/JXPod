@@ -162,19 +162,19 @@ final class ThemePodTests: XCTestCase {
 
     @MainActor func testThemePod() async throws {
         let pod = ThemePod()
-        let jxc = try pod.jack().ctx
+        let jxc = try pod.jack().context
 
         //try await jxc.eval("sleep()", priority: .high)
-        XCTAssertEqual(3, try jxc.eval("1+2").numberValue)
+        XCTAssertEqual(3, try jxc.eval("1+2").double)
 
         try jxc.global.set("c", convertible: CSSColor(rgb: CSSColor.RGBColor(r: 0.1, g: 0.2, b: 0.3)))
-        XCTAssertEqual(#"{"r":0.1,"g":0.2,"b":0.3}"#, try jxc.eval("JSON.stringify(c)").stringValue)
+        XCTAssertEqual(#"{"r":0.1,"g":0.2,"b":0.3}"#, try jxc.eval("JSON.stringify(c)").string)
 
         try jxc.global.set("c", convertible: CSSColor(name: CSSColor.NamedColor.aqua))
-        XCTAssertEqual(#""aqua""#, try jxc.eval("JSON.stringify(c)").stringValue)
+        XCTAssertEqual(#""aqua""#, try jxc.eval("JSON.stringify(c)").string)
 
         pod.backgroundColor = .init(.init(name: .aqua))
-        XCTAssertEqual(#""aqua""#, try jxc.eval("JSON.stringify(backgroundColor)").stringValue)
+        XCTAssertEqual(#""aqua""#, try jxc.eval("JSON.stringify(backgroundColor)").string)
 
         // eventually we can do this
 
@@ -200,7 +200,7 @@ final class ThemePodTests: XCTestCase {
         XCTAssertEqual(false, try jxc.eval("navBarTintColor").isUndefined)
         XCTAssertEqual(false, try jxc.eval("navBarTintColor").isNull)
         XCTAssertEqual(true, try jxc.eval("navBarTintColor").isObject)
-        XCTAssertEqual(#"{"r":1,"g":0.5,"b":0.8,"a":1}"#, try jxc.eval("JSON.stringify(navBarTintColor)").stringValue)
+        XCTAssertEqual(#"{"r":1,"g":0.5,"b":0.8,"a":1}"#, try jxc.eval("JSON.stringify(navBarTintColor)").string)
 
         #endif
     }
@@ -224,7 +224,7 @@ final class ThemePodTests: XCTestCase {
             testDidSetCount += 1 // fired twice
         }
 
-        try ob.jack().ctx.eval("XXX = 'abc';") // doesn't invoke didSet
+        try ob.jack().context.eval("XXX = 'abc';") // doesn't invoke didSet
         XCTAssertEqual(3, testDidSetCount) // TODO: didSet is not getting called from the JS side; need to fix this
 
         ob.XXX = "XYZ";

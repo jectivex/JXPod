@@ -39,8 +39,8 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/CanvasPatternAPI\/getJX(from:)",
-        "doc:\/\/JackPot\/documentation\/JackPot\/CanvasPatternAPI\/getJXCodable(from:)"
+        "doc:\/\/JackPot\/documentation\/JackPot\/CanvasPatternAPI\/toJX(in:)",
+        "doc:\/\/JackPot\/documentation\/JackPot\/CanvasPatternAPI\/toJXCodable(in:)"
       ],
       "title" : "Instance Methods"
     }
@@ -101,7 +101,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/canvaspatternapi"
 },
-"doc://JackPot/documentation/JackPot/CanvasPatternAPI/getJX(from:)": {
+"doc://JackPot/documentation/JackPot/CanvasPatternAPI/toJX(in:)": {
   "abstract" : [
 
   ],
@@ -148,7 +148,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "getJX"
+      "text" : "toJX"
     },
     {
       "kind" : "text",
@@ -156,7 +156,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "from"
+      "text" : "in"
     },
     {
       "kind" : "text",
@@ -185,14 +185,14 @@
       "text" : "JXValue"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/CanvasPatternAPI\/getJX(from:)",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/CanvasPatternAPI\/toJX(in:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "getJX(from:)",
+  "title" : "toJX(in:)",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/canvaspatternapi\/getjx(from:)"
+  "url" : "\/documentation\/jackpot\/canvaspatternapi\/tojx(in:)"
 },
-"doc://JackPot/documentation/JackPot/CanvasPatternAPI/getJXCodable(from:)": {
+"doc://JackPot/documentation/JackPot/CanvasPatternAPI/toJXCodable(in:)": {
   "abstract" : [
 
   ],
@@ -239,7 +239,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "getJXCodable"
+      "text" : "toJXCodable"
     },
     {
       "kind" : "text",
@@ -247,7 +247,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "from"
+      "text" : "in"
     },
     {
       "kind" : "text",
@@ -276,12 +276,12 @@
       "text" : "JXValue"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/CanvasPatternAPI\/getJXCodable(from:)",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/CanvasPatternAPI\/toJXCodable(in:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "getJXCodable(from:)",
+  "title" : "toJXCodable(in:)",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/canvaspatternapi\/getjxcodable(from:)"
+  "url" : "\/documentation\/jackpot\/canvaspatternapi\/tojxcodable(in:)"
 }
 }
 }

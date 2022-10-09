@@ -40,8 +40,8 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/TextMetrics\/makeJX(from:)",
-        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/TextMetrics\/makeJXCodable(from:)"
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/TextMetrics\/fromJX(_:)",
+        "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/TextMetrics\/fromJXCodable(_:)"
       ],
       "title" : "Type Methods"
     }
@@ -136,7 +136,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics"
 },
-"doc://JackPot/documentation/JackPot/AbstractCanvasPod/TextMetrics/makeJX(from:)": {
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/TextMetrics/fromJX(_:)": {
   "abstract" : [
 
   ],
@@ -191,19 +191,11 @@
     },
     {
       "kind" : "identifier",
-      "text" : "makeJX"
+      "text" : "fromJX"
     },
     {
       "kind" : "text",
       "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "from"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
     },
     {
       "kind" : "typeIdentifier",
@@ -227,14 +219,14 @@
       "text" : "Self"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/TextMetrics\/makeJX(from:)",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/TextMetrics\/fromJX(_:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "makeJX(from:)",
+  "title" : "fromJX(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/makejx(from:)"
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/fromjx(_:)"
 },
-"doc://JackPot/documentation/JackPot/AbstractCanvasPod/TextMetrics/makeJXCodable(from:)": {
+"doc://JackPot/documentation/JackPot/AbstractCanvasPod/TextMetrics/fromJXCodable(_:)": {
   "abstract" : [
 
   ],
@@ -289,19 +281,11 @@
     },
     {
       "kind" : "identifier",
-      "text" : "makeJXCodable"
+      "text" : "fromJXCodable"
     },
     {
       "kind" : "text",
       "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "from"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
     },
     {
       "kind" : "typeIdentifier",
@@ -325,12 +309,12 @@
       "text" : "Self"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/TextMetrics\/makeJXCodable(from:)",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod\/TextMetrics\/fromJXCodable(_:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "makeJXCodable(from:)",
+  "title" : "fromJXCodable(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/makejxcodable(from:)"
+  "url" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/fromjxcodable(_:)"
 }
 }
 }
