@@ -10,7 +10,7 @@ let package = Package(
             targets: ["JackPot"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/jectivex/Jack.git", from: "2.0.0"),
+        .package(url: "https://github.com/jectivex/Jack.git", from: "2.1.0"),
     ],
     targets: [
         .target(
