@@ -5,7 +5,7 @@ import XCTest
 final class TimePodTests: XCTestCase {
     func testTimePod() async throws {
         let pod = TimePod()
-        let jxc = try pod.jack().ctx
+        let jxc = try pod.jack().context
 
         try await jxc.eval("sleep()", priority: .high)
         try await jxc.eval("sleep(0)", priority: .high)
@@ -18,7 +18,7 @@ final class TimePodTests: XCTestCase {
             XCTFail("should not have succeeded")
         } catch {
             //XCTAssertEqual("Error: sleepDurationNaN", "\(error)")
-            XCTAssertEqual("Error: sleepDurationNaN", try (error as? JXError)?.stringValue)
+            XCTAssertEqual("Error: sleepDurationNaN", try (error as? JXEvalError)?.string)
         }
     }
 }

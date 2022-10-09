@@ -17,7 +17,7 @@ final class UIPodTests: XCTestCase {
         }
 
         let vm = ViewModel()
-        let jxc = try vm.jack().ctx
+        let jxc = try vm.jack().context
 
         let uipod = UIPod() // need to retain or else Error: jumpContextInvalid
         try uipod.jack(into: jxc.global) // , as: "ui" // TODO: should be namespace?
@@ -26,7 +26,7 @@ final class UIPodTests: XCTestCase {
 
         let str = UUID().uuidString
         let obj = try jxc.eval("Text('\(str)')")
-        XCTAssertEqual(str, try obj["value"].stringValue)
+        XCTAssertEqual(str, try obj["value"].string)
         XCTAssertTrue(try jxc.eval("Text('\(str)')").isObject)
         XCTAssertNotNil(try jxc.eval("Text('\(str)')").convey(to: ViewTemplate.self))
         XCTAssertEqual(str, try jxc.eval("Text('\(str)')").convey(to: TextTemplate.self).value)
@@ -72,7 +72,7 @@ final class UIPodTests: XCTestCase {
 
         // check enum validation
         XCTAssertThrowsError(try txt("Text('TITLE').fontStyle('titleXXX')")) { error in
-            guard let err = error as? JXError else {
+            guard let err = error as? JXEvalError else {
                 return XCTFail("Bad error type: \(error)")
             }
             XCTAssertEqual("Error: rawInitializerFailed(titleXXX, Jack.JackError.Context(context: JXKit.JXContext))", err.description)
