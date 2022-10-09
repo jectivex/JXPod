@@ -22,7 +22,7 @@ final class UIPodTests: XCTestCase {
         let uipod = UIPod() // need to retain or else Error: jumpContextInvalid
         try uipod.jack(into: jxc.global) // , as: "ui" // TODO: should be namespace?
 
-        XCTAssertEqual(3, try jxc.eval("1+2").numberValue)
+        XCTAssertEqual(3, try jxc.eval("1+2").double)
 
         let str = UUID().uuidString
         let obj = try jxc.eval("Text('\(str)')")
