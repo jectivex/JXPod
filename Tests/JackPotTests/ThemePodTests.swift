@@ -167,11 +167,11 @@ final class ThemePodTests: XCTestCase {
         //try await jxc.eval("sleep()", priority: .high)
         XCTAssertEqual(3, try jxc.eval("1+2").double)
 
-        try jxc.global.set("c", convertible: CSSColor(rgb: CSSColor.RGBColor(r: 0.1, g: 0.2, b: 0.3)))
-        XCTAssertEqual(#"{"r":0.1,"g":0.2,"b":0.3}"#, try jxc.eval("JSON.stringify(c)").string)
-
-        try jxc.global.set("c", convertible: CSSColor(name: CSSColor.NamedColor.aqua))
-        XCTAssertEqual(#""aqua""#, try jxc.eval("JSON.stringify(c)").string)
+//        try jxc.global.set("c", convertible: CSSColor(rgb: CSSColor.RGBColor(r: 0.1, g: 0.2, b: 0.3)))
+//        XCTAssertEqual(#"{"r":0.1,"g":0.2,"b":0.3}"#, try jxc.eval("JSON.stringify(c)").string)
+//
+//        try jxc.global.set("c", convertible: CSSColor(name: CSSColor.NamedColor.aqua))
+//        XCTAssertEqual(#""aqua""#, try jxc.eval("JSON.stringify(c)").string)
 
         pod.backgroundColor = .init(.init(name: .aqua))
         XCTAssertEqual(#""aqua""#, try jxc.eval("JSON.stringify(backgroundColor)").string)
