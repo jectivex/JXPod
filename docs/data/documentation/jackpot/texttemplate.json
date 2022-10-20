@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "No overview available.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -102,7 +96,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -114,12 +108,6 @@
         "doc:\/\/JackPot\/documentation\/JackPot\/TextTemplate\/FontConfig"
       ],
       "title" : "Structures"
-    },
-    {
-      "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/TextTemplate\/init()"
-      ],
-      "title" : "Initializers"
     },
     {
       "identifiers" : [
@@ -436,27 +424,6 @@
   "title" : "config",
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/texttemplate\/config"
-},
-"doc://JackPot/documentation/JackPot/TextTemplate/init()": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "init"
-    },
-    {
-      "kind" : "text",
-      "text" : "()"
-    }
-  ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/TextTemplate\/init()",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "init()",
-  "type" : "topic",
-  "url" : "\/documentation\/jackpot\/texttemplate\/init()"
 },
 "doc://JackPot/documentation/JackPot/TextTemplate/value": {
   "abstract" : [

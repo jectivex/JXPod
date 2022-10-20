@@ -75,7 +75,7 @@ final class UIPodTests: XCTestCase {
             guard let err = error as? JXEvalError else {
                 return XCTFail("Bad error type: \(error)")
             }
-            XCTAssertEqual("Error: rawInitializerFailed(titleXXX, Jack.JackError.Context(context: JXKit.JXContext))", err.description)
+            XCTAssertEqual(#"Error: invalidRawValue("titleXXX")"#, err.description)
         }
 
         // MARK: Button Actions

@@ -1,7 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "A publisher that emits before the object has changed.",
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "JackedObject.objectWillChange",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -139,7 +147,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -214,10 +222,7 @@
 },
 "doc://JackPot/documentation/JackPot/SwiftUICanvasPod/objectWillChange-6jz05": {
   "abstract" : [
-    {
-      "text" : "A publisher that emits before the object has changed.",
-      "type" : "text"
-    }
+
   ],
   "conformance" : {
     "availabilityPrefix" : [

@@ -1,0 +1,3950 @@
+{
+  "interfaceLanguages" : {
+    "swift" : [
+      {
+        "children" : [
+          {
+            "title" : "Classes",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/init(from:)",
+                    "title" : "init(from: Decoder) throws",
+                    "type" : "init"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/init(width:actualboundingboxleft:actualboundingboxright:fontboundingboxascent:fontboundingboxdescent:actualboundingboxascent:actualboundingboxdescent:emheightascent:emheightdescent:hangingbaseline:alphabeticbaseline:ideographicbaseline:)",
+                    "title" : "init(width: Double, actualBoundingBoxLeft: Double?, actualBoundingBoxRight: Double?, fontBoundingBoxAscent: Double?, fontBoundingBoxDescent: Double?, actualBoundingBoxAscent: Double?, actualBoundingBoxDescent: Double?, emHeightAscent: Double?, emHeightDescent: Double?, hangingBaseline: Double?, alphabeticBaseline: Double?, ideographicBaseline: Double?)",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/actualboundingboxascent",
+                    "title" : "var actualBoundingBoxAscent: Double?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/actualboundingboxdescent",
+                    "title" : "var actualBoundingBoxDescent: Double?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/actualboundingboxleft",
+                    "title" : "var actualBoundingBoxLeft: Double?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/actualboundingboxright",
+                    "title" : "var actualBoundingBoxRight: Double?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/alphabeticbaseline",
+                    "title" : "var alphabeticBaseline: Double?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/emheightascent",
+                    "title" : "var emHeightAscent: Double?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/emheightdescent",
+                    "title" : "var emHeightDescent: Double?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/fontboundingboxascent",
+                    "title" : "var fontBoundingBoxAscent: Double?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/fontboundingboxdescent",
+                    "title" : "var fontBoundingBoxDescent: Double?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/hangingbaseline",
+                    "title" : "var hangingBaseline: Double?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/ideographicbaseline",
+                    "title" : "var ideographicBaseline: Double?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/width",
+                    "title" : "var width: Double",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/fromjx(_:)",
+                        "title" : "static func fromJX(JXValue) throws -> Self",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/fromjxcodable(_:)",
+                        "title" : "static func fromJXCodable(JXValue) throws -> Self",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/decodable-implementations",
+                    "title" : "Decodable Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/tojx(in:)",
+                        "title" : "func toJX(in: JXContext) throws -> JXValue",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/tojxcodable(in:)",
+                        "title" : "func toJXCodable(in: JXContext) throws -> JXValue",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/encodable-implementations",
+                    "title" : "Encodable Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/!=(_:_:)",
+                        "title" : "static func != (Self, Self) -> Bool",
+                        "type" : "op"
+                      }
+                    ],
+                    "path" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics\/equatable-implementations",
+                    "title" : "Equatable Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/abstractcanvaspod\/textmetrics",
+                "title" : "AbstractCanvasPod.TextMetrics",
+                "type" : "struct"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/abstractcanvaspod\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/abstractcanvaspod\/fillstyle",
+                "title" : "var fillStyle: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/abstractcanvaspod\/font",
+                "title" : "var font: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/abstractcanvaspod\/globalalpha",
+                "title" : "var globalAlpha: Double",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/abstractcanvaspod\/globalcompositeoperation",
+                "title" : "var globalCompositeOperation: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/abstractcanvaspod\/height",
+                "title" : "var height: Double",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/abstractcanvaspod\/imagesmoothingenabled",
+                "title" : "var imageSmoothingEnabled: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/abstractcanvaspod\/linecap",
+                "title" : "var lineCap: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/abstractcanvaspod\/linedashoffset",
+                "title" : "var lineDashOffset: Double",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/abstractcanvaspod\/linejoin",
+                "title" : "var lineJoin: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/abstractcanvaspod\/linewidth",
+                "title" : "var lineWidth: Double",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/abstractcanvaspod\/metadata",
+                "title" : "var metadata: JackPodMetaData",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/abstractcanvaspod\/miterlimit",
+                "title" : "var miterLimit: Double",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/abstractcanvaspod\/shadowblur",
+                "title" : "var shadowBlur: Double",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/abstractcanvaspod\/shadowcolor",
+                "title" : "var shadowColor: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/abstractcanvaspod\/shadowoffsetx",
+                "title" : "var shadowOffsetX: Double",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/abstractcanvaspod\/shadowoffsety",
+                "title" : "var shadowOffsetY: Double",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/abstractcanvaspod\/strokestyle",
+                "title" : "var strokeStyle: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/abstractcanvaspod\/textalign",
+                "title" : "var textAlign: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/abstractcanvaspod\/textbaseline",
+                "title" : "var textBaseline: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/abstractcanvaspod\/width",
+                "title" : "var width: Double",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/abstractcanvaspod\/measuretext(value:)",
+                "title" : "func measureText(value: String) -> AbstractCanvasPod.TextMetrics?",
+                "type" : "method"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/abstractcanvaspod\/objectwillchange-7hnz2",
+                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/abstractcanvaspod\/inject(into:)",
+                    "title" : "func inject(into: JXValue) throws -> [JXProperty]",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/abstractcanvaspod\/jack(into:)",
+                    "title" : "func jack(into: JXValue) throws -> JXValue",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/abstractcanvaspod\/jackedobject-implementations",
+                "title" : "JackedObject Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/abstractcanvaspod\/objectwillchange-8xbhb",
+                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/abstractcanvaspod\/observableobject-implementations",
+                "title" : "ObservableObject Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/abstractcanvaspod",
+            "title" : "AbstractCanvasPod",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/capturingconsolepod\/metadata",
+                "title" : "var metadata: JackPodMetaData",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/capturingconsolepod\/objectwillchange-7id9i",
+                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/capturingconsolepod\/inject(into:)",
+                    "title" : "func inject(into: JXValue) throws -> [JXProperty]",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/capturingconsolepod\/jack(into:)",
+                    "title" : "func jack(into: JXValue) throws -> JXValue",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/capturingconsolepod\/jackedobject-implementations",
+                "title" : "JackedObject Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/capturingconsolepod\/objectwillchange-2568s",
+                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/capturingconsolepod\/observableobject-implementations",
+                "title" : "ObservableObject Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/capturingconsolepod",
+            "title" : "CapturingConsolePod",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/init(context:size:)",
+                "title" : "init(context: CGContext, size: CGSize)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/backgroundcolor",
+                "title" : "var backgroundColor: CGColor?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/fillstyle",
+                "title" : "var fillStyle: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/globalalpha",
+                "title" : "var globalAlpha: Double",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/globalcompositeoperation",
+                "title" : "var globalCompositeOperation: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/height",
+                "title" : "var height: Double",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/linecap",
+                "title" : "var lineCap: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/linedashoffset",
+                "title" : "var lineDashOffset: Double",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/linejoin",
+                "title" : "var lineJoin: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/linewidth",
+                "title" : "var lineWidth: Double",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/miterlimit",
+                "title" : "var miterLimit: Double",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/size",
+                "title" : "var size: CGSize",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/strokestyle",
+                "title" : "var strokeStyle: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/width",
+                "title" : "var width: Double",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/arc(x:y:radius:startangle:endangle:anticlockwise:)",
+                "title" : "func arc(x: Double, y: Double, radius: Double, startAngle: Double, endAngle: Double, anticlockwise: Bool)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/arcto(x1:y1:x2:y2:radius:)",
+                "title" : "func arcTo(x1: Double, y1: Double, x2: Double, y2: Double, radius: Double)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/beginpath()",
+                "title" : "func beginPath()",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/beziercurveto(cp1x:cp1y:cp2x:cp2y:x:y:)",
+                "title" : "func bezierCurveTo(cp1x: Double, cp1y: Double, cp2x: Double, cp2y: Double, x: Double, y: Double)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/clearrect(x:y:w:h:)",
+                "title" : "func clearRect(x: Double, y: Double, w: Double, h: Double)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/clip()",
+                "title" : "func clip()",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/closepath()",
+                "title" : "func closePath()",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/createconicgradient(startangle:x:y:)",
+                "title" : "func createConicGradient(startAngle: Double, x: Double, y: Double) -> CanvasGradientAPI?",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/createimagedata(width:height:)",
+                "title" : "func createImageData(width: Double, height: Double) -> ImageDataAPI?",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/createlineargradient(x0:y0:x1:y1:)",
+                "title" : "func createLinearGradient(x0: Double, y0: Double, x1: Double, y1: Double) -> CanvasGradientAPI?",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/createpattern(image:repetition:)",
+                "title" : "func createPattern(image: ImageDataAPI, repetition: String) -> CanvasPatternAPI?",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/createradialgradient(x0:y0:r0:x1:y1:r1:)",
+                "title" : "func createRadialGradient(x0: Double, y0: Double, r0: Double, x1: Double, y1: Double, r1: Double) -> CanvasGradientAPI?",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/drawfocusifneeded(path:element:)",
+                "title" : "func drawFocusIfNeeded(path: Any, element: Any)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/drawimage(image:dx:dy:dwidth:dheight:)",
+                "title" : "func drawImage(image: ImageDataAPI, dx: Double, dy: Double, dWidth: Double, dHeight: Double)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/ellipse(x:y:radiusx:radiusy:rotation:startangle:endangle:)",
+                "title" : "func ellipse(x: Double, y: Double, radiusX: Double, radiusY: Double, rotation: Double, startAngle: Double, endAngle: Double)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/fill()",
+                "title" : "func fill()",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/fillrect(x:y:w:h:)",
+                "title" : "func fillRect(x: Double, y: Double, w: Double, h: Double)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/filltext(text:x:y:maxwidth:)",
+                "title" : "func fillText(text: String, x: Double, y: Double, maxWidth: Double)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/getcontextattributes()",
+                "title" : "func getContextAttributes() -> CanvasRenderingContext2DSettingsAPI?",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/getimagedata(sx:sy:sw:sh:)",
+                "title" : "func getImageData(sx: Double, sy: Double, sw: Double, sh: Double) -> ImageDataAPI?",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/getlinedash()",
+                "title" : "func getLineDash() -> [Double]",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/gettransform()",
+                "title" : "func getTransform() -> DOMMatrixAPI?",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/ispointinpath(x:y:)",
+                "title" : "func isPointInPath(x: Double, y: Double) -> Bool",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/ispointinstroke(x:y:)",
+                "title" : "func isPointInStroke(x: Double, y: Double) -> Bool",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/lineto(x:y:)",
+                "title" : "func lineTo(x: Double, y: Double)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/measuretext(value:)",
+                "title" : "func measureText(value: String) -> AbstractCanvasPod.TextMetrics?",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/moveto(x:y:)",
+                "title" : "func moveTo(x: Double, y: Double)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/putimagedata(imagedata:dx:dy:)",
+                "title" : "func putImageData(imageData: ImageDataAPI, dx: Double, dy: Double)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/quadraticcurveto(cpx:cpy:x:y:)",
+                "title" : "func quadraticCurveTo(cpx: Double, cpy: Double, x: Double, y: Double)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/rect(x:y:w:h:)",
+                "title" : "func rect(x: Double, y: Double, w: Double, h: Double)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/restore()",
+                "title" : "func restore()",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/rotate(angle:)",
+                "title" : "func rotate(angle: Double)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/save()",
+                "title" : "func save()",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/scale(x:y:)",
+                "title" : "func scale(x: Double, y: Double)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/setlinedash(segments:)",
+                "title" : "func setLineDash(segments: [Double])",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/settransform(a:b:c:d:e:f:)",
+                "title" : "func setTransform(a: Double, b: Double, c: Double, d: Double, e: Double, f: Double)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/stroke()",
+                "title" : "func stroke()",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/strokerect(x:y:width:height:)",
+                "title" : "func strokeRect(x: Double, y: Double, width: Double, height: Double)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/stroketext(text:x:y:maxwidth:)",
+                "title" : "func strokeText(text: String, x: Double, y: Double, maxWidth: Double)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/transformx(a:b:c:d:e:f:)",
+                "title" : "func transformX(a: Double, b: Double, c: Double, d: Double, e: Double, f: Double)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/translate(x:y:)",
+                "title" : "func translate(x: Double, y: Double)",
+                "type" : "method"
+              },
+              {
+                "title" : "Type Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/coregraphicscanvaspod\/drawpdf(size:handler:)",
+                "title" : "static func drawPDF(size: CGSize, handler: (CoreGraphicsCanvasPod) throws -> ()) throws -> Data",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/coregraphicscanvaspod",
+            "title" : "CoreGraphicsCanvasPod",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/corelocationgeopod\/init(manager:)",
+                "title" : "init(manager: CLLocationManager)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/corelocationgeopod\/metadata",
+                "title" : "var metadata: JackPodMetaData",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/corelocationgeopod\/currentlocation()",
+                "title" : "func currentLocation() async throws -> Location",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/corelocationgeopod\/locationmanager(_:didupdatelocations:)",
+                "title" : "func locationManager(CLLocationManager, didUpdateLocations: [CLLocation])",
+                "type" : "method"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/corelocationgeopod\/objectwillchange-zdu8",
+                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/corelocationgeopod\/inject(into:)",
+                    "title" : "func inject(into: JXValue) throws -> [JXProperty]",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/corelocationgeopod\/jack(into:)",
+                    "title" : "func jack(into: JXValue) throws -> JXValue",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/corelocationgeopod\/jackedobject-implementations",
+                "title" : "JackedObject Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/corelocationgeopod\/objectwillchange-2rpv",
+                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/corelocationgeopod\/observableobject-implementations",
+                "title" : "ObservableObject Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/corelocationgeopod",
+            "title" : "CoreLocationGeoPod",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/filepod\/init(fm:)",
+                "title" : "init(fm: FileManager)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/filepod\/metadata",
+                "title" : "var metadata: JackPodMetaData",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/filepod\/objectwillchange-8vdul",
+                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/filepod\/inject(into:)",
+                    "title" : "func inject(into: JXValue) throws -> [JXProperty]",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/filepod\/jack(into:)",
+                    "title" : "func jack(into: JXValue) throws -> JXValue",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/filepod\/jackedobject-implementations",
+                "title" : "JackedObject Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/filepod\/objectwillchange-68qol",
+                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/filepod\/observableobject-implementations",
+                "title" : "ObservableObject Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/filepod",
+            "title" : "FilePod",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/keypod\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/keypod\/metadata",
+                "title" : "var metadata: JackPodMetaData",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/keypod\/unlock()",
+                "title" : "func unlock() async throws",
+                "type" : "method"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/keypod\/objectwillchange-5q3th",
+                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/keypod\/inject(into:)",
+                    "title" : "func inject(into: JXValue) throws -> [JXProperty]",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/keypod\/jack(into:)",
+                    "title" : "func jack(into: JXValue) throws -> JXValue",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/keypod\/jackedobject-implementations",
+                "title" : "JackedObject Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/keypod\/objectwillchange-pywe",
+                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/keypod\/observableobject-implementations",
+                "title" : "ObservableObject Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/keypod",
+            "title" : "KeyPod",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/netpod\/init(session:)",
+                "title" : "init(session: URLSession)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/netpod\/metadata",
+                "title" : "var metadata: JackPodMetaData",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/netpod\/objectwillchange-18t5z",
+                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/netpod\/inject(into:)",
+                    "title" : "func inject(into: JXValue) throws -> [JXProperty]",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/netpod\/jack(into:)",
+                    "title" : "func jack(into: JXValue) throws -> JXValue",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/netpod\/jackedobject-implementations",
+                "title" : "JackedObject Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/netpod\/objectwillchange-7v7sq",
+                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/netpod\/observableobject-implementations",
+                "title" : "ObservableObject Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/netpod",
+            "title" : "NetPod",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/oslogconsolepod\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/oslogconsolepod\/metadata",
+                "title" : "var metadata: JackPodMetaData",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/oslogconsolepod\/objectwillchange-5y0cr",
+                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/oslogconsolepod\/inject(into:)",
+                    "title" : "func inject(into: JXValue) throws -> [JXProperty]",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/oslogconsolepod\/jack(into:)",
+                    "title" : "func jack(into: JXValue) throws -> JXValue",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/oslogconsolepod\/jackedobject-implementations",
+                "title" : "JackedObject Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/oslogconsolepod\/objectwillchange-y58o",
+                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/oslogconsolepod\/observableobject-implementations",
+                "title" : "ObservableObject Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/oslogconsolepod",
+            "title" : "OSLogConsolePod",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/swiftuicanvaspod\/init(canvas:)",
+                "title" : "init(canvas: Canvas<Symbols>)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/swiftuicanvaspod\/metadata",
+                "title" : "var metadata: JackPodMetaData",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/swiftuicanvaspod\/objectwillchange-6jz05",
+                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/swiftuicanvaspod\/inject(into:)",
+                    "title" : "func inject(into: JXValue) throws -> [JXProperty]",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/swiftuicanvaspod\/jack(into:)",
+                    "title" : "func jack(into: JXValue) throws -> JXValue",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/swiftuicanvaspod\/jackedobject-implementations",
+                "title" : "JackedObject Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/swiftuicanvaspod\/objectwillchange-2wbaw",
+                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/swiftuicanvaspod\/observableobject-implementations",
+                "title" : "ObservableObject Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/swiftuicanvaspod",
+            "title" : "SwiftUICanvasPod",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/texttemplate\/fontconfig\/init(from:)",
+                    "title" : "init(from: Decoder) throws",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/texttemplate\/fontconfig\/size",
+                    "title" : "var size: Double?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/texttemplate\/fontconfig\/style",
+                    "title" : "var style: FontTemplate.TextStyle?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/texttemplate\/fontconfig\/weight",
+                    "title" : "var weight: FontTemplate.Weight?",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/texttemplate\/fontconfig\/fromjx(_:)",
+                        "title" : "static func fromJX(JXValue) throws -> Self",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/texttemplate\/fontconfig\/fromjxcodable(_:)",
+                        "title" : "static func fromJXCodable(JXValue) throws -> Self",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jackpot\/texttemplate\/fontconfig\/decodable-implementations",
+                    "title" : "Decodable Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/texttemplate\/fontconfig\/tojx(in:)",
+                        "title" : "func toJX(in: JXContext) throws -> JXValue",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/texttemplate\/fontconfig\/tojxcodable(in:)",
+                        "title" : "func toJXCodable(in: JXContext) throws -> JXValue",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jackpot\/texttemplate\/fontconfig\/encodable-implementations",
+                    "title" : "Encodable Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/texttemplate\/fontconfig",
+                "title" : "TextTemplate.FontConfig",
+                "type" : "struct"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/texttemplate\/anyview",
+                "title" : "var anyView: AnyView",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/texttemplate\/body",
+                "title" : "var body: Text",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/texttemplate\/config",
+                "title" : "var config: TextTemplate.FontConfig",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/texttemplate\/value",
+                "title" : "var value: String?",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/texttemplate\/buildtextview(_:)",
+                "title" : "func buildTextView(Text) -> some View",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/texttemplate",
+            "title" : "TextTemplate",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/themepod\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/themepod\/backgroundcolor",
+                "title" : "var backgroundColor: CSSColor?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/themepod\/metadata",
+                "title" : "var metadata: JackPodMetaData",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/themepod\/objectwillchange-942sw",
+                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/themepod\/inject(into:)",
+                    "title" : "func inject(into: JXValue) throws -> [JXProperty]",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/themepod\/jack(into:)",
+                    "title" : "func jack(into: JXValue) throws -> JXValue",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/themepod\/jackedobject-implementations",
+                "title" : "JackedObject Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/themepod\/objectwillchange-nwdl",
+                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/themepod\/observableobject-implementations",
+                "title" : "ObservableObject Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/themepod",
+            "title" : "ThemePod",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/timepod\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/timepod\/metadata",
+                "title" : "var metadata: JackPodMetaData",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/timepod\/sleep(duration:)",
+                "title" : "func sleep(duration: TimeInterval) async throws",
+                "type" : "method"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/timepod\/objectwillchange-4a0od",
+                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/timepod\/inject(into:)",
+                    "title" : "func inject(into: JXValue) throws -> [JXProperty]",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/timepod\/jack(into:)",
+                    "title" : "func jack(into: JXValue) throws -> JXValue",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/timepod\/jackedobject-implementations",
+                "title" : "JackedObject Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/timepod\/objectwillchange-6tm3c",
+                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/timepod\/observableobject-implementations",
+                "title" : "ObservableObject Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/timepod",
+            "title" : "TimePod",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/uipod\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/uipod\/metadata",
+                "title" : "var metadata: JackPodMetaData",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/uipod\/objectwillchange-l7re",
+                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/uipod\/inject(into:)",
+                    "title" : "func inject(into: JXValue) throws -> [JXProperty]",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/uipod\/jack(into:)",
+                    "title" : "func jack(into: JXValue) throws -> JXValue",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/uipod\/jackedobject-implementations",
+                "title" : "JackedObject Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/uipod\/objectwillchange-6gb4j",
+                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/uipod\/observableobject-implementations",
+                "title" : "ObservableObject Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/uipod",
+            "title" : "UIPod",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/init(from:)",
+                    "title" : "init(from: Decoder) throws",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/id",
+                    "title" : "var id: String?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/opacity",
+                    "title" : "var opacity: Double?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/padding",
+                    "title" : "var padding: CGFloat?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.property",
+                    "title" : "var transition: ViewTemplate.ViewConfig.Transition?",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Enumerations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Enumeration Cases",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/identity",
+                        "title" : "case identity",
+                        "type" : "case"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/opacity",
+                        "title" : "case opacity",
+                        "type" : "case"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/scale",
+                        "title" : "case scale",
+                        "type" : "case"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/slide",
+                        "title" : "case slide",
+                        "type" : "case"
+                      },
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/init(rawvalue:)",
+                        "title" : "init?(rawValue: String)",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/tojx(in:)",
+                        "title" : "func toJX(in: JXContext) throws -> JXValue",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/fromjx(_:)-v2et",
+                        "title" : "static func fromJX(JXValue) throws -> ViewTemplate.ViewConfig.Transition",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Default Implementations",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "children" : [
+                          {
+                            "title" : "Type Methods",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/fromjx(_:)-45emz",
+                            "title" : "static func fromJX(JXValue) throws -> Self",
+                            "type" : "method"
+                          },
+                          {
+                            "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/fromjxcodable(_:)",
+                            "title" : "static func fromJXCodable(JXValue) throws -> Self",
+                            "type" : "method"
+                          }
+                        ],
+                        "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/decodable-implementations",
+                        "title" : "Decodable Implementations",
+                        "type" : "symbol"
+                      },
+                      {
+                        "children" : [
+                          {
+                            "title" : "Instance Methods",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/tojxcodable(in:)",
+                            "title" : "func toJXCodable(in: JXContext) throws -> JXValue",
+                            "type" : "method"
+                          }
+                        ],
+                        "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/encodable-implementations",
+                        "title" : "Encodable Implementations",
+                        "type" : "symbol"
+                      },
+                      {
+                        "children" : [
+                          {
+                            "title" : "Operators",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/!=(_:_:)",
+                            "title" : "static func != (Self, Self) -> Bool",
+                            "type" : "op"
+                          }
+                        ],
+                        "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/equatable-implementations",
+                        "title" : "Equatable Implementations",
+                        "type" : "symbol"
+                      },
+                      {
+                        "children" : [
+                          {
+                            "title" : "Initializers",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/init(from:)",
+                            "title" : "init(from: Decoder) throws",
+                            "type" : "init"
+                          },
+                          {
+                            "title" : "Instance Properties",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/hashvalue",
+                            "title" : "var hashValue: Int",
+                            "type" : "property"
+                          },
+                          {
+                            "title" : "Instance Methods",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/encode(to:)",
+                            "title" : "func encode(to: Encoder) throws",
+                            "type" : "method"
+                          },
+                          {
+                            "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/hash(into:)",
+                            "title" : "func hash(into: inout Hasher)",
+                            "type" : "method"
+                          },
+                          {
+                            "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/tojxraw(in:)",
+                            "title" : "func toJXRaw(in: JXContext) throws -> JXValue",
+                            "type" : "method"
+                          },
+                          {
+                            "title" : "Type Methods",
+                            "type" : "groupMarker"
+                          },
+                          {
+                            "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/fromjx(_:)-2a1fp",
+                            "title" : "static func fromJX(JXValue) throws -> Self",
+                            "type" : "method"
+                          },
+                          {
+                            "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/fromjxraw(_:)",
+                            "title" : "static func fromJXRaw(JXValue) throws -> Self",
+                            "type" : "method"
+                          }
+                        ],
+                        "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/rawrepresentable-implementations",
+                        "title" : "RawRepresentable Implementations",
+                        "type" : "symbol"
+                      }
+                    ],
+                    "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum",
+                    "title" : "ViewTemplate.ViewConfig.Transition",
+                    "type" : "enum"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/fromjx(_:)",
+                        "title" : "static func fromJX(JXValue) throws -> Self",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/fromjxcodable(_:)",
+                        "title" : "static func fromJXCodable(JXValue) throws -> Self",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/decodable-implementations",
+                    "title" : "Decodable Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/tojx(in:)",
+                        "title" : "func toJX(in: JXContext) throws -> JXValue",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/tojxcodable(in:)",
+                        "title" : "func toJXCodable(in: JXContext) throws -> JXValue",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/encodable-implementations",
+                    "title" : "Encodable Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/viewtemplate\/viewconfig",
+                "title" : "ViewTemplate.ViewConfig",
+                "type" : "struct"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/viewtemplate\/anyview",
+                "title" : "var anyView: AnyView",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/viewtemplate\/childviews",
+                "title" : "var childViews: [JackedView]?",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/viewtemplate",
+            "title" : "ViewTemplate",
+            "type" : "class"
+          },
+          {
+            "title" : "Protocols",
+            "type" : "groupMarker"
+          },
+          {
+            "path" : "\/documentation\/jackpot\/canvaspod",
+            "title" : "CanvasPod",
+            "type" : "protocol"
+          },
+          {
+            "path" : "\/documentation\/jackpot\/consolepod",
+            "title" : "ConsolePod",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/geopod\/currentlocation()",
+                "title" : "func currentLocation() async throws -> Location",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/geopod",
+            "title" : "GeoPod",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/jackedview\/anyview",
+                "title" : "var anyView: AnyView",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/jackedview\/childviews",
+                "title" : "var childViews: [JackedView]?",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/jackedview",
+            "title" : "JackedView",
+            "type" : "protocol"
+          },
+          {
+            "title" : "Structures",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/init(name:color:)",
+                    "title" : "init(name: String, color: CSSColor.RGBColor)",
+                    "type" : "init"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/init(rawvalue:)",
+                    "title" : "init?(rawValue: String)",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/color",
+                    "title" : "var color: CSSColor.RGBColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/description",
+                    "title" : "var description: String",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/name",
+                    "title" : "var name: String",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/rawvalue",
+                    "title" : "var rawValue: String",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/aliceblue",
+                    "title" : "static let aliceblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/allcases",
+                    "title" : "static var allCases: [CSSColor.NamedColor]",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/antiquewhite",
+                    "title" : "static let antiquewhite: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/aqua",
+                    "title" : "static let aqua: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/aquamarine",
+                    "title" : "static let aquamarine: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/azure",
+                    "title" : "static let azure: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/beige",
+                    "title" : "static let beige: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/bisque",
+                    "title" : "static let bisque: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/black",
+                    "title" : "static let black: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/blanchedalmond",
+                    "title" : "static let blanchedalmond: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/blue",
+                    "title" : "static let blue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/blueviolet",
+                    "title" : "static let blueviolet: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/brown",
+                    "title" : "static let brown: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/burlywood",
+                    "title" : "static let burlywood: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/cadetblue",
+                    "title" : "static let cadetblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/chartreuse",
+                    "title" : "static let chartreuse: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/chocolate",
+                    "title" : "static let chocolate: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/coral",
+                    "title" : "static let coral: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/cornflowerblue",
+                    "title" : "static let cornflowerblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/cornsilk",
+                    "title" : "static let cornsilk: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/crimson",
+                    "title" : "static let crimson: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/cyan",
+                    "title" : "static let cyan: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/darkblue",
+                    "title" : "static let darkblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/darkcyan",
+                    "title" : "static let darkcyan: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/darkgoldenrod",
+                    "title" : "static let darkgoldenrod: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/darkgray",
+                    "title" : "static let darkgray: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/darkgreen",
+                    "title" : "static let darkgreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/darkgrey",
+                    "title" : "static let darkgrey: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/darkkhaki",
+                    "title" : "static let darkkhaki: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/darkmagenta",
+                    "title" : "static let darkmagenta: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/darkolivegreen",
+                    "title" : "static let darkolivegreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/darkorange",
+                    "title" : "static let darkorange: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/darkorchid",
+                    "title" : "static let darkorchid: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/darkred",
+                    "title" : "static let darkred: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/darksalmon",
+                    "title" : "static let darksalmon: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/darkseagreen",
+                    "title" : "static let darkseagreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/darkslateblue",
+                    "title" : "static let darkslateblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/darkslategray",
+                    "title" : "static let darkslategray: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/darkslategrey",
+                    "title" : "static let darkslategrey: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/darkturquoise",
+                    "title" : "static let darkturquoise: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/darkviolet",
+                    "title" : "static let darkviolet: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/deeppink",
+                    "title" : "static let deeppink: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/deepskyblue",
+                    "title" : "static let deepskyblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/dimgray",
+                    "title" : "static let dimgray: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/dimgrey",
+                    "title" : "static let dimgrey: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/dodgerblue",
+                    "title" : "static let dodgerblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/firebrick",
+                    "title" : "static let firebrick: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/floralwhite",
+                    "title" : "static let floralwhite: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/forestgreen",
+                    "title" : "static let forestgreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/fuchsia",
+                    "title" : "static let fuchsia: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/gainsboro",
+                    "title" : "static let gainsboro: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/ghostwhite",
+                    "title" : "static let ghostwhite: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/gold",
+                    "title" : "static let gold: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/goldenrod",
+                    "title" : "static let goldenrod: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/gray",
+                    "title" : "static let gray: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/green",
+                    "title" : "static let green: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/greenyellow",
+                    "title" : "static let greenyellow: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/grey",
+                    "title" : "static let grey: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/honeydew",
+                    "title" : "static let honeydew: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/hotpink",
+                    "title" : "static let hotpink: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/indianred",
+                    "title" : "static let indianred: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/indigo",
+                    "title" : "static let indigo: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/ivory",
+                    "title" : "static let ivory: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/khaki",
+                    "title" : "static let khaki: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/lavender",
+                    "title" : "static let lavender: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/lavenderblush",
+                    "title" : "static let lavenderblush: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/lawngreen",
+                    "title" : "static let lawngreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/lemonchiffon",
+                    "title" : "static let lemonchiffon: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/lightblue",
+                    "title" : "static let lightblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/lightcoral",
+                    "title" : "static let lightcoral: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/lightcyan",
+                    "title" : "static let lightcyan: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/lightgoldenrodyellow",
+                    "title" : "static let lightgoldenrodyellow: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/lightgray",
+                    "title" : "static let lightgray: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/lightgreen",
+                    "title" : "static let lightgreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/lightgrey",
+                    "title" : "static let lightgrey: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/lightpink",
+                    "title" : "static let lightpink: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/lightsalmon",
+                    "title" : "static let lightsalmon: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/lightseagreen",
+                    "title" : "static let lightseagreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/lightskyblue",
+                    "title" : "static let lightskyblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/lightslategray",
+                    "title" : "static let lightslategray: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/lightslategrey",
+                    "title" : "static let lightslategrey: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/lightsteelblue",
+                    "title" : "static let lightsteelblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/lightyellow",
+                    "title" : "static let lightyellow: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/lime",
+                    "title" : "static let lime: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/limegreen",
+                    "title" : "static let limegreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/linen",
+                    "title" : "static let linen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/magenta",
+                    "title" : "static let magenta: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/maroon",
+                    "title" : "static let maroon: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/mediumaquamarine",
+                    "title" : "static let mediumaquamarine: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/mediumblue",
+                    "title" : "static let mediumblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/mediumorchid",
+                    "title" : "static let mediumorchid: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/mediumpurple",
+                    "title" : "static let mediumpurple: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/mediumseagreen",
+                    "title" : "static let mediumseagreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/mediumslateblue",
+                    "title" : "static let mediumslateblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/mediumspringgreen",
+                    "title" : "static let mediumspringgreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/mediumturquoise",
+                    "title" : "static let mediumturquoise: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/mediumvioletred",
+                    "title" : "static let mediumvioletred: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/midnightblue",
+                    "title" : "static let midnightblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/mintcream",
+                    "title" : "static let mintcream: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/mistyrose",
+                    "title" : "static let mistyrose: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/moccasin",
+                    "title" : "static let moccasin: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/navajowhite",
+                    "title" : "static let navajowhite: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/navy",
+                    "title" : "static let navy: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/oldlace",
+                    "title" : "static let oldlace: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/olive",
+                    "title" : "static let olive: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/olivedrab",
+                    "title" : "static let olivedrab: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/orange",
+                    "title" : "static let orange: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/orangered",
+                    "title" : "static let orangered: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/orchid",
+                    "title" : "static let orchid: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/palegoldenrod",
+                    "title" : "static let palegoldenrod: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/palegreen",
+                    "title" : "static let palegreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/paleturquoise",
+                    "title" : "static let paleturquoise: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/palevioletred",
+                    "title" : "static let palevioletred: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/papayawhip",
+                    "title" : "static let papayawhip: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/peachpuff",
+                    "title" : "static let peachpuff: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/peru",
+                    "title" : "static let peru: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/pink",
+                    "title" : "static let pink: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/plum",
+                    "title" : "static let plum: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/powderblue",
+                    "title" : "static let powderblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/purple",
+                    "title" : "static let purple: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/red",
+                    "title" : "static let red: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/rosybrown",
+                    "title" : "static let rosybrown: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/royalblue",
+                    "title" : "static let royalblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/saddlebrown",
+                    "title" : "static let saddlebrown: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/salmon",
+                    "title" : "static let salmon: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/sandybrown",
+                    "title" : "static let sandybrown: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/seagreen",
+                    "title" : "static let seagreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/seashell",
+                    "title" : "static let seashell: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/sienna",
+                    "title" : "static let sienna: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/silver",
+                    "title" : "static let silver: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/skyblue",
+                    "title" : "static let skyblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/slateblue",
+                    "title" : "static let slateblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/slategray",
+                    "title" : "static let slategray: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/slategrey",
+                    "title" : "static let slategrey: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/snow",
+                    "title" : "static let snow: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/springgreen",
+                    "title" : "static let springgreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/steelblue",
+                    "title" : "static let steelblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/tan",
+                    "title" : "static let tan: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/teal",
+                    "title" : "static let teal: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/thistle",
+                    "title" : "static let thistle: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/tomato",
+                    "title" : "static let tomato: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/transparent",
+                    "title" : "static let transparent: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/turquoise",
+                    "title" : "static let turquoise: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/violet",
+                    "title" : "static let violet: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/wheat",
+                    "title" : "static let wheat: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/white",
+                    "title" : "static let white: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/whitesmoke",
+                    "title" : "static let whitesmoke: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/yellow",
+                    "title" : "static let yellow: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/yellowgreen",
+                    "title" : "static let yellowgreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/!=(_:_:)",
+                        "title" : "static func != (Self, Self) -> Bool",
+                        "type" : "op"
+                      }
+                    ],
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/equatable-implementations",
+                    "title" : "Equatable Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/init(from:)",
+                        "title" : "init(from: Decoder) throws",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/hashvalue",
+                        "title" : "var hashValue: Int",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/encode(to:)",
+                        "title" : "func encode(to: Encoder) throws",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/hash(into:)",
+                        "title" : "func hash(into: inout Hasher)",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/tojx(in:)",
+                        "title" : "func toJX(in: JXContext) throws -> JXValue",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/tojxraw(in:)",
+                        "title" : "func toJXRaw(in: JXContext) throws -> JXValue",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/fromjx(_:)",
+                        "title" : "static func fromJX(JXValue) throws -> Self",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/fromjxraw(_:)",
+                        "title" : "static func fromJXRaw(JXValue) throws -> Self",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jackpot\/csscolor\/namedcolor\/rawrepresentable-implementations",
+                    "title" : "RawRepresentable Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/csscolor\/namedcolor",
+                "title" : "CSSColor.NamedColor",
+                "type" : "struct"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/rgbcolor\/init(from:)",
+                    "title" : "init(from: Decoder) throws",
+                    "type" : "init"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/rgbcolor\/init(integerliteral:)",
+                    "title" : "init(integerLiteral: IntegerLiteralType)",
+                    "type" : "init"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/rgbcolor\/init(r:g:b:a:)",
+                    "title" : "init(r: Double, g: Double, b: Double, a: Double?)",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/rgbcolor\/a",
+                    "title" : "var a: Double?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/rgbcolor\/b",
+                    "title" : "var b: Double",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/rgbcolor\/description",
+                    "title" : "var description: String",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/rgbcolor\/g",
+                    "title" : "var g: Double",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/rgbcolor\/nativecolor",
+                    "title" : "var nativeColor: CIColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/rgbcolor\/r",
+                    "title" : "var r: Double",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/rgbcolor\/parsecolor(css:)",
+                    "title" : "static func parseColor(css: String) throws -> CSSColor.RGBColor",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/rgbcolor\/parsehexcolor(css:)",
+                    "title" : "static func parseHexColor(css: String) throws -> CSSColor.RGBColor",
+                    "type" : "method"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/csscolor\/rgbcolor\/!=(_:_:)",
+                        "title" : "static func != (Self, Self) -> Bool",
+                        "type" : "op"
+                      }
+                    ],
+                    "path" : "\/documentation\/jackpot\/csscolor\/rgbcolor\/equatable-implementations",
+                    "title" : "Equatable Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/csscolor\/rgbcolor",
+                "title" : "CSSColor.RGBColor",
+                "type" : "struct"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/csscolor\/init(from:)",
+                "title" : "init(from: Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/csscolor\/init(name:)",
+                "title" : "init(name: CSSColor.NamedColor)",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/csscolor\/init(nativecolor:)",
+                "title" : "init(nativeColor: CIColor)",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/csscolor\/init(rgb:)",
+                "title" : "init(rgb: CSSColor.RGBColor)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/csscolor\/description",
+                "title" : "var description: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/csscolor\/nativecolor",
+                "title" : "var nativeColor: CIColor",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/csscolor\/rep",
+                "title" : "var rep: CSSColor.ColorRepresentation",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/csscolor\/encode(to:)",
+                "title" : "func encode(to: Encoder) throws",
+                "type" : "method"
+              },
+              {
+                "title" : "Enumerations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Enumeration Cases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/colorerror\/hexstringinvalid(string:)",
+                    "title" : "case hexStringInvalid(string: String)",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/colorerror\/hexstringmissingpercent",
+                    "title" : "case hexStringMissingPercent",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/colorerror\/parseerrors(errors:)",
+                    "title" : "case parseErrors(errors: [Error])",
+                    "type" : "case"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/csscolor\/colorerror\/localizeddescription",
+                        "title" : "var localizedDescription: String",
+                        "type" : "property"
+                      }
+                    ],
+                    "path" : "\/documentation\/jackpot\/csscolor\/colorerror\/error-implementations",
+                    "title" : "Error Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/csscolor\/colorerror",
+                "title" : "CSSColor.ColorError",
+                "type" : "enum"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Enumeration Cases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/colorrepresentation\/name(_:)",
+                    "title" : "case name(CSSColor.NamedColor)",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/colorrepresentation\/rgb(_:)",
+                    "title" : "case rgb(CSSColor.RGBColor)",
+                    "type" : "case"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/colorrepresentation\/description",
+                    "title" : "var description: String",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/csscolor\/colorrepresentation\/!=(_:_:)",
+                        "title" : "static func != (Self, Self) -> Bool",
+                        "type" : "op"
+                      }
+                    ],
+                    "path" : "\/documentation\/jackpot\/csscolor\/colorrepresentation\/equatable-implementations",
+                    "title" : "Equatable Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/csscolor\/colorrepresentation",
+                "title" : "CSSColor.ColorRepresentation",
+                "type" : "enum"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/fromjx(_:)",
+                    "title" : "static func fromJX(JXValue) throws -> Self",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/fromjxcodable(_:)",
+                    "title" : "static func fromJXCodable(JXValue) throws -> Self",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/csscolor\/decodable-implementations",
+                "title" : "Decodable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/tojx(in:)",
+                    "title" : "func toJX(in: JXContext) throws -> JXValue",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/tojxcodable(in:)",
+                    "title" : "func toJXCodable(in: JXContext) throws -> JXValue",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/csscolor\/encodable-implementations",
+                "title" : "Encodable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/csscolor\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/csscolor\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/csscolor",
+            "title" : "CSSColor",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/canvasgradientapi\/init(from:)",
+                "title" : "init(from: Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/canvasgradientapi\/fromjx(_:)",
+                    "title" : "static func fromJX(JXValue) throws -> Self",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/canvasgradientapi\/fromjxcodable(_:)",
+                    "title" : "static func fromJXCodable(JXValue) throws -> Self",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/canvasgradientapi\/decodable-implementations",
+                "title" : "Decodable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/canvasgradientapi\/tojx(in:)",
+                    "title" : "func toJX(in: JXContext) throws -> JXValue",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/canvasgradientapi\/tojxcodable(in:)",
+                    "title" : "func toJXCodable(in: JXContext) throws -> JXValue",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/canvasgradientapi\/encodable-implementations",
+                "title" : "Encodable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/canvasgradientapi",
+            "title" : "CanvasGradientAPI",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/canvaspatternapi\/init(from:)",
+                "title" : "init(from: Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/canvaspatternapi\/fromjx(_:)",
+                    "title" : "static func fromJX(JXValue) throws -> Self",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/canvaspatternapi\/fromjxcodable(_:)",
+                    "title" : "static func fromJXCodable(JXValue) throws -> Self",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/canvaspatternapi\/decodable-implementations",
+                "title" : "Decodable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/canvaspatternapi\/tojx(in:)",
+                    "title" : "func toJX(in: JXContext) throws -> JXValue",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/canvaspatternapi\/tojxcodable(in:)",
+                    "title" : "func toJXCodable(in: JXContext) throws -> JXValue",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/canvaspatternapi\/encodable-implementations",
+                "title" : "Encodable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/canvaspatternapi",
+            "title" : "CanvasPatternAPI",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/canvasrenderingcontext2dsettingsapi\/init(from:)",
+                "title" : "init(from: Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/canvasrenderingcontext2dsettingsapi\/fromjx(_:)",
+                    "title" : "static func fromJX(JXValue) throws -> Self",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/canvasrenderingcontext2dsettingsapi\/fromjxcodable(_:)",
+                    "title" : "static func fromJXCodable(JXValue) throws -> Self",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/canvasrenderingcontext2dsettingsapi\/decodable-implementations",
+                "title" : "Decodable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/canvasrenderingcontext2dsettingsapi\/tojx(in:)",
+                    "title" : "func toJX(in: JXContext) throws -> JXValue",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/canvasrenderingcontext2dsettingsapi\/tojxcodable(in:)",
+                    "title" : "func toJXCodable(in: JXContext) throws -> JXValue",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/canvasrenderingcontext2dsettingsapi\/encodable-implementations",
+                "title" : "Encodable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/canvasrenderingcontext2dsettingsapi",
+            "title" : "CanvasRenderingContext2DSettingsAPI",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/dommatrixapi\/init(from:)",
+                "title" : "init(from: Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/dommatrixapi\/fromjx(_:)",
+                    "title" : "static func fromJX(JXValue) throws -> Self",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/dommatrixapi\/fromjxcodable(_:)",
+                    "title" : "static func fromJXCodable(JXValue) throws -> Self",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/dommatrixapi\/decodable-implementations",
+                "title" : "Decodable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/dommatrixapi\/tojx(in:)",
+                    "title" : "func toJX(in: JXContext) throws -> JXValue",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/dommatrixapi\/tojxcodable(in:)",
+                    "title" : "func toJXCodable(in: JXContext) throws -> JXValue",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/dommatrixapi\/encodable-implementations",
+                "title" : "Encodable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/dommatrixapi",
+            "title" : "DOMMatrixAPI",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/imagedataapi\/init(from:)",
+                "title" : "init(from: Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/imagedataapi\/fromjx(_:)",
+                    "title" : "static func fromJX(JXValue) throws -> Self",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/imagedataapi\/fromjxcodable(_:)",
+                    "title" : "static func fromJXCodable(JXValue) throws -> Self",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/imagedataapi\/decodable-implementations",
+                "title" : "Decodable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/imagedataapi\/tojx(in:)",
+                    "title" : "func toJX(in: JXContext) throws -> JXValue",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/imagedataapi\/tojxcodable(in:)",
+                    "title" : "func toJXCodable(in: JXContext) throws -> JXValue",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/imagedataapi\/encodable-implementations",
+                "title" : "Encodable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/imagedataapi",
+            "title" : "ImageDataAPI",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/jackpot\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/jackpot\/text",
+                "title" : "var text: String",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/jackpot",
+            "title" : "JackPot",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/location\/init(from:)",
+                "title" : "init(from: Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/location\/altitude",
+                "title" : "var altitude: Double",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/location\/latitude",
+                "title" : "var latitude: Double",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/location\/longitude",
+                "title" : "var longitude: Double",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/location\/fromjx(_:)",
+                    "title" : "static func fromJX(JXValue) throws -> Self",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/location\/fromjxcodable(_:)",
+                    "title" : "static func fromJXCodable(JXValue) throws -> Self",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/location\/decodable-implementations",
+                "title" : "Decodable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/location\/tojx(in:)",
+                    "title" : "func toJX(in: JXContext) throws -> JXValue",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/location\/tojxcodable(in:)",
+                    "title" : "func toJXCodable(in: JXContext) throws -> JXValue",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/location\/encodable-implementations",
+                "title" : "Encodable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/location\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/location\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/location",
+            "title" : "Location",
+            "type" : "struct"
+          },
+          {
+            "title" : "Enumerations",
+            "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Enumerations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Enumeration Cases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/body",
+                    "title" : "case body",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/callout",
+                    "title" : "case callout",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/caption",
+                    "title" : "case caption",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/caption2",
+                    "title" : "case caption2",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/footnote",
+                    "title" : "case footnote",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/headline",
+                    "title" : "case headline",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/largetitle",
+                    "title" : "case largeTitle",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/subheadline",
+                    "title" : "case subheadline",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/title",
+                    "title" : "case title",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/title2",
+                    "title" : "case title2",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/title3",
+                    "title" : "case title3",
+                    "type" : "case"
+                  },
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/init(rawvalue:)",
+                    "title" : "init?(rawValue: String)",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/tojx(in:)",
+                    "title" : "func toJX(in: JXContext) throws -> JXValue",
+                    "type" : "method"
+                  },
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/fromjx(_:)-68et0",
+                    "title" : "static func fromJX(JXValue) throws -> FontTemplate.TextStyle",
+                    "type" : "method"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/fromjx(_:)-48ij8",
+                        "title" : "static func fromJX(JXValue) throws -> Self",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/fromjxcodable(_:)",
+                        "title" : "static func fromJXCodable(JXValue) throws -> Self",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/decodable-implementations",
+                    "title" : "Decodable Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/tojxcodable(in:)",
+                        "title" : "func toJXCodable(in: JXContext) throws -> JXValue",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/encodable-implementations",
+                    "title" : "Encodable Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/!=(_:_:)",
+                        "title" : "static func != (Self, Self) -> Bool",
+                        "type" : "op"
+                      }
+                    ],
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/equatable-implementations",
+                    "title" : "Equatable Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/init(from:)",
+                        "title" : "init(from: Decoder) throws",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/hashvalue",
+                        "title" : "var hashValue: Int",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/encode(to:)",
+                        "title" : "func encode(to: Encoder) throws",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/hash(into:)",
+                        "title" : "func hash(into: inout Hasher)",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/tojxraw(in:)",
+                        "title" : "func toJXRaw(in: JXContext) throws -> JXValue",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/fromjx(_:)-9qiag",
+                        "title" : "static func fromJX(JXValue) throws -> Self",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/fromjxraw(_:)",
+                        "title" : "static func fromJXRaw(JXValue) throws -> Self",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle\/rawrepresentable-implementations",
+                    "title" : "RawRepresentable Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/fonttemplate\/textstyle",
+                "title" : "FontTemplate.TextStyle",
+                "type" : "enum"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Enumeration Cases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/black",
+                    "title" : "case black",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/bold",
+                    "title" : "case bold",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/heavy",
+                    "title" : "case heavy",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/light",
+                    "title" : "case light",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/medium",
+                    "title" : "case medium",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/regular",
+                    "title" : "case regular",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/semibold",
+                    "title" : "case semibold",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/thin",
+                    "title" : "case thin",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/ultralight",
+                    "title" : "case ultraLight",
+                    "type" : "case"
+                  },
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/init(rawvalue:)",
+                    "title" : "init?(rawValue: String)",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/tojx(in:)",
+                    "title" : "func toJX(in: JXContext) throws -> JXValue",
+                    "type" : "method"
+                  },
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/fromjx(_:)-1n5hu",
+                    "title" : "static func fromJX(JXValue) throws -> FontTemplate.Weight",
+                    "type" : "method"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/fromjx(_:)-3cnkg",
+                        "title" : "static func fromJX(JXValue) throws -> Self",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/fromjxcodable(_:)",
+                        "title" : "static func fromJXCodable(JXValue) throws -> Self",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/decodable-implementations",
+                    "title" : "Decodable Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/tojxcodable(in:)",
+                        "title" : "func toJXCodable(in: JXContext) throws -> JXValue",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/encodable-implementations",
+                    "title" : "Encodable Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/!=(_:_:)",
+                        "title" : "static func != (Self, Self) -> Bool",
+                        "type" : "op"
+                      }
+                    ],
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/equatable-implementations",
+                    "title" : "Equatable Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/init(from:)",
+                        "title" : "init(from: Decoder) throws",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/hashvalue",
+                        "title" : "var hashValue: Int",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/encode(to:)",
+                        "title" : "func encode(to: Encoder) throws",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/hash(into:)",
+                        "title" : "func hash(into: inout Hasher)",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/tojxraw(in:)",
+                        "title" : "func toJXRaw(in: JXContext) throws -> JXValue",
+                        "type" : "method"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/fromjx(_:)-lbf1",
+                        "title" : "static func fromJX(JXValue) throws -> Self",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/fromjxraw(_:)",
+                        "title" : "static func fromJXRaw(JXValue) throws -> Self",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jackpot\/fonttemplate\/weight\/rawrepresentable-implementations",
+                    "title" : "RawRepresentable Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/fonttemplate\/weight",
+                "title" : "FontTemplate.Weight",
+                "type" : "enum"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/fonttemplate",
+            "title" : "FontTemplate",
+            "type" : "enum"
+          }
+        ],
+        "path" : "\/documentation\/jackpot",
+        "title" : "JackPot",
+        "type" : "module"
+      }
+    ]
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 1,
+    "patch" : 0
+  }
+}

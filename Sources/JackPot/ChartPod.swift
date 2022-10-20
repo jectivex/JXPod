@@ -50,7 +50,7 @@ open class ChartBuilder : JackedReference, JackedChart {
         return self
     }
 
-    public struct ChartConfig : Codable, Jackable {
+    public struct ChartConfig : Codable, JXConvertible {
         /// The opacity of the chart element
         public var opacity: Double?
 

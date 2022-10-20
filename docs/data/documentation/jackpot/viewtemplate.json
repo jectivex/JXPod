@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "No overview available.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -81,7 +75,7 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
-
+        "doc:\/\/JackPot\/4Jack15JackedReferenceC"
       ],
       "kind" : "relationships",
       "title" : "Inherits From",
@@ -110,7 +104,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -122,12 +116,6 @@
         "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig"
       ],
       "title" : "Structures"
-    },
-    {
-      "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/init()"
-      ],
-      "title" : "Initializers"
     },
     {
       "identifiers" : [
@@ -159,6 +147,11 @@
 "doc://JackPot/4Jack12JackedObjectP": {
   "identifier" : "doc:\/\/JackPot\/4Jack12JackedObjectP",
   "title" : "Jack.JackedObject",
+  "type" : "unresolvable"
+},
+"doc://JackPot/4Jack15JackedReferenceC": {
+  "identifier" : "doc:\/\/JackPot\/4Jack15JackedReferenceC",
+  "title" : "Jack.JackedReference",
   "type" : "unresolvable"
 },
 "doc://JackPot/5JXKit13JXConvertibleP": {
@@ -377,27 +370,6 @@
   "title" : "childViews",
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/viewtemplate\/childviews"
-},
-"doc://JackPot/documentation/JackPot/ViewTemplate/init()": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "init"
-    },
-    {
-      "kind" : "text",
-      "text" : "()"
-    }
-  ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/init()",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "init()",
-  "type" : "topic",
-  "url" : "\/documentation\/jackpot\/viewtemplate\/init()"
 }
 }
 }

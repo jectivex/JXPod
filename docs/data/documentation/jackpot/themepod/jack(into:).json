@@ -1,19 +1,11 @@
 {
   "abstract" : [
     {
-      "text" : "Jack into the given context, exposing all this instance’s ",
+      "text" : "Inherited from ",
       "type" : "text"
     },
     {
-      "code" : "@Stack",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " properties into the given ",
-      "type" : "text"
-    },
-    {
-      "code" : "JXContext",
+      "code" : "JackedObject.jack(into:)",
       "type" : "codeVoice"
     },
     {
@@ -173,64 +165,11 @@
         }
       ],
       "kind" : "declarations"
-    },
-    {
-      "content" : [
-        {
-          "anchor" : "return-value",
-          "level" : 2,
-          "text" : "Return Value",
-          "type" : "heading"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "the instance that was jacked into the context",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        }
-      ],
-      "kind" : "content"
-    },
-    {
-      "kind" : "parameters",
-      "parameters" : [
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "the context to jack into; will create a new context if needed",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "context"
-        },
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "a key to use to create an object for the key",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "key"
-        }
-      ]
     }
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -305,26 +244,7 @@
 },
 "doc://JackPot/documentation/JackPot/ThemePod/jack(into:)": {
   "abstract" : [
-    {
-      "text" : "Jack into the given context, exposing all this instance’s ",
-      "type" : "text"
-    },
-    {
-      "code" : "@Stack",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " properties into the given ",
-      "type" : "text"
-    },
-    {
-      "code" : "JXContext",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

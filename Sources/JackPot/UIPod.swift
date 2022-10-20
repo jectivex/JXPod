@@ -303,7 +303,7 @@ open class ViewTemplate : JackedReference, JackedView {
         return self
     }
 
-    public struct ViewConfig : Codable, Jackable {
+    public struct ViewConfig : Codable, JXConvertible {
         /// The identifier of the view
         public var id: String? // TODO: allow other Codables, list enums and numbers
         /// The opacity of the view, from 0.0–1.0
@@ -363,8 +363,8 @@ open class ViewTemplate : JackedReference, JackedView {
             }
 
             // Both Codable and RawRepresentable implement JXConvertible, so we need to manually dis-ambiguate
-            public static func fromJX(_ value: JXValue) throws -> Self { try makeJXRaw(from: value) }
-            public func toJX(in context: JXContext) throws -> JXValue { try getJXRaw(from: context) }
+            public static func fromJX(_ value: JXValue) throws -> Self { try fromJXRaw(value) }
+            public func toJX(in context: JXContext) throws -> JXValue { try toJXRaw(in: context) }
         }
 
     }
@@ -443,7 +443,7 @@ open class TextTemplate : ViewTemplate {
         assigning(\.config.weight, to: weight)
     }
 
-    public struct FontConfig : Codable, Jackable {
+    public struct FontConfig : Codable, JXConvertible {
         public var size: Double?
         public var weight: FontTemplate.Weight?
         public var style: FontTemplate.TextStyle?
@@ -479,8 +479,8 @@ public enum FontTemplate {
         }
 
         // Both Codable and RawRepresentable implement JXConvertible, so we need to manually dis-ambiguate
-        public static func fromJX(_ value: JXValue) throws -> Self { try makeJXRaw(from: value) }
-        public func toJX(in context: JXContext) throws -> JXValue { try getJXRaw(from: context) }
+        public static func fromJX(_ value: JXValue) throws -> Self { try fromJXRaw(value) }
+        public func toJX(in context: JXContext) throws -> JXValue { try toJXRaw(in: context) }
     }
 
     /// Analogue to `SwiftUI.Font.TextStyle` as a string enum so automatic Jack bridging magic can happen
@@ -514,8 +514,8 @@ public enum FontTemplate {
         }
 
         // Both Codable and RawRepresentable implement JXConvertible, so we need to manually dis-ambiguate
-        public static func fromJX(_ value: JXValue) throws -> Self { try makeJXRaw(from: value) }
-        public func toJX(in context: JXContext) throws -> JXValue { try getJXRaw(from: context) }
+        public static func fromJX(_ value: JXValue) throws -> Self { try fromJXRaw(value) }
+        public func toJX(in context: JXContext) throws -> JXValue { try toJXRaw(in: context) }
     }
 }
 

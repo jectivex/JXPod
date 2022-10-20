@@ -1,43 +1,11 @@
 {
   "abstract" : [
     {
-      "text" : "Inject all this instance’s ",
+      "text" : "Inherited from ",
       "type" : "text"
     },
     {
-      "code" : "@Stack",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " and ",
-      "type" : "text"
-    },
-    {
-      "code" : "@Jack",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " properties into the JXValue object.",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "The resuling object will have properties created for each of the corresponding property",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "wrappers in the ",
-      "type" : "text"
-    },
-    {
-      "code" : "JackedObject",
+      "code" : "JackedObject.inject(into:)",
       "type" : "codeVoice"
     },
     {
@@ -205,44 +173,11 @@
         }
       ],
       "kind" : "declarations"
-    },
-    {
-      "kind" : "parameters",
-      "parameters" : [
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "the context to jack into; will create a new context if needed",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "into context"
-        },
-        {
-          "content" : [
-            {
-              "inlineContent" : [
-                {
-                  "text" : "the JXObject to inject into",
-                  "type" : "text"
-                }
-              ],
-              "type" : "paragraph"
-            }
-          ],
-          "name" : "for object"
-        }
-      ]
     }
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -317,50 +252,7 @@
 },
 "doc://JackPot/documentation/JackPot/NetPod/inject(into:)": {
   "abstract" : [
-    {
-      "text" : "Inject all this instance’s ",
-      "type" : "text"
-    },
-    {
-      "code" : "@Stack",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " and ",
-      "type" : "text"
-    },
-    {
-      "code" : "@Jack",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " properties into the JXValue object.",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "The resuling object will have properties created for each of the corresponding property",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "wrappers in the ",
-      "type" : "text"
-    },
-    {
-      "code" : "JackedObject",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

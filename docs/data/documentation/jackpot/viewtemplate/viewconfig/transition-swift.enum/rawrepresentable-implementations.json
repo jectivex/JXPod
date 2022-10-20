@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "No overview available.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -31,7 +25,7 @@
   },
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -56,16 +50,16 @@
       "generated" : true,
       "identifiers" : [
         "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/encode(to:)",
-        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/getJXRaw(from:)",
-        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/hash(into:)"
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/hash(into:)",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/toJXRaw(in:)"
       ],
       "title" : "Instance Methods"
     },
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/fromJX(_:)-3lbpw",
-        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/makeJXRaw(from:)"
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/fromJX(_:)-2a1fp",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/fromJXRaw(_:)"
       ],
       "title" : "Type Methods"
     }
@@ -297,7 +291,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/encode(to:)"
 },
-"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/Transition-swift.enum/fromJX(_:)-3lbpw": {
+"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/Transition-swift.enum/fromJX(_:)-2a1fp": {
   "abstract" : [
 
   ],
@@ -324,7 +318,7 @@
         "type" : "text"
       },
       {
-        "code" : "Jackable",
+        "code" : "JXConvertible",
         "type" : "codeVoice"
       },
       {
@@ -380,14 +374,14 @@
       "text" : "Self"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/fromJX(_:)-3lbpw",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/fromJX(_:)-2a1fp",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "fromJX(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/fromjx(_:)-3lbpw"
+  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/fromjx(_:)-2a1fp"
 },
-"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/Transition-swift.enum/getJXRaw(from:)": {
+"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/Transition-swift.enum/fromJXRaw(_:)": {
   "abstract" : [
 
   ],
@@ -414,7 +408,7 @@
         "type" : "text"
       },
       {
-        "code" : "Jackable",
+        "code" : "JXConvertible",
         "type" : "codeVoice"
       },
       {
@@ -426,6 +420,14 @@
   "fragments" : [
     {
       "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
       "text" : "func"
     },
     {
@@ -434,24 +436,16 @@
     },
     {
       "kind" : "identifier",
-      "text" : "getJXRaw"
+      "text" : "fromJXRaw"
     },
     {
       "kind" : "text",
       "text" : "("
     },
     {
-      "kind" : "externalParam",
-      "text" : "from"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit9JXContextC",
-      "text" : "JXContext"
+      "preciseIdentifier" : "s:5JXKit7JXValueC",
+      "text" : "JXValue"
     },
     {
       "kind" : "text",
@@ -467,16 +461,15 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit7JXValueC",
-      "text" : "JXValue"
+      "text" : "Self"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/getJXRaw(from:)",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/fromJXRaw(_:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "getJXRaw(from:)",
+  "title" : "fromJXRaw(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/getjxraw(from:)"
+  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/fromjxraw(_:)"
 },
 "doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/Transition-swift.enum/hash(into:)": {
   "abstract" : [
@@ -752,7 +745,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/init(from:)"
 },
-"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/Transition-swift.enum/makeJXRaw(from:)": {
+"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/Transition-swift.enum/toJXRaw(in:)": {
   "abstract" : [
 
   ],
@@ -779,7 +772,7 @@
         "type" : "text"
       },
       {
-        "code" : "Jackable",
+        "code" : "JXConvertible",
         "type" : "codeVoice"
       },
       {
@@ -791,14 +784,6 @@
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "static"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "keyword",
       "text" : "func"
     },
     {
@@ -807,7 +792,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "makeJXRaw"
+      "text" : "toJXRaw"
     },
     {
       "kind" : "text",
@@ -815,7 +800,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "from"
+      "text" : "in"
     },
     {
       "kind" : "text",
@@ -823,8 +808,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit7JXValueC",
-      "text" : "JXValue"
+      "preciseIdentifier" : "s:5JXKit9JXContextC",
+      "text" : "JXContext"
     },
     {
       "kind" : "text",
@@ -840,15 +825,16 @@
     },
     {
       "kind" : "typeIdentifier",
-      "text" : "Self"
+      "preciseIdentifier" : "s:5JXKit7JXValueC",
+      "text" : "JXValue"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/makeJXRaw(from:)",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/toJXRaw(in:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "makeJXRaw(from:)",
+  "title" : "toJXRaw(in:)",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/makejxraw(from:)"
+  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/transition-swift.enum\/tojxraw(in:)"
 }
 }
 }

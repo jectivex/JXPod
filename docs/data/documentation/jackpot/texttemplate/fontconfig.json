@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "No overview available.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -83,7 +77,6 @@
     {
       "identifiers" : [
         "doc:\/\/JackPot\/5JXKit13JXConvertibleP",
-        "doc:\/\/JackPot\/4Jack8JackableP",
         "doc:\/\/JackPot\/Se",
         "doc:\/\/JackPot\/SE"
       ],
@@ -94,7 +87,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -138,11 +131,6 @@
   ]
 , 
 "references": {
-"doc://JackPot/4Jack8JackableP": {
-  "identifier" : "doc:\/\/JackPot\/4Jack8JackableP",
-  "title" : "Jack.Jackable",
-  "type" : "unresolvable"
-},
 "doc://JackPot/5JXKit13JXConvertibleP": {
   "identifier" : "doc:\/\/JackPot\/5JXKit13JXConvertibleP",
   "title" : "JXKit.JXConvertible",

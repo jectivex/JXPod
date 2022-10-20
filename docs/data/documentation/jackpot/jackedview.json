@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "No overview available.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -90,7 +84,7 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
-
+        "doc:\/\/JackPot\/4Jack15JackedReferenceC"
       ],
       "kind" : "relationships",
       "title" : "Inherits From",
@@ -108,7 +102,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -137,6 +131,11 @@
   ]
 , 
 "references": {
+"doc://JackPot/4Jack15JackedReferenceC": {
+  "identifier" : "doc:\/\/JackPot\/4Jack15JackedReferenceC",
+  "title" : "Jack.JackedReference",
+  "type" : "unresolvable"
+},
 "doc://JackPot/documentation/JackPot": {
   "abstract" : [
 

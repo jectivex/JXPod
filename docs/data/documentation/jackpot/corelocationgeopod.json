@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "No overview available.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -81,7 +75,7 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
-
+        "doc:\/\/JackPot\/objc(cs)NSObject"
       ],
       "kind" : "relationships",
       "title" : "Inherits From",
@@ -108,7 +102,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -117,7 +111,6 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/CoreLocationGeoPod\/init()",
         "doc:\/\/JackPot\/documentation\/JackPot\/CoreLocationGeoPod\/init(manager:)"
       ],
       "title" : "Initializers"
@@ -297,27 +290,6 @@
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/corelocationgeopod\/currentlocation()"
 },
-"doc://JackPot/documentation/JackPot/CoreLocationGeoPod/init()": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "init"
-    },
-    {
-      "kind" : "text",
-      "text" : "()"
-    }
-  ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/CoreLocationGeoPod\/init()",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "init()",
-  "type" : "topic",
-  "url" : "\/documentation\/jackpot\/corelocationgeopod\/init()"
-},
 "doc://JackPot/documentation/JackPot/CoreLocationGeoPod/init(manager:)": {
   "abstract" : [
 
@@ -475,6 +447,11 @@
   "title" : "GeoPod",
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/geopod"
+},
+"doc://JackPot/objc(cs)NSObject": {
+  "identifier" : "doc:\/\/JackPot\/objc(cs)NSObject",
+  "title" : "ObjectiveC.NSObject",
+  "type" : "unresolvable"
 },
 "doc://JackPot/objc(pl)CLLocationManagerDelegate": {
   "identifier" : "doc:\/\/JackPot\/objc(pl)CLLocationManagerDelegate",

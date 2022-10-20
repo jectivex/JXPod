@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "No overview available.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -29,7 +23,7 @@
   },
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -153,50 +147,7 @@
 },
 "doc://JackPot/documentation/JackPot/OSLogConsolePod/inject(into:)": {
   "abstract" : [
-    {
-      "text" : "Inject all this instance’s ",
-      "type" : "text"
-    },
-    {
-      "code" : "@Stack",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " and ",
-      "type" : "text"
-    },
-    {
-      "code" : "@Jack",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " properties into the JXValue object.",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "The resuling object will have properties created for each of the corresponding property",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "wrappers in the ",
-      "type" : "text"
-    },
-    {
-      "code" : "JackedObject",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -259,26 +210,7 @@
 },
 "doc://JackPot/documentation/JackPot/OSLogConsolePod/jack(into:)": {
   "abstract" : [
-    {
-      "text" : "Jack into the given context, exposing all this instance’s ",
-      "type" : "text"
-    },
-    {
-      "code" : "@Stack",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " properties into the given ",
-      "type" : "text"
-    },
-    {
-      "code" : "JXContext",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -337,10 +269,7 @@
 },
 "doc://JackPot/documentation/JackPot/OSLogConsolePod/objectWillChange-5y0cr": {
   "abstract" : [
-    {
-      "text" : "A publisher that emits before the object has changed.",
-      "type" : "text"
-    }
+
   ],
   "conformance" : {
     "availabilityPrefix" : [

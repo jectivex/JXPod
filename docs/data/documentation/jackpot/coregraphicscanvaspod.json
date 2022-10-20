@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "No overview available.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -101,7 +95,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -110,7 +104,6 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/JackPot\/documentation\/JackPot\/CoreGraphicsCanvasPod\/init()",
         "doc:\/\/JackPot\/documentation\/JackPot\/CoreGraphicsCanvasPod\/init(context:size:)"
       ],
       "title" : "Initializers"
@@ -2405,27 +2398,6 @@
   "title" : "height",
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/coregraphicscanvaspod\/height"
-},
-"doc://JackPot/documentation/JackPot/CoreGraphicsCanvasPod/init()": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "init"
-    },
-    {
-      "kind" : "text",
-      "text" : "()"
-    }
-  ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/CoreGraphicsCanvasPod\/init()",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "init()",
-  "type" : "topic",
-  "url" : "\/documentation\/jackpot\/coregraphicscanvaspod\/init()"
 },
 "doc://JackPot/documentation/JackPot/CoreGraphicsCanvasPod/init(context:size:)": {
   "abstract" : [

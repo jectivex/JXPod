@@ -52,7 +52,7 @@
           "type" : "text"
         },
         {
-          "code" : "Jackable",
+          "code" : "JXConvertible",
           "type" : "codeVoice"
         },
         {
@@ -62,7 +62,7 @@
       ]
     },
     "extendedModule" : "Swift",
-    "externalID" : "s:SY4JackAA8Jackable8RawValueRpzrlE4toJX2in5JXKit7JXValueCAG9JXContextC_tKF::SYNTHESIZED::s:7JackPot8CSSColorV10NamedColorV",
+    "externalID" : "s:SY5JXKitAA13JXConvertible8RawValueRpzrlE4toJX2inAA7JXValueCAA9JXContextC_tKF::SYNTHESIZED::s:7JackPot8CSSColorV10NamedColorV",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -194,7 +194,7 @@
   ],
   "schemaVersion" : {
     "major" : 0,
-    "minor" : 2,
+    "minor" : 3,
     "patch" : 0
   },
   "sections" : [
@@ -325,7 +325,7 @@
         "type" : "text"
       },
       {
-        "code" : "Jackable",
+        "code" : "JXConvertible",
         "type" : "codeVoice"
       },
       {
