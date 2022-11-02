@@ -1,15 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "The padding of the view; ",
+      "text" : "Inherited from ",
       "type" : "text"
     },
     {
-      "code" : ".nan",
+      "code" : "JackPod.metadata",
       "type" : "codeVoice"
     },
     {
-      "text" : " indicates default padding",
+      "text" : ".",
       "type" : "text"
     }
   ],
@@ -17,18 +17,17 @@
     "paths" : [
       [
         "doc:\/\/JackPot\/documentation\/JackPot",
-        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate",
-        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig"
+        "doc:\/\/JackPot\/documentation\/JackPot\/ChartPod"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/padding"
+    "url" : "doc:\/\/JackPot\/documentation\/JackPot\/ChartPod\/metadata"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:7JackPot12ViewTemplateC0C6ConfigV7padding14CoreFoundation7CGFloatVSgvp",
+    "externalID" : "s:7JackPot8ChartPodC8metadata0A00aD8MetaDataVvp",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -40,7 +39,7 @@
       },
       {
         "kind" : "identifier",
-        "text" : "padding"
+        "text" : "metadata"
       },
       {
         "kind" : "text",
@@ -48,12 +47,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
-        "text" : "CGFloat"
-      },
-      {
-        "kind" : "text",
-        "text" : "?"
+        "preciseIdentifier" : "s:4Jack0A11PodMetaDataV",
+        "text" : "JackPodMetaData"
       }
     ],
     "modules" : [
@@ -64,7 +59,7 @@
     "role" : "symbol",
     "roleHeading" : "Instance Property",
     "symbolKind" : "property",
-    "title" : "padding"
+    "title" : "metadata"
   },
   "primaryContentSections" : [
     {
@@ -87,7 +82,7 @@
             },
             {
               "kind" : "identifier",
-              "text" : "padding"
+              "text" : "metadata"
             },
             {
               "kind" : "text",
@@ -95,12 +90,20 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
-              "text" : "CGFloat"
+              "preciseIdentifier" : "s:4Jack0A11PodMetaDataV",
+              "text" : "JackPodMetaData"
             },
             {
               "kind" : "text",
-              "text" : "?"
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
             }
           ]
         }
@@ -119,7 +122,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jackpot\/viewtemplate\/viewconfig\/padding"
+        "\/documentation\/jackpot\/chartpod\/metadata"
       ],
       "traits" : [
         {
@@ -141,7 +144,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jackpot"
 },
-"doc://JackPot/documentation/JackPot/ViewTemplate": {
+"doc://JackPot/documentation/JackPot/ChartPod": {
   "abstract" : [
 
   ],
@@ -156,67 +159,25 @@
     },
     {
       "kind" : "identifier",
-      "text" : "ViewTemplate"
+      "text" : "ChartPod"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ChartPod",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "ViewTemplate"
+      "text" : "ChartPod"
     }
   ],
   "role" : "symbol",
-  "title" : "ViewTemplate",
+  "title" : "ChartPod",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/viewtemplate"
+  "url" : "\/documentation\/jackpot\/chartpod"
 },
-"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig": {
+"doc://JackPot/documentation/JackPot/ChartPod/metadata": {
   "abstract" : [
 
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "struct"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "ViewConfig"
-    }
-  ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "ViewConfig"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "ViewTemplate.ViewConfig",
-  "type" : "topic",
-  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig"
-},
-"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/padding": {
-  "abstract" : [
-    {
-      "text" : "The padding of the view; ",
-      "type" : "text"
-    },
-    {
-      "code" : ".nan",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " indicates default padding",
-      "type" : "text"
-    }
   ],
   "fragments" : [
     {
@@ -229,7 +190,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "padding"
+      "text" : "metadata"
     },
     {
       "kind" : "text",
@@ -237,20 +198,16 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
-      "text" : "CGFloat"
-    },
-    {
-      "kind" : "text",
-      "text" : "?"
+      "preciseIdentifier" : "s:4Jack0A11PodMetaDataV",
+      "text" : "JackPodMetaData"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/padding",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ChartPod\/metadata",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "padding",
+  "title" : "metadata",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/padding"
+  "url" : "\/documentation\/jackpot\/chartpod\/metadata"
 }
 }
 }

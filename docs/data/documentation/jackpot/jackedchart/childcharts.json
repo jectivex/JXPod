@@ -1,34 +1,19 @@
 {
-  "abstract" : [
-    {
-      "text" : "The padding of the view; ",
-      "type" : "text"
-    },
-    {
-      "code" : ".nan",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " indicates default padding",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
         "doc:\/\/JackPot\/documentation\/JackPot",
-        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate",
-        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig"
+        "doc:\/\/JackPot\/documentation\/JackPot\/JackedChart"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/padding"
+    "url" : "doc:\/\/JackPot\/documentation\/JackPot\/JackedChart\/childCharts"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:7JackPot12ViewTemplateC0C6ConfigV7padding14CoreFoundation7CGFloatVSgvp",
+    "externalID" : "s:7JackPot11JackedChartP11childChartsSayAaB_pGSgvp",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -40,20 +25,20 @@
       },
       {
         "kind" : "identifier",
-        "text" : "padding"
+        "text" : "childCharts"
       },
       {
         "kind" : "text",
-        "text" : ": "
+        "text" : ": ["
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
-        "text" : "CGFloat"
+        "preciseIdentifier" : "s:7JackPot11JackedChartP",
+        "text" : "JackedChart"
       },
       {
         "kind" : "text",
-        "text" : "?"
+        "text" : "]?"
       }
     ],
     "modules" : [
@@ -61,10 +46,48 @@
         "name" : "JackPot"
       }
     ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "9.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "required" : true,
     "role" : "symbol",
     "roleHeading" : "Instance Property",
     "symbolKind" : "property",
-    "title" : "padding"
+    "title" : "childCharts"
   },
   "primaryContentSections" : [
     {
@@ -87,20 +110,29 @@
             },
             {
               "kind" : "identifier",
-              "text" : "padding"
+              "text" : "childCharts"
             },
             {
               "kind" : "text",
-              "text" : ": "
+              "text" : ": ["
             },
             {
+              "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/JackedChart",
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
-              "text" : "CGFloat"
+              "preciseIdentifier" : "s:7JackPot11JackedChartP",
+              "text" : "JackedChart"
             },
             {
               "kind" : "text",
-              "text" : "?"
+              "text" : "]? { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
             }
           ]
         }
@@ -119,7 +151,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jackpot\/viewtemplate\/viewconfig\/padding"
+        "\/documentation\/jackpot\/jackedchart\/childcharts"
       ],
       "traits" : [
         {
@@ -141,14 +173,14 @@
   "type" : "topic",
   "url" : "\/documentation\/jackpot"
 },
-"doc://JackPot/documentation/JackPot/ViewTemplate": {
+"doc://JackPot/documentation/JackPot/JackedChart": {
   "abstract" : [
 
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "class"
+      "text" : "protocol"
     },
     {
       "kind" : "text",
@@ -156,67 +188,25 @@
     },
     {
       "kind" : "identifier",
-      "text" : "ViewTemplate"
+      "text" : "JackedChart"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/JackedChart",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "ViewTemplate"
+      "text" : "JackedChart"
     }
   ],
   "role" : "symbol",
-  "title" : "ViewTemplate",
+  "title" : "JackedChart",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/viewtemplate"
+  "url" : "\/documentation\/jackpot\/jackedchart"
 },
-"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig": {
+"doc://JackPot/documentation/JackPot/JackedChart/childCharts": {
   "abstract" : [
 
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "struct"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "ViewConfig"
-    }
-  ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "ViewConfig"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "ViewTemplate.ViewConfig",
-  "type" : "topic",
-  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig"
-},
-"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/padding": {
-  "abstract" : [
-    {
-      "text" : "The padding of the view; ",
-      "type" : "text"
-    },
-    {
-      "code" : ".nan",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " indicates default padding",
-      "type" : "text"
-    }
   ],
   "fragments" : [
     {
@@ -229,28 +219,29 @@
     },
     {
       "kind" : "identifier",
-      "text" : "padding"
+      "text" : "childCharts"
     },
     {
       "kind" : "text",
-      "text" : ": "
+      "text" : ": ["
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
-      "text" : "CGFloat"
+      "preciseIdentifier" : "s:7JackPot11JackedChartP",
+      "text" : "JackedChart"
     },
     {
       "kind" : "text",
-      "text" : "?"
+      "text" : "]?"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/padding",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/JackedChart\/childCharts",
   "kind" : "symbol",
+  "required" : true,
   "role" : "symbol",
-  "title" : "padding",
+  "title" : "childCharts",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/padding"
+  "url" : "\/documentation\/jackpot\/jackedchart\/childcharts"
 }
 }
 }

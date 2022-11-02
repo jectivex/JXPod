@@ -1,0 +1,373 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/JackPot\/documentation\/JackPot"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/JackPot\/documentation\/JackPot\/ChartBuilder"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:7JackPot12ChartBuilderC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ChartBuilder"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JackPot"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "ChartBuilder"
+      }
+    ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "9.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "ChartBuilder"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ChartBuilder"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/4Jack15JackedReferenceC"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherits From",
+      "type" : "inheritsFrom"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/7Combine16ObservableObjectP",
+        "doc:\/\/JackPot\/5JXKit13JXConvertibleP",
+        "doc:\/\/JackPot\/4Jack0A8PeerableP",
+        "doc:\/\/JackPot\/4Jack12JackedObjectP",
+        "doc:\/\/JackPot\/documentation\/JackPot\/JackedChart"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/ChartBuilder\/ChartConfig"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/ChartBuilder\/anyChart",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ChartBuilder\/childCharts"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jackpot\/chartbuilder"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://JackPot/4Jack0A8PeerableP": {
+  "identifier" : "doc:\/\/JackPot\/4Jack0A8PeerableP",
+  "title" : "Jack.JackPeerable",
+  "type" : "unresolvable"
+},
+"doc://JackPot/4Jack12JackedObjectP": {
+  "identifier" : "doc:\/\/JackPot\/4Jack12JackedObjectP",
+  "title" : "Jack.JackedObject",
+  "type" : "unresolvable"
+},
+"doc://JackPot/4Jack15JackedReferenceC": {
+  "identifier" : "doc:\/\/JackPot\/4Jack15JackedReferenceC",
+  "title" : "Jack.JackedReference",
+  "type" : "unresolvable"
+},
+"doc://JackPot/5JXKit13JXConvertibleP": {
+  "identifier" : "doc:\/\/JackPot\/5JXKit13JXConvertibleP",
+  "title" : "JXKit.JXConvertible",
+  "type" : "unresolvable"
+},
+"doc://JackPot/7Combine16ObservableObjectP": {
+  "identifier" : "doc:\/\/JackPot\/7Combine16ObservableObjectP",
+  "title" : "Combine.ObservableObject",
+  "type" : "unresolvable"
+},
+"doc://JackPot/documentation/JackPot": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JackPot",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot"
+},
+"doc://JackPot/documentation/JackPot/ChartBuilder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ChartBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ChartBuilder",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ChartBuilder"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ChartBuilder",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/chartbuilder"
+},
+"doc://JackPot/documentation/JackPot/ChartBuilder/ChartConfig": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ChartConfig"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ChartBuilder\/ChartConfig",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ChartConfig"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ChartBuilder.ChartConfig",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/chartbuilder\/chartconfig"
+},
+"doc://JackPot/documentation/JackPot/ChartBuilder/anyChart": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "anyChart"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:6Charts15AnyChartContentV",
+      "text" : "AnyChartContent"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ChartBuilder\/anyChart",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "anyChart",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/chartbuilder\/anychart"
+},
+"doc://JackPot/documentation/JackPot/ChartBuilder/childCharts": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "childCharts"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:7JackPot11JackedChartP",
+      "text" : "JackedChart"
+    },
+    {
+      "kind" : "text",
+      "text" : "]?"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ChartBuilder\/childCharts",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "childCharts",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/chartbuilder\/childcharts"
+},
+"doc://JackPot/documentation/JackPot/JackedChart": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JackedChart"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/JackedChart",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JackedChart"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JackedChart",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/jackedchart"
+}
+}
+}

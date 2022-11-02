@@ -406,6 +406,177 @@
           {
             "children" : [
               {
+                "title" : "Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/chartbuilder\/chartconfig\/init(from:)",
+                    "title" : "init(from: Decoder) throws",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/chartbuilder\/chartconfig\/opacity",
+                    "title" : "var opacity: Double?",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/chartbuilder\/chartconfig\/fromjx(_:)",
+                        "title" : "static func fromJX(JXValue) throws -> Self",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/chartbuilder\/chartconfig\/fromjxcodable(_:)",
+                        "title" : "static func fromJXCodable(JXValue) throws -> Self",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jackpot\/chartbuilder\/chartconfig\/decodable-implementations",
+                    "title" : "Decodable Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/chartbuilder\/chartconfig\/tojx(in:)",
+                        "title" : "func toJX(in: JXContext) throws -> JXValue",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jackpot\/chartbuilder\/chartconfig\/tojxcodable(in:)",
+                        "title" : "func toJXCodable(in: JXContext) throws -> JXValue",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jackpot\/chartbuilder\/chartconfig\/encodable-implementations",
+                    "title" : "Encodable Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/chartbuilder\/chartconfig",
+                "title" : "ChartBuilder.ChartConfig",
+                "type" : "struct"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/chartbuilder\/anychart",
+                "title" : "var anyChart: AnyChartContent",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/chartbuilder\/childcharts",
+                "title" : "var childCharts: [JackedChart]?",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/chartbuilder",
+            "title" : "ChartBuilder",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/chartpod\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/chartpod\/metadata",
+                "title" : "var metadata: JackPodMetaData",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/chartpod\/objectwillchange-3qx4n",
+                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/chartpod\/inject(into:)",
+                    "title" : "func inject(into: JXValue) throws -> [JXProperty]",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/chartpod\/jack(into:)",
+                    "title" : "func jack(into: JXValue) throws -> JXValue",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/chartpod\/jackedobject-implementations",
+                "title" : "JackedObject Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jackpot\/chartpod\/objectwillchange-6498i",
+                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/jackpot\/chartpod\/observableobject-implementations",
+                "title" : "ObservableObject Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/chartpod",
+            "title" : "ChartPod",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
                 "title" : "Initializers",
                 "type" : "groupMarker"
               },
@@ -1859,6 +2030,27 @@
             ],
             "path" : "\/documentation\/jackpot\/geopod",
             "title" : "GeoPod",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/jackedchart\/anychart",
+                "title" : "var anyChart: AnyChartContent",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jackpot\/jackedchart\/childcharts",
+                "title" : "var childCharts: [JackedChart]?",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/jackpot\/jackedchart",
+            "title" : "JackedChart",
             "type" : "protocol"
           },
           {

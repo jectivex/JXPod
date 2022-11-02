@@ -1,0 +1,311 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/JackPot\/documentation\/JackPot",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ChartBuilder",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ChartBuilder\/ChartConfig"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/JackPot\/documentation\/JackPot\/ChartBuilder\/ChartConfig\/Decodable-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "JackPot"
+      }
+    ],
+    "role" : "collectionGroup",
+    "title" : "Decodable Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/JackPot\/documentation\/JackPot\/ChartBuilder\/ChartConfig\/fromJX(_:)",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ChartBuilder\/ChartConfig\/fromJXCodable(_:)"
+      ],
+      "title" : "Type Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jackpot\/chartbuilder\/chartconfig\/decodable-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://JackPot/documentation/JackPot": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JackPot",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot"
+},
+"doc://JackPot/documentation/JackPot/ChartBuilder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ChartBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ChartBuilder",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ChartBuilder"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ChartBuilder",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/chartbuilder"
+},
+"doc://JackPot/documentation/JackPot/ChartBuilder/ChartConfig": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ChartConfig"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ChartBuilder\/ChartConfig",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ChartConfig"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ChartBuilder.ChartConfig",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/chartbuilder\/chartconfig"
+},
+"doc://JackPot/documentation/JackPot/ChartBuilder/ChartConfig/fromJX(_:)": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "Self",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "JXConvertible",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fromJX"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit7JXValueC",
+      "text" : "JXValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ChartBuilder\/ChartConfig\/fromJX(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fromJX(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/chartbuilder\/chartconfig\/fromjx(_:)"
+},
+"doc://JackPot/documentation/JackPot/ChartBuilder/ChartConfig/fromJXCodable(_:)": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "Self",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "JXConvertible",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fromJXCodable"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit7JXValueC",
+      "text" : "JXValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ChartBuilder\/ChartConfig\/fromJXCodable(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fromJXCodable(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/chartbuilder\/chartconfig\/fromjxcodable(_:)"
+}
+}
+}

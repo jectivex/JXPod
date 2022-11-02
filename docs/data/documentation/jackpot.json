@@ -36,6 +36,8 @@
       "identifiers" : [
         "doc:\/\/JackPot\/documentation\/JackPot\/AbstractCanvasPod",
         "doc:\/\/JackPot\/documentation\/JackPot\/CapturingConsolePod",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ChartBuilder",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ChartPod",
         "doc:\/\/JackPot\/documentation\/JackPot\/CoreGraphicsCanvasPod",
         "doc:\/\/JackPot\/documentation\/JackPot\/CoreLocationGeoPod",
         "doc:\/\/JackPot\/documentation\/JackPot\/FilePod",
@@ -56,6 +58,7 @@
         "doc:\/\/JackPot\/documentation\/JackPot\/CanvasPod",
         "doc:\/\/JackPot\/documentation\/JackPot\/ConsolePod",
         "doc:\/\/JackPot\/documentation\/JackPot\/GeoPod",
+        "doc:\/\/JackPot\/documentation\/JackPot\/JackedChart",
         "doc:\/\/JackPot\/documentation\/JackPot\/JackedView"
       ],
       "title" : "Protocols"
@@ -336,6 +339,68 @@
   "title" : "CapturingConsolePod",
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/capturingconsolepod"
+},
+"doc://JackPot/documentation/JackPot/ChartBuilder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ChartBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ChartBuilder",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ChartBuilder"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ChartBuilder",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/chartbuilder"
+},
+"doc://JackPot/documentation/JackPot/ChartPod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ChartPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ChartPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ChartPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ChartPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/chartpod"
 },
 "doc://JackPot/documentation/JackPot/ConsolePod": {
   "abstract" : [
@@ -623,6 +688,37 @@
   "title" : "JackPot",
   "type" : "topic",
   "url" : "\/documentation\/jackpot\/jackpot"
+},
+"doc://JackPot/documentation/JackPot/JackedChart": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JackedChart"
+    }
+  ],
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/JackedChart",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JackedChart"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JackedChart",
+  "type" : "topic",
+  "url" : "\/documentation\/jackpot\/jackedchart"
 },
 "doc://JackPot/documentation/JackPot/JackedView": {
   "abstract" : [

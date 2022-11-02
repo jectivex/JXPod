@@ -1,15 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "The padding of the view; ",
-      "type" : "text"
-    },
-    {
-      "code" : ".nan",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " indicates default padding",
+      "text" : "The opacity of the chart element",
       "type" : "text"
     }
   ],
@@ -17,18 +9,18 @@
     "paths" : [
       [
         "doc:\/\/JackPot\/documentation\/JackPot",
-        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate",
-        "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig"
+        "doc:\/\/JackPot\/documentation\/JackPot\/ChartBuilder",
+        "doc:\/\/JackPot\/documentation\/JackPot\/ChartBuilder\/ChartConfig"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/padding"
+    "url" : "doc:\/\/JackPot\/documentation\/JackPot\/ChartBuilder\/ChartConfig\/opacity"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:7JackPot12ViewTemplateC0C6ConfigV7padding14CoreFoundation7CGFloatVSgvp",
+    "externalID" : "s:7JackPot12ChartBuilderC0C6ConfigV7opacitySdSgvp",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -40,7 +32,7 @@
       },
       {
         "kind" : "identifier",
-        "text" : "padding"
+        "text" : "opacity"
       },
       {
         "kind" : "text",
@@ -48,8 +40,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
-        "text" : "CGFloat"
+        "preciseIdentifier" : "s:Sd",
+        "text" : "Double"
       },
       {
         "kind" : "text",
@@ -61,10 +53,47 @@
         "name" : "JackPot"
       }
     ],
+    "platforms" : [
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "iOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "13.0",
+        "name" : "macOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "Mac Catalyst",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "16.0",
+        "name" : "tvOS",
+        "unavailable" : false
+      },
+      {
+        "beta" : false,
+        "deprecated" : false,
+        "introducedAt" : "9.0",
+        "name" : "watchOS",
+        "unavailable" : false
+      }
+    ],
     "role" : "symbol",
     "roleHeading" : "Instance Property",
     "symbolKind" : "property",
-    "title" : "padding"
+    "title" : "opacity"
   },
   "primaryContentSections" : [
     {
@@ -87,7 +116,7 @@
             },
             {
               "kind" : "identifier",
-              "text" : "padding"
+              "text" : "opacity"
             },
             {
               "kind" : "text",
@@ -95,8 +124,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
-              "text" : "CGFloat"
+              "preciseIdentifier" : "s:Sd",
+              "text" : "Double"
             },
             {
               "kind" : "text",
@@ -119,7 +148,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jackpot\/viewtemplate\/viewconfig\/padding"
+        "\/documentation\/jackpot\/chartbuilder\/chartconfig\/opacity"
       ],
       "traits" : [
         {
@@ -141,7 +170,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jackpot"
 },
-"doc://JackPot/documentation/JackPot/ViewTemplate": {
+"doc://JackPot/documentation/JackPot/ChartBuilder": {
   "abstract" : [
 
   ],
@@ -156,23 +185,23 @@
     },
     {
       "kind" : "identifier",
-      "text" : "ViewTemplate"
+      "text" : "ChartBuilder"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ChartBuilder",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "ViewTemplate"
+      "text" : "ChartBuilder"
     }
   ],
   "role" : "symbol",
-  "title" : "ViewTemplate",
+  "title" : "ChartBuilder",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/viewtemplate"
+  "url" : "\/documentation\/jackpot\/chartbuilder"
 },
-"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig": {
+"doc://JackPot/documentation/JackPot/ChartBuilder/ChartConfig": {
   "abstract" : [
 
   ],
@@ -187,34 +216,26 @@
     },
     {
       "kind" : "identifier",
-      "text" : "ViewConfig"
+      "text" : "ChartConfig"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ChartBuilder\/ChartConfig",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "ViewConfig"
+      "text" : "ChartConfig"
     }
   ],
   "role" : "symbol",
-  "title" : "ViewTemplate.ViewConfig",
+  "title" : "ChartBuilder.ChartConfig",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig"
+  "url" : "\/documentation\/jackpot\/chartbuilder\/chartconfig"
 },
-"doc://JackPot/documentation/JackPot/ViewTemplate/ViewConfig/padding": {
+"doc://JackPot/documentation/JackPot/ChartBuilder/ChartConfig/opacity": {
   "abstract" : [
     {
-      "text" : "The padding of the view; ",
-      "type" : "text"
-    },
-    {
-      "code" : ".nan",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " indicates default padding",
+      "text" : "The opacity of the chart element",
       "type" : "text"
     }
   ],
@@ -229,7 +250,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "padding"
+      "text" : "opacity"
     },
     {
       "kind" : "text",
@@ -237,20 +258,20 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:14CoreFoundation7CGFloatV",
-      "text" : "CGFloat"
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
     },
     {
       "kind" : "text",
       "text" : "?"
     }
   ],
-  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ViewTemplate\/ViewConfig\/padding",
+  "identifier" : "doc:\/\/JackPot\/documentation\/JackPot\/ChartBuilder\/ChartConfig\/opacity",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "padding",
+  "title" : "opacity",
   "type" : "topic",
-  "url" : "\/documentation\/jackpot\/viewtemplate\/viewconfig\/padding"
+  "url" : "\/documentation\/jackpot\/chartbuilder\/chartconfig\/opacity"
 }
 }
 }
