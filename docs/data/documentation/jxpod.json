@@ -1,0 +1,1095 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "JXPod",
+    "modules" : [
+      {
+        "name" : "JXPod"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Framework",
+    "symbolKind" : "module",
+    "title" : "JXPod"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/ChartBuilder",
+        "doc:\/\/JXPod\/documentation\/JXPod\/ChartPod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CoreGraphicsCanvasPod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/FilePod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/KeyPod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/NetPod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/TextTemplate",
+        "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/UIPod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/ViewTemplate"
+      ],
+      "title" : "Classes"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/CanvasPod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/ConsolePod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/GeoPod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/JackedChart",
+        "doc:\/\/JXPod\/documentation\/JXPod\/JackedView"
+      ],
+      "title" : "Protocols"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CanvasGradientAPI",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CanvasPatternAPI",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CanvasRenderingContext2DSettingsAPI",
+        "doc:\/\/JXPod\/documentation\/JXPod\/DOMMatrixAPI",
+        "doc:\/\/JXPod\/documentation\/JXPod\/ImageDataAPI",
+        "doc:\/\/JXPod\/documentation\/JXPod\/JXPod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/Location"
+      ],
+      "title" : "Structures"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate"
+      ],
+      "title" : "Enumerations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jxpod"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://JXPod/documentation/JXPod": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JXPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod"
+},
+"doc://JXPod/documentation/JXPod/AbstractCanvasPod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AbstractCanvasPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AbstractCanvasPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AbstractCanvasPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/abstractcanvaspod"
+},
+"doc://JXPod/documentation/JXPod/CSSColor": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CSSColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CSSColor"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CSSColor",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor"
+},
+"doc://JXPod/documentation/JXPod/CanvasGradientAPI": {
+  "abstract" : [
+    {
+      "text" : "The CanvasGradient interface represents an opaque object describing a gradient. It is returned by the methods CanvasRenderingContext2D.createLinearGradient() or CanvasRenderingContext2D.createRadialGradient().",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CanvasGradientAPI"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CanvasGradientAPI",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CanvasGradientAPI"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CanvasGradientAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/canvasgradientapi"
+},
+"doc://JXPod/documentation/JXPod/CanvasPatternAPI": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CanvasPatternAPI"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CanvasPatternAPI",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CanvasPatternAPI"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CanvasPatternAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/canvaspatternapi"
+},
+"doc://JXPod/documentation/JXPod/CanvasPod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CanvasPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CanvasPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CanvasPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CanvasPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/canvaspod"
+},
+"doc://JXPod/documentation/JXPod/CanvasRenderingContext2DSettingsAPI": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CanvasRenderingContext2DSettingsAPI"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CanvasRenderingContext2DSettingsAPI",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CanvasRenderingContext2DSettingsAPI"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CanvasRenderingContext2DSettingsAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/canvasrenderingcontext2dsettingsapi"
+},
+"doc://JXPod/documentation/JXPod/CapturingConsolePod": {
+  "abstract" : [
+    {
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ConsolePod",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " that stores messages in a buffer",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CapturingConsolePod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CapturingConsolePod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CapturingConsolePod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/capturingconsolepod"
+},
+"doc://JXPod/documentation/JXPod/ChartBuilder": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ChartBuilder"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ChartBuilder",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ChartBuilder"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ChartBuilder",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/chartbuilder"
+},
+"doc://JXPod/documentation/JXPod/ChartPod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ChartPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ChartPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ChartPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ChartPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/chartpod"
+},
+"doc://JXPod/documentation/JXPod/ConsolePod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ConsolePod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ConsolePod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ConsolePod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ConsolePod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/consolepod"
+},
+"doc://JXPod/documentation/JXPod/CoreGraphicsCanvasPod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CoreGraphicsCanvasPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CoreGraphicsCanvasPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CoreGraphicsCanvasPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CoreGraphicsCanvasPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/coregraphicscanvaspod"
+},
+"doc://JXPod/documentation/JXPod/CoreLocationGeoPod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CoreLocationGeoPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CoreLocationGeoPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CoreLocationGeoPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/corelocationgeopod"
+},
+"doc://JXPod/documentation/JXPod/DOMMatrixAPI": {
+  "abstract" : [
+    {
+      "text" : "See: ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/DOMMatrix",
+      "isActive" : true,
+      "type" : "reference"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DOMMatrixAPI"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/DOMMatrixAPI",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DOMMatrixAPI"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DOMMatrixAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/dommatrixapi"
+},
+"doc://JXPod/documentation/JXPod/FilePod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FilePod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FilePod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FilePod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FilePod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/filepod"
+},
+"doc://JXPod/documentation/JXPod/FontTemplate": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FontTemplate"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FontTemplate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FontTemplate",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/fonttemplate"
+},
+"doc://JXPod/documentation/JXPod/GeoPod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "GeoPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/GeoPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "GeoPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "GeoPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/geopod"
+},
+"doc://JXPod/documentation/JXPod/ImageDataAPI": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ImageDataAPI"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ImageDataAPI",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ImageDataAPI"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ImageDataAPI",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/imagedataapi"
+},
+"doc://JXPod/documentation/JXPod/JXPod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JXPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JXPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JXPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/jxpod"
+},
+"doc://JXPod/documentation/JXPod/JackedChart": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JackedChart"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JackedChart",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JackedChart"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JackedChart",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/jackedchart"
+},
+"doc://JXPod/documentation/JXPod/JackedView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JackedView"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JackedView",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JackedView"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JackedView",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/jackedview"
+},
+"doc://JXPod/documentation/JXPod/KeyPod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "KeyPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/KeyPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "KeyPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "KeyPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/keypod"
+},
+"doc://JXPod/documentation/JXPod/Location": {
+  "abstract" : [
+    {
+      "text" : "A location on earth.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Location"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/Location",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Location"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Location",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/location"
+},
+"doc://JXPod/documentation/JXPod/NetPod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "NetPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NetPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "NetPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "NetPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/netpod"
+},
+"doc://JXPod/documentation/JXPod/OSLogConsolePod": {
+  "abstract" : [
+    {
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ConsolePod",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " that forwards logged messages to the system consle",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OSLogConsolePod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OSLogConsolePod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OSLogConsolePod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/oslogconsolepod"
+},
+"doc://JXPod/documentation/JXPod/SwiftUICanvasPod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SwiftUICanvasPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SwiftUICanvasPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SwiftUICanvasPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/swiftuicanvaspod"
+},
+"doc://JXPod/documentation/JXPod/TextTemplate": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TextTemplate"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TextTemplate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TextTemplate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TextTemplate",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/texttemplate"
+},
+"doc://JXPod/documentation/JXPod/ThemePod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ThemePod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ThemePod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ThemePod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/themepod"
+},
+"doc://JXPod/documentation/JXPod/TimePod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TimePod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TimePod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TimePod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/timepod"
+},
+"doc://JXPod/documentation/JXPod/UIPod": {
+  "abstract" : [
+    {
+      "text" : "A JackPod that provides support for constructing SwiftUI view hierarchies from JavaScript.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "UIPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/UIPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "UIPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "UIPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/uipod"
+},
+"doc://JXPod/documentation/JXPod/ViewTemplate": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ViewTemplate"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ViewTemplate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ViewTemplate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ViewTemplate",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/viewtemplate"
+},
+"https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix": {
+  "identifier" : "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/DOMMatrix",
+  "title" : "MDN",
+  "titleInlineContent" : [
+    {
+      "text" : "MDN",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/DOMMatrix"
+}
+}
+}

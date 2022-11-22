@@ -1,0 +1,8275 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/JXPod\/documentation\/JXPod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:5JXPod8CSSColorV10NamedColorV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "NamedColor"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JXPod"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "NamedColor"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "CSSColor.NamedColor"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "NamedColor"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/s12CaseIterableP",
+        "doc:\/\/JXPod\/s23CustomStringConvertibleP",
+        "doc:\/\/JXPod\/Se",
+        "doc:\/\/JXPod\/SE",
+        "doc:\/\/JXPod\/SQ",
+        "doc:\/\/JXPod\/SH",
+        "doc:\/\/JXPod\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/init(name:color:)",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/color",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/description",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/name",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/rawValue"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/aliceblue",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/allCases",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/antiquewhite",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/aqua",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/aquamarine",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/azure",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/beige",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/bisque",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/black",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/blanchedalmond",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/blue",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/blueviolet",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/brown",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/burlywood",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/cadetblue",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/chartreuse",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/chocolate",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/coral",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/cornflowerblue",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/cornsilk",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/crimson",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/cyan",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkblue",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkcyan",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkgoldenrod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkgray",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkgreen",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkgrey",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkkhaki",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkmagenta",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkolivegreen",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkorange",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkorchid",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkred",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darksalmon",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkseagreen",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkslateblue",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkslategray",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkslategrey",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkturquoise",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkviolet",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/deeppink",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/deepskyblue",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/dimgray",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/dimgrey",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/dodgerblue",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/firebrick",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/floralwhite",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/forestgreen",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/fuchsia",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/gainsboro",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/ghostwhite",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/gold",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/goldenrod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/gray",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/green",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/greenyellow",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/grey",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/honeydew",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/hotpink",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/indianred",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/indigo",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/ivory",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/khaki",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lavender",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lavenderblush",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lawngreen",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lemonchiffon",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightblue",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightcoral",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightcyan",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightgoldenrodyellow",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightgray",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightgreen",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightgrey",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightpink",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightsalmon",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightseagreen",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightskyblue",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightslategray",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightslategrey",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightsteelblue",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightyellow",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lime",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/limegreen",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/linen",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/magenta",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/maroon",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/mediumaquamarine",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/mediumblue",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/mediumorchid",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/mediumpurple",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/mediumseagreen",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/mediumslateblue",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/mediumspringgreen",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/mediumturquoise",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/mediumvioletred",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/midnightblue",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/mintcream",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/mistyrose",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/moccasin",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/navajowhite",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/navy",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/oldlace",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/olive",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/olivedrab",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/orange",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/orangered",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/orchid",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/palegoldenrod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/palegreen",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/paleturquoise",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/palevioletred",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/papayawhip",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/peachpuff",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/peru",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/pink",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/plum",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/powderblue",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/purple",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/red",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/rosybrown",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/royalblue",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/saddlebrown",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/salmon",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/sandybrown",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/seagreen",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/seashell",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/sienna",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/silver",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/skyblue",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/slateblue",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/slategray",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/slategrey",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/snow",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/springgreen",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/steelblue",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/tan",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/teal",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/thistle",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/tomato",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/transparent",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/turquoise",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/violet",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/wheat",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/white",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/whitesmoke",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/yellow",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/yellowgreen"
+      ],
+      "title" : "Type Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/Equatable-Implementations",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jxpod\/csscolor\/namedcolor"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://JXPod/SE": {
+  "identifier" : "doc:\/\/JXPod\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://JXPod/SH": {
+  "identifier" : "doc:\/\/JXPod\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://JXPod/SQ": {
+  "identifier" : "doc:\/\/JXPod\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://JXPod/SY": {
+  "identifier" : "doc:\/\/JXPod\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://JXPod/Se": {
+  "identifier" : "doc:\/\/JXPod\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://JXPod/documentation/JXPod": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JXPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod"
+},
+"doc://JXPod/documentation/JXPod/CSSColor": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CSSColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CSSColor"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CSSColor",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "NamedColor"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CSSColor.NamedColor",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/equatable-implementations"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/rawrepresentable-implementations"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/aliceblue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "aliceblue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/aliceblue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "aliceblue",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/aliceblue"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/allCases": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "allCases"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/allCases",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "allCases",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/allcases"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/antiquewhite": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "antiquewhite"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/antiquewhite",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "antiquewhite",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/antiquewhite"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/aqua": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "aqua"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/aqua",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "aqua",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/aqua"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/aquamarine": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "aquamarine"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/aquamarine",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "aquamarine",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/aquamarine"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/azure": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "azure"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/azure",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "azure",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/azure"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/beige": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "beige"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/beige",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "beige",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/beige"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/bisque": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bisque"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/bisque",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "bisque",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/bisque"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/black": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "black"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/black",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "black",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/black"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/blanchedalmond": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "blanchedalmond"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/blanchedalmond",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "blanchedalmond",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/blanchedalmond"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/blue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "blue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/blue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "blue",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/blue"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/blueviolet": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "blueviolet"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/blueviolet",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "blueviolet",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/blueviolet"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/brown": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "brown"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/brown",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "brown",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/brown"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/burlywood": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "burlywood"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/burlywood",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "burlywood",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/burlywood"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/cadetblue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cadetblue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/cadetblue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "cadetblue",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/cadetblue"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/chartreuse": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "chartreuse"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/chartreuse",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "chartreuse",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/chartreuse"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/chocolate": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "chocolate"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/chocolate",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "chocolate",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/chocolate"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/color": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "color"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV8RGBColorV",
+      "text" : "RGBColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/color",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "color",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/color"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/coral": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "coral"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/coral",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "coral",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/coral"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/cornflowerblue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cornflowerblue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/cornflowerblue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "cornflowerblue",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/cornflowerblue"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/cornsilk": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cornsilk"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/cornsilk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "cornsilk",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/cornsilk"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/crimson": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "crimson"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/crimson",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "crimson",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/crimson"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/cyan": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cyan"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/cyan",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "cyan",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/cyan"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/darkblue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "darkblue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkblue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "darkblue",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkblue"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/darkcyan": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "darkcyan"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkcyan",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "darkcyan",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkcyan"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/darkgoldenrod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "darkgoldenrod"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkgoldenrod",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "darkgoldenrod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkgoldenrod"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/darkgray": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "darkgray"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkgray",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "darkgray",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkgray"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/darkgreen": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "darkgreen"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkgreen",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "darkgreen",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkgreen"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/darkgrey": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "darkgrey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkgrey",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "darkgrey",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkgrey"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/darkkhaki": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "darkkhaki"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkkhaki",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "darkkhaki",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkkhaki"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/darkmagenta": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "darkmagenta"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkmagenta",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "darkmagenta",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkmagenta"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/darkolivegreen": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "darkolivegreen"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkolivegreen",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "darkolivegreen",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkolivegreen"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/darkorange": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "darkorange"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkorange",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "darkorange",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkorange"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/darkorchid": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "darkorchid"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkorchid",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "darkorchid",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkorchid"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/darkred": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "darkred"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkred",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "darkred",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkred"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/darksalmon": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "darksalmon"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darksalmon",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "darksalmon",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darksalmon"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/darkseagreen": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "darkseagreen"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkseagreen",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "darkseagreen",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkseagreen"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/darkslateblue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "darkslateblue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkslateblue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "darkslateblue",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkslateblue"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/darkslategray": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "darkslategray"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkslategray",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "darkslategray",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkslategray"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/darkslategrey": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "darkslategrey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkslategrey",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "darkslategrey",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkslategrey"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/darkturquoise": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "darkturquoise"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkturquoise",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "darkturquoise",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkturquoise"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/darkviolet": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "darkviolet"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/darkviolet",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "darkviolet",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkviolet"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/deeppink": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "deeppink"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/deeppink",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "deeppink",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/deeppink"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/deepskyblue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "deepskyblue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/deepskyblue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "deepskyblue",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/deepskyblue"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/description": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "description"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/description",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "description",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/description"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/dimgray": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dimgray"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/dimgray",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "dimgray",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/dimgray"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/dimgrey": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dimgrey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/dimgrey",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "dimgrey",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/dimgrey"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/dodgerblue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dodgerblue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/dodgerblue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "dodgerblue",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/dodgerblue"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/firebrick": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "firebrick"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/firebrick",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "firebrick",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/firebrick"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/floralwhite": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "floralwhite"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/floralwhite",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "floralwhite",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/floralwhite"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/forestgreen": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "forestgreen"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/forestgreen",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "forestgreen",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/forestgreen"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/fuchsia": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fuchsia"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/fuchsia",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fuchsia",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/fuchsia"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/gainsboro": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gainsboro"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/gainsboro",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "gainsboro",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/gainsboro"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/ghostwhite": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ghostwhite"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/ghostwhite",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ghostwhite",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/ghostwhite"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/gold": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gold"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/gold",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "gold",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/gold"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/goldenrod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "goldenrod"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/goldenrod",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "goldenrod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/goldenrod"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/gray": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gray"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/gray",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "gray",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/gray"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/green": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "green"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/green",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "green",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/green"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/greenyellow": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "greenyellow"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/greenyellow",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "greenyellow",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/greenyellow"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/grey": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "grey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/grey",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "grey",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/grey"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/honeydew": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "honeydew"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/honeydew",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "honeydew",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/honeydew"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/hotpink": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hotpink"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/hotpink",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hotpink",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/hotpink"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/indianred": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "indianred"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/indianred",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "indianred",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/indianred"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/indigo": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "indigo"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/indigo",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "indigo",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/indigo"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/init(name:color:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "color"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV8RGBColorV",
+      "text" : "RGBColor"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/init(name:color:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(name:color:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/init(name:color:)"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/init(rawvalue:)"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/ivory": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ivory"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/ivory",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ivory",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/ivory"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/khaki": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "khaki"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/khaki",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "khaki",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/khaki"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/lavender": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lavender"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lavender",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lavender",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lavender"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/lavenderblush": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lavenderblush"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lavenderblush",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lavenderblush",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lavenderblush"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/lawngreen": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lawngreen"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lawngreen",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lawngreen",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lawngreen"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/lemonchiffon": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lemonchiffon"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lemonchiffon",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lemonchiffon",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lemonchiffon"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/lightblue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lightblue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightblue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lightblue",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightblue"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/lightcoral": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lightcoral"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightcoral",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lightcoral",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightcoral"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/lightcyan": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lightcyan"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightcyan",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lightcyan",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightcyan"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/lightgoldenrodyellow": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lightgoldenrodyellow"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightgoldenrodyellow",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lightgoldenrodyellow",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightgoldenrodyellow"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/lightgray": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lightgray"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightgray",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lightgray",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightgray"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/lightgreen": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lightgreen"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightgreen",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lightgreen",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightgreen"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/lightgrey": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lightgrey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightgrey",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lightgrey",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightgrey"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/lightpink": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lightpink"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightpink",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lightpink",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightpink"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/lightsalmon": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lightsalmon"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightsalmon",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lightsalmon",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightsalmon"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/lightseagreen": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lightseagreen"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightseagreen",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lightseagreen",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightseagreen"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/lightskyblue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lightskyblue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightskyblue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lightskyblue",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightskyblue"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/lightslategray": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lightslategray"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightslategray",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lightslategray",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightslategray"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/lightslategrey": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lightslategrey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightslategrey",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lightslategrey",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightslategrey"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/lightsteelblue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lightsteelblue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightsteelblue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lightsteelblue",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightsteelblue"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/lightyellow": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lightyellow"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lightyellow",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lightyellow",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightyellow"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/lime": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lime"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/lime",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "lime",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lime"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/limegreen": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "limegreen"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/limegreen",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "limegreen",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/limegreen"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/linen": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "linen"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/linen",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "linen",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/linen"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/magenta": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "magenta"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/magenta",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "magenta",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/magenta"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/maroon": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "maroon"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/maroon",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "maroon",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/maroon"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/mediumaquamarine": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mediumaquamarine"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/mediumaquamarine",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mediumaquamarine",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/mediumaquamarine"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/mediumblue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mediumblue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/mediumblue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mediumblue",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/mediumblue"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/mediumorchid": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mediumorchid"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/mediumorchid",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mediumorchid",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/mediumorchid"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/mediumpurple": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mediumpurple"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/mediumpurple",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mediumpurple",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/mediumpurple"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/mediumseagreen": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mediumseagreen"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/mediumseagreen",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mediumseagreen",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/mediumseagreen"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/mediumslateblue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mediumslateblue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/mediumslateblue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mediumslateblue",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/mediumslateblue"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/mediumspringgreen": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mediumspringgreen"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/mediumspringgreen",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mediumspringgreen",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/mediumspringgreen"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/mediumturquoise": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mediumturquoise"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/mediumturquoise",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mediumturquoise",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/mediumturquoise"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/mediumvioletred": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mediumvioletred"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/mediumvioletred",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mediumvioletred",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/mediumvioletred"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/midnightblue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "midnightblue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/midnightblue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "midnightblue",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/midnightblue"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/mintcream": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mintcream"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/mintcream",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mintcream",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/mintcream"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/mistyrose": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mistyrose"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/mistyrose",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "mistyrose",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/mistyrose"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/moccasin": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "moccasin"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/moccasin",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "moccasin",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/moccasin"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/name": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/name",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "name",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/name"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/navajowhite": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "navajowhite"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/navajowhite",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "navajowhite",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/navajowhite"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/navy": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "navy"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/navy",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "navy",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/navy"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/oldlace": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "oldlace"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/oldlace",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "oldlace",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/oldlace"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/olive": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "olive"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/olive",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "olive",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/olive"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/olivedrab": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "olivedrab"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/olivedrab",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "olivedrab",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/olivedrab"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/orange": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "orange"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/orange",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "orange",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/orange"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/orangered": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "orangered"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/orangered",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "orangered",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/orangered"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/orchid": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "orchid"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/orchid",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "orchid",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/orchid"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/palegoldenrod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "palegoldenrod"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/palegoldenrod",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "palegoldenrod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/palegoldenrod"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/palegreen": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "palegreen"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/palegreen",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "palegreen",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/palegreen"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/paleturquoise": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "paleturquoise"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/paleturquoise",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "paleturquoise",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/paleturquoise"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/palevioletred": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "palevioletred"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/palevioletred",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "palevioletred",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/palevioletred"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/papayawhip": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "papayawhip"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/papayawhip",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "papayawhip",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/papayawhip"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/peachpuff": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "peachpuff"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/peachpuff",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "peachpuff",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/peachpuff"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/peru": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "peru"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/peru",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "peru",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/peru"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/pink": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pink"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/pink",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "pink",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/pink"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/plum": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "plum"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/plum",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "plum",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/plum"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/powderblue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "powderblue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/powderblue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "powderblue",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/powderblue"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/purple": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "purple"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/purple",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "purple",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/purple"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/rawValue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/rawValue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "rawValue",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/rawvalue"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/red": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "red"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/red",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "red",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/red"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/rosybrown": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "rosybrown"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/rosybrown",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "rosybrown",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/rosybrown"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/royalblue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "royalblue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/royalblue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "royalblue",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/royalblue"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/saddlebrown": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "saddlebrown"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/saddlebrown",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "saddlebrown",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/saddlebrown"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/salmon": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "salmon"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/salmon",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "salmon",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/salmon"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/sandybrown": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sandybrown"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/sandybrown",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sandybrown",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/sandybrown"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/seagreen": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "seagreen"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/seagreen",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "seagreen",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/seagreen"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/seashell": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "seashell"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/seashell",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "seashell",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/seashell"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/sienna": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sienna"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/sienna",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sienna",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/sienna"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/silver": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "silver"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/silver",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "silver",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/silver"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/skyblue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "skyblue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/skyblue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "skyblue",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/skyblue"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/slateblue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "slateblue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/slateblue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "slateblue",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/slateblue"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/slategray": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "slategray"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/slategray",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "slategray",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/slategray"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/slategrey": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "slategrey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/slategrey",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "slategrey",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/slategrey"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/snow": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "snow"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/snow",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "snow",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/snow"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/springgreen": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "springgreen"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/springgreen",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "springgreen",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/springgreen"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/steelblue": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "steelblue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/steelblue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "steelblue",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/steelblue"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/tan": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tan"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/tan",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "tan",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/tan"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/teal": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "teal"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/teal",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "teal",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/teal"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/thistle": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "thistle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/thistle",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "thistle",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/thistle"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/tomato": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tomato"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/tomato",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "tomato",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/tomato"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/transparent": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "transparent"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/transparent",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "transparent",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/transparent"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/turquoise": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "turquoise"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/turquoise",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "turquoise",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/turquoise"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/violet": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "violet"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/violet",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "violet",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/violet"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/wheat": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "wheat"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/wheat",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "wheat",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/wheat"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/white": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "white"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/white",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "white",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/white"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/whitesmoke": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "whitesmoke"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/whitesmoke",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "whitesmoke",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/whitesmoke"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/yellow": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "yellow"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/yellow",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "yellow",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/yellow"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/yellowgreen": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "yellowgreen"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV",
+      "text" : "CSSColor"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod8CSSColorV10NamedColorV",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/yellowgreen",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "yellowgreen",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/yellowgreen"
+},
+"doc://JXPod/s12CaseIterableP": {
+  "identifier" : "doc:\/\/JXPod\/s12CaseIterableP",
+  "title" : "Swift.CaseIterable",
+  "type" : "unresolvable"
+},
+"doc://JXPod/s23CustomStringConvertibleP": {
+  "identifier" : "doc:\/\/JXPod\/s23CustomStringConvertibleP",
+  "title" : "Swift.CustomStringConvertible",
+  "type" : "unresolvable"
+}
+}
+}

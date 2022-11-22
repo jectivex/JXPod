@@ -1,0 +1,772 @@
+{
+  "abstract" : [
+    {
+      "text" : "Analogue to ",
+      "type" : "text"
+    },
+    {
+      "code" : "SwiftUI.Font.TextStyle",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " as a string enum so automatic Jack bridging magic can happen",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/JXPod\/documentation\/JXPod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:5JXPod12FontTemplateO9TextStyleO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "TextStyle"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JXPod"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "TextStyle"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "FontTemplate.TextStyle"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "TextStyle"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/5JXKit13JXConvertibleP",
+        "doc:\/\/JXPod\/Se",
+        "doc:\/\/JXPod\/SE",
+        "doc:\/\/JXPod\/SQ",
+        "doc:\/\/JXPod\/SH",
+        "doc:\/\/JXPod\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/body",
+        "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/callout",
+        "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/caption",
+        "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/caption2",
+        "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/footnote",
+        "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/headline",
+        "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/largeTitle",
+        "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/subheadline",
+        "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/title",
+        "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/title2",
+        "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/title3"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/toJX(in:)"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/fromJX(_:)-6ufle"
+      ],
+      "title" : "Type Methods"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/Decodable-Implementations",
+        "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/Encodable-Implementations",
+        "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/Equatable-Implementations",
+        "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jxpod\/fonttemplate\/textstyle"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://JXPod/5JXKit13JXConvertibleP": {
+  "identifier" : "doc:\/\/JXPod\/5JXKit13JXConvertibleP",
+  "title" : "JXKit.JXConvertible",
+  "type" : "unresolvable"
+},
+"doc://JXPod/SE": {
+  "identifier" : "doc:\/\/JXPod\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://JXPod/SH": {
+  "identifier" : "doc:\/\/JXPod\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://JXPod/SQ": {
+  "identifier" : "doc:\/\/JXPod\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://JXPod/SY": {
+  "identifier" : "doc:\/\/JXPod\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://JXPod/Se": {
+  "identifier" : "doc:\/\/JXPod\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://JXPod/documentation/JXPod": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JXPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod"
+},
+"doc://JXPod/documentation/JXPod/FontTemplate": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FontTemplate"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FontTemplate"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FontTemplate",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/fonttemplate"
+},
+"doc://JXPod/documentation/JXPod/FontTemplate/TextStyle": {
+  "abstract" : [
+    {
+      "text" : "Analogue to ",
+      "type" : "text"
+    },
+    {
+      "code" : "SwiftUI.Font.TextStyle",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " as a string enum so automatic Jack bridging magic can happen",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TextStyle"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TextStyle"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FontTemplate.TextStyle",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/fonttemplate\/textstyle"
+},
+"doc://JXPod/documentation/JXPod/FontTemplate/TextStyle/Decodable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/Decodable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Decodable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/fonttemplate\/textstyle\/decodable-implementations"
+},
+"doc://JXPod/documentation/JXPod/FontTemplate/TextStyle/Encodable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/Encodable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Encodable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/fonttemplate\/textstyle\/encodable-implementations"
+},
+"doc://JXPod/documentation/JXPod/FontTemplate/TextStyle/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/fonttemplate\/textstyle\/equatable-implementations"
+},
+"doc://JXPod/documentation/JXPod/FontTemplate/TextStyle/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/fonttemplate\/textstyle\/rawrepresentable-implementations"
+},
+"doc://JXPod/documentation/JXPod/FontTemplate/TextStyle/body": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "body"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/body",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FontTemplate.TextStyle.body",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/fonttemplate\/textstyle\/body"
+},
+"doc://JXPod/documentation/JXPod/FontTemplate/TextStyle/callout": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "callout"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/callout",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FontTemplate.TextStyle.callout",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/fonttemplate\/textstyle\/callout"
+},
+"doc://JXPod/documentation/JXPod/FontTemplate/TextStyle/caption": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "caption"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/caption",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FontTemplate.TextStyle.caption",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/fonttemplate\/textstyle\/caption"
+},
+"doc://JXPod/documentation/JXPod/FontTemplate/TextStyle/caption2": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "caption2"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/caption2",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FontTemplate.TextStyle.caption2",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/fonttemplate\/textstyle\/caption2"
+},
+"doc://JXPod/documentation/JXPod/FontTemplate/TextStyle/footnote": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "footnote"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/footnote",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FontTemplate.TextStyle.footnote",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/fonttemplate\/textstyle\/footnote"
+},
+"doc://JXPod/documentation/JXPod/FontTemplate/TextStyle/fromJX(_:)-6ufle": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fromJX"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit7JXValueC",
+      "text" : "JXValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod12FontTemplateO",
+      "text" : "FontTemplate"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod12FontTemplateO9TextStyleO",
+      "text" : "TextStyle"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/fromJX(_:)-6ufle",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fromJX(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/fonttemplate\/textstyle\/fromjx(_:)-6ufle"
+},
+"doc://JXPod/documentation/JXPod/FontTemplate/TextStyle/headline": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "headline"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/headline",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FontTemplate.TextStyle.headline",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/fonttemplate\/textstyle\/headline"
+},
+"doc://JXPod/documentation/JXPod/FontTemplate/TextStyle/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/fonttemplate\/textstyle\/init(rawvalue:)"
+},
+"doc://JXPod/documentation/JXPod/FontTemplate/TextStyle/largeTitle": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "largeTitle"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/largeTitle",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FontTemplate.TextStyle.largeTitle",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/fonttemplate\/textstyle\/largetitle"
+},
+"doc://JXPod/documentation/JXPod/FontTemplate/TextStyle/subheadline": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "subheadline"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/subheadline",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FontTemplate.TextStyle.subheadline",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/fonttemplate\/textstyle\/subheadline"
+},
+"doc://JXPod/documentation/JXPod/FontTemplate/TextStyle/title": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "title"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/title",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FontTemplate.TextStyle.title",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/fonttemplate\/textstyle\/title"
+},
+"doc://JXPod/documentation/JXPod/FontTemplate/TextStyle/title2": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "title2"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/title2",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FontTemplate.TextStyle.title2",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/fonttemplate\/textstyle\/title2"
+},
+"doc://JXPod/documentation/JXPod/FontTemplate/TextStyle/title3": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "title3"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/title3",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "FontTemplate.TextStyle.title3",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/fonttemplate\/textstyle\/title3"
+},
+"doc://JXPod/documentation/JXPod/FontTemplate/TextStyle/toJX(in:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "toJX"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "in"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit9JXContextC",
+      "text" : "JXContext"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit7JXValueC",
+      "text" : "JXValue"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/toJX(in:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "toJX(in:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/fonttemplate\/textstyle\/tojx(in:)"
+}
+}
+}

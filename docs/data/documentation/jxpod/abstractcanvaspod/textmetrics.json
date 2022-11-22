@@ -1,0 +1,1170 @@
+{
+  "abstract" : [
+    {
+      "text" : "A structure describing text measurments.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/JXPod\/documentation\/JXPod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:5JXPod17AbstractCanvasPodC11TextMetricsV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "TextMetrics"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JXPod"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "TextMetrics"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "AbstractCanvasPod.TextMetrics"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "TextMetrics"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "See: ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/TextMetrics",
+              "isActive" : true,
+              "type" : "reference"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/5JXKit13JXConvertibleP",
+        "doc:\/\/JXPod\/Se",
+        "doc:\/\/JXPod\/SE",
+        "doc:\/\/JXPod\/SQ"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/init(from:)",
+        "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/init(width:actualBoundingBoxLeft:actualBoundingBoxRight:fontBoundingBoxAscent:fontBoundingBoxDescent:actualBoundingBoxAscent:actualBoundingBoxDescent:emHeightAscent:emHeightDescent:hangingBaseline:alphabeticBaseline:ideographicBaseline:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/actualBoundingBoxAscent",
+        "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/actualBoundingBoxDescent",
+        "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/actualBoundingBoxLeft",
+        "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/actualBoundingBoxRight",
+        "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/alphabeticBaseline",
+        "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/emHeightAscent",
+        "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/emHeightDescent",
+        "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/fontBoundingBoxAscent",
+        "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/fontBoundingBoxDescent",
+        "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/hangingBaseline",
+        "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/ideographicBaseline",
+        "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/width"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/Decodable-Implementations",
+        "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/Encodable-Implementations",
+        "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jxpod\/abstractcanvaspod\/textmetrics"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://JXPod/5JXKit13JXConvertibleP": {
+  "identifier" : "doc:\/\/JXPod\/5JXKit13JXConvertibleP",
+  "title" : "JXKit.JXConvertible",
+  "type" : "unresolvable"
+},
+"doc://JXPod/SE": {
+  "identifier" : "doc:\/\/JXPod\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
+"doc://JXPod/SQ": {
+  "identifier" : "doc:\/\/JXPod\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://JXPod/Se": {
+  "identifier" : "doc:\/\/JXPod\/Se",
+  "title" : "Swift.Decodable",
+  "type" : "unresolvable"
+},
+"doc://JXPod/documentation/JXPod": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JXPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod"
+},
+"doc://JXPod/documentation/JXPod/AbstractCanvasPod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "AbstractCanvasPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "AbstractCanvasPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AbstractCanvasPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/abstractcanvaspod"
+},
+"doc://JXPod/documentation/JXPod/AbstractCanvasPod/TextMetrics": {
+  "abstract" : [
+    {
+      "text" : "A structure describing text measurments.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TextMetrics"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TextMetrics"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "AbstractCanvasPod.TextMetrics",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/abstractcanvaspod\/textmetrics"
+},
+"doc://JXPod/documentation/JXPod/AbstractCanvasPod/TextMetrics/Decodable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/Decodable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Decodable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/abstractcanvaspod\/textmetrics\/decodable-implementations"
+},
+"doc://JXPod/documentation/JXPod/AbstractCanvasPod/TextMetrics/Encodable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/Encodable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Encodable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/abstractcanvaspod\/textmetrics\/encodable-implementations"
+},
+"doc://JXPod/documentation/JXPod/AbstractCanvasPod/TextMetrics/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/abstractcanvaspod\/textmetrics\/equatable-implementations"
+},
+"doc://JXPod/documentation/JXPod/AbstractCanvasPod/TextMetrics/actualBoundingBoxAscent": {
+  "abstract" : [
+    {
+      "text" : "TextMetrics.actualBoundingBoxAscent Read only",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Is a double giving the distance from the horizontal line indicated by the CanvasRenderingContext2D.textBaseline attribute to the top of the bounding rectangle used to render the text, in CSS pixels.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "actualBoundingBoxAscent"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/actualBoundingBoxAscent",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "actualBoundingBoxAscent",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/abstractcanvaspod\/textmetrics\/actualboundingboxascent"
+},
+"doc://JXPod/documentation/JXPod/AbstractCanvasPod/TextMetrics/actualBoundingBoxDescent": {
+  "abstract" : [
+    {
+      "text" : "TextMetrics.actualBoundingBoxDescent Read only",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Is a double giving the distance from the horizontal line indicated by the CanvasRenderingContext2D.textBaseline attribute to the bottom of the bounding rectangle used to render the text, in CSS pixels.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "actualBoundingBoxDescent"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/actualBoundingBoxDescent",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "actualBoundingBoxDescent",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/abstractcanvaspod\/textmetrics\/actualboundingboxdescent"
+},
+"doc://JXPod/documentation/JXPod/AbstractCanvasPod/TextMetrics/actualBoundingBoxLeft": {
+  "abstract" : [
+    {
+      "text" : "TextMetrics.actualBoundingBoxLeft Read only",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Is a double giving the distance from the alignment point given by the CanvasRenderingContext2D.textAlign property to the left side of the bounding rectangle of the given text, in CSS pixels. The distance is measured parallel to the baseline.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "actualBoundingBoxLeft"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/actualBoundingBoxLeft",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "actualBoundingBoxLeft",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/abstractcanvaspod\/textmetrics\/actualboundingboxleft"
+},
+"doc://JXPod/documentation/JXPod/AbstractCanvasPod/TextMetrics/actualBoundingBoxRight": {
+  "abstract" : [
+    {
+      "text" : "TextMetrics.actualBoundingBoxRight Read only",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Is a double giving the distance from the alignment point given by the CanvasRenderingContext2D.textAlign property to the right side of the bounding rectangle of the given text, in CSS pixels. The distance is measured parallel to the baseline.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "actualBoundingBoxRight"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/actualBoundingBoxRight",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "actualBoundingBoxRight",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/abstractcanvaspod\/textmetrics\/actualboundingboxright"
+},
+"doc://JXPod/documentation/JXPod/AbstractCanvasPod/TextMetrics/alphabeticBaseline": {
+  "abstract" : [
+    {
+      "text" : "TextMetrics.alphabeticBaseline Read only",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Is a double giving the distance from the horizontal line indicated by the CanvasRenderingContext2D.textBaseline property to the alphabetic baseline of the line box, in CSS pixels.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "alphabeticBaseline"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/alphabeticBaseline",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "alphabeticBaseline",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/abstractcanvaspod\/textmetrics\/alphabeticbaseline"
+},
+"doc://JXPod/documentation/JXPod/AbstractCanvasPod/TextMetrics/emHeightAscent": {
+  "abstract" : [
+    {
+      "text" : "TextMetrics.emHeightAscent Read only",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Is a double giving the distance from the horizontal line indicated by the CanvasRenderingContext2D.textBaseline property to the top of the em square in the line box, in CSS pixels.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "emHeightAscent"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/emHeightAscent",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "emHeightAscent",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/abstractcanvaspod\/textmetrics\/emheightascent"
+},
+"doc://JXPod/documentation/JXPod/AbstractCanvasPod/TextMetrics/emHeightDescent": {
+  "abstract" : [
+    {
+      "text" : "TextMetrics.emHeightDescent Read only",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Is a double giving the distance from the horizontal line indicated by the CanvasRenderingContext2D.textBaseline property to the bottom of the em square in the line box, in CSS pixels.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "emHeightDescent"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/emHeightDescent",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "emHeightDescent",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/abstractcanvaspod\/textmetrics\/emheightdescent"
+},
+"doc://JXPod/documentation/JXPod/AbstractCanvasPod/TextMetrics/fontBoundingBoxAscent": {
+  "abstract" : [
+    {
+      "text" : "TextMetrics.fontBoundingBoxAscent Read only",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Is a double giving the distance from the horizontal line indicated by the CanvasRenderingContext2D.textBaseline attribute to the top of the highest bounding rectangle of all the fonts used to render the text, in CSS pixels.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fontBoundingBoxAscent"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/fontBoundingBoxAscent",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fontBoundingBoxAscent",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/abstractcanvaspod\/textmetrics\/fontboundingboxascent"
+},
+"doc://JXPod/documentation/JXPod/AbstractCanvasPod/TextMetrics/fontBoundingBoxDescent": {
+  "abstract" : [
+    {
+      "text" : "TextMetrics.fontBoundingBoxDescent Read only",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Is a double giving the distance from the horizontal line indicated by the CanvasRenderingContext2D.textBaseline attribute to the bottom of the bounding rectangle of all the fonts used to render the text, in CSS pixels.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fontBoundingBoxDescent"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/fontBoundingBoxDescent",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fontBoundingBoxDescent",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/abstractcanvaspod\/textmetrics\/fontboundingboxdescent"
+},
+"doc://JXPod/documentation/JXPod/AbstractCanvasPod/TextMetrics/hangingBaseline": {
+  "abstract" : [
+    {
+      "text" : "TextMetrics.hangingBaseline Read only",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Is a double giving the distance from the horizontal line indicated by the CanvasRenderingContext2D.textBaseline property to the hanging baseline of the line box, in CSS pixels.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hangingBaseline"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/hangingBaseline",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "hangingBaseline",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/abstractcanvaspod\/textmetrics\/hangingbaseline"
+},
+"doc://JXPod/documentation/JXPod/AbstractCanvasPod/TextMetrics/ideographicBaseline": {
+  "abstract" : [
+    {
+      "text" : "TextMetrics.ideographicBaseline Read only",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Is a double giving the distance from the horizontal line indicated by the CanvasRenderingContext2D.textBaseline property to the ideographic baseline of the line box, in CSS pixels.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ideographicBaseline"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/ideographicBaseline",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ideographicBaseline",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/abstractcanvaspod\/textmetrics\/ideographicbaseline"
+},
+"doc://JXPod/documentation/JXPod/AbstractCanvasPod/TextMetrics/init(from:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s7DecoderP",
+      "text" : "Decoder"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/init(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/abstractcanvaspod\/textmetrics\/init(from:)"
+},
+"doc://JXPod/documentation/JXPod/AbstractCanvasPod/TextMetrics/init(width:actualBoundingBoxLeft:actualBoundingBoxRight:fontBoundingBoxAscent:fontBoundingBoxDescent:actualBoundingBoxAscent:actualBoundingBoxDescent:emHeightAscent:emHeightDescent:hangingBaseline:alphabeticBaseline:ideographicBaseline:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "width"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "actualBoundingBoxLeft"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "actualBoundingBoxRight"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "fontBoundingBoxAscent"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "fontBoundingBoxDescent"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "actualBoundingBoxAscent"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "actualBoundingBoxDescent"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "emHeightAscent"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "emHeightDescent"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "hangingBaseline"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "alphabeticBaseline"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "ideographicBaseline"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/init(width:actualBoundingBoxLeft:actualBoundingBoxRight:fontBoundingBoxAscent:fontBoundingBoxDescent:actualBoundingBoxAscent:actualBoundingBoxDescent:emHeightAscent:emHeightDescent:hangingBaseline:alphabeticBaseline:ideographicBaseline:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(width:actualBoundingBoxLeft:actualBoundingBoxRight:fontBoundingBoxAscent:fontBoundingBoxDescent:actualBoundingBoxAscent:actualBoundingBoxDescent:emHeightAscent:emHeightDescent:hangingBaseline:alphabeticBaseline:ideographicBaseline:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/abstractcanvaspod\/textmetrics\/init(width:actualboundingboxleft:actualboundingboxright:fontboundingboxascent:fontboundingboxdescent:actualboundingboxascent:actualboundingboxdescent:emheightascent:emheightdescent:hangingbaseline:alphabeticbaseline:ideographicbaseline:)"
+},
+"doc://JXPod/documentation/JXPod/AbstractCanvasPod/TextMetrics/width": {
+  "abstract" : [
+    {
+      "text" : "TextMetrics.width Read only",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Is a double giving the calculated width of a segment of inline text in CSS pixels. It takes into account the current font of the context.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "width"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/width",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "width",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/abstractcanvaspod\/textmetrics\/width"
+},
+"https://developer.mozilla.org/en-US/docs/Web/API/TextMetrics": {
+  "identifier" : "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/TextMetrics",
+  "title" : "MDN",
+  "titleInlineContent" : [
+    {
+      "text" : "MDN",
+      "type" : "text"
+    }
+  ],
+  "type" : "link",
+  "url" : "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/TextMetrics"
+}
+}
+}
