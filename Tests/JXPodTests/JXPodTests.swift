@@ -1,9 +1,9 @@
 import XCTest
 import Jack
-import JackPot
+import JXPod
 
-final class JackPotTests: XCTestCase {
-    func testJackPot() throws {
+final class JXPodTests: XCTestCase {
+    func testJXPod() throws {
         class PlugIn : JackedObject {
             @Stack var num = 1
         }

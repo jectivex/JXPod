@@ -1,5 +1,5 @@
 import Jack
-import JackPot
+import JXPod
 import XCTest
 
 final class ThemePodTests: XCTestCase {

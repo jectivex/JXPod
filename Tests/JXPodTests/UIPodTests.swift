@@ -1,7 +1,7 @@
 import Foundation
 import JXKit
 import Jack
-import JackPot
+import JXPod
 import XCTest
 #if canImport(SwiftUI)
 import SwiftUI

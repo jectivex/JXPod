@@ -1,5 +1,5 @@
 import JXKit
-import JackPot
+import JXPod
 import XCTest
 
 class CanvasPodTest : XCTestCase {

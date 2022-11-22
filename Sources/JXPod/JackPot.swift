@@ -1,6 +1,6 @@
 
-public struct JackPot {
-    public private(set) var text = "JackPot!"
+public struct JXPod {
+    public private(set) var text = "JXPod!"
 
     public init() {
     }

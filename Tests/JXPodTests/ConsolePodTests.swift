@@ -1,4 +1,4 @@
-import JackPot
+import JXPod
 import XCTest
 
 final class ConsolePodTests: XCTestCase {
