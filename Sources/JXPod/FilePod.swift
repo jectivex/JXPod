@@ -1,31 +1,37 @@
 import Foundation
-import Jack
+import JXBridge
+import JXKit
 
-// MARK: FilePod
+public class FilePod: JXPod, JXModule {
+    let fileManager: FileManager
 
-// fs.mkdir('/tmp/dir')
-
-open class FilePod : JackPod {
-    let fm: FileManager
-
-    public init(fm: FileManager = .default) {
-        self.fm = fm
+    public init(fileManager: FileManager = .default) {
+        self.fileManager = fileManager
     }
 
-    public var metadata: JackPodMetaData {
-        JackPodMetaData(homePage: URL(string: "https://www.example.com")!)
+    public var metadata: JXPodMetaData {
+        JXPodMetaData(homePage: URL(string: "https://www.example.com")!)
     }
-
-
-    @Jack("fileExists") var _fileExists = fileExists
-    func fileExists(atPath path: String) -> Bool {
-        fm.fileExists(atPath: path)
+    
+    public let namespace: JXNamespace = "file"
+    
+    public func register(with registry: JXRegistry) throws {
+        try registry.register {
+            JXBridgeBuilder(type: FileManager.self)
+                .var.temporaryDirectory { $0.temporaryDirectory.path }
+                .var.currentDirectory { \.currentDirectoryPath }
+                .func.changeCurrentDirectory { FileManager.changeCurrentDirectoryPath }
+                .func.contentsOfDirectory { FileManager.contentsOfDirectory(atPath:) }
+                .func.createDirectory { try $0.createDirectory(atPath: $1, withIntermediateDirectories: $2) }
+                .func.remove { FileManager.removeItem(atPath:) }
+                .func.copy { FileManager.copyItem(atPath:toPath:) }
+                .func.move { FileManager.moveItem(atPath:toPath:) }
+                .func.exists { FileManager.fileExists(atPath:) }
+                .bridge
+        }
     }
-
-    @Jack("createDirectory") var _createDirectory = createDirectory
-    func createDirectory(atPath path: String, withIntermediateDirectories dirs: Bool) throws {
-        try fm.createDirectory(atPath: path, withIntermediateDirectories: dirs)
+    
+    public func initialize(in context: JXContext) throws {
+        try context.global.integrate(fileManager, namespace: namespace)
     }
 }
-
-

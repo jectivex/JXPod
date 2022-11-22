@@ -973,8 +973,8 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/jxpod\/filepod\/init(fm:)",
-                "title" : "init(fm: FileManager)",
+                "path" : "\/documentation\/jxpod\/filepod\/init(filemanager:)",
+                "title" : "init(fileManager: FileManager)",
                 "type" : "init"
               },
               {
@@ -983,8 +983,27 @@
               },
               {
                 "path" : "\/documentation\/jxpod\/filepod\/metadata",
-                "title" : "var metadata: JackPodMetaData",
+                "title" : "var metadata: JXPodMetaData",
                 "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/filepod\/namespace",
+                "title" : "let namespace: JXNamespace",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/filepod\/initialize(in:)",
+                "title" : "func initialize(in: JXContext) throws",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/filepod\/register(with:)",
+                "title" : "func register(with: JXRegistry) throws",
+                "type" : "method"
               },
               {
                 "title" : "Default Implementations",
@@ -993,31 +1012,22 @@
               {
                 "children" : [
                   {
-                    "title" : "Instance Properties",
-                    "type" : "groupMarker"
-                  },
-                  {
-                    "path" : "\/documentation\/jxpod\/filepod\/objectwillchange-61dno",
-                    "title" : "var objectWillChange: ObservableObjectPublisher",
-                    "type" : "property"
-                  },
-                  {
                     "title" : "Instance Methods",
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/jxpod\/filepod\/inject(into:)",
-                    "title" : "func inject(into: JXValue) throws -> [JXProperty]",
+                    "path" : "\/documentation\/jxpod\/filepod\/registerbridge(for:in:)",
+                    "title" : "func registerBridge(for: Any, in: JXRegistry) -> Bool",
                     "type" : "method"
                   },
                   {
-                    "path" : "\/documentation\/jxpod\/filepod\/jack(into:)",
-                    "title" : "func jack(into: JXValue) throws -> JXValue",
+                    "path" : "\/documentation\/jxpod\/filepod\/registerbridge(for:namespace:in:)",
+                    "title" : "func registerBridge(for: String, namespace: JXNamespace, in: JXRegistry) -> Bool",
                     "type" : "method"
                   }
                 ],
-                "path" : "\/documentation\/jxpod\/filepod\/jackedobject-implementations",
-                "title" : "JackedObject Implementations",
+                "path" : "\/documentation\/jxpod\/filepod\/jxmodule-implementations",
+                "title" : "JXModule Implementations",
                 "type" : "symbol"
               },
               {
@@ -1027,13 +1037,13 @@
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/jxpod\/filepod\/objectwillchange-6yrh3",
-                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "path" : "\/documentation\/jxpod\/filepod\/module",
+                    "title" : "var module: JXModule",
                     "type" : "property"
                   }
                 ],
-                "path" : "\/documentation\/jxpod\/filepod\/observableobject-implementations",
-                "title" : "ObservableObject Implementations",
+                "path" : "\/documentation\/jxpod\/filepod\/jxpod-implementations",
+                "title" : "JXPod Implementations",
                 "type" : "symbol"
               }
             ],
@@ -1572,7 +1582,12 @@
               },
               {
                 "path" : "\/documentation\/jxpod\/timepod\/metadata",
-                "title" : "var metadata: JackPodMetaData",
+                "title" : "var metadata: JXPodMetaData",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/timepod\/namespace",
+                "title" : "let namespace: JXNamespace",
                 "type" : "property"
               },
               {
@@ -1580,9 +1595,80 @@
                 "type" : "groupMarker"
               },
               {
+                "path" : "\/documentation\/jxpod\/timepod\/initialize(in:)",
+                "title" : "func initialize(in: JXContext) throws",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/timepod\/register(with:)",
+                "title" : "func register(with: JXRegistry) throws",
+                "type" : "method"
+              },
+              {
                 "path" : "\/documentation\/jxpod\/timepod\/sleep(duration:)",
                 "title" : "func sleep(duration: TimeInterval) async throws",
                 "type" : "method"
+              },
+              {
+                "title" : "Enumerations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Enumeration Cases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/timepod\/errors\/sleepdurationnan",
+                    "title" : "case sleepDurationNaN",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/timepod\/errors\/sleepdurationnegative",
+                    "title" : "case sleepDurationNegative",
+                    "type" : "case"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/timepod\/errors\/!=(_:_:)",
+                        "title" : "static func != (Self, Self) -> Bool",
+                        "type" : "op"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxpod\/timepod\/errors\/equatable-implementations",
+                    "title" : "Equatable Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/timepod\/errors\/localizeddescription",
+                        "title" : "var localizedDescription: String",
+                        "type" : "property"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxpod\/timepod\/errors\/error-implementations",
+                    "title" : "Error Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/timepod\/errors",
+                "title" : "TimePod.Errors",
+                "type" : "enum"
               },
               {
                 "title" : "Default Implementations",
@@ -1595,27 +1681,52 @@
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/jxpod\/timepod\/objectwillchange-8ujzl",
-                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "path" : "\/documentation\/jxpod\/timepod\/jxstate",
+                    "title" : "var jxState: JXState?",
                     "type" : "property"
                   },
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/timepod\/jxnamespace",
+                    "title" : "static var jxNamespace: JXNamespace",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/timepod\/jxbridge(mirror:)",
+                    "title" : "static func jxBridge(mirror: Mirror) -> JXBridge",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/timepod\/jxbridging-implementations",
+                "title" : "JXBridging Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
                   {
                     "title" : "Instance Methods",
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/jxpod\/timepod\/inject(into:)",
-                    "title" : "func inject(into: JXValue) throws -> [JXProperty]",
+                    "path" : "\/documentation\/jxpod\/timepod\/registerbridge(for:in:)",
+                    "title" : "func registerBridge(for: Any, in: JXRegistry) -> Bool",
                     "type" : "method"
                   },
                   {
-                    "path" : "\/documentation\/jxpod\/timepod\/jack(into:)",
-                    "title" : "func jack(into: JXValue) throws -> JXValue",
+                    "path" : "\/documentation\/jxpod\/timepod\/registerbridge(for:namespace:in:)",
+                    "title" : "func registerBridge(for: String, namespace: JXNamespace, in: JXRegistry) -> Bool",
                     "type" : "method"
                   }
                 ],
-                "path" : "\/documentation\/jxpod\/timepod\/jackedobject-implementations",
-                "title" : "JackedObject Implementations",
+                "path" : "\/documentation\/jxpod\/timepod\/jxmodule-implementations",
+                "title" : "JXModule Implementations",
                 "type" : "symbol"
               },
               {
@@ -1625,13 +1736,13 @@
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/jxpod\/timepod\/objectwillchange-6yn4f",
-                    "title" : "var objectWillChange: ObservableObjectPublisher",
+                    "path" : "\/documentation\/jxpod\/timepod\/module",
+                    "title" : "var module: JXModule",
                     "type" : "property"
                   }
                 ],
-                "path" : "\/documentation\/jxpod\/timepod\/observableobject-implementations",
-                "title" : "ObservableObject Implementations",
+                "path" : "\/documentation\/jxpod\/timepod\/jxpod-implementations",
+                "title" : "JXPod Implementations",
                 "type" : "symbol"
               }
             ],
@@ -2030,6 +2141,40 @@
             ],
             "path" : "\/documentation\/jxpod\/geopod",
             "title" : "GeoPod",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/jxpod\/metadata",
+                "title" : "var metadata: JXPodMetaData",
+                "type" : "property"
+              },
+              {
+                "children" : [
+                  {
+                    "children" : [
+                      {
+                        "path" : "\/documentation\/jxpod\/jxpod\/module-1bzn",
+                        "title" : "var module: JXModule",
+                        "type" : "property"
+                      }
+                    ],
+                    "title" : "JXPod Implementations",
+                    "type" : "groupMarker"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/jxpod\/module-bx0v",
+                "title" : "var module: JXModule",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/jxpod\/jxpod",
+            "title" : "JXPod",
             "type" : "protocol"
           },
           {
@@ -3585,8 +3730,33 @@
             "type" : "struct"
           },
           {
-            "path" : "\/documentation\/jxpod\/jxpod",
-            "title" : "JXPod",
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/jxpodmetadata\/init(from:)",
+                "title" : "init(from: Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/jxpodmetadata\/init(homepage:)",
+                "title" : "init(homePage: URL)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/jxpodmetadata\/homepage",
+                "title" : "var homePage: URL",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/jxpod\/jxpodmetadata",
+            "title" : "JXPodMetaData",
             "type" : "struct"
           },
           {

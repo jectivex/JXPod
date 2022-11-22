@@ -1,7 +1,23 @@
 {
   "abstract" : [
     {
-      "text" : "A JXPod is a packaged module?",
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXPod",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is a unit of native functionality that combines a ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXModule",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " with associated metadata.",
       "type" : "text"
     }
   ],
@@ -18,11 +34,11 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:5JXPodAAV",
+    "externalID" : "s:5JXPodAAP",
     "fragments" : [
       {
         "kind" : "keyword",
-        "text" : "struct"
+        "text" : "protocol"
       },
       {
         "kind" : "text",
@@ -45,8 +61,8 @@
       }
     ],
     "role" : "symbol",
-    "roleHeading" : "Structure",
-    "symbolKind" : "struct",
+    "roleHeading" : "Protocol",
+    "symbolKind" : "protocol",
     "title" : "JXPod"
   },
   "primaryContentSections" : [
@@ -62,7 +78,7 @@
           "tokens" : [
             {
               "kind" : "keyword",
-              "text" : "struct"
+              "text" : "protocol"
             },
             {
               "kind" : "text",
@@ -78,6 +94,17 @@
       "kind" : "declarations"
     }
   ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/FilePod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforming Types",
+      "type" : "conformingTypes"
+    }
+  ],
   "schemaVersion" : {
     "major" : 0,
     "minor" : 3,
@@ -85,6 +112,15 @@
   },
   "sections" : [
 
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/JXPod\/metadata",
+        "doc:\/\/JXPod\/documentation\/JXPod\/JXPod\/module-bx0v"
+      ],
+      "title" : "Instance Properties"
+    }
   ],
   "variants" : [
     {
@@ -111,17 +147,64 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod"
 },
+"doc://JXPod/documentation/JXPod/FilePod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "FilePod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FilePod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "FilePod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "FilePod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/filepod"
+},
 "doc://JXPod/documentation/JXPod/JXPod": {
   "abstract" : [
     {
-      "text" : "A JXPod is a packaged module?",
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXPod",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is a unit of native functionality that combines a ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXModule",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " with associated metadata.",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "struct"
+      "text" : "protocol"
     },
     {
       "kind" : "text",
@@ -144,6 +227,114 @@
   "title" : "JXPod",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/jxpod"
+},
+"doc://JXPod/documentation/JXPod/JXPod/metadata": {
+  "abstract" : [
+    {
+      "text" : "The metadata for this pod.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "metadata"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod0A8MetaDataV",
+      "text" : "JXPodMetaData"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPod\/metadata",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "metadata",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/jxpod\/metadata"
+},
+"doc://JXPod/documentation/JXPod/JXPod/module-bx0v": {
+  "abstract" : [
+    {
+      "text" : "Pod functionality.",
+      "type" : "text"
+    }
+  ],
+  "defaultImplementations" : 1,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "module"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge8JXModuleP",
+      "text" : "JXModule"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPod\/module-bx0v",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "module",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/jxpod\/module-bx0v"
+},
+"doc://JXPod/documentation/JXPod/TimePod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TimePod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TimePod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TimePod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/timepod"
 }
 }
 }

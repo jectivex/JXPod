@@ -1,21 +1,34 @@
-import Jack
 import Foundation
+import JXBridge
+import JXKit
 
-// MARK: TimePod
-
-// setTimeout()
-// await sleep(123)
-
-open class TimePod : JackPod {
+public class TimePod: JXPod, JXModule, JXBridging {
     public init() {
     }
     
-    open var metadata: JackPodMetaData {
-        JackPodMetaData(homePage: URL(string: "https://www.example.com")!)
+    public var metadata: JXPodMetaData {
+        JXPodMetaData(homePage: URL(string: "https://www.example.com")!)
     }
-
-    @Jack("sleep") var _sleep = sleep
-    open func sleep(duration: TimeInterval) async throws {
+    
+    public let namespace: JXNamespace = "time"
+    
+    public func register(with registry: JXRegistry) throws {
+        try registry.registerBridge(for: self, namespace: namespace)
+    }
+    
+    public func initialize(in context: JXContext) throws {
+        try context.global.integrate(self)
+    }
+    
+    public enum Errors: Error {
+        case sleepDurationNaN
+        case sleepDurationNegative
+    }
+    
+    // MARK: -
+    
+    @JXFunc var jxsleep = sleep
+    public func sleep(duration: TimeInterval) async throws {
         if duration.isNaN {
             throw Errors.sleepDurationNaN
         }
@@ -24,10 +37,4 @@ open class TimePod : JackPod {
         }
         try await Task.sleep(nanoseconds: .init(duration * 1_000_000_000))
     }
-
-    enum Errors : Error {
-        case sleepDurationNaN
-        case sleepDurationNegative
-    }
-
 }

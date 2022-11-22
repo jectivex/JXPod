@@ -58,6 +58,7 @@
         "doc:\/\/JXPod\/documentation\/JXPod\/CanvasPod",
         "doc:\/\/JXPod\/documentation\/JXPod\/ConsolePod",
         "doc:\/\/JXPod\/documentation\/JXPod\/GeoPod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/JXPod",
         "doc:\/\/JXPod\/documentation\/JXPod\/JackedChart",
         "doc:\/\/JXPod\/documentation\/JXPod\/JackedView"
       ],
@@ -71,7 +72,7 @@
         "doc:\/\/JXPod\/documentation\/JXPod\/CanvasRenderingContext2DSettingsAPI",
         "doc:\/\/JXPod\/documentation\/JXPod\/DOMMatrixAPI",
         "doc:\/\/JXPod\/documentation\/JXPod\/ImageDataAPI",
-        "doc:\/\/JXPod\/documentation\/JXPod\/JXPod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData",
         "doc:\/\/JXPod\/documentation\/JXPod\/Location"
       ],
       "title" : "Structures"
@@ -661,14 +662,30 @@
 "doc://JXPod/documentation/JXPod/JXPod": {
   "abstract" : [
     {
-      "text" : "A JXPod is a packaged module?",
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXPod",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is a unit of native functionality that combines a ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXModule",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " with associated metadata.",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "struct"
+      "text" : "protocol"
     },
     {
       "kind" : "text",
@@ -691,6 +708,40 @@
   "title" : "JXPod",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/jxpod"
+},
+"doc://JXPod/documentation/JXPod/JXPodMetaData": {
+  "abstract" : [
+    {
+      "text" : "Information about the pod.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JXPodMetaData"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JXPodMetaData"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JXPodMetaData",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/jxpodmetadata"
 },
 "doc://JXPod/documentation/JXPod/JackedChart": {
   "abstract" : [

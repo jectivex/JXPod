@@ -75,9 +75,9 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/7Combine16ObservableObjectP",
-        "doc:\/\/JXPod\/4Jack0A3PodP",
-        "doc:\/\/JXPod\/4Jack12JackedObjectP"
+        "doc:\/\/JXPod\/8JXBridge10JXBridgingP",
+        "doc:\/\/JXPod\/8JXBridge8JXModuleP",
+        "doc:\/\/JXPod\/documentation\/JXPod\/JXPod"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -101,21 +101,31 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/metadata"
+        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/metadata",
+        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/namespace"
       ],
       "title" : "Instance Properties"
     },
     {
       "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/initialize(in:)",
+        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/register(with:)",
         "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/sleep(duration:)"
       ],
       "title" : "Instance Methods"
     },
     {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/Errors"
+      ],
+      "title" : "Enumerations"
+    },
+    {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/JackedObject-Implementations",
-        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/ObservableObject-Implementations"
+        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/JXBridging-Implementations",
+        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/JXModule-Implementations",
+        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/JXPod-Implementations"
       ],
       "title" : "Default Implementations"
     }
@@ -134,19 +144,14 @@
   ]
 , 
 "references": {
-"doc://JXPod/4Jack0A3PodP": {
-  "identifier" : "doc:\/\/JXPod\/4Jack0A3PodP",
-  "title" : "Jack.JackPod",
+"doc://JXPod/8JXBridge10JXBridgingP": {
+  "identifier" : "doc:\/\/JXPod\/8JXBridge10JXBridgingP",
+  "title" : "JXBridge.JXBridging",
   "type" : "unresolvable"
 },
-"doc://JXPod/4Jack12JackedObjectP": {
-  "identifier" : "doc:\/\/JXPod\/4Jack12JackedObjectP",
-  "title" : "Jack.JackedObject",
-  "type" : "unresolvable"
-},
-"doc://JXPod/7Combine16ObservableObjectP": {
-  "identifier" : "doc:\/\/JXPod\/7Combine16ObservableObjectP",
-  "title" : "Combine.ObservableObject",
+"doc://JXPod/8JXBridge8JXModuleP": {
+  "identifier" : "doc:\/\/JXPod\/8JXBridge8JXModuleP",
+  "title" : "JXBridge.JXModule",
   "type" : "unresolvable"
 },
 "doc://JXPod/documentation/JXPod": {
@@ -159,6 +164,56 @@
   "title" : "JXPod",
   "type" : "topic",
   "url" : "\/documentation\/jxpod"
+},
+"doc://JXPod/documentation/JXPod/JXPod": {
+  "abstract" : [
+    {
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXPod",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is a unit of native functionality that combines a ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXModule",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " with associated metadata.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JXPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JXPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JXPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/jxpod"
 },
 "doc://JXPod/documentation/JXPod/TimePod": {
   "abstract" : [
@@ -191,27 +246,69 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/timepod"
 },
-"doc://JXPod/documentation/JXPod/TimePod/JackedObject-Implementations": {
+"doc://JXPod/documentation/JXPod/TimePod/Errors": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/JackedObject-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "JackedObject Implementations",
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Errors"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/Errors",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Errors"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TimePod.Errors",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/timepod\/jackedobject-implementations"
+  "url" : "\/documentation\/jxpod\/timepod\/errors"
 },
-"doc://JXPod/documentation/JXPod/TimePod/ObservableObject-Implementations": {
+"doc://JXPod/documentation/JXPod/TimePod/JXBridging-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/ObservableObject-Implementations",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/JXBridging-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
-  "title" : "ObservableObject Implementations",
+  "title" : "JXBridging Implementations",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/timepod\/observableobject-implementations"
+  "url" : "\/documentation\/jxpod\/timepod\/jxbridging-implementations"
+},
+"doc://JXPod/documentation/JXPod/TimePod/JXModule-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/JXModule-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "JXModule Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/timepod\/jxmodule-implementations"
+},
+"doc://JXPod/documentation/JXPod/TimePod/JXPod-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/JXPod-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "JXPod Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/timepod\/jxpod-implementations"
 },
 "doc://JXPod/documentation/JXPod/TimePod/init()": {
   "abstract" : [
@@ -233,6 +330,56 @@
   "title" : "init()",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/timepod\/init()"
+},
+"doc://JXPod/documentation/JXPod/TimePod/initialize(in:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "initialize"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "in"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit9JXContextC",
+      "text" : "JXContext"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/initialize(in:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "initialize(in:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/timepod\/initialize(in:)"
 },
 "doc://JXPod/documentation/JXPod/TimePod/metadata": {
   "abstract" : [
@@ -257,8 +404,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:4Jack0A11PodMetaDataV",
-      "text" : "JackPodMetaData"
+      "preciseIdentifier" : "s:5JXPod0A8MetaDataV",
+      "text" : "JXPodMetaData"
     }
   ],
   "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/metadata",
@@ -267,6 +414,90 @@
   "title" : "metadata",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/timepod\/metadata"
+},
+"doc://JXPod/documentation/JXPod/TimePod/namespace": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "namespace"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge11JXNamespaceV",
+      "text" : "JXNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/namespace",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "namespace",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/timepod\/namespace"
+},
+"doc://JXPod/documentation/JXPod/TimePod/register(with:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "register"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "with"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge10JXRegistryC",
+      "text" : "JXRegistry"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/register(with:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "register(with:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/timepod\/register(with:)"
 },
 "doc://JXPod/documentation/JXPod/TimePod/sleep(duration:)": {
   "abstract" : [

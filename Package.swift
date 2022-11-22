@@ -10,7 +10,7 @@ let package = Package(
             targets: ["JXPod"]),
     ],
     dependencies: [ .package(name: "swift-docc-plugin", url: "https://github.com/apple/swift-docc-plugin", from: "1.0.0"), 
-        .package(url: "https://github.com/jectivex/JXBridge.git", from: "0.1.0"),
+        .package(url: "https://github.com/jectivex/JXBridge.git", branch: "main"),
         .package(url: "https://github.com/jectivex/Jack.git", from: "2.3.0"),
     ],
     targets: [

@@ -5,7 +5,7 @@
       "type" : "text"
     },
     {
-      "code" : "JackPod.metadata",
+      "code" : "JXPod.metadata",
       "type" : "codeVoice"
     },
     {
@@ -27,7 +27,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:5JXPod7FilePodC8metadata4Jack0eC8MetaDataVvp",
+    "externalID" : "s:5JXPod7FilePodC8metadataAA0A8MetaDataVvp",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -47,8 +47,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:4Jack0A11PodMetaDataV",
-        "text" : "JackPodMetaData"
+        "preciseIdentifier" : "s:5JXPod0A8MetaDataV",
+        "text" : "JXPodMetaData"
       }
     ],
     "modules" : [
@@ -89,9 +89,10 @@
               "text" : ": "
             },
             {
+              "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData",
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:4Jack0A11PodMetaDataV",
-              "text" : "JackPodMetaData"
+              "preciseIdentifier" : "s:5JXPod0A8MetaDataV",
+              "text" : "JXPodMetaData"
             },
             {
               "kind" : "text",
@@ -198,8 +199,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:4Jack0A11PodMetaDataV",
-      "text" : "JackPodMetaData"
+      "preciseIdentifier" : "s:5JXPod0A8MetaDataV",
+      "text" : "JXPodMetaData"
     }
   ],
   "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/metadata",
@@ -208,6 +209,40 @@
   "title" : "metadata",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/filepod\/metadata"
+},
+"doc://JXPod/documentation/JXPod/JXPodMetaData": {
+  "abstract" : [
+    {
+      "text" : "Information about the pod.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JXPodMetaData"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JXPodMetaData"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JXPodMetaData",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/jxpodmetadata"
 }
 }
 }

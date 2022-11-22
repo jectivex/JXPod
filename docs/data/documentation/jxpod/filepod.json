@@ -75,9 +75,8 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/7Combine16ObservableObjectP",
-        "doc:\/\/JXPod\/4Jack0A3PodP",
-        "doc:\/\/JXPod\/4Jack12JackedObjectP"
+        "doc:\/\/JXPod\/8JXBridge8JXModuleP",
+        "doc:\/\/JXPod\/documentation\/JXPod\/JXPod"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -95,21 +94,29 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/init(fm:)"
+        "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/init(fileManager:)"
       ],
       "title" : "Initializers"
     },
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/metadata"
+        "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/metadata",
+        "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/namespace"
       ],
       "title" : "Instance Properties"
     },
     {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/initialize(in:)",
+        "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/register(with:)"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/JackedObject-Implementations",
-        "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/ObservableObject-Implementations"
+        "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/JXModule-Implementations",
+        "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/JXPod-Implementations"
       ],
       "title" : "Default Implementations"
     }
@@ -128,19 +135,9 @@
   ]
 , 
 "references": {
-"doc://JXPod/4Jack0A3PodP": {
-  "identifier" : "doc:\/\/JXPod\/4Jack0A3PodP",
-  "title" : "Jack.JackPod",
-  "type" : "unresolvable"
-},
-"doc://JXPod/4Jack12JackedObjectP": {
-  "identifier" : "doc:\/\/JXPod\/4Jack12JackedObjectP",
-  "title" : "Jack.JackedObject",
-  "type" : "unresolvable"
-},
-"doc://JXPod/7Combine16ObservableObjectP": {
-  "identifier" : "doc:\/\/JXPod\/7Combine16ObservableObjectP",
-  "title" : "Combine.ObservableObject",
+"doc://JXPod/8JXBridge8JXModuleP": {
+  "identifier" : "doc:\/\/JXPod\/8JXBridge8JXModuleP",
+  "title" : "JXBridge.JXModule",
   "type" : "unresolvable"
 },
 "doc://JXPod/documentation/JXPod": {
@@ -185,29 +182,29 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/filepod"
 },
-"doc://JXPod/documentation/JXPod/FilePod/JackedObject-Implementations": {
+"doc://JXPod/documentation/JXPod/FilePod/JXModule-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/JackedObject-Implementations",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/JXModule-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
-  "title" : "JackedObject Implementations",
+  "title" : "JXModule Implementations",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/filepod\/jackedobject-implementations"
+  "url" : "\/documentation\/jxpod\/filepod\/jxmodule-implementations"
 },
-"doc://JXPod/documentation/JXPod/FilePod/ObservableObject-Implementations": {
+"doc://JXPod/documentation/JXPod/FilePod/JXPod-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/ObservableObject-Implementations",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/JXPod-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
-  "title" : "ObservableObject Implementations",
+  "title" : "JXPod Implementations",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/filepod\/observableobject-implementations"
+  "url" : "\/documentation\/jxpod\/filepod\/jxpod-implementations"
 },
-"doc://JXPod/documentation/JXPod/FilePod/init(fm:)": {
+"doc://JXPod/documentation/JXPod/FilePod/init(fileManager:)": {
   "abstract" : [
 
   ],
@@ -222,7 +219,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "fm"
+      "text" : "fileManager"
     },
     {
       "kind" : "text",
@@ -238,12 +235,62 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/init(fm:)",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/init(fileManager:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(fm:)",
+  "title" : "init(fileManager:)",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/filepod\/init(fm:)"
+  "url" : "\/documentation\/jxpod\/filepod\/init(filemanager:)"
+},
+"doc://JXPod/documentation/JXPod/FilePod/initialize(in:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "initialize"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "in"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit9JXContextC",
+      "text" : "JXContext"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/initialize(in:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "initialize(in:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/filepod\/initialize(in:)"
 },
 "doc://JXPod/documentation/JXPod/FilePod/metadata": {
   "abstract" : [
@@ -268,8 +315,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:4Jack0A11PodMetaDataV",
-      "text" : "JackPodMetaData"
+      "preciseIdentifier" : "s:5JXPod0A8MetaDataV",
+      "text" : "JXPodMetaData"
     }
   ],
   "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/metadata",
@@ -278,6 +325,140 @@
   "title" : "metadata",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/filepod\/metadata"
+},
+"doc://JXPod/documentation/JXPod/FilePod/namespace": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "namespace"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge11JXNamespaceV",
+      "text" : "JXNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/namespace",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "namespace",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/filepod\/namespace"
+},
+"doc://JXPod/documentation/JXPod/FilePod/register(with:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "register"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "with"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge10JXRegistryC",
+      "text" : "JXRegistry"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/register(with:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "register(with:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/filepod\/register(with:)"
+},
+"doc://JXPod/documentation/JXPod/JXPod": {
+  "abstract" : [
+    {
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXPod",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is a unit of native functionality that combines a ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXModule",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " with associated metadata.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JXPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JXPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JXPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/jxpod"
 }
 }
 }
