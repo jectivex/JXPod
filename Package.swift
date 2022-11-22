@@ -11,6 +11,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/jectivex/Jack.git", from: "2.3.0"),
+        .package(url: "https://github.com/jectivex/JXBridge.git", from: "0.1.0"),
     ],
     targets: [
         .target(
