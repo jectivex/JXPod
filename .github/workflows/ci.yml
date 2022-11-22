@@ -22,10 +22,10 @@ jobs:
         run: sudo apt-get install -y libjavascriptcoregtk-4.0-dev
       - run: pkg-config --libs javascriptcoregtk-4.0
       - uses: actions/checkout@v2
-      - name: Test (Debug)
-        run: swift test -v --configuration debug
       - name: Test (Release)
         run: swift test -v --configuration release -Xswiftc -enable-testing
+      - name: Test (Debug)
+        run: swift test -v --configuration debug
 
   ios:
     runs-on: macos-12
@@ -41,9 +41,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Test (Debug)
-        run: xcodebuild clean test -configuration Debug -scheme "JXPod" -sdk "appletvsimulator" -destination "platform=iOS Simulator,name=Apple TV"
+        run: xcodebuild clean test -configuration Debug -scheme "JXPod" -sdk "appletvsimulator" -destination "platform=tvOS Simulator,name=Apple TV"
       - name: Test (Release)
-        run: xcodebuild clean test -configuration Release -scheme "JXPod" -sdk "appletvsimulator" -destination "platform=iOS Simulator,name=Apple TV"
+        run: xcodebuild clean test -configuration Release -scheme "JXPod" -sdk "appletvsimulator" -destination "platform=tvOS Simulator,name=Apple TV"
 
   macos:
     runs-on: macos-12
