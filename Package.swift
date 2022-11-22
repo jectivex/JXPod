@@ -10,7 +10,7 @@ let package = Package(
             targets: ["JXPod"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/jectivex/JXBridge.git", from: "0.1.0"),
+        .package(url: "https://github.com/jectivex/JXBridge.git", branch: "main"),
         .package(url: "https://github.com/jectivex/Jack.git", from: "2.3.0"),
     ],
     targets: [
