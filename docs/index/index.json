@@ -3585,26 +3585,6 @@
             "type" : "struct"
           },
           {
-            "children" : [
-              {
-                "title" : "Initializers",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/jxpod\/jxpod\/init()",
-                "title" : "init()",
-                "type" : "init"
-              },
-              {
-                "title" : "Instance Properties",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/jxpod\/jxpod\/text",
-                "title" : "var text: String",
-                "type" : "property"
-              }
-            ],
             "path" : "\/documentation\/jxpod\/jxpod",
             "title" : "JXPod",
             "type" : "struct"

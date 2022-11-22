@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "A JXPod is a packaged module?",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -80,20 +86,6 @@
   "sections" : [
 
   ],
-  "topicSections" : [
-    {
-      "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/JXPod\/init()"
-      ],
-      "title" : "Initializers"
-    },
-    {
-      "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/JXPod\/text"
-      ],
-      "title" : "Instance Properties"
-    }
-  ],
   "variants" : [
     {
       "paths" : [
@@ -121,7 +113,10 @@
 },
 "doc://JXPod/documentation/JXPod/JXPod": {
   "abstract" : [
-
+    {
+      "text" : "A JXPod is a packaged module?",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -149,61 +144,6 @@
   "title" : "JXPod",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/jxpod"
-},
-"doc://JXPod/documentation/JXPod/JXPod/init()": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "init"
-    },
-    {
-      "kind" : "text",
-      "text" : "()"
-    }
-  ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPod\/init()",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "init()",
-  "type" : "topic",
-  "url" : "\/documentation\/jxpod\/jxpod\/init()"
-},
-"doc://JXPod/documentation/JXPod/JXPod/text": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "text"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:SS",
-      "text" : "String"
-    }
-  ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPod\/text",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "text",
-  "type" : "topic",
-  "url" : "\/documentation\/jxpod\/jxpod\/text"
 }
 }
 }

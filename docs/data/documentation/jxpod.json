@@ -660,7 +660,10 @@
 },
 "doc://JXPod/documentation/JXPod/JXPod": {
   "abstract" : [
-
+    {
+      "text" : "A JXPod is a packaged module?",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

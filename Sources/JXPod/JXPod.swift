@@ -1,9 +1,9 @@
+@_exported import JXKit
+@_exported import JXBridge
 
+/// A JXPod is a packaged module?
 public struct JXPod {
-    public private(set) var text = "JXPod!"
-
-    public init() {
-    }
+    let module: JXModule
 }
 
 
