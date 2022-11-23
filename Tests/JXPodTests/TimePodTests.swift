@@ -19,5 +19,8 @@ final class TimePodTests: XCTestCase {
         } catch {
             XCTAssertEqual(try (error as? JXEvalError)?.string, "Error: sleepDurationNaN")
         }
+
+        let result = try await jxc.eval("(async () => { await time.sleep(0.01); return 999; })()", priority: .high)
+        XCTAssertEqual(999, try result.int)
     }
 }
