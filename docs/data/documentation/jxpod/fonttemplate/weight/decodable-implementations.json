@@ -34,8 +34,7 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/Weight\/fromJX(_:)-8irv8",
-        "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/Weight\/fromJXCodable(_:)"
+        "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/Weight\/fromJX(_:)-8irv8"
       ],
       "title" : "Type Methods"
     }
@@ -227,96 +226,6 @@
   "title" : "fromJX(_:)",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/fonttemplate\/weight\/fromjx(_:)-8irv8"
-},
-"doc://JXPod/documentation/JXPod/FontTemplate/Weight/fromJXCodable(_:)": {
-  "abstract" : [
-
-  ],
-  "conformance" : {
-    "availabilityPrefix" : [
-      {
-        "text" : "Available when",
-        "type" : "text"
-      }
-    ],
-    "conformancePrefix" : [
-      {
-        "text" : "Conforms when",
-        "type" : "text"
-      }
-    ],
-    "constraints" : [
-      {
-        "code" : "Self",
-        "type" : "codeVoice"
-      },
-      {
-        "text" : " conforms to ",
-        "type" : "text"
-      },
-      {
-        "code" : "JXConvertible",
-        "type" : "codeVoice"
-      },
-      {
-        "text" : ".",
-        "type" : "text"
-      }
-    ]
-  },
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "static"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "func"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "fromJXCodable"
-    },
-    {
-      "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit7JXValueC",
-      "text" : "JXValue"
-    },
-    {
-      "kind" : "text",
-      "text" : ") "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "throws"
-    },
-    {
-      "kind" : "text",
-      "text" : " -> "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "text" : "Self"
-    }
-  ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/Weight\/fromJXCodable(_:)",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "fromJXCodable(_:)",
-  "type" : "topic",
-  "url" : "\/documentation\/jxpod\/fonttemplate\/weight\/fromjxcodable(_:)"
 }
 }
 }

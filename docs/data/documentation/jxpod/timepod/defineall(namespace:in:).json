@@ -5,7 +5,7 @@
       "type" : "text"
     },
     {
-      "code" : "Encodable.toJXCodable(in:)",
+      "code" : "JXModule.defineAll(namespace:in:)",
       "type" : "codeVoice"
     },
     {
@@ -17,51 +17,19 @@
     "paths" : [
       [
         "doc:\/\/JXPod\/documentation\/JXPod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor",
-        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/Encodable-Implementations"
+        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/JXModule-Implementations"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/toJXCodable(in:)"
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/defineAll(namespace:in:)"
   },
   "kind" : "symbol",
   "metadata" : {
-    "conformance" : {
-      "availabilityPrefix" : [
-        {
-          "text" : "Available when",
-          "type" : "text"
-        }
-      ],
-      "conformancePrefix" : [
-        {
-          "text" : "Conforms when",
-          "type" : "text"
-        }
-      ],
-      "constraints" : [
-        {
-          "code" : "Self",
-          "type" : "codeVoice"
-        },
-        {
-          "text" : " conforms to ",
-          "type" : "text"
-        },
-        {
-          "code" : "JXConvertible",
-          "type" : "codeVoice"
-        },
-        {
-          "text" : ".",
-          "type" : "text"
-        }
-      ]
-    },
-    "extendedModule" : "Swift",
-    "externalID" : "s:SE5JXKitAA13JXConvertibleRzrlE11toJXCodable2inAA7JXValueCAA9JXContextC_tKF::SYNTHESIZED::s:5JXPod8CSSColorV",
+    "extendedModule" : "JXBridge",
+    "externalID" : "s:8JXBridge8JXModulePAAE9defineAll9namespace2inSbAA11JXNamespaceV_5JXKit9JXContextCtKF::SYNTHESIZED::s:5JXPod7TimePodC",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -73,11 +41,28 @@
       },
       {
         "kind" : "identifier",
-        "text" : "toJXCodable"
+        "text" : "defineAll"
       },
       {
         "kind" : "text",
         "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "namespace"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:8JXBridge11JXNamespaceV",
+        "text" : "JXNamespace"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
       },
       {
         "kind" : "externalParam",
@@ -106,8 +91,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:5JXKit7JXValueC",
-        "text" : "JXValue"
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
       }
     ],
     "modules" : [
@@ -118,7 +103,7 @@
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
-    "title" : "toJXCodable(in:)"
+    "title" : "defineAll(namespace:in:)"
   },
   "primaryContentSections" : [
     {
@@ -141,11 +126,28 @@
             },
             {
               "kind" : "identifier",
-              "text" : "toJXCodable"
+              "text" : "defineAll"
             },
             {
               "kind" : "text",
               "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "namespace"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:8JXBridge11JXNamespaceV",
+              "text" : "JXNamespace"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
             },
             {
               "kind" : "externalParam",
@@ -182,8 +184,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:5JXKit7JXValueC",
-              "text" : "JXValue"
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
             }
           ]
         }
@@ -202,7 +204,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jxpod\/csscolor\/tojxcodable(in:)"
+        "\/documentation\/jxpod\/timepod\/defineall(namespace:in:)"
       ],
       "traits" : [
         {
@@ -224,14 +226,14 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod"
 },
-"doc://JXPod/documentation/JXPod/CSSColor": {
+"doc://JXPod/documentation/JXPod/TimePod": {
   "abstract" : [
 
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "struct"
+      "text" : "class"
     },
     {
       "kind" : "text",
@@ -239,69 +241,37 @@
     },
     {
       "kind" : "identifier",
-      "text" : "CSSColor"
+      "text" : "TimePod"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "CSSColor"
+      "text" : "TimePod"
     }
   ],
   "role" : "symbol",
-  "title" : "CSSColor",
+  "title" : "TimePod",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/csscolor"
+  "url" : "\/documentation\/jxpod\/timepod"
 },
-"doc://JXPod/documentation/JXPod/CSSColor/Encodable-Implementations": {
+"doc://JXPod/documentation/JXPod/TimePod/JXModule-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/Encodable-Implementations",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/JXModule-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
-  "title" : "Encodable Implementations",
+  "title" : "JXModule Implementations",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/csscolor\/encodable-implementations"
+  "url" : "\/documentation\/jxpod\/timepod\/jxmodule-implementations"
 },
-"doc://JXPod/documentation/JXPod/CSSColor/toJXCodable(in:)": {
+"doc://JXPod/documentation/JXPod/TimePod/defineAll(namespace:in:)": {
   "abstract" : [
 
   ],
-  "conformance" : {
-    "availabilityPrefix" : [
-      {
-        "text" : "Available when",
-        "type" : "text"
-      }
-    ],
-    "conformancePrefix" : [
-      {
-        "text" : "Conforms when",
-        "type" : "text"
-      }
-    ],
-    "constraints" : [
-      {
-        "code" : "Self",
-        "type" : "codeVoice"
-      },
-      {
-        "text" : " conforms to ",
-        "type" : "text"
-      },
-      {
-        "code" : "JXConvertible",
-        "type" : "codeVoice"
-      },
-      {
-        "text" : ".",
-        "type" : "text"
-      }
-    ]
-  },
   "fragments" : [
     {
       "kind" : "keyword",
@@ -313,11 +283,28 @@
     },
     {
       "kind" : "identifier",
-      "text" : "toJXCodable"
+      "text" : "defineAll"
     },
     {
       "kind" : "text",
       "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "namespace"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge11JXNamespaceV",
+      "text" : "JXNamespace"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
     },
     {
       "kind" : "externalParam",
@@ -346,16 +333,16 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit7JXValueC",
-      "text" : "JXValue"
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/toJXCodable(in:)",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/defineAll(namespace:in:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "toJXCodable(in:)",
+  "title" : "defineAll(namespace:in:)",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/csscolor\/tojxcodable(in:)"
+  "url" : "\/documentation\/jxpod\/timepod\/defineall(namespace:in:)"
 }
 }
 }

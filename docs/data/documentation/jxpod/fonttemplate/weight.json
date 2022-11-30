@@ -147,7 +147,6 @@
       "generated" : true,
       "identifiers" : [
         "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/Weight\/Decodable-Implementations",
-        "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/Weight\/Encodable-Implementations",
         "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/Weight\/Equatable-Implementations",
         "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/Weight\/RawRepresentable-Implementations"
       ],
@@ -293,17 +292,6 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/fonttemplate\/weight\/decodable-implementations"
 },
-"doc://JXPod/documentation/JXPod/FontTemplate/Weight/Encodable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/Weight\/Encodable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Encodable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/jxpod\/fonttemplate\/weight\/encodable-implementations"
-},
 "doc://JXPod/documentation/JXPod/FontTemplate/Weight/Equatable-Implementations": {
   "abstract" : [
 
@@ -378,7 +366,10 @@
 },
 "doc://JXPod/documentation/JXPod/FontTemplate/Weight/fromJX(_:)-6uyqp": {
   "abstract" : [
-
+    {
+      "text" : "JXKit can handle RawRepresentables, but Jack requires us to implement JXConvertible",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

@@ -1,15 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Inherited from ",
-      "type" : "text"
-    },
-    {
-      "code" : "JXConvertible.fromJX(_:)",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
+      "text" : "JXKit can handle RawRepresentables, but Jack requires us to implement JXConvertible",
       "type" : "text"
     }
   ],
@@ -294,7 +286,10 @@
 },
 "doc://JXPod/documentation/JXPod/FontTemplate/Weight/fromJX(_:)-6uyqp": {
   "abstract" : [
-
+    {
+      "text" : "JXKit can handle RawRepresentables, but Jack requires us to implement JXConvertible",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

@@ -362,9 +362,15 @@ open class ViewTemplate : JackedReference, JackedView {
                 }
             }
 
-            // Both Codable and RawRepresentable implement JXConvertible, so we need to manually dis-ambiguate
-            public static func fromJX(_ value: JXValue) throws -> Self { try fromJXRaw(value) }
-            public func toJX(in context: JXContext) throws -> JXValue { try toJXRaw(in: context) }
+            /// JXKit can handle RawRepresentables, but Jack requires us to implement JXConvertible
+            public static func fromJX(_ value: JXValue) throws -> Self {
+                let string = try value.string
+                guard let newSelf = Self(rawValue: string) else {
+                    throw JXErrors.invalidRawValue(string)
+                }
+                return newSelf
+            }
+            public func toJX(in context: JXContext) throws -> JXValue { try context.convey(rawValue) }
         }
 
     }
@@ -477,10 +483,16 @@ public enum FontTemplate {
             case .black: return .black
             }
         }
-
-        // Both Codable and RawRepresentable implement JXConvertible, so we need to manually dis-ambiguate
-        public static func fromJX(_ value: JXValue) throws -> Self { try fromJXRaw(value) }
-        public func toJX(in context: JXContext) throws -> JXValue { try toJXRaw(in: context) }
+        
+        /// JXKit can handle RawRepresentables, but Jack requires us to implement JXConvertible
+        public static func fromJX(_ value: JXValue) throws -> Self {
+            let string = try value.string
+            guard let newSelf = Self(rawValue: string) else {
+                throw JXErrors.invalidRawValue(string)
+            }
+            return newSelf
+        }
+        public func toJX(in context: JXContext) throws -> JXValue { try context.convey(rawValue) }
     }
 
     /// Analogue to `SwiftUI.Font.TextStyle` as a string enum so automatic Jack bridging magic can happen
@@ -513,9 +525,15 @@ public enum FontTemplate {
             }
         }
 
-        // Both Codable and RawRepresentable implement JXConvertible, so we need to manually dis-ambiguate
-        public static func fromJX(_ value: JXValue) throws -> Self { try fromJXRaw(value) }
-        public func toJX(in context: JXContext) throws -> JXValue { try toJXRaw(in: context) }
+        /// JXKit can handle RawRepresentables, but Jack requires us to implement JXConvertible
+        public static func fromJX(_ value: JXValue) throws -> Self {
+            let string = try value.string
+            guard let newSelf = Self(rawValue: string) else {
+                throw JXErrors.invalidRawValue(string)
+            }
+            return newSelf
+        }
+        public func toJX(in context: JXContext) throws -> JXValue { try context.convey(rawValue) }
     }
 }
 

@@ -149,7 +149,6 @@
       "generated" : true,
       "identifiers" : [
         "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/Decodable-Implementations",
-        "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/Encodable-Implementations",
         "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/Equatable-Implementations",
         "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/RawRepresentable-Implementations"
       ],
@@ -294,17 +293,6 @@
   "title" : "Decodable Implementations",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/fonttemplate\/textstyle\/decodable-implementations"
-},
-"doc://JXPod/documentation/JXPod/FontTemplate/TextStyle/Encodable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FontTemplate\/TextStyle\/Encodable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Encodable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/jxpod\/fonttemplate\/textstyle\/encodable-implementations"
 },
 "doc://JXPod/documentation/JXPod/FontTemplate/TextStyle/Equatable-Implementations": {
   "abstract" : [
@@ -455,7 +443,10 @@
 },
 "doc://JXPod/documentation/JXPod/FontTemplate/TextStyle/fromJX(_:)-6ufle": {
   "abstract" : [
-
+    {
+      "text" : "JXKit can handle RawRepresentables, but Jack requires us to implement JXConvertible",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

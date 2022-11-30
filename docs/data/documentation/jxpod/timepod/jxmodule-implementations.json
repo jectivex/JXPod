@@ -33,8 +33,9 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/registerBridge(for:in:)",
-        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/registerBridge(for:namespace:in:)"
+        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/define(for:in:)",
+        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/define(symbol:namespace:in:)",
+        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/defineAll(namespace:in:)"
       ],
       "title" : "Instance Methods"
     }
@@ -95,7 +96,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/timepod"
 },
-"doc://JXPod/documentation/JXPod/TimePod/registerBridge(for:in:)": {
+"doc://JXPod/documentation/JXPod/TimePod/define(for:in:)": {
   "abstract" : [
 
   ],
@@ -110,7 +111,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "registerBridge"
+      "text" : "define"
     },
     {
       "kind" : "text",
@@ -142,12 +143,20 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:8JXBridge10JXRegistryC",
-      "text" : "JXRegistry"
+      "preciseIdentifier" : "s:5JXKit9JXContextC",
+      "text" : "JXContext"
     },
     {
       "kind" : "text",
-      "text" : ") -> "
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
     },
     {
       "kind" : "typeIdentifier",
@@ -155,14 +164,14 @@
       "text" : "Bool"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/registerBridge(for:in:)",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/define(for:in:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "registerBridge(for:in:)",
+  "title" : "define(for:in:)",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/timepod\/registerbridge(for:in:)"
+  "url" : "\/documentation\/jxpod\/timepod\/define(for:in:)"
 },
-"doc://JXPod/documentation/JXPod/TimePod/registerBridge(for:namespace:in:)": {
+"doc://JXPod/documentation/JXPod/TimePod/define(symbol:namespace:in:)": {
   "abstract" : [
 
   ],
@@ -177,7 +186,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "registerBridge"
+      "text" : "define"
     },
     {
       "kind" : "text",
@@ -185,7 +194,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "for"
+      "text" : "symbol"
     },
     {
       "kind" : "text",
@@ -227,12 +236,20 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:8JXBridge10JXRegistryC",
-      "text" : "JXRegistry"
+      "preciseIdentifier" : "s:5JXKit9JXContextC",
+      "text" : "JXContext"
     },
     {
       "kind" : "text",
-      "text" : ") -> "
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
     },
     {
       "kind" : "typeIdentifier",
@@ -240,12 +257,88 @@
       "text" : "Bool"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/registerBridge(for:namespace:in:)",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/define(symbol:namespace:in:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "registerBridge(for:namespace:in:)",
+  "title" : "define(symbol:namespace:in:)",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/timepod\/registerbridge(for:namespace:in:)"
+  "url" : "\/documentation\/jxpod\/timepod\/define(symbol:namespace:in:)"
+},
+"doc://JXPod/documentation/JXPod/TimePod/defineAll(namespace:in:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "defineAll"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "namespace"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge11JXNamespaceV",
+      "text" : "JXNamespace"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "in"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit9JXContextC",
+      "text" : "JXContext"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/defineAll(namespace:in:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "defineAll(namespace:in:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/timepod\/defineall(namespace:in:)"
 }
 }
 }

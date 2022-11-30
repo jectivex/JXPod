@@ -143,7 +143,6 @@
       "generated" : true,
       "identifiers" : [
         "doc:\/\/JXPod\/documentation\/JXPod\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/Decodable-Implementations",
-        "doc:\/\/JXPod\/documentation\/JXPod\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/Encodable-Implementations",
         "doc:\/\/JXPod\/documentation\/JXPod\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/Equatable-Implementations",
         "doc:\/\/JXPod\/documentation\/JXPod\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/RawRepresentable-Implementations"
       ],
@@ -320,17 +319,6 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/viewtemplate\/viewconfig\/transition-swift.enum\/decodable-implementations"
 },
-"doc://JXPod/documentation/JXPod/ViewTemplate/ViewConfig/Transition-swift.enum/Encodable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ViewTemplate\/ViewConfig\/Transition-swift.enum\/Encodable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Encodable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/jxpod\/viewtemplate\/viewconfig\/transition-swift.enum\/encodable-implementations"
-},
 "doc://JXPod/documentation/JXPod/ViewTemplate/ViewConfig/Transition-swift.enum/Equatable-Implementations": {
   "abstract" : [
 
@@ -355,7 +343,10 @@
 },
 "doc://JXPod/documentation/JXPod/ViewTemplate/ViewConfig/Transition-swift.enum/fromJX(_:)-5bnw4": {
   "abstract" : [
-
+    {
+      "text" : "JXKit can handle RawRepresentables, but Jack requires us to implement JXConvertible",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

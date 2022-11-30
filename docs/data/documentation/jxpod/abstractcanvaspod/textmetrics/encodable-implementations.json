@@ -34,8 +34,7 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/toJX(in:)",
-        "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/toJXCodable(in:)"
+        "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/toJX(in:)"
       ],
       "title" : "Instance Methods"
     }
@@ -220,97 +219,6 @@
   "title" : "toJX(in:)",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/abstractcanvaspod\/textmetrics\/tojx(in:)"
-},
-"doc://JXPod/documentation/JXPod/AbstractCanvasPod/TextMetrics/toJXCodable(in:)": {
-  "abstract" : [
-
-  ],
-  "conformance" : {
-    "availabilityPrefix" : [
-      {
-        "text" : "Available when",
-        "type" : "text"
-      }
-    ],
-    "conformancePrefix" : [
-      {
-        "text" : "Conforms when",
-        "type" : "text"
-      }
-    ],
-    "constraints" : [
-      {
-        "code" : "Self",
-        "type" : "codeVoice"
-      },
-      {
-        "text" : " conforms to ",
-        "type" : "text"
-      },
-      {
-        "code" : "JXConvertible",
-        "type" : "codeVoice"
-      },
-      {
-        "text" : ".",
-        "type" : "text"
-      }
-    ]
-  },
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "func"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "toJXCodable"
-    },
-    {
-      "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "in"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit9JXContextC",
-      "text" : "JXContext"
-    },
-    {
-      "kind" : "text",
-      "text" : ") "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "throws"
-    },
-    {
-      "kind" : "text",
-      "text" : " -> "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit7JXValueC",
-      "text" : "JXValue"
-    }
-  ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/AbstractCanvasPod\/TextMetrics\/toJXCodable(in:)",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "toJXCodable(in:)",
-  "type" : "topic",
-  "url" : "\/documentation\/jxpod\/abstractcanvaspod\/textmetrics\/tojxcodable(in:)"
 }
 }
 }

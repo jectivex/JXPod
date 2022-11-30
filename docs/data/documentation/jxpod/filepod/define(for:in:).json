@@ -5,7 +5,7 @@
       "type" : "text"
     },
     {
-      "code" : "Encodable.toJXCodable(in:)",
+      "code" : "JXModule.define(for:in:)",
       "type" : "codeVoice"
     },
     {
@@ -17,51 +17,19 @@
     "paths" : [
       [
         "doc:\/\/JXPod\/documentation\/JXPod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/DOMMatrixAPI",
-        "doc:\/\/JXPod\/documentation\/JXPod\/DOMMatrixAPI\/Encodable-Implementations"
+        "doc:\/\/JXPod\/documentation\/JXPod\/FilePod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/JXModule-Implementations"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/DOMMatrixAPI\/toJXCodable(in:)"
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/define(for:in:)"
   },
   "kind" : "symbol",
   "metadata" : {
-    "conformance" : {
-      "availabilityPrefix" : [
-        {
-          "text" : "Available when",
-          "type" : "text"
-        }
-      ],
-      "conformancePrefix" : [
-        {
-          "text" : "Conforms when",
-          "type" : "text"
-        }
-      ],
-      "constraints" : [
-        {
-          "code" : "Self",
-          "type" : "codeVoice"
-        },
-        {
-          "text" : " conforms to ",
-          "type" : "text"
-        },
-        {
-          "code" : "JXConvertible",
-          "type" : "codeVoice"
-        },
-        {
-          "text" : ".",
-          "type" : "text"
-        }
-      ]
-    },
-    "extendedModule" : "Swift",
-    "externalID" : "s:SE5JXKitAA13JXConvertibleRzrlE11toJXCodable2inAA7JXValueCAA9JXContextC_tKF::SYNTHESIZED::s:5JXPod12DOMMatrixAPIV",
+    "extendedModule" : "JXBridge",
+    "externalID" : "s:8JXBridge8JXModulePAAE6define3for2inSbyp_5JXKit9JXContextCtKF::SYNTHESIZED::s:5JXPod7FilePodC",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -73,11 +41,27 @@
       },
       {
         "kind" : "identifier",
-        "text" : "toJXCodable"
+        "text" : "define"
       },
       {
         "kind" : "text",
         "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "for"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "Any"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
       },
       {
         "kind" : "externalParam",
@@ -106,8 +90,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:5JXKit7JXValueC",
-        "text" : "JXValue"
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
       }
     ],
     "modules" : [
@@ -118,7 +102,7 @@
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
-    "title" : "toJXCodable(in:)"
+    "title" : "define(for:in:)"
   },
   "primaryContentSections" : [
     {
@@ -141,11 +125,35 @@
             },
             {
               "kind" : "identifier",
-              "text" : "toJXCodable"
+              "text" : "define"
             },
             {
               "kind" : "text",
               "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "for"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "instance"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "Any"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
             },
             {
               "kind" : "externalParam",
@@ -182,8 +190,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:5JXKit7JXValueC",
-              "text" : "JXValue"
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
             }
           ]
         }
@@ -202,7 +210,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jxpod\/dommatrixapi\/tojxcodable(in:)"
+        "\/documentation\/jxpod\/filepod\/define(for:in:)"
       ],
       "traits" : [
         {
@@ -224,22 +232,14 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod"
 },
-"doc://JXPod/documentation/JXPod/DOMMatrixAPI": {
+"doc://JXPod/documentation/JXPod/FilePod": {
   "abstract" : [
-    {
-      "text" : "See: ",
-      "type" : "text"
-    },
-    {
-      "identifier" : "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/DOMMatrix",
-      "isActive" : true,
-      "type" : "reference"
-    }
+
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "struct"
+      "text" : "class"
     },
     {
       "kind" : "text",
@@ -247,69 +247,37 @@
     },
     {
       "kind" : "identifier",
-      "text" : "DOMMatrixAPI"
+      "text" : "FilePod"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/DOMMatrixAPI",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FilePod",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "DOMMatrixAPI"
+      "text" : "FilePod"
     }
   ],
   "role" : "symbol",
-  "title" : "DOMMatrixAPI",
+  "title" : "FilePod",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/dommatrixapi"
+  "url" : "\/documentation\/jxpod\/filepod"
 },
-"doc://JXPod/documentation/JXPod/DOMMatrixAPI/Encodable-Implementations": {
+"doc://JXPod/documentation/JXPod/FilePod/JXModule-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/DOMMatrixAPI\/Encodable-Implementations",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/JXModule-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
-  "title" : "Encodable Implementations",
+  "title" : "JXModule Implementations",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/dommatrixapi\/encodable-implementations"
+  "url" : "\/documentation\/jxpod\/filepod\/jxmodule-implementations"
 },
-"doc://JXPod/documentation/JXPod/DOMMatrixAPI/toJXCodable(in:)": {
+"doc://JXPod/documentation/JXPod/FilePod/define(for:in:)": {
   "abstract" : [
 
   ],
-  "conformance" : {
-    "availabilityPrefix" : [
-      {
-        "text" : "Available when",
-        "type" : "text"
-      }
-    ],
-    "conformancePrefix" : [
-      {
-        "text" : "Conforms when",
-        "type" : "text"
-      }
-    ],
-    "constraints" : [
-      {
-        "code" : "Self",
-        "type" : "codeVoice"
-      },
-      {
-        "text" : " conforms to ",
-        "type" : "text"
-      },
-      {
-        "code" : "JXConvertible",
-        "type" : "codeVoice"
-      },
-      {
-        "text" : ".",
-        "type" : "text"
-      }
-    ]
-  },
   "fragments" : [
     {
       "kind" : "keyword",
@@ -321,11 +289,27 @@
     },
     {
       "kind" : "identifier",
-      "text" : "toJXCodable"
+      "text" : "define"
     },
     {
       "kind" : "text",
       "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "for"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "Any"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
     },
     {
       "kind" : "externalParam",
@@ -354,28 +338,16 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit7JXValueC",
-      "text" : "JXValue"
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/DOMMatrixAPI\/toJXCodable(in:)",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/define(for:in:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "toJXCodable(in:)",
+  "title" : "define(for:in:)",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/dommatrixapi\/tojxcodable(in:)"
-},
-"https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrix": {
-  "identifier" : "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/DOMMatrix",
-  "title" : "MDN",
-  "titleInlineContent" : [
-    {
-      "text" : "MDN",
-      "type" : "text"
-    }
-  ],
-  "type" : "link",
-  "url" : "https:\/\/developer.mozilla.org\/en-US\/docs\/Web\/API\/DOMMatrix"
+  "url" : "\/documentation\/jxpod\/filepod\/define(for:in:)"
 }
 }
 }

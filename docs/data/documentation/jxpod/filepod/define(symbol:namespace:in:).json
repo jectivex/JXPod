@@ -5,7 +5,7 @@
       "type" : "text"
     },
     {
-      "code" : "Encodable.toJXCodable(in:)",
+      "code" : "JXModule.define(symbol:namespace:in:)",
       "type" : "codeVoice"
     },
     {
@@ -17,51 +17,19 @@
     "paths" : [
       [
         "doc:\/\/JXPod\/documentation\/JXPod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/Location",
-        "doc:\/\/JXPod\/documentation\/JXPod\/Location\/Encodable-Implementations"
+        "doc:\/\/JXPod\/documentation\/JXPod\/FilePod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/JXModule-Implementations"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/Location\/toJXCodable(in:)"
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/define(symbol:namespace:in:)"
   },
   "kind" : "symbol",
   "metadata" : {
-    "conformance" : {
-      "availabilityPrefix" : [
-        {
-          "text" : "Available when",
-          "type" : "text"
-        }
-      ],
-      "conformancePrefix" : [
-        {
-          "text" : "Conforms when",
-          "type" : "text"
-        }
-      ],
-      "constraints" : [
-        {
-          "code" : "Self",
-          "type" : "codeVoice"
-        },
-        {
-          "text" : " conforms to ",
-          "type" : "text"
-        },
-        {
-          "code" : "JXConvertible",
-          "type" : "codeVoice"
-        },
-        {
-          "text" : ".",
-          "type" : "text"
-        }
-      ]
-    },
-    "extendedModule" : "Swift",
-    "externalID" : "s:SE5JXKitAA13JXConvertibleRzrlE11toJXCodable2inAA7JXValueCAA9JXContextC_tKF::SYNTHESIZED::s:5JXPod8LocationV",
+    "extendedModule" : "JXBridge",
+    "externalID" : "s:8JXBridge8JXModulePAAE6define6symbol9namespace2inSbSS_AA11JXNamespaceV5JXKit9JXContextCtKF::SYNTHESIZED::s:5JXPod7FilePodC",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -73,11 +41,45 @@
       },
       {
         "kind" : "identifier",
-        "text" : "toJXCodable"
+        "text" : "define"
       },
       {
         "kind" : "text",
         "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "symbol"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "namespace"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:8JXBridge11JXNamespaceV",
+        "text" : "JXNamespace"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
       },
       {
         "kind" : "externalParam",
@@ -106,8 +108,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:5JXKit7JXValueC",
-        "text" : "JXValue"
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
       }
     ],
     "modules" : [
@@ -118,7 +120,7 @@
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
-    "title" : "toJXCodable(in:)"
+    "title" : "define(symbol:namespace:in:)"
   },
   "primaryContentSections" : [
     {
@@ -141,11 +143,45 @@
             },
             {
               "kind" : "identifier",
-              "text" : "toJXCodable"
+              "text" : "define"
             },
             {
               "kind" : "text",
               "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "symbol"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "namespace"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:8JXBridge11JXNamespaceV",
+              "text" : "JXNamespace"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
             },
             {
               "kind" : "externalParam",
@@ -182,8 +218,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:5JXKit7JXValueC",
-              "text" : "JXValue"
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
             }
           ]
         }
@@ -202,7 +238,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jxpod\/location\/tojxcodable(in:)"
+        "\/documentation\/jxpod\/filepod\/define(symbol:namespace:in:)"
       ],
       "traits" : [
         {
@@ -224,17 +260,14 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod"
 },
-"doc://JXPod/documentation/JXPod/Location": {
+"doc://JXPod/documentation/JXPod/FilePod": {
   "abstract" : [
-    {
-      "text" : "A location on earth.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "struct"
+      "text" : "class"
     },
     {
       "kind" : "text",
@@ -242,69 +275,37 @@
     },
     {
       "kind" : "identifier",
-      "text" : "Location"
+      "text" : "FilePod"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/Location",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FilePod",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "Location"
+      "text" : "FilePod"
     }
   ],
   "role" : "symbol",
-  "title" : "Location",
+  "title" : "FilePod",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/location"
+  "url" : "\/documentation\/jxpod\/filepod"
 },
-"doc://JXPod/documentation/JXPod/Location/Encodable-Implementations": {
+"doc://JXPod/documentation/JXPod/FilePod/JXModule-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/Location\/Encodable-Implementations",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/JXModule-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
-  "title" : "Encodable Implementations",
+  "title" : "JXModule Implementations",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/location\/encodable-implementations"
+  "url" : "\/documentation\/jxpod\/filepod\/jxmodule-implementations"
 },
-"doc://JXPod/documentation/JXPod/Location/toJXCodable(in:)": {
+"doc://JXPod/documentation/JXPod/FilePod/define(symbol:namespace:in:)": {
   "abstract" : [
 
   ],
-  "conformance" : {
-    "availabilityPrefix" : [
-      {
-        "text" : "Available when",
-        "type" : "text"
-      }
-    ],
-    "conformancePrefix" : [
-      {
-        "text" : "Conforms when",
-        "type" : "text"
-      }
-    ],
-    "constraints" : [
-      {
-        "code" : "Self",
-        "type" : "codeVoice"
-      },
-      {
-        "text" : " conforms to ",
-        "type" : "text"
-      },
-      {
-        "code" : "JXConvertible",
-        "type" : "codeVoice"
-      },
-      {
-        "text" : ".",
-        "type" : "text"
-      }
-    ]
-  },
   "fragments" : [
     {
       "kind" : "keyword",
@@ -316,11 +317,45 @@
     },
     {
       "kind" : "identifier",
-      "text" : "toJXCodable"
+      "text" : "define"
     },
     {
       "kind" : "text",
       "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "symbol"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "namespace"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge11JXNamespaceV",
+      "text" : "JXNamespace"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
     },
     {
       "kind" : "externalParam",
@@ -349,16 +384,16 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit7JXValueC",
-      "text" : "JXValue"
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/Location\/toJXCodable(in:)",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/define(symbol:namespace:in:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "toJXCodable(in:)",
+  "title" : "define(symbol:namespace:in:)",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/location\/tojxcodable(in:)"
+  "url" : "\/documentation\/jxpod\/filepod\/define(symbol:namespace:in:)"
 }
 }
 }
