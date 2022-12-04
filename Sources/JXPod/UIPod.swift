@@ -99,7 +99,7 @@ open class UIPod : JackPod {
     @Jack("Button") var _button = button
     func button(label: ViewTemplate, action: JXValue) throws -> ViewTemplate {
         if !action.isFunction {
-            throw JXEvalError(context: action.context, value: action.context.string("Second argument to Button constructor must be the callback function"))
+            throw JXError(message: "Second argument to Button constructor must be the callback function")
         }
 
         class ButtonTemplate : ViewTemplate {
@@ -165,11 +165,11 @@ open class UIPod : JackPod {
         // non-symbol argumnt: assume args are getter and setter functions
 
         if !getFunction.isFunction {
-            throw JXEvalError(context: getFunction.context, value: getFunction.context.string("Second Slider argument must be the value getter function"))
+            throw JXError(message: "Second Slider argument must be the value getter function")
         }
 
         if !setFunction.isFunction {
-            throw JXEvalError(context: setFunction.context, value: setFunction.context.string("Third Slider argument must be the value setter function"))
+            throw JXError(message: "Third Slider argument must be the value setter function")
         }
 
         return Binding(get: {
@@ -366,7 +366,7 @@ open class ViewTemplate : JackedReference, JackedView {
             public static func fromJX(_ value: JXValue) throws -> Self {
                 let string = try value.string
                 guard let newSelf = Self(rawValue: string) else {
-                    throw JXErrors.invalidRawValue(string)
+                    throw JXError(message: "invalid raw value: \(string)")
                 }
                 return newSelf
             }
@@ -488,7 +488,7 @@ public enum FontTemplate {
         public static func fromJX(_ value: JXValue) throws -> Self {
             let string = try value.string
             guard let newSelf = Self(rawValue: string) else {
-                throw JXErrors.invalidRawValue(string)
+                throw JXError(message: "Invalid raw value: \(string)")
             }
             return newSelf
         }
@@ -529,7 +529,7 @@ public enum FontTemplate {
         public static func fromJX(_ value: JXValue) throws -> Self {
             let string = try value.string
             guard let newSelf = Self(rawValue: string) else {
-                throw JXErrors.invalidRawValue(string)
+                throw JXError(message: "Invalid raw value: \(string)")
             }
             return newSelf
         }
