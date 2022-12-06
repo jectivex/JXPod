@@ -172,8 +172,10 @@ final class JXPodTests: XCTestCase {
         // XCTAssertThrowsError(try Bundle(for: FairPodX.self).registerDynamic(name: "FairPodX"))
 
         #if !os(tvOS) && !os(iOS) // FIXME: cannot find symbols
+        #if !os(Linux) // FIXME: dlopen error: /home/runner/work/JXPod/JXPod/.build/x86_64-unknown-linux-gnu/release/JXPodPackageTests.xctest: cannot dynamically load position-independent executable
         XCTAssertEqual(true, try Bundle(for: Self.self).registerDynamic(name: "InlinePod1", in: nil))
         XCTAssertEqual(true, try Bundle(for: Self.self).registerDynamic(name: "InlinePod2", in: nil))
+        #endif
         #endif
     }
 
