@@ -1,6 +1,8 @@
 import XCTest
 import Jack
 import JXPod
+import JXBridge
+import FairCore
 
 final class JXPodTests: XCTestCase {
     func testJXPod() throws {
@@ -163,4 +165,190 @@ final class JXPodTests: XCTestCase {
         /* comment */ [{ "name": "Name", "version": [1,2,3] }]
         """)
     }
+
+    func testPlugins() throws {
+        // XCTAssertEqual(true, try Bundle(for: FairPod1.self).registerDynamic(name: "FairPod1"))
+        // XCTAssertEqual(true, try Bundle(for: FairPod2.self).registerDynamic(name: "FairPod2"))
+        // XCTAssertThrowsError(try Bundle(for: FairPodX.self).registerDynamic(name: "FairPodX"))
+        XCTAssertEqual(true, try Bundle(for: Self.self).registerDynamic(name: "FairPodXXX", in: nil))
+        XCTAssertEqual(true, try Bundle(for: Self.self).registerDynamic(name: "FairPodZZZ", in: nil))
+    }
+
+    func testPodMetadata() throws {
+        let metadatas = try JSum.parse(yamls: """
+        module: 'abc'
+        pods:
+          - name: 'SimplePod'
+            requires:
+              - name: 'ConsolePod'
+                version: '1.0'
+              - name: 'UIPod'
+                version: '0.0.1'
+            localizations:
+              fr:
+                name: 'Le Pod Simple'
+                description: 'le pod simple est cool!'
+
+          - name: 'Standard2Pod'
+            requires:
+              - name: 'ConsolePod'
+                version: '1.0'
+            run: |
+              console.log('Hello World');
+
+          - name: 'UIPod'
+            requires:
+              - name: 'ConsolePod'
+                version: '1.0'
+
+          - name: 'ConsolePod'
+
+          - name: 'someUser/SomePod'
+
+          - name: 'https://gitlab.com/SomeUser2/SomePod'
+        ---
+        module: 'xyz'
+        pods:
+          - name: 'ComplexPod'
+        """)
+
+        let modules = try [PodMetadata](jsum: .arr(metadatas))
+
+        XCTAssertEqual(2, modules.count)
+        guard let m1 = modules.first else {
+            return XCTFail("no first module")
+        }
+        XCTAssertEqual("abc", m1.module)
+        XCTAssertEqual(6, m1.pods.count)
+        XCTAssertEqual("SimplePod", m1.pods.first?.name)
+
+        XCTAssertEqual("ConsolePod", m1.pods.first?.requires?.first?.name)
+        XCTAssertEqual("1.0", m1.pods.first?.requires?.first?.version)
+        XCTAssertEqual("UIPod", m1.pods.first?.requires?.last?.name)
+        XCTAssertEqual("0.0.1", m1.pods.first?.requires?.last?.version)
+        XCTAssertEqual("Le Pod Simple", m1.pods.first?.localizations?["fr"]?.name)
+
+        let pod2 = m1.pods.dropFirst().first
+        XCTAssertEqual("Standard2Pod", pod2?.name)
+        XCTAssertEqual("ConsolePod", pod2?.requires?.first?.name)
+        XCTAssertEqual("console.log('Hello World');", pod2?.run?.trimmingCharacters(in: .newlines))
+
+        XCTAssertEqual("https://gitlab.com/SomeUser2/SomePod", m1.pods.last?.name)
+
+        guard let m2 = modules.last else {
+            return XCTFail("no last module")
+        }
+        XCTAssertEqual("xyz", m2.module)
+        XCTAssertEqual("ComplexPod", m2.pods.first?.name)
+    }
+}
+
+public struct PodMetadata : Decodable {
+    public var module: String
+    public var pods: [Pod]
+
+    public struct Pod : Decodable {
+        public var name: String
+        public var description: String?
+        public var requires: [Requirement]?
+        public var run: String?
+        public var script: String?
+        public var localizations: [String: Self]?
+
+        public struct Requirement : Decodable {
+            public var name: String?
+            public var version: String?
+        }
+    }
+}
+
+public protocol PodFactory {
+    static func createPod(in context: PodFactoryContext, with configuration: PodMetadata.Pod) -> Self
+}
+
+public protocol PodFactoryContext {
+}
+
+public class PodRegistry {
+    public static func registerPod<PF: PodFactory>(_ type: PF.Type) -> Bool {
+        //wip(true)
+        true
+    }
+}
+
+
+actor ActorFilePod : PodFactory {
+    let context: PodFactoryContext
+    let configuration: PodMetadata.Pod
+
+    private init(context: PodFactoryContext, configuration: PodMetadata.Pod) {
+        self.context = context
+        self.configuration = configuration
+    }
+
+    static func createPod(in context: PodFactoryContext, with configuration: PodMetadata.Pod) -> ActorFilePod {
+        ActorFilePod(context: context, configuration: configuration)
+    }
+}
+
+
+// MARK: Experimental Pod Metadata
+
+extension DemoTimePod : PodFactory {
+    public static func createPod(in context: PodFactoryContext, with configuration: PodMetadata.Pod) -> DemoTimePod {
+        DemoTimePod(context: context, configuration: configuration)
+    }
+}
+
+final class DemoTimePod: JXPod, JXModule, JXBridging {
+    public let context: PodFactoryContext
+    public let configuration: PodMetadata.Pod
+    public let metadata: JXPodMetaData = JXPodMetaData(homePage: URL(string: "https://www.example.com")!)
+
+    private init(context: PodFactoryContext, configuration: PodMetadata.Pod) {
+        self.context = context
+        self.configuration = configuration
+    }
+
+    public let namespace: JXNamespace = "time"
+
+    public func register(with registry: JXRegistry) async throws {
+        try registry.registerBridge(for: self, namespace: namespace)
+    }
+
+    public func initialize(in context: JXContext) async throws {
+        try context.global.integrate(self)
+    }
+
+    public enum Errors: Error {
+        case sleepDurationNaN
+        case sleepDurationNegative
+    }
+
+    // MARK: -
+
+    // not working
+    //@JXFunc var jxsleep: (isolated TimePod) -> (TimeInterval) async throws -> () = Optional.none!
+
+    @JXFunc var jxsleep = sleep
+    public func sleep(duration: TimeInterval) async throws {
+        if duration.isNaN {
+            throw Errors.sleepDurationNaN
+        }
+        if duration < 0 {
+            throw Errors.sleepDurationNegative
+        }
+        try await Task.sleep(nanoseconds: .init(duration * 1_000_000_000))
+    }
+}
+
+
+@_cdecl("registerFairPodXXX")
+func registerFairPodXXX() -> Bool {
+    PodRegistry.registerPod(ActorFilePod.self)
+}
+
+@_cdecl("registerFairPodZZZ")
+func registerFairPodZZZ() -> Bool {
+    PodRegistry.registerPod(DemoTimePod.self)
 }
