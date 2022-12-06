@@ -9,9 +9,9 @@ final class TimePodTests: XCTestCase {
         try jxc.registry.register(TimePod())
 
         try await jxc.eval("time.sleep(0)", priority: .high)
-        let start = CFAbsoluteTimeGetCurrent()
+        let start = Date().timeIntervalSinceReferenceDate
         try await jxc.eval("time.sleep(0.5)", priority: .high)
-        let timeTaken = CFAbsoluteTimeGetCurrent() - start
+        let timeTaken = Date().timeIntervalSinceReferenceDate - start
         XCTAssertTrue(timeTaken >= 0.5)
         do {
             try await jxc.eval("time.sleep(NaN)", priority: .high)
