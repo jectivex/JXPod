@@ -170,8 +170,11 @@ final class JXPodTests: XCTestCase {
         // XCTAssertEqual(true, try Bundle(for: FairPod1.self).registerDynamic(name: "FairPod1"))
         // XCTAssertEqual(true, try Bundle(for: FairPod2.self).registerDynamic(name: "FairPod2"))
         // XCTAssertThrowsError(try Bundle(for: FairPodX.self).registerDynamic(name: "FairPodX"))
-        XCTAssertEqual(true, try Bundle(for: Self.self).registerDynamic(name: "FairPodXXX", in: nil))
-        XCTAssertEqual(true, try Bundle(for: Self.self).registerDynamic(name: "FairPodZZZ", in: nil))
+
+        #if !os(tvOS) && !os(iOS) // FIXME: cannot find symbols
+        XCTAssertEqual(true, try Bundle(for: Self.self).registerDynamic(name: "InlinePod1", in: nil))
+        XCTAssertEqual(true, try Bundle(for: Self.self).registerDynamic(name: "InlinePod2", in: nil))
+        #endif
     }
 
     func testPodMetadata() throws {
@@ -278,6 +281,7 @@ public class PodRegistry {
 
 
 actor ActorFilePod : PodFactory {
+    var jxState: JXState?
     let context: PodFactoryContext
     let configuration: PodMetadata.Pod
 
@@ -304,6 +308,7 @@ final class DemoTimePod: JXPod, JXModule, JXBridging {
     public let context: PodFactoryContext
     public let configuration: PodMetadata.Pod
     public let metadata: JXPodMetaData = JXPodMetaData(homePage: URL(string: "https://www.example.com")!)
+    public var jxState: JXState?
 
     private init(context: PodFactoryContext, configuration: PodMetadata.Pod) {
         self.context = context
@@ -343,12 +348,12 @@ final class DemoTimePod: JXPod, JXModule, JXBridging {
 }
 
 
-@_cdecl("registerFairPodXXX")
-func registerFairPodXXX() -> Bool {
+@_cdecl("registerInlinePod1")
+public func registerInlinePod1() -> Bool {
     PodRegistry.registerPod(ActorFilePod.self)
 }
 
-@_cdecl("registerFairPodZZZ")
-func registerFairPodZZZ() -> Bool {
+@_cdecl("registerInlinePod2")
+public func registerInlinePod2() -> Bool {
     PodRegistry.registerPod(DemoTimePod.self)
 }
