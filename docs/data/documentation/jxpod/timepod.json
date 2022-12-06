@@ -101,6 +101,7 @@
     },
     {
       "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/jxState-97vn5",
         "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/metadata",
         "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/namespace"
       ],
@@ -380,6 +381,44 @@
   "title" : "initialize(in:)",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/timepod\/initialize(in:)"
+},
+"doc://JXPod/documentation/JXPod/TimePod/jxState-97vn5": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "jxState"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge7JXStateC",
+      "text" : "JXState"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/jxState-97vn5",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "jxState",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/timepod\/jxstate-97vn5"
 },
 "doc://JXPod/documentation/JXPod/TimePod/metadata": {
   "abstract" : [

@@ -3,6 +3,8 @@ import JXBridge
 import JXKit
 
 public class TimePod: JXPod, JXModule, JXBridging {
+    public var jxState: JXState?
+
     public init() {
     }
     

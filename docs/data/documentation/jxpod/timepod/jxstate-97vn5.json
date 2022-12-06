@@ -17,19 +17,17 @@
     "paths" : [
       [
         "doc:\/\/JXPod\/documentation\/JXPod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/JXBridging-Implementations"
+        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/jxState"
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/jxState-97vn5"
   },
   "kind" : "symbol",
   "metadata" : {
-    "extendedModule" : "JXBridge",
-    "externalID" : "s:8JXBridge10JXBridgingPAAE7jxStateAA7JXStateCSgvp::SYNTHESIZED::s:5JXPod7TimePodC",
+    "externalID" : "s:5JXPod7TimePodC7jxState8JXBridge7JXStateCSgvp",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -101,23 +99,7 @@
             },
             {
               "kind" : "text",
-              "text" : "? { "
-            },
-            {
-              "kind" : "keyword",
-              "text" : "get"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
-            {
-              "kind" : "keyword",
-              "text" : "set"
-            },
-            {
-              "kind" : "text",
-              "text" : " }"
+              "text" : "?"
             }
           ]
         }
@@ -136,7 +118,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jxpod\/timepod\/jxstate"
+        "\/documentation\/jxpod\/timepod\/jxstate-97vn5"
       ],
       "traits" : [
         {
@@ -189,18 +171,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/timepod"
 },
-"doc://JXPod/documentation/JXPod/TimePod/JXBridging-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/JXBridging-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "JXBridging Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/jxpod\/timepod\/jxbridging-implementations"
-},
-"doc://JXPod/documentation/JXPod/TimePod/jxState": {
+"doc://JXPod/documentation/JXPod/TimePod/jxState-97vn5": {
   "abstract" : [
 
   ],
@@ -231,12 +202,12 @@
       "text" : "?"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/jxState",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/jxState-97vn5",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "jxState",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/timepod\/jxstate"
+  "url" : "\/documentation\/jxpod\/timepod\/jxstate-97vn5"
 }
 }
 }

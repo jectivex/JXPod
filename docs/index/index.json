@@ -1556,6 +1556,11 @@
                 "type" : "groupMarker"
               },
               {
+                "path" : "\/documentation\/jxpod\/timepod\/jxstate-97vn5",
+                "title" : "var jxState: JXState?",
+                "type" : "property"
+              },
+              {
                 "path" : "\/documentation\/jxpod\/timepod\/metadata",
                 "title" : "var metadata: JXPodMetaData",
                 "type" : "property"
@@ -1656,7 +1661,7 @@
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/jxpod\/timepod\/jxstate",
+                    "path" : "\/documentation\/jxpod\/timepod\/jxstate-7z6b2",
                     "title" : "var jxState: JXState?",
                     "type" : "property"
                   },
