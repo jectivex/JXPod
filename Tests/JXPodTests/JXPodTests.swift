@@ -61,7 +61,7 @@ final class JXPodTests: XCTestCase {
         }
 
         @discardableResult func succeed(_ string: String) -> JXContext {
-            let ctx = JXContext(strict: true) // for script validation
+            let ctx = JXContext(configuration: .init(strict: true)) // for script validation
             XCTAssertNoThrow(try decodePreamble(string), "preamble should have been decoded")
             XCTAssertEqual(true, try ctx.checkSyntax(string), "script should have been parsable")
             XCTAssertNoThrow(try ctx.eval(string), "script should have executed")

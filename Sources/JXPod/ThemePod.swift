@@ -666,7 +666,13 @@ public struct CSSColor : Codable, Hashable, CustomStringConvertible, JXConvertib
 
 #if canImport(CoreImage)
 
-#if canImport(UIKit)
+#if canImport(AppKit) && !targetEnvironment(macCatalyst)
+extension CIColor {
+    var uiColor: NSColor {
+        NSColor(ciColor: self)
+    }
+}
+#elseif canImport(UIKit)
 extension CIColor {
     var uiColor: UIColor {
         UIColor(ciColor: self)
@@ -674,13 +680,6 @@ extension CIColor {
 }
 #endif
 
-#if canImport(AppKit)
-extension CIColor {
-    var uiColor: NSColor {
-        NSColor(ciColor: self)
-    }
-}
-#endif
 
 extension CIColor {
     /// Converts this color into a CSSColor
