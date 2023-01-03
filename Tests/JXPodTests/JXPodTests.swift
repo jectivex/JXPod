@@ -1,16 +1,10 @@
 import XCTest
-import Jack
-import JXPod
+import JXKit
 import JXBridge
+import JXPod
 import FairCore
 
 final class JXPodTests: XCTestCase {
-    func testJXPod() throws {
-        class PlugIn : JackedObject {
-            @Stack var num = 1
-        }
-    }
-
     func testMetadataParsing() throws {
         struct Metadata : Hashable, Codable {
             let name: String
