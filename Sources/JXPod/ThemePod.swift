@@ -34,32 +34,32 @@ open class ThemePod : JXPod, JXModule {
     #if canImport(UIKit)
     static var navBar: UINavigationBar { UINavigationBar.appearance() }
 
-    @Pack public var navBarTintColor: CSSColor? = navBar.tintColor?.ciColor.cssColor
-    static func navBarTintColorDidSet(_ newValue: CSSColor?) {
-        navBar.tintColor = newValue?.nativeColor.uiColor
-    }
-
-    static var tabBar: UITabBar { UITabBar.appearance() }
-
-    @Pack public var tabBarTintColor: CSSColor? = tabBar.tintColor?.ciColor.cssColor
-    static func tabBarTintColorDidSet(_ newValue: CSSColor?) {
-        tabBar.tintColor = newValue?.nativeColor.uiColor
-    }
-
-    static var label: UILabel { UILabel.appearance() }
-
-    @Pack public var labelTintColor: CSSColor? = label.tintColor?.ciColor.cssColor
-    static func labelTintColorDidSet(_ newValue: CSSColor?) {
-        label.tintColor = newValue?.nativeColor.uiColor
-    }
-
-
+//    @Pack public var navBarTintColor: CSSColor? = navBar.tintColor?.ciColor.cssColor
+//    static func navBarTintColorDidSet(_ newValue: CSSColor?) {
+//        navBar.tintColor = newValue?.nativeColor.uiColor
+//    }
+//
+//    static var tabBar: UITabBar { UITabBar.appearance() }
+//
+//    @Pack public var tabBarTintColor: CSSColor? = tabBar.tintColor?.ciColor.cssColor
+//    static func tabBarTintColorDidSet(_ newValue: CSSColor?) {
+//        tabBar.tintColor = newValue?.nativeColor.uiColor
+//    }
+//
+//    static var label: UILabel { UILabel.appearance() }
+//
+//    @Pack public var labelTintColor: CSSColor? = label.tintColor?.ciColor.cssColor
+//    static func labelTintColorDidSet(_ newValue: CSSColor?) {
+//        label.tintColor = newValue?.nativeColor.uiColor
+//    }
+//
+//
     func setupListeners() {
         observers += [
-            $navBarTintColor.sink(receiveValue: Self.navBarTintColorDidSet),
-            $tabBarTintColor.sink(receiveValue: Self.tabBarTintColorDidSet),
-            $labelTintColor.sink(receiveValue: Self.labelTintColorDidSet),
-            //$navBarTintColor.sink(receiveValue: { [weak self] _ in }),
+//            $navBarTintColor.sink(receiveValue: Self.navBarTintColorDidSet),
+//            $tabBarTintColor.sink(receiveValue: Self.tabBarTintColorDidSet),
+//            $labelTintColor.sink(receiveValue: Self.labelTintColorDidSet),
+//            //$navBarTintColor.sink(receiveValue: { [weak self] _ in }),
             ]
     }
 
