@@ -91,6 +91,7 @@
     {
       "identifiers" : [
         "doc:\/\/JXPod\/documentation\/JXPod\/ConsolePod",
+        "doc:\/\/JXPod\/8JXBridge10JXBridgingP",
         "doc:\/\/JXPod\/8JXBridge8JXModuleP",
         "doc:\/\/JXPod\/documentation\/JXPod\/JXPod"
       ],
@@ -110,6 +111,7 @@
   "topicSections" : [
     {
       "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/jxState-3js38",
         "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/metadata",
         "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/namespace"
       ],
@@ -117,6 +119,7 @@
     },
     {
       "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/initialize(in:)",
         "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/register(with:)"
       ],
       "title" : "Instance Methods"
@@ -124,6 +127,7 @@
     {
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/JXBridging-Implementations",
         "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/JXModule-Implementations",
         "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/JXPod-Implementations"
       ],
@@ -144,6 +148,11 @@
   ]
 , 
 "references": {
+"doc://JXPod/8JXBridge10JXBridgingP": {
+  "identifier" : "doc:\/\/JXPod\/8JXBridge10JXBridgingP",
+  "title" : "JXBridge.JXBridging",
+  "type" : "unresolvable"
+},
 "doc://JXPod/8JXBridge8JXModuleP": {
   "identifier" : "doc:\/\/JXPod\/8JXBridge8JXModuleP",
   "title" : "JXBridge.JXModule",
@@ -203,6 +212,17 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/capturingconsolepod"
 },
+"doc://JXPod/documentation/JXPod/CapturingConsolePod/JXBridging-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/JXBridging-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "JXBridging Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/capturingconsolepod\/jxbridging-implementations"
+},
 "doc://JXPod/documentation/JXPod/CapturingConsolePod/JXModule-Implementations": {
   "abstract" : [
 
@@ -224,6 +244,94 @@
   "title" : "JXPod Implementations",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/capturingconsolepod\/jxpod-implementations"
+},
+"doc://JXPod/documentation/JXPod/CapturingConsolePod/initialize(in:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "initialize"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "in"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit9JXContextC",
+      "text" : "JXContext"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/initialize(in:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "initialize(in:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/capturingconsolepod\/initialize(in:)"
+},
+"doc://JXPod/documentation/JXPod/CapturingConsolePod/jxState-3js38": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "jxState"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge7JXStateC",
+      "text" : "JXState"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/jxState-3js38",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "jxState",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/capturingconsolepod\/jxstate-3js38"
 },
 "doc://JXPod/documentation/JXPod/CapturingConsolePod/metadata": {
   "abstract" : [

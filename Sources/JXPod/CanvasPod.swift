@@ -1,6 +1,32 @@
-//import Foundation
-//import Jack
-//
+import Foundation
+import JXBridge
+
+
+#if canImport(SwiftUI)
+import SwiftUI
+
+@available(macOS 12, iOS 15, tvOS 15, *)
+open class SwiftUICanvasPod<Symbols : SwiftUI.View> : JXPod, JXModule, JXBridging {
+    public let namespace: JXNamespace = "console"
+
+    private let canvas: SwiftUI.Canvas<Symbols>
+
+    public init(canvas: SwiftUI.Canvas<Symbols>) {
+        self.canvas = canvas
+    }
+
+    public var metadata: JXPodMetaData {
+        JXPodMetaData(homePage: URL(string: "https://www.example.com")!)
+    }
+
+    public func register(with registry: JXRegistry) throws {
+        try registry.registerBridge(for: self, namespace: namespace)
+    }
+}
+#endif
+
+
+
 //// MARK: CanvasPod
 //
 //public protocol CanvasPod : JXPod, JXModule {
@@ -732,24 +758,4 @@
 //}
 //#endif
 //
-//#if !os(iOS)
-//#if canImport(CoreGraphics)
-//#if canImport(SwiftUI)
-//import SwiftUI
-//
-//@available(macOS 12, iOS 15, tvOS 15, *)
-//open class SwiftUICanvasPod<Symbols : SwiftUI.View> : JXPod, JXModule, CanvasPod {
-//    private let canvas: SwiftUI.Canvas<Symbols>
-//
-//    public init(canvas: SwiftUI.Canvas<Symbols>) {
-//        self.canvas = canvas
-//    }
-//
-//    public var metadata: JXPodMetaData {
-//        JXPodMetaDataJXPodMetaData(homePage: URL(string: "https://www.example.com")!)
-//    }
-//
-//}
-//#endif
-//#endif
 //#endif

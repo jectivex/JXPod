@@ -72,6 +72,15 @@
             },
             {
               "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:8JXBridge10JXBridgingP",
+              "text" : "JXBridging"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "typeIdentifier",
               "preciseIdentifier" : "s:8JXBridge8JXModuleP",
               "text" : "JXModule"
             },
@@ -94,6 +103,7 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
+        "doc:\/\/JXPod\/8JXBridge10JXBridgingP",
         "doc:\/\/JXPod\/8JXBridge8JXModuleP",
         "doc:\/\/JXPod\/documentation\/JXPod\/JXPod"
       ],
@@ -140,6 +150,11 @@
   ]
 , 
 "references": {
+"doc://JXPod/8JXBridge10JXBridgingP": {
+  "identifier" : "doc:\/\/JXPod\/8JXBridge10JXBridgingP",
+  "title" : "JXBridge.JXBridging",
+  "type" : "unresolvable"
+},
 "doc://JXPod/8JXBridge8JXModuleP": {
   "identifier" : "doc:\/\/JXPod\/8JXBridge8JXModuleP",
   "title" : "JXBridge.JXModule",

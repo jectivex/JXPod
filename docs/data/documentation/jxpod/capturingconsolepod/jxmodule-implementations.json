@@ -35,8 +35,7 @@
       "identifiers" : [
         "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/define(for:in:)",
         "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/define(symbol:namespace:in:)",
-        "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/defineAll(namespace:in:)",
-        "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/initialize(in:)"
+        "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/defineAll(namespace:in:)"
       ],
       "title" : "Instance Methods"
     }
@@ -352,52 +351,6 @@
   "title" : "defineAll(namespace:in:)",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/capturingconsolepod\/defineall(namespace:in:)"
-},
-"doc://JXPod/documentation/JXPod/CapturingConsolePod/initialize(in:)": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "func"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "initialize"
-    },
-    {
-      "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "in"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit9JXContextC",
-      "text" : "JXContext"
-    },
-    {
-      "kind" : "text",
-      "text" : ")"
-    }
-  ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/initialize(in:)",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "initialize(in:)",
-  "type" : "topic",
-  "url" : "\/documentation\/jxpod\/capturingconsolepod\/initialize(in:)"
 },
 "doc://JXPod/documentation/JXPod/ConsolePod": {
   "abstract" : [

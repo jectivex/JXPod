@@ -7,7 +7,7 @@ import Foundation
 // let passphrase = await key.keychain("login").passphraseFor({ service: "https://example.com" });
 // await key.keychain("login").lock()
 
-open class KeyPod : JXPod, JXModule {
+open class KeyPod : JXPod, JXModule, JXBridging {
     public let namespace: JXNamespace = "net"
 
     public init() {
@@ -18,6 +18,7 @@ open class KeyPod : JXPod, JXModule {
     }
 
     public func register(with registry: JXRegistry) throws {
+        try registry.registerBridge(for: self, namespace: namespace)
     }
 
 //    @Jack("unlock") var _unlock = unlock

@@ -6,7 +6,7 @@ import JXBridge
 #if canImport(Charts)
 import Charts
 
-open class ChartPod : JXPod, JXModule {
+open class ChartPod : JXPod, JXModule, JXBridging {
     public let namespace: JXNamespace = "chart"
 
     public init() {
@@ -17,6 +17,7 @@ open class ChartPod : JXPod, JXModule {
     }
 
     public func register(with registry: JXRegistry) throws {
+        try registry.registerBridge(for: self, namespace: namespace)
     }
 
 

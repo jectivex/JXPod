@@ -17,8 +17,7 @@
     "paths" : [
       [
         "doc:\/\/JXPod\/documentation\/JXPod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/JXModule-Implementations"
+        "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod"
       ]
     ]
   },
@@ -28,8 +27,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "extendedModule" : "JXBridge",
-    "externalID" : "s:8JXBridge8JXModulePAAE10initialize2iny5JXKit9JXContextC_tF::SYNTHESIZED::s:5JXPod19CapturingConsolePodC",
+    "externalID" : "s:5JXPod19CapturingConsolePodC10initialize2iny5JXKit9JXContextC_tKF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -62,7 +60,11 @@
       },
       {
         "kind" : "text",
-        "text" : ")"
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
       }
     ],
     "modules" : [
@@ -125,7 +127,11 @@
             },
             {
               "kind" : "text",
-              "text" : ")"
+              "text" : ") "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "throws"
             }
           ]
         }
@@ -209,17 +215,6 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/capturingconsolepod"
 },
-"doc://JXPod/documentation/JXPod/CapturingConsolePod/JXModule-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/JXModule-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "JXModule Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/jxpod\/capturingconsolepod\/jxmodule-implementations"
-},
 "doc://JXPod/documentation/JXPod/CapturingConsolePod/initialize(in:)": {
   "abstract" : [
 
@@ -256,7 +251,11 @@
     },
     {
       "kind" : "text",
-      "text" : ")"
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
     }
   ],
   "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/initialize(in:)",

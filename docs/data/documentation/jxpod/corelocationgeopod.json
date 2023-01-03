@@ -85,6 +85,7 @@
       "identifiers" : [
         "doc:\/\/JXPod\/objc(pl)CLLocationManagerDelegate",
         "doc:\/\/JXPod\/documentation\/JXPod\/GeoPod",
+        "doc:\/\/JXPod\/8JXBridge10JXBridgingP",
         "doc:\/\/JXPod\/8JXBridge8JXModuleP",
         "doc:\/\/JXPod\/documentation\/JXPod\/JXPod",
         "doc:\/\/JXPod\/objc(pl)NSObject",
@@ -132,6 +133,7 @@
     {
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod\/JXBridging-Implementations",
         "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod\/JXModule-Implementations",
         "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod\/JXPod-Implementations"
       ],
@@ -152,6 +154,11 @@
   ]
 , 
 "references": {
+"doc://JXPod/8JXBridge10JXBridgingP": {
+  "identifier" : "doc:\/\/JXPod\/8JXBridge10JXBridgingP",
+  "title" : "JXBridge.JXBridging",
+  "type" : "unresolvable"
+},
 "doc://JXPod/8JXBridge8JXModuleP": {
   "identifier" : "doc:\/\/JXPod\/8JXBridge8JXModuleP",
   "title" : "JXBridge.JXModule",
@@ -208,6 +215,17 @@
   "title" : "CoreLocationGeoPod",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/corelocationgeopod"
+},
+"doc://JXPod/documentation/JXPod/CoreLocationGeoPod/JXBridging-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod\/JXBridging-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "JXBridging Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/corelocationgeopod\/jxbridging-implementations"
 },
 "doc://JXPod/documentation/JXPod/CoreLocationGeoPod/JXModule-Implementations": {
   "abstract" : [

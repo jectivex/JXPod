@@ -91,6 +91,7 @@
     {
       "identifiers" : [
         "doc:\/\/JXPod\/documentation\/JXPod\/ConsolePod",
+        "doc:\/\/JXPod\/8JXBridge10JXBridgingP",
         "doc:\/\/JXPod\/8JXBridge8JXModuleP",
         "doc:\/\/JXPod\/documentation\/JXPod\/JXPod"
       ],
@@ -116,6 +117,7 @@
     },
     {
       "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/jxState-541gv",
         "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/metadata",
         "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/namespace"
       ],
@@ -123,13 +125,16 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/register(with:)"
+        "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/initialize(in:)",
+        "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/register(with:)",
+        "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/sleep(duration:)"
       ],
       "title" : "Instance Methods"
     },
     {
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/JXBridging-Implementations",
         "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/JXModule-Implementations",
         "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/JXPod-Implementations"
       ],
@@ -150,6 +155,11 @@
   ]
 , 
 "references": {
+"doc://JXPod/8JXBridge10JXBridgingP": {
+  "identifier" : "doc:\/\/JXPod\/8JXBridge10JXBridgingP",
+  "title" : "JXBridge.JXBridging",
+  "type" : "unresolvable"
+},
 "doc://JXPod/8JXBridge8JXModuleP": {
   "identifier" : "doc:\/\/JXPod\/8JXBridge8JXModuleP",
   "title" : "JXBridge.JXModule",
@@ -290,6 +300,17 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/oslogconsolepod"
 },
+"doc://JXPod/documentation/JXPod/OSLogConsolePod/JXBridging-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/JXBridging-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "JXBridging Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/oslogconsolepod\/jxbridging-implementations"
+},
 "doc://JXPod/documentation/JXPod/OSLogConsolePod/JXModule-Implementations": {
   "abstract" : [
 
@@ -332,6 +353,94 @@
   "title" : "init()",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/oslogconsolepod\/init()"
+},
+"doc://JXPod/documentation/JXPod/OSLogConsolePod/initialize(in:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "initialize"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "in"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit9JXContextC",
+      "text" : "JXContext"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/initialize(in:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "initialize(in:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/oslogconsolepod\/initialize(in:)"
+},
+"doc://JXPod/documentation/JXPod/OSLogConsolePod/jxState-541gv": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "jxState"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge7JXStateC",
+      "text" : "JXState"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/jxState-541gv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "jxState",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/oslogconsolepod\/jxstate-541gv"
 },
 "doc://JXPod/documentation/JXPod/OSLogConsolePod/metadata": {
   "abstract" : [
@@ -450,6 +559,64 @@
   "title" : "register(with:)",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/oslogconsolepod\/register(with:)"
+},
+"doc://JXPod/documentation/JXPod/OSLogConsolePod/sleep(duration:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sleep"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "duration"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@T@NSTimeInterval",
+      "text" : "TimeInterval"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "async"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/sleep(duration:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sleep(duration:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/oslogconsolepod\/sleep(duration:)"
 }
 }
 }

@@ -6,6 +6,8 @@ import JXBridge
 @available(*, deprecated, message: "work in progress")
 @inlinable internal func wip<T>(_ value: T) -> T { value }
 
+// TODO: replace or extend JXModule?
+
 /// A `JXPod` is a unit of native functionality that combines a `JXModule` with associated metadata.
 public protocol JXPod {
     /// The metadata for this pod.

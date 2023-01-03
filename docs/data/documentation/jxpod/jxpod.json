@@ -113,6 +113,7 @@
         "doc:\/\/JXPod\/documentation\/JXPod\/KeyPod",
         "doc:\/\/JXPod\/documentation\/JXPod\/NetPod",
         "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod",
         "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod",
         "doc:\/\/JXPod\/documentation\/JXPod\/TimePod"
       ],
@@ -592,6 +593,37 @@
   "title" : "OSLogConsolePod",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/oslogconsolepod"
+},
+"doc://JXPod/documentation/JXPod/SwiftUICanvasPod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SwiftUICanvasPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SwiftUICanvasPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SwiftUICanvasPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/swiftuicanvaspod"
 },
 "doc://JXPod/documentation/JXPod/ThemePod": {
   "abstract" : [

@@ -17,8 +17,7 @@
     "paths" : [
       [
         "doc:\/\/JXPod\/documentation\/JXPod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/JXModule-Implementations"
+        "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod"
       ]
     ]
   },
@@ -28,8 +27,7 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "extendedModule" : "JXBridge",
-    "externalID" : "s:8JXBridge8JXModulePAAE10initialize2iny5JXKit9JXContextC_tF::SYNTHESIZED::s:5JXPod15OSLogConsolePodC",
+    "externalID" : "s:5JXPod15OSLogConsolePodC10initialize2iny5JXKit9JXContextC_tKF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -62,7 +60,11 @@
       },
       {
         "kind" : "text",
-        "text" : ")"
+        "text" : ") "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "throws"
       }
     ],
     "modules" : [
@@ -125,7 +127,11 @@
             },
             {
               "kind" : "text",
-              "text" : ")"
+              "text" : ") "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "throws"
             }
           ]
         }
@@ -240,17 +246,6 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/oslogconsolepod"
 },
-"doc://JXPod/documentation/JXPod/OSLogConsolePod/JXModule-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/JXModule-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "JXModule Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/jxpod\/oslogconsolepod\/jxmodule-implementations"
-},
 "doc://JXPod/documentation/JXPod/OSLogConsolePod/initialize(in:)": {
   "abstract" : [
 
@@ -287,7 +282,11 @@
     },
     {
       "kind" : "text",
-      "text" : ")"
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
     }
   ],
   "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/initialize(in:)",

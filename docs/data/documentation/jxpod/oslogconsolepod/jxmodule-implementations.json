@@ -35,8 +35,7 @@
       "identifiers" : [
         "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/define(for:in:)",
         "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/define(symbol:namespace:in:)",
-        "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/defineAll(namespace:in:)",
-        "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/initialize(in:)"
+        "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/defineAll(namespace:in:)"
       ],
       "title" : "Instance Methods"
     }
@@ -383,52 +382,6 @@
   "title" : "defineAll(namespace:in:)",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/oslogconsolepod\/defineall(namespace:in:)"
-},
-"doc://JXPod/documentation/JXPod/OSLogConsolePod/initialize(in:)": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "func"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "initialize"
-    },
-    {
-      "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "in"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXKit9JXContextC",
-      "text" : "JXContext"
-    },
-    {
-      "kind" : "text",
-      "text" : ")"
-    }
-  ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/initialize(in:)",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "initialize(in:)",
-  "type" : "topic",
-  "url" : "\/documentation\/jxpod\/oslogconsolepod\/initialize(in:)"
 }
 }
 }

@@ -14,6 +14,11 @@
                 "type" : "groupMarker"
               },
               {
+                "path" : "\/documentation\/jxpod\/capturingconsolepod\/jxstate-3js38",
+                "title" : "var jxState: JXState?",
+                "type" : "property"
+              },
+              {
                 "path" : "\/documentation\/jxpod\/capturingconsolepod\/metadata",
                 "title" : "var metadata: JXPodMetaData",
                 "type" : "property"
@@ -28,6 +33,11 @@
                 "type" : "groupMarker"
               },
               {
+                "path" : "\/documentation\/jxpod\/capturingconsolepod\/initialize(in:)",
+                "title" : "func initialize(in: JXContext) throws",
+                "type" : "method"
+              },
+              {
                 "path" : "\/documentation\/jxpod\/capturingconsolepod\/register(with:)",
                 "title" : "func register(with: JXRegistry) throws",
                 "type" : "method"
@@ -35,6 +45,40 @@
               {
                 "title" : "Default Implementations",
                 "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/capturingconsolepod\/jxstate-1k6lo",
+                    "title" : "var jxState: JXState?",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/capturingconsolepod\/jxnamespace",
+                    "title" : "static var jxNamespace: JXNamespace",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/capturingconsolepod\/jxbridge(mirror:)",
+                    "title" : "static func jxBridge(mirror: Mirror) -> JXBridge",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/capturingconsolepod\/jxbridging-implementations",
+                "title" : "JXBridging Implementations",
+                "type" : "symbol"
               },
               {
                 "children" : [
@@ -55,11 +99,6 @@
                   {
                     "path" : "\/documentation\/jxpod\/capturingconsolepod\/defineall(namespace:in:)",
                     "title" : "func defineAll(namespace: JXNamespace, in: JXContext) throws -> Bool",
-                    "type" : "method"
-                  },
-                  {
-                    "path" : "\/documentation\/jxpod\/capturingconsolepod\/initialize(in:)",
-                    "title" : "func initialize(in: JXContext)",
                     "type" : "method"
                   }
                 ],
@@ -125,6 +164,40 @@
               {
                 "title" : "Default Implementations",
                 "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/chartpod\/jxstate",
+                    "title" : "var jxState: JXState?",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/chartpod\/jxnamespace",
+                    "title" : "static var jxNamespace: JXNamespace",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/chartpod\/jxbridge(mirror:)",
+                    "title" : "static func jxBridge(mirror: Mirror) -> JXBridge",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/chartpod\/jxbridging-implementations",
+                "title" : "JXBridging Implementations",
+                "type" : "symbol"
               },
               {
                 "children" : [
@@ -225,6 +298,40 @@
               {
                 "title" : "Default Implementations",
                 "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/corelocationgeopod\/jxstate",
+                    "title" : "var jxState: JXState?",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/corelocationgeopod\/jxnamespace",
+                    "title" : "static var jxNamespace: JXNamespace",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/corelocationgeopod\/jxbridge(mirror:)",
+                    "title" : "static func jxBridge(mirror: Mirror) -> JXBridge",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/corelocationgeopod\/jxbridging-implementations",
+                "title" : "JXBridging Implementations",
+                "type" : "symbol"
               },
               {
                 "children" : [
@@ -409,6 +516,40 @@
               {
                 "children" : [
                   {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/keypod\/jxstate",
+                    "title" : "var jxState: JXState?",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/keypod\/jxnamespace",
+                    "title" : "static var jxNamespace: JXNamespace",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/keypod\/jxbridge(mirror:)",
+                    "title" : "static func jxBridge(mirror: Mirror) -> JXBridge",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/keypod\/jxbridging-implementations",
+                "title" : "JXBridging Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
                     "title" : "Instance Methods",
                     "type" : "groupMarker"
                   },
@@ -499,6 +640,40 @@
               {
                 "children" : [
                   {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/netpod\/jxstate",
+                    "title" : "var jxState: JXState?",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/netpod\/jxnamespace",
+                    "title" : "static var jxNamespace: JXNamespace",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/netpod\/jxbridge(mirror:)",
+                    "title" : "static func jxBridge(mirror: Mirror) -> JXBridge",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/netpod\/jxbridging-implementations",
+                "title" : "JXBridging Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
                     "title" : "Instance Methods",
                     "type" : "groupMarker"
                   },
@@ -564,6 +739,11 @@
                 "type" : "groupMarker"
               },
               {
+                "path" : "\/documentation\/jxpod\/oslogconsolepod\/jxstate-541gv",
+                "title" : "var jxState: JXState?",
+                "type" : "property"
+              },
+              {
                 "path" : "\/documentation\/jxpod\/oslogconsolepod\/metadata",
                 "title" : "var metadata: JXPodMetaData",
                 "type" : "property"
@@ -578,13 +758,57 @@
                 "type" : "groupMarker"
               },
               {
+                "path" : "\/documentation\/jxpod\/oslogconsolepod\/initialize(in:)",
+                "title" : "func initialize(in: JXContext) throws",
+                "type" : "method"
+              },
+              {
                 "path" : "\/documentation\/jxpod\/oslogconsolepod\/register(with:)",
                 "title" : "func register(with: JXRegistry) throws",
                 "type" : "method"
               },
               {
+                "path" : "\/documentation\/jxpod\/oslogconsolepod\/sleep(duration:)",
+                "title" : "func sleep(duration: TimeInterval) async throws",
+                "type" : "method"
+              },
+              {
                 "title" : "Default Implementations",
                 "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/oslogconsolepod\/jxstate-1njwx",
+                    "title" : "var jxState: JXState?",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/oslogconsolepod\/jxnamespace",
+                    "title" : "static var jxNamespace: JXNamespace",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/oslogconsolepod\/jxbridge(mirror:)",
+                    "title" : "static func jxBridge(mirror: Mirror) -> JXBridge",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/oslogconsolepod\/jxbridging-implementations",
+                "title" : "JXBridging Implementations",
+                "type" : "symbol"
               },
               {
                 "children" : [
@@ -605,11 +829,6 @@
                   {
                     "path" : "\/documentation\/jxpod\/oslogconsolepod\/defineall(namespace:in:)",
                     "title" : "func defineAll(namespace: JXNamespace, in: JXContext) throws -> Bool",
-                    "type" : "method"
-                  },
-                  {
-                    "path" : "\/documentation\/jxpod\/oslogconsolepod\/initialize(in:)",
-                    "title" : "func initialize(in: JXContext)",
                     "type" : "method"
                   }
                 ],
@@ -636,6 +855,130 @@
             ],
             "path" : "\/documentation\/jxpod\/oslogconsolepod",
             "title" : "OSLogConsolePod",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/init(canvas:)",
+                "title" : "init(canvas: Canvas<Symbols>)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/metadata",
+                "title" : "var metadata: JXPodMetaData",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/namespace",
+                "title" : "let namespace: JXNamespace",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/register(with:)",
+                "title" : "func register(with: JXRegistry) throws",
+                "type" : "method"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/jxstate",
+                    "title" : "var jxState: JXState?",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/jxnamespace",
+                    "title" : "static var jxNamespace: JXNamespace",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/jxbridge(mirror:)",
+                    "title" : "static func jxBridge(mirror: Mirror) -> JXBridge",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/jxbridging-implementations",
+                "title" : "JXBridging Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/define(for:in:)",
+                    "title" : "func define(for: Any, in: JXContext) throws -> Bool",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/define(symbol:namespace:in:)",
+                    "title" : "func define(symbol: String, namespace: JXNamespace, in: JXContext) throws -> Bool",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/defineall(namespace:in:)",
+                    "title" : "func defineAll(namespace: JXNamespace, in: JXContext) throws -> Bool",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/initialize(in:)",
+                    "title" : "func initialize(in: JXContext)",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/jxmodule-implementations",
+                "title" : "JXModule Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/module",
+                    "title" : "var module: JXModule",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/jxpod-implementations",
+                "title" : "JXPod Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jxpod\/swiftuicanvaspod",
+            "title" : "SwiftUICanvasPod",
             "type" : "class"
           },
           {
@@ -675,6 +1018,40 @@
               {
                 "title" : "Default Implementations",
                 "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/themepod\/jxstate",
+                    "title" : "var jxState: JXState?",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/themepod\/jxnamespace",
+                    "title" : "static var jxNamespace: JXNamespace",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/themepod\/jxbridge(mirror:)",
+                    "title" : "static func jxBridge(mirror: Mirror) -> JXBridge",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/themepod\/jxbridging-implementations",
+                "title" : "JXBridging Implementations",
+                "type" : "symbol"
               },
               {
                 "children" : [
