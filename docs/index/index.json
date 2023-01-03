@@ -10,6 +10,277 @@
           {
             "children" : [
               {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/capturingconsolepod\/metadata",
+                "title" : "var metadata: JXPodMetaData",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/capturingconsolepod\/namespace",
+                "title" : "let namespace: JXNamespace",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/capturingconsolepod\/register(with:)",
+                "title" : "func register(with: JXRegistry) throws",
+                "type" : "method"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/capturingconsolepod\/define(for:in:)",
+                    "title" : "func define(for: Any, in: JXContext) throws -> Bool",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/capturingconsolepod\/define(symbol:namespace:in:)",
+                    "title" : "func define(symbol: String, namespace: JXNamespace, in: JXContext) throws -> Bool",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/capturingconsolepod\/defineall(namespace:in:)",
+                    "title" : "func defineAll(namespace: JXNamespace, in: JXContext) throws -> Bool",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/capturingconsolepod\/initialize(in:)",
+                    "title" : "func initialize(in: JXContext)",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/capturingconsolepod\/jxmodule-implementations",
+                "title" : "JXModule Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/capturingconsolepod\/module",
+                    "title" : "var module: JXModule",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/capturingconsolepod\/jxpod-implementations",
+                "title" : "JXPod Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jxpod\/capturingconsolepod",
+            "title" : "CapturingConsolePod",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/chartpod\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/chartpod\/metadata",
+                "title" : "var metadata: JXPodMetaData",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/chartpod\/namespace",
+                "title" : "let namespace: JXNamespace",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/chartpod\/register(with:)",
+                "title" : "func register(with: JXRegistry) throws",
+                "type" : "method"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/chartpod\/define(for:in:)",
+                    "title" : "func define(for: Any, in: JXContext) throws -> Bool",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/chartpod\/define(symbol:namespace:in:)",
+                    "title" : "func define(symbol: String, namespace: JXNamespace, in: JXContext) throws -> Bool",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/chartpod\/defineall(namespace:in:)",
+                    "title" : "func defineAll(namespace: JXNamespace, in: JXContext) throws -> Bool",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/chartpod\/initialize(in:)",
+                    "title" : "func initialize(in: JXContext)",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/chartpod\/jxmodule-implementations",
+                "title" : "JXModule Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/chartpod\/module",
+                    "title" : "var module: JXModule",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/chartpod\/jxpod-implementations",
+                "title" : "JXPod Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jxpod\/chartpod",
+            "title" : "ChartPod",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/corelocationgeopod\/init(manager:)",
+                "title" : "init(manager: CLLocationManager)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/corelocationgeopod\/metadata",
+                "title" : "var metadata: JXPodMetaData",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/corelocationgeopod\/namespace",
+                "title" : "let namespace: JXNamespace",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/corelocationgeopod\/currentlocation()",
+                "title" : "func currentLocation() async throws -> Location",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/corelocationgeopod\/locationmanager(_:didupdatelocations:)",
+                "title" : "func locationManager(CLLocationManager, didUpdateLocations: [CLLocation])",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/corelocationgeopod\/register(with:)",
+                "title" : "func register(with: JXRegistry) throws",
+                "type" : "method"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/corelocationgeopod\/define(for:in:)",
+                    "title" : "func define(for: Any, in: JXContext) throws -> Bool",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/corelocationgeopod\/define(symbol:namespace:in:)",
+                    "title" : "func define(symbol: String, namespace: JXNamespace, in: JXContext) throws -> Bool",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/corelocationgeopod\/defineall(namespace:in:)",
+                    "title" : "func defineAll(namespace: JXNamespace, in: JXContext) throws -> Bool",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/corelocationgeopod\/initialize(in:)",
+                    "title" : "func initialize(in: JXContext)",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/corelocationgeopod\/jxmodule-implementations",
+                "title" : "JXModule Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/corelocationgeopod\/module",
+                    "title" : "var module: JXModule",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/corelocationgeopod\/jxpod-implementations",
+                "title" : "JXPod Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jxpod\/corelocationgeopod",
+            "title" : "CoreLocationGeoPod",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
                 "title" : "Initializers",
                 "type" : "groupMarker"
               },
@@ -95,6 +366,366 @@
             ],
             "path" : "\/documentation\/jxpod\/filepod",
             "title" : "FilePod",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/keypod\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/keypod\/metadata",
+                "title" : "var metadata: JXPodMetaData",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/keypod\/namespace",
+                "title" : "let namespace: JXNamespace",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/keypod\/register(with:)",
+                "title" : "func register(with: JXRegistry) throws",
+                "type" : "method"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/keypod\/define(for:in:)",
+                    "title" : "func define(for: Any, in: JXContext) throws -> Bool",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/keypod\/define(symbol:namespace:in:)",
+                    "title" : "func define(symbol: String, namespace: JXNamespace, in: JXContext) throws -> Bool",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/keypod\/defineall(namespace:in:)",
+                    "title" : "func defineAll(namespace: JXNamespace, in: JXContext) throws -> Bool",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/keypod\/initialize(in:)",
+                    "title" : "func initialize(in: JXContext)",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/keypod\/jxmodule-implementations",
+                "title" : "JXModule Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/keypod\/module",
+                    "title" : "var module: JXModule",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/keypod\/jxpod-implementations",
+                "title" : "JXPod Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jxpod\/keypod",
+            "title" : "KeyPod",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/netpod\/init(session:)",
+                "title" : "init(session: URLSession)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/netpod\/metadata",
+                "title" : "var metadata: JXPodMetaData",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/netpod\/namespace",
+                "title" : "let namespace: JXNamespace",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/netpod\/register(with:)",
+                "title" : "func register(with: JXRegistry) throws",
+                "type" : "method"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/netpod\/define(for:in:)",
+                    "title" : "func define(for: Any, in: JXContext) throws -> Bool",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/netpod\/define(symbol:namespace:in:)",
+                    "title" : "func define(symbol: String, namespace: JXNamespace, in: JXContext) throws -> Bool",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/netpod\/defineall(namespace:in:)",
+                    "title" : "func defineAll(namespace: JXNamespace, in: JXContext) throws -> Bool",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/netpod\/initialize(in:)",
+                    "title" : "func initialize(in: JXContext)",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/netpod\/jxmodule-implementations",
+                "title" : "JXModule Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/netpod\/module",
+                    "title" : "var module: JXModule",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/netpod\/jxpod-implementations",
+                "title" : "JXPod Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jxpod\/netpod",
+            "title" : "NetPod",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/oslogconsolepod\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/oslogconsolepod\/metadata",
+                "title" : "var metadata: JXPodMetaData",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/oslogconsolepod\/namespace",
+                "title" : "let namespace: JXNamespace",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/oslogconsolepod\/register(with:)",
+                "title" : "func register(with: JXRegistry) throws",
+                "type" : "method"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/oslogconsolepod\/define(for:in:)",
+                    "title" : "func define(for: Any, in: JXContext) throws -> Bool",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/oslogconsolepod\/define(symbol:namespace:in:)",
+                    "title" : "func define(symbol: String, namespace: JXNamespace, in: JXContext) throws -> Bool",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/oslogconsolepod\/defineall(namespace:in:)",
+                    "title" : "func defineAll(namespace: JXNamespace, in: JXContext) throws -> Bool",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/oslogconsolepod\/initialize(in:)",
+                    "title" : "func initialize(in: JXContext)",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/oslogconsolepod\/jxmodule-implementations",
+                "title" : "JXModule Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/oslogconsolepod\/module",
+                    "title" : "var module: JXModule",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/oslogconsolepod\/jxpod-implementations",
+                "title" : "JXPod Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jxpod\/oslogconsolepod",
+            "title" : "OSLogConsolePod",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/themepod\/init()",
+                "title" : "init()",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/themepod\/metadata",
+                "title" : "var metadata: JXPodMetaData",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/themepod\/namespace",
+                "title" : "let namespace: JXNamespace",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/themepod\/register(with:)",
+                "title" : "func register(with: JXRegistry) throws",
+                "type" : "method"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/themepod\/define(for:in:)",
+                    "title" : "func define(for: Any, in: JXContext) throws -> Bool",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/themepod\/define(symbol:namespace:in:)",
+                    "title" : "func define(symbol: String, namespace: JXNamespace, in: JXContext) throws -> Bool",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/themepod\/defineall(namespace:in:)",
+                    "title" : "func defineAll(namespace: JXNamespace, in: JXContext) throws -> Bool",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/themepod\/initialize(in:)",
+                    "title" : "func initialize(in: JXContext)",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/themepod\/jxmodule-implementations",
+                "title" : "JXModule Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/themepod\/module",
+                    "title" : "var module: JXModule",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/themepod\/jxpod-implementations",
+                "title" : "JXPod Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jxpod\/themepod",
+            "title" : "ThemePod",
             "type" : "class"
           },
           {
@@ -297,6 +928,27 @@
             "type" : "groupMarker"
           },
           {
+            "path" : "\/documentation\/jxpod\/consolepod",
+            "title" : "ConsolePod",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/geopod\/currentlocation()",
+                "title" : "func currentLocation() async throws -> Location",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/jxpod\/geopod",
+            "title" : "GeoPod",
+            "type" : "protocol"
+          },
+          {
             "children" : [
               {
                 "title" : "Instance Properties",
@@ -337,6 +989,1136 @@
           {
             "children" : [
               {
+                "title" : "Structures",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/init(name:color:)",
+                    "title" : "init(name: String, color: CSSColor.RGBColor)",
+                    "type" : "init"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/init(rawvalue:)",
+                    "title" : "init?(rawValue: String)",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/color",
+                    "title" : "var color: CSSColor.RGBColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/description",
+                    "title" : "var description: String",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/name",
+                    "title" : "var name: String",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/rawvalue",
+                    "title" : "var rawValue: String",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/aliceblue",
+                    "title" : "static let aliceblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/allcases",
+                    "title" : "static var allCases: [CSSColor.NamedColor]",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/antiquewhite",
+                    "title" : "static let antiquewhite: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/aqua",
+                    "title" : "static let aqua: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/aquamarine",
+                    "title" : "static let aquamarine: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/azure",
+                    "title" : "static let azure: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/beige",
+                    "title" : "static let beige: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/bisque",
+                    "title" : "static let bisque: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/black",
+                    "title" : "static let black: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/blanchedalmond",
+                    "title" : "static let blanchedalmond: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/blue",
+                    "title" : "static let blue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/blueviolet",
+                    "title" : "static let blueviolet: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/brown",
+                    "title" : "static let brown: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/burlywood",
+                    "title" : "static let burlywood: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/cadetblue",
+                    "title" : "static let cadetblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/chartreuse",
+                    "title" : "static let chartreuse: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/chocolate",
+                    "title" : "static let chocolate: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/coral",
+                    "title" : "static let coral: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/cornflowerblue",
+                    "title" : "static let cornflowerblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/cornsilk",
+                    "title" : "static let cornsilk: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/crimson",
+                    "title" : "static let crimson: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/cyan",
+                    "title" : "static let cyan: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkblue",
+                    "title" : "static let darkblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkcyan",
+                    "title" : "static let darkcyan: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkgoldenrod",
+                    "title" : "static let darkgoldenrod: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkgray",
+                    "title" : "static let darkgray: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkgreen",
+                    "title" : "static let darkgreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkgrey",
+                    "title" : "static let darkgrey: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkkhaki",
+                    "title" : "static let darkkhaki: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkmagenta",
+                    "title" : "static let darkmagenta: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkolivegreen",
+                    "title" : "static let darkolivegreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkorange",
+                    "title" : "static let darkorange: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkorchid",
+                    "title" : "static let darkorchid: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkred",
+                    "title" : "static let darkred: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darksalmon",
+                    "title" : "static let darksalmon: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkseagreen",
+                    "title" : "static let darkseagreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkslateblue",
+                    "title" : "static let darkslateblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkslategray",
+                    "title" : "static let darkslategray: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkslategrey",
+                    "title" : "static let darkslategrey: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkturquoise",
+                    "title" : "static let darkturquoise: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/darkviolet",
+                    "title" : "static let darkviolet: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/deeppink",
+                    "title" : "static let deeppink: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/deepskyblue",
+                    "title" : "static let deepskyblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/dimgray",
+                    "title" : "static let dimgray: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/dimgrey",
+                    "title" : "static let dimgrey: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/dodgerblue",
+                    "title" : "static let dodgerblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/firebrick",
+                    "title" : "static let firebrick: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/floralwhite",
+                    "title" : "static let floralwhite: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/forestgreen",
+                    "title" : "static let forestgreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/fuchsia",
+                    "title" : "static let fuchsia: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/gainsboro",
+                    "title" : "static let gainsboro: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/ghostwhite",
+                    "title" : "static let ghostwhite: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/gold",
+                    "title" : "static let gold: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/goldenrod",
+                    "title" : "static let goldenrod: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/gray",
+                    "title" : "static let gray: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/green",
+                    "title" : "static let green: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/greenyellow",
+                    "title" : "static let greenyellow: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/grey",
+                    "title" : "static let grey: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/honeydew",
+                    "title" : "static let honeydew: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/hotpink",
+                    "title" : "static let hotpink: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/indianred",
+                    "title" : "static let indianred: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/indigo",
+                    "title" : "static let indigo: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/ivory",
+                    "title" : "static let ivory: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/khaki",
+                    "title" : "static let khaki: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lavender",
+                    "title" : "static let lavender: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lavenderblush",
+                    "title" : "static let lavenderblush: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lawngreen",
+                    "title" : "static let lawngreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lemonchiffon",
+                    "title" : "static let lemonchiffon: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightblue",
+                    "title" : "static let lightblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightcoral",
+                    "title" : "static let lightcoral: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightcyan",
+                    "title" : "static let lightcyan: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightgoldenrodyellow",
+                    "title" : "static let lightgoldenrodyellow: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightgray",
+                    "title" : "static let lightgray: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightgreen",
+                    "title" : "static let lightgreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightgrey",
+                    "title" : "static let lightgrey: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightpink",
+                    "title" : "static let lightpink: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightsalmon",
+                    "title" : "static let lightsalmon: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightseagreen",
+                    "title" : "static let lightseagreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightskyblue",
+                    "title" : "static let lightskyblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightslategray",
+                    "title" : "static let lightslategray: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightslategrey",
+                    "title" : "static let lightslategrey: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightsteelblue",
+                    "title" : "static let lightsteelblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lightyellow",
+                    "title" : "static let lightyellow: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/lime",
+                    "title" : "static let lime: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/limegreen",
+                    "title" : "static let limegreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/linen",
+                    "title" : "static let linen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/magenta",
+                    "title" : "static let magenta: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/maroon",
+                    "title" : "static let maroon: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/mediumaquamarine",
+                    "title" : "static let mediumaquamarine: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/mediumblue",
+                    "title" : "static let mediumblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/mediumorchid",
+                    "title" : "static let mediumorchid: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/mediumpurple",
+                    "title" : "static let mediumpurple: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/mediumseagreen",
+                    "title" : "static let mediumseagreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/mediumslateblue",
+                    "title" : "static let mediumslateblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/mediumspringgreen",
+                    "title" : "static let mediumspringgreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/mediumturquoise",
+                    "title" : "static let mediumturquoise: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/mediumvioletred",
+                    "title" : "static let mediumvioletred: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/midnightblue",
+                    "title" : "static let midnightblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/mintcream",
+                    "title" : "static let mintcream: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/mistyrose",
+                    "title" : "static let mistyrose: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/moccasin",
+                    "title" : "static let moccasin: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/navajowhite",
+                    "title" : "static let navajowhite: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/navy",
+                    "title" : "static let navy: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/oldlace",
+                    "title" : "static let oldlace: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/olive",
+                    "title" : "static let olive: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/olivedrab",
+                    "title" : "static let olivedrab: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/orange",
+                    "title" : "static let orange: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/orangered",
+                    "title" : "static let orangered: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/orchid",
+                    "title" : "static let orchid: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/palegoldenrod",
+                    "title" : "static let palegoldenrod: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/palegreen",
+                    "title" : "static let palegreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/paleturquoise",
+                    "title" : "static let paleturquoise: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/palevioletred",
+                    "title" : "static let palevioletred: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/papayawhip",
+                    "title" : "static let papayawhip: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/peachpuff",
+                    "title" : "static let peachpuff: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/peru",
+                    "title" : "static let peru: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/pink",
+                    "title" : "static let pink: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/plum",
+                    "title" : "static let plum: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/powderblue",
+                    "title" : "static let powderblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/purple",
+                    "title" : "static let purple: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/red",
+                    "title" : "static let red: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/rosybrown",
+                    "title" : "static let rosybrown: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/royalblue",
+                    "title" : "static let royalblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/saddlebrown",
+                    "title" : "static let saddlebrown: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/salmon",
+                    "title" : "static let salmon: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/sandybrown",
+                    "title" : "static let sandybrown: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/seagreen",
+                    "title" : "static let seagreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/seashell",
+                    "title" : "static let seashell: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/sienna",
+                    "title" : "static let sienna: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/silver",
+                    "title" : "static let silver: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/skyblue",
+                    "title" : "static let skyblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/slateblue",
+                    "title" : "static let slateblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/slategray",
+                    "title" : "static let slategray: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/slategrey",
+                    "title" : "static let slategrey: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/snow",
+                    "title" : "static let snow: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/springgreen",
+                    "title" : "static let springgreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/steelblue",
+                    "title" : "static let steelblue: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/tan",
+                    "title" : "static let tan: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/teal",
+                    "title" : "static let teal: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/thistle",
+                    "title" : "static let thistle: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/tomato",
+                    "title" : "static let tomato: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/transparent",
+                    "title" : "static let transparent: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/turquoise",
+                    "title" : "static let turquoise: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/violet",
+                    "title" : "static let violet: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/wheat",
+                    "title" : "static let wheat: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/white",
+                    "title" : "static let white: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/whitesmoke",
+                    "title" : "static let whitesmoke: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/yellow",
+                    "title" : "static let yellow: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/yellowgreen",
+                    "title" : "static let yellowgreen: CSSColor.NamedColor",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/!=(_:_:)",
+                        "title" : "static func != (Self, Self) -> Bool",
+                        "type" : "op"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/equatable-implementations",
+                    "title" : "Equatable Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/init(from:)",
+                        "title" : "init(from: Decoder) throws",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/hashvalue",
+                        "title" : "var hashValue: Int",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/encode(to:)",
+                        "title" : "func encode(to: Encoder) throws",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/hash(into:)",
+                        "title" : "func hash(into: inout Hasher)",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/rawrepresentable-implementations",
+                    "title" : "RawRepresentable Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/csscolor\/namedcolor",
+                "title" : "CSSColor.NamedColor",
+                "type" : "struct"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/init(from:)",
+                    "title" : "init(from: Decoder) throws",
+                    "type" : "init"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/init(integerliteral:)",
+                    "title" : "init(integerLiteral: IntegerLiteralType)",
+                    "type" : "init"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/init(r:g:b:a:)",
+                    "title" : "init(r: Double, g: Double, b: Double, a: Double?)",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/a",
+                    "title" : "var a: Double?",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/b",
+                    "title" : "var b: Double",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/description",
+                    "title" : "var description: String",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/g",
+                    "title" : "var g: Double",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/nativecolor",
+                    "title" : "var nativeColor: CIColor",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/r",
+                    "title" : "var r: Double",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/parsecolor(css:)",
+                    "title" : "static func parseColor(css: String) throws -> CSSColor.RGBColor",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/parsehexcolor(css:)",
+                    "title" : "static func parseHexColor(css: String) throws -> CSSColor.RGBColor",
+                    "type" : "method"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/!=(_:_:)",
+                        "title" : "static func != (Self, Self) -> Bool",
+                        "type" : "op"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/equatable-implementations",
+                    "title" : "Equatable Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor",
+                "title" : "CSSColor.RGBColor",
+                "type" : "struct"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/csscolor\/init(from:)",
+                "title" : "init(from: Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/csscolor\/init(name:)",
+                "title" : "init(name: CSSColor.NamedColor)",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/csscolor\/init(nativecolor:)",
+                "title" : "init(nativeColor: CIColor)",
+                "type" : "init"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/csscolor\/init(rgb:)",
+                "title" : "init(rgb: CSSColor.RGBColor)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/csscolor\/description",
+                "title" : "var description: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/csscolor\/nativecolor",
+                "title" : "var nativeColor: CIColor",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/csscolor\/rep",
+                "title" : "var rep: CSSColor.ColorRepresentation",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/csscolor\/encode(to:)",
+                "title" : "func encode(to: Encoder) throws",
+                "type" : "method"
+              },
+              {
+                "title" : "Enumerations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Enumeration Cases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/colorerror\/hexstringinvalid(string:)",
+                    "title" : "case hexStringInvalid(string: String)",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/colorerror\/hexstringmissingpercent",
+                    "title" : "case hexStringMissingPercent",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/colorerror\/parseerrors(errors:)",
+                    "title" : "case parseErrors(errors: [Error])",
+                    "type" : "case"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/colorerror\/localizeddescription",
+                        "title" : "var localizedDescription: String",
+                        "type" : "property"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxpod\/csscolor\/colorerror\/error-implementations",
+                    "title" : "Error Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/csscolor\/colorerror",
+                "title" : "CSSColor.ColorError",
+                "type" : "enum"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Enumeration Cases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/colorrepresentation\/name(_:)",
+                    "title" : "case name(CSSColor.NamedColor)",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/colorrepresentation\/rgb(_:)",
+                    "title" : "case rgb(CSSColor.RGBColor)",
+                    "type" : "case"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/colorrepresentation\/description",
+                    "title" : "var description: String",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Default Implementations",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Operators",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/colorrepresentation\/!=(_:_:)",
+                        "title" : "static func != (Self, Self) -> Bool",
+                        "type" : "op"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxpod\/csscolor\/colorrepresentation\/equatable-implementations",
+                    "title" : "Equatable Implementations",
+                    "type" : "symbol"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/csscolor\/colorrepresentation",
+                "title" : "CSSColor.ColorRepresentation",
+                "type" : "enum"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/csscolor\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jxpod\/csscolor",
+            "title" : "CSSColor",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
                 "title" : "Initializers",
                 "type" : "groupMarker"
               },
@@ -362,6 +2144,61 @@
             ],
             "path" : "\/documentation\/jxpod\/jxpodmetadata",
             "title" : "JXPodMetaData",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/location\/init(from:)",
+                "title" : "init(from: Decoder) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/location\/altitude",
+                "title" : "var altitude: Double",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/location\/latitude",
+                "title" : "var latitude: Double",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/location\/longitude",
+                "title" : "var longitude: Double",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/location\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/location\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/jxpod\/location",
+            "title" : "Location",
             "type" : "struct"
           }
         ],

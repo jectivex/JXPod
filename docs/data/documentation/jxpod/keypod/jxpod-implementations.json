@@ -1,0 +1,164 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/JXPod\/documentation\/JXPod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/KeyPod"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/KeyPod\/JXPod-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "JXPod"
+      }
+    ],
+    "role" : "collectionGroup",
+    "title" : "JXPod Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/KeyPod\/module"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jxpod\/keypod\/jxpod-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://JXPod/documentation/JXPod": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JXPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod"
+},
+"doc://JXPod/documentation/JXPod/KeyPod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "KeyPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/KeyPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "KeyPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "KeyPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/keypod"
+},
+"doc://JXPod/documentation/JXPod/KeyPod/module": {
+  "abstract" : [
+
+  ],
+  "conformance" : {
+    "availabilityPrefix" : [
+      {
+        "text" : "Available when",
+        "type" : "text"
+      }
+    ],
+    "conformancePrefix" : [
+      {
+        "text" : "Conforms when",
+        "type" : "text"
+      }
+    ],
+    "constraints" : [
+      {
+        "code" : "Self",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : " conforms to ",
+        "type" : "text"
+      },
+      {
+        "code" : "JXModule",
+        "type" : "codeVoice"
+      },
+      {
+        "text" : ".",
+        "type" : "text"
+      }
+    ]
+  },
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "module"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge8JXModuleP",
+      "text" : "JXModule"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/KeyPod\/module",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "module",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/keypod\/module"
+}
+}
+}

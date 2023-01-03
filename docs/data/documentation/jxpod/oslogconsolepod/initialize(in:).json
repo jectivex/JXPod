@@ -1,0 +1,301 @@
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXModule.initialize(in:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/JXPod\/documentation\/JXPod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/JXModule-Implementations"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/initialize(in:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "JXBridge",
+    "externalID" : "s:8JXBridge8JXModulePAAE10initialize2iny5JXKit9JXContextC_tF::SYNTHESIZED::s:5JXPod15OSLogConsolePodC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "initialize"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "in"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:5JXKit9JXContextC",
+        "text" : "JXContext"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JXPod"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "initialize(in:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "initialize"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "in"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "context"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:5JXKit9JXContextC",
+              "text" : "JXContext"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jxpod\/oslogconsolepod\/initialize(in:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://JXPod/documentation/JXPod": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JXPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod"
+},
+"doc://JXPod/documentation/JXPod/ConsolePod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ConsolePod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ConsolePod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ConsolePod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ConsolePod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/consolepod"
+},
+"doc://JXPod/documentation/JXPod/OSLogConsolePod": {
+  "abstract" : [
+    {
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ConsolePod",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " that forwards logged messages to the system consle",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "OSLogConsolePod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "OSLogConsolePod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "OSLogConsolePod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/oslogconsolepod"
+},
+"doc://JXPod/documentation/JXPod/OSLogConsolePod/JXModule-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/JXModule-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "JXModule Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/oslogconsolepod\/jxmodule-implementations"
+},
+"doc://JXPod/documentation/JXPod/OSLogConsolePod/initialize(in:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "initialize"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "in"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXKit9JXContextC",
+      "text" : "JXContext"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/initialize(in:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "initialize(in:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/oslogconsolepod\/initialize(in:)"
+}
+}
+}

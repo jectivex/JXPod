@@ -1,0 +1,428 @@
+{
+  "abstract" : [
+    {
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ConsolePod",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " that stores messages in a buffer",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/JXPod\/documentation\/JXPod"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:5JXPod19CapturingConsolePodC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "CapturingConsolePod"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JXPod"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "CapturingConsolePod"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "CapturingConsolePod"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "CapturingConsolePod"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/ConsolePod",
+        "doc:\/\/JXPod\/8JXBridge8JXModuleP",
+        "doc:\/\/JXPod\/documentation\/JXPod\/JXPod"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/metadata",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/namespace"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/register(with:)"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/JXModule-Implementations",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/JXPod-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jxpod\/capturingconsolepod"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://JXPod/8JXBridge8JXModuleP": {
+  "identifier" : "doc:\/\/JXPod\/8JXBridge8JXModuleP",
+  "title" : "JXBridge.JXModule",
+  "type" : "unresolvable"
+},
+"doc://JXPod/documentation/JXPod": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JXPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod"
+},
+"doc://JXPod/documentation/JXPod/CapturingConsolePod": {
+  "abstract" : [
+    {
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ConsolePod",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " that stores messages in a buffer",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CapturingConsolePod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CapturingConsolePod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CapturingConsolePod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/capturingconsolepod"
+},
+"doc://JXPod/documentation/JXPod/CapturingConsolePod/JXModule-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/JXModule-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "JXModule Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/capturingconsolepod\/jxmodule-implementations"
+},
+"doc://JXPod/documentation/JXPod/CapturingConsolePod/JXPod-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/JXPod-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "JXPod Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/capturingconsolepod\/jxpod-implementations"
+},
+"doc://JXPod/documentation/JXPod/CapturingConsolePod/metadata": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "metadata"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod0A8MetaDataV",
+      "text" : "JXPodMetaData"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/metadata",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "metadata",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/capturingconsolepod\/metadata"
+},
+"doc://JXPod/documentation/JXPod/CapturingConsolePod/namespace": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "namespace"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge11JXNamespaceV",
+      "text" : "JXNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/namespace",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "namespace",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/capturingconsolepod\/namespace"
+},
+"doc://JXPod/documentation/JXPod/CapturingConsolePod/register(with:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "register"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "with"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge10JXRegistryC",
+      "text" : "JXRegistry"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/register(with:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "register(with:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/capturingconsolepod\/register(with:)"
+},
+"doc://JXPod/documentation/JXPod/ConsolePod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ConsolePod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ConsolePod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ConsolePod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ConsolePod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/consolepod"
+},
+"doc://JXPod/documentation/JXPod/JXPod": {
+  "abstract" : [
+    {
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXPod",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is a unit of native functionality that combines a ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXModule",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " with associated metadata.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JXPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JXPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JXPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/jxpod"
+}
+}
+}

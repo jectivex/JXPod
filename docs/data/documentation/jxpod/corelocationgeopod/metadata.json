@@ -1,0 +1,248 @@
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXPod.metadata",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/JXPod\/documentation\/JXPod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod\/metadata"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:5JXPod18CoreLocationGeoPodC8metadataAA0A8MetaDataVvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "var"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "metadata"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:5JXPod0A8MetaDataV",
+        "text" : "JXPodMetaData"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JXPod"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "metadata"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "var"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "metadata"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:5JXPod0A8MetaDataV",
+              "text" : "JXPodMetaData"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jxpod\/corelocationgeopod\/metadata"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://JXPod/documentation/JXPod": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JXPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod"
+},
+"doc://JXPod/documentation/JXPod/CoreLocationGeoPod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CoreLocationGeoPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CoreLocationGeoPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CoreLocationGeoPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/corelocationgeopod"
+},
+"doc://JXPod/documentation/JXPod/CoreLocationGeoPod/metadata": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "metadata"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod0A8MetaDataV",
+      "text" : "JXPodMetaData"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod\/metadata",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "metadata",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/corelocationgeopod\/metadata"
+},
+"doc://JXPod/documentation/JXPod/JXPodMetaData": {
+  "abstract" : [
+    {
+      "text" : "Information about the pod.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JXPodMetaData"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JXPodMetaData"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JXPodMetaData",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/jxpodmetadata"
+}
+}
+}

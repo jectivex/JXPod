@@ -1,0 +1,399 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/JXPod\/documentation\/JXPod"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:5JXPod8ThemePodC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ThemePod"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JXPod"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "ThemePod"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "ThemePod"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ThemePod"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/8JXBridge8JXModuleP",
+        "doc:\/\/JXPod\/documentation\/JXPod\/JXPod"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/init()"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/metadata",
+        "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/namespace"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/register(with:)"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/JXModule-Implementations",
+        "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/JXPod-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jxpod\/themepod"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://JXPod/8JXBridge8JXModuleP": {
+  "identifier" : "doc:\/\/JXPod\/8JXBridge8JXModuleP",
+  "title" : "JXBridge.JXModule",
+  "type" : "unresolvable"
+},
+"doc://JXPod/documentation/JXPod": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JXPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod"
+},
+"doc://JXPod/documentation/JXPod/JXPod": {
+  "abstract" : [
+    {
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXPod",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is a unit of native functionality that combines a ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXModule",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " with associated metadata.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JXPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JXPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JXPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/jxpod"
+},
+"doc://JXPod/documentation/JXPod/ThemePod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ThemePod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ThemePod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ThemePod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/themepod"
+},
+"doc://JXPod/documentation/JXPod/ThemePod/JXModule-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/JXModule-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "JXModule Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/themepod\/jxmodule-implementations"
+},
+"doc://JXPod/documentation/JXPod/ThemePod/JXPod-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/JXPod-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "JXPod Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/themepod\/jxpod-implementations"
+},
+"doc://JXPod/documentation/JXPod/ThemePod/init()": {
+  "abstract" : [
+    {
+      "text" : "Should this be shared instead?",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/init()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init()",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/themepod\/init()"
+},
+"doc://JXPod/documentation/JXPod/ThemePod/metadata": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "metadata"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod0A8MetaDataV",
+      "text" : "JXPodMetaData"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/metadata",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "metadata",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/themepod\/metadata"
+},
+"doc://JXPod/documentation/JXPod/ThemePod/namespace": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "namespace"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge11JXNamespaceV",
+      "text" : "JXNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/namespace",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "namespace",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/themepod\/namespace"
+},
+"doc://JXPod/documentation/JXPod/ThemePod/register(with:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "register"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "with"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge10JXRegistryC",
+      "text" : "JXRegistry"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/register(with:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "register(with:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/themepod\/register(with:)"
+}
+}
+}

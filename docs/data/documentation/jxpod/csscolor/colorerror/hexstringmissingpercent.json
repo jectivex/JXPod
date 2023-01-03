@@ -1,0 +1,192 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/JXPod\/documentation\/JXPod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/ColorError"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/ColorError\/hexStringMissingPercent"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:5JXPod8CSSColorV10ColorErrorO23hexStringMissingPercentyA2EmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "hexStringMissingPercent"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JXPod"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "CSSColor.ColorError.hexStringMissingPercent"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "hexStringMissingPercent"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jxpod\/csscolor\/colorerror\/hexstringmissingpercent"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://JXPod/documentation/JXPod": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JXPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod"
+},
+"doc://JXPod/documentation/JXPod/CSSColor": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CSSColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CSSColor"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CSSColor",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/ColorError": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ColorError"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/ColorError",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ColorError"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CSSColor.ColorError",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/colorerror"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/ColorError/hexStringMissingPercent": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hexStringMissingPercent"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/ColorError\/hexStringMissingPercent",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "CSSColor.ColorError.hexStringMissingPercent",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/colorerror\/hexstringmissingpercent"
+}
+}
+}

@@ -160,14 +160,14 @@
 //    }
 //
 //    /// Disabled because we raise a fatalError() when any non-Jack property wrappers are found in a JackedObject.
-//    func XXXtestAppStorageJackPod() throws {
+//    func XXXtestAppStorageJXPod() throws {
 //
-//        class DemoObject : JackPod {
+//        class DemoObject : JXPod {
 //            @Stack var intProp = 0
 //            @AppStorage("appStoragePodProp") var appValue = 1
 //
-//            public var metadata: JackPodMetaData {
-//                JackPodMetaData(homePage: URL(string: "https://www.example.com")!)
+//            public var metadata: JXPodMetaData {
+//                JXPodMetaData(homePage: URL(string: "https://www.example.com")!)
 //            }
 //
 //        }
@@ -180,7 +180,7 @@
 //            XCTAssertEqual(changes, 1)
 //            pod.appValue += 1
 //            // XCTAssertGreaterThan(changes, 1) // this would be true if it was an ObservableObject
-//            XCTAssertEqual(changes, 1, "AppStorage does not work with JackPod")
+//            XCTAssertEqual(changes, 1, "AppStorage does not work with JXPod")
 //        }
 //    }
 //

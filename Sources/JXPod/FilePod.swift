@@ -3,6 +3,7 @@ import JXBridge
 import JXKit
 
 public class FilePod: JXPod, JXModule {
+    public let namespace: JXNamespace = "file"
     let fileManager: FileManager
 
     public init(fileManager: FileManager = .default) {
@@ -12,8 +13,6 @@ public class FilePod: JXPod, JXModule {
     public var metadata: JXPodMetaData {
         JXPodMetaData(homePage: URL(string: "https://www.example.com")!)
     }
-    
-    public let namespace: JXNamespace = "file"
     
     public func register(with registry: JXRegistry) throws {
         try registry.register {

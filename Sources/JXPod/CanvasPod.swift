@@ -3,12 +3,12 @@
 //
 //// MARK: CanvasPod
 //
-//public protocol CanvasPod : JackPod {
+//public protocol CanvasPod : JXPod, JXModule {
 //}
 //
 //open class AbstractCanvasPod : CanvasPod {
-//    public var metadata: JackPodMetaData {
-//        JackPodMetaData(homePage: URL(string: "https://www.example.com")!)
+//    public var metadata: JXPodMetaData {
+//        JXPodMetaData(homePage: URL(string: "https://www.example.com")!)
 //    }
 //
 //    @Stack open var width: Double = 1
@@ -738,15 +738,15 @@
 //import SwiftUI
 //
 //@available(macOS 12, iOS 15, tvOS 15, *)
-//open class SwiftUICanvasPod<Symbols : SwiftUI.View> : JackPod, CanvasPod {
+//open class SwiftUICanvasPod<Symbols : SwiftUI.View> : JXPod, JXModule, CanvasPod {
 //    private let canvas: SwiftUI.Canvas<Symbols>
 //
 //    public init(canvas: SwiftUI.Canvas<Symbols>) {
 //        self.canvas = canvas
 //    }
 //
-//    public var metadata: JackPodMetaData {
-//        JackPodMetaData(homePage: URL(string: "https://www.example.com")!)
+//    public var metadata: JXPodMetaData {
+//        JXPodMetaDataJXPodMetaData(homePage: URL(string: "https://www.example.com")!)
 //    }
 //
 //}

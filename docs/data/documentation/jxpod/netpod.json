@@ -1,0 +1,413 @@
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/JXPod\/documentation\/JXPod"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/NetPod"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:5JXPod6NetPodC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "NetPod"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "JXPod"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "NetPod"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "NetPod"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "macOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "NetPod"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/8JXBridge8JXModuleP",
+        "doc:\/\/JXPod\/documentation\/JXPod\/JXPod"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/init(session:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/metadata",
+        "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/namespace"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/register(with:)"
+      ],
+      "title" : "Instance Methods"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/JXModule-Implementations",
+        "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/JXPod-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/jxpod\/netpod"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://JXPod/8JXBridge8JXModuleP": {
+  "identifier" : "doc:\/\/JXPod\/8JXBridge8JXModuleP",
+  "title" : "JXBridge.JXModule",
+  "type" : "unresolvable"
+},
+"doc://JXPod/documentation/JXPod": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "JXPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod"
+},
+"doc://JXPod/documentation/JXPod/JXPod": {
+  "abstract" : [
+    {
+      "text" : "A ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXPod",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is a unit of native functionality that combines a ",
+      "type" : "text"
+    },
+    {
+      "code" : "JXModule",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " with associated metadata.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "JXPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "JXPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "JXPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/jxpod"
+},
+"doc://JXPod/documentation/JXPod/NetPod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "NetPod"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NetPod",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "NetPod"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "NetPod",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/netpod"
+},
+"doc://JXPod/documentation/JXPod/NetPod/JXModule-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/JXModule-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "JXModule Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/netpod\/jxmodule-implementations"
+},
+"doc://JXPod/documentation/JXPod/NetPod/JXPod-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/JXPod-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "JXPod Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/netpod\/jxpod-implementations"
+},
+"doc://JXPod/documentation/JXPod/NetPod/init(session:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "session"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSURLSession",
+      "text" : "URLSession"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/init(session:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(session:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/netpod\/init(session:)"
+},
+"doc://JXPod/documentation/JXPod/NetPod/metadata": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "metadata"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod0A8MetaDataV",
+      "text" : "JXPodMetaData"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/metadata",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "metadata",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/netpod\/metadata"
+},
+"doc://JXPod/documentation/JXPod/NetPod/namespace": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "namespace"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge11JXNamespaceV",
+      "text" : "JXNamespace"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/namespace",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "namespace",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/netpod\/namespace"
+},
+"doc://JXPod/documentation/JXPod/NetPod/register(with:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "register"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "with"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge10JXRegistryC",
+      "text" : "JXRegistry"
+    },
+    {
+      "kind" : "text",
+      "text" : ") "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "throws"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/register(with:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "register(with:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/netpod\/register(with:)"
+}
+}
+}
