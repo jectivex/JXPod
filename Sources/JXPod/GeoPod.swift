@@ -4,7 +4,7 @@ import JXBridge
 
 // MARK: GeoPod
 
-public protocol GeoPod : JXPod, JXModule {
+public protocol GeoPod : JXPod, JXModule, JXBridging {
     func currentLocation() async throws -> Location
 }
 
@@ -40,6 +40,7 @@ open class CoreLocationGeoPod : NSObject, CLLocationManagerDelegate, GeoPod {
     }
 
     public func register(with registry: JXRegistry) throws {
+        try registry.registerBridge(for: self, namespace: namespace)
     }
 
     public func currentLocation() async throws -> Location {

@@ -6,7 +6,7 @@ import Foundation
 // theme.backgroundColor = 'purple';
 // theme.defaultTabItemHighlight = 'red';
 
-open class ThemePod : JXPod, JXModule {
+open class ThemePod : JXPod, JXModule, JXBridging {
     public let namespace: JXNamespace = "theme"
 
     /// Should this be shared instead?
@@ -21,6 +21,7 @@ open class ThemePod : JXPod, JXModule {
     //@Stack open var backgroundColor: CSSColor?
 
     public func register(with registry: JXRegistry) throws {
+        try registry.registerBridge(for: self, namespace: namespace)
     }
 
     private var observers: [AnyObject] = []
@@ -52,8 +53,8 @@ open class ThemePod : JXPod, JXModule {
 //    static func labelTintColorDidSet(_ newValue: CSSColor?) {
 //        label.tintColor = newValue?.nativeColor.uiColor
 //    }
-//
-//
+
+
     func setupListeners() {
         observers += [
 //            $navBarTintColor.sink(receiveValue: Self.navBarTintColorDidSet),
