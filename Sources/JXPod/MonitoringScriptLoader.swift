@@ -1,6 +1,8 @@
 import Foundation
 import JXKit
 
+#if !os(Linux) && !os(Android) && !os(Windows)
+
 /// Script loader that attempts to locate source files for loaded JavaScript and monitor those files for changes.
 class MonitoringScriptLoader: JXScriptLoader {
     private lazy var locator = SourceFileLocator()
@@ -292,3 +294,7 @@ private class SourceFileLocator {
         }
     }
 }
+
+#endif // !os(Linux) && !os(Android) && !os(Windows)
+
+

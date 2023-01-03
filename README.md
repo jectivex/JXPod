@@ -54,21 +54,19 @@ Add the following to your `Package.swift` file:
 
 ## Dependencies
 
- - [JXBridge][] Bridging between JXKit and native (AGPL)
- - [Jack][] Object scripting framework for Combine.ObservableObject (LGPL)
- - [JXKit][] Cross-platform Swift interface to JavaScriptCore (LGPL)
- - [JavaScriptCore][]: Cross-platform JavaScript engine (LGPL)[^1]
- - [OpenCombine][] Cross-platform Combine implementation (MIT)
-
-[^1]: JavaScriptCore is included with macOS and iOS as part of the embedded [WebCore](https://webkit.org/licensing-webkit/) framework (LGPL); on Linux JXKit uses [WebKit GTK JavaScriptCore](https://webkitgtk.org/).
-
+ - [JXBridge][] Bridging between JXKit and native
+ - [JXKit][] Cross-platform Swift interface to JavaScriptCore
+ - [JavaScriptCore][]: Cross-platform JavaScript engine
+ - [OpenCombine][] Cross-platform Combine implementation
+ - [Fair][] Utilities
 
 [ProjectLink]: https://github.com/jectivex/JXPod
 [ActionsLink]: https://github.com/jectivex/JXPod/actions
-[API Documentation]: https://www.jective.org/JXPod/documentation/jackpot/
+[API Documentation]: https://www.jective.org/JXPod/documentation/jxpod/
 
 [Swift]: https://swift.org/
 [OpenCombine]: https://github.com/OpenCombine/OpenCombine
+[Fair]: https://github.com/fair-ground/Fair
 [JXPod]: https://github.com/jectivex/JXPod
 [JXBridge]: https://github.com/jectivex/JXBridge
 [Jack]: https://github.com/jectivex/Jack
@@ -80,3 +78,4 @@ Add the following to your `Package.swift` file:
 [Swift5Badge]: https://img.shields.io/badge/swift-5-orange.svg?style=flat
 [Swift5Link]: https://developer.apple.com/swift/
 [SwiftPlatforms]: https://img.shields.io/badge/Platforms-macOS%20|%20iOS%20|%20tvOS%20|%20Linux-teal.svg
+
