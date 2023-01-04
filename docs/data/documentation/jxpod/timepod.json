@@ -102,7 +102,6 @@
     {
       "identifiers" : [
         "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/jxState-97vn5",
-        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/metadata",
         "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/namespace"
       ],
       "title" : "Instance Properties"
@@ -114,6 +113,12 @@
         "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/sleep(duration:)"
       ],
       "title" : "Instance Methods"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/metadata"
+      ],
+      "title" : "Type Properties"
     },
     {
       "identifiers" : [
@@ -425,6 +430,14 @@
 
   ],
   "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
     {
       "kind" : "keyword",
       "text" : "var"

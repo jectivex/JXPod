@@ -8,10 +8,10 @@ public class TimePod: JXPod, JXModule, JXBridging {
     public init() {
     }
     
-    public var metadata: JXPodMetaData {
-        JXPodMetaData(homePage: URL(string: "https://www.example.com")!)
+    public static var metadata: JXPodMetaData {
+        JXPodMetaData(source: URL(string: "https://github.com/jectivex/JXPod.git")!)
     }
-    
+
     public let namespace: JXNamespace = "time"
     
     public func register(with registry: JXRegistry) throws {

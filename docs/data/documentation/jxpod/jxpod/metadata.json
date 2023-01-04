@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "The metadata for this pod.",
+      "text" : "The metadata for this pod, which can be used for querying the available versions.",
       "type" : "text"
     }
   ],
@@ -19,8 +19,16 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:5JXPodAAP8metadataAA0A8MetaDataVvp",
+    "externalID" : "s:5JXPodAAP8metadataAA0A8MetaDataVvpZ",
     "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
       {
         "kind" : "keyword",
         "text" : "var"
@@ -50,7 +58,7 @@
     ],
     "required" : true,
     "role" : "symbol",
-    "roleHeading" : "Instance Property",
+    "roleHeading" : "Type Property",
     "symbolKind" : "property",
     "title" : "metadata"
   },
@@ -65,6 +73,14 @@
             "macOS"
           ],
           "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
             {
               "kind" : "keyword",
               "text" : "var"
@@ -191,11 +207,19 @@
 "doc://JXPod/documentation/JXPod/JXPod/metadata": {
   "abstract" : [
     {
-      "text" : "The metadata for this pod.",
+      "text" : "The metadata for this pod, which can be used for querying the available versions.",
       "type" : "text"
     }
   ],
   "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
     {
       "kind" : "keyword",
       "text" : "var"

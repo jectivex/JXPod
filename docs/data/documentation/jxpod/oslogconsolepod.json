@@ -118,7 +118,6 @@
     {
       "identifiers" : [
         "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/jxState-541gv",
-        "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/metadata",
         "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/namespace"
       ],
       "title" : "Instance Properties"
@@ -130,6 +129,12 @@
         "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/sleep(duration:)"
       ],
       "title" : "Instance Methods"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/metadata"
+      ],
+      "title" : "Type Properties"
     },
     {
       "generated" : true,
@@ -447,6 +452,14 @@
 
   ],
   "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
     {
       "kind" : "keyword",
       "text" : "var"

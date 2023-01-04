@@ -297,7 +297,7 @@
 "doc://JXPod/documentation/JXPod/JXPod/module-bx0v": {
   "abstract" : [
     {
-      "text" : "Pod functionality.",
+      "text" : "The module for this pod..",
       "type" : "text"
     }
   ],

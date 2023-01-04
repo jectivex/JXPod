@@ -14,8 +14,8 @@ open class ThemePod : JXPod, JXModule, JXBridging {
         setupListeners()
     }
 
-    open var metadata: JXPodMetaData {
-        JXPodMetaData(homePage: URL(string: "https://www.example.com")!)
+    public static var metadata: JXPodMetaData {
+        JXPodMetaData(source: URL(string: "https://github.com/jectivex/JXPod.git")!)
     }
 
     //@Stack open var backgroundColor: CSSColor?

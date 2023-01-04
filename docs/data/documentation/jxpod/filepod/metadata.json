@@ -27,8 +27,16 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:5JXPod7FilePodC8metadataAA0A8MetaDataVvp",
+    "externalID" : "s:5JXPod7FilePodC8metadataAA0A8MetaDataVvpZ",
     "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
       {
         "kind" : "keyword",
         "text" : "var"
@@ -57,7 +65,7 @@
       }
     ],
     "role" : "symbol",
-    "roleHeading" : "Instance Property",
+    "roleHeading" : "Type Property",
     "symbolKind" : "property",
     "title" : "metadata"
   },
@@ -72,6 +80,14 @@
             "macOS"
           ],
           "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
             {
               "kind" : "keyword",
               "text" : "var"
@@ -181,6 +197,14 @@
 
   ],
   "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
     {
       "kind" : "keyword",
       "text" : "var"

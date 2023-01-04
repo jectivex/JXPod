@@ -133,10 +133,15 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/JXPod\/metadata",
         "doc:\/\/JXPod\/documentation\/JXPod\/JXPod\/module-bx0v"
       ],
       "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/JXPod\/metadata"
+      ],
+      "title" : "Type Properties"
     }
   ],
   "variants" : [
@@ -415,11 +420,19 @@
 "doc://JXPod/documentation/JXPod/JXPod/metadata": {
   "abstract" : [
     {
-      "text" : "The metadata for this pod.",
+      "text" : "The metadata for this pod, which can be used for querying the available versions.",
       "type" : "text"
     }
   ],
   "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
     {
       "kind" : "keyword",
       "text" : "var"
@@ -453,7 +466,7 @@
 "doc://JXPod/documentation/JXPod/JXPod/module-bx0v": {
   "abstract" : [
     {
-      "text" : "Pod functionality.",
+      "text" : "The module for this pod..",
       "type" : "text"
     }
   ],

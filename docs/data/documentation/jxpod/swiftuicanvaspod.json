@@ -157,7 +157,6 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod\/metadata",
         "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod\/namespace"
       ],
       "title" : "Instance Properties"
@@ -167,6 +166,12 @@
         "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod\/register(with:)"
       ],
       "title" : "Instance Methods"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod\/metadata"
+      ],
+      "title" : "Type Properties"
     },
     {
       "generated" : true,
@@ -378,6 +383,14 @@
 
   ],
   "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
     {
       "kind" : "keyword",
       "text" : "var"

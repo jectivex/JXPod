@@ -101,7 +101,6 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/metadata",
         "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/namespace"
       ],
       "title" : "Instance Properties"
@@ -111,6 +110,12 @@
         "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/register(with:)"
       ],
       "title" : "Instance Methods"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/metadata"
+      ],
+      "title" : "Type Properties"
     },
     {
       "generated" : true,
@@ -300,6 +305,14 @@
 
   ],
   "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
     {
       "kind" : "keyword",
       "text" : "var"

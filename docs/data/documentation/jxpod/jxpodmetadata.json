@@ -101,13 +101,13 @@
     {
       "identifiers" : [
         "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/init(from:)",
-        "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/init(homePage:)"
+        "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/init(source:)"
       ],
       "title" : "Initializers"
     },
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/homePage"
+        "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/source"
       ],
       "title" : "Instance Properties"
     }
@@ -181,40 +181,6 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/jxpodmetadata"
 },
-"doc://JXPod/documentation/JXPod/JXPodMetaData/homePage": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "homePage"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10Foundation3URLV",
-      "text" : "URL"
-    }
-  ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/homePage",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "homePage",
-  "type" : "topic",
-  "url" : "\/documentation\/jxpod\/jxpodmetadata\/homepage"
-},
 "doc://JXPod/documentation/JXPod/JXPodMetaData/init(from:)": {
   "abstract" : [
 
@@ -257,7 +223,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/jxpodmetadata\/init(from:)"
 },
-"doc://JXPod/documentation/JXPod/JXPodMetaData/init(homePage:)": {
+"doc://JXPod/documentation/JXPod/JXPodMetaData/init(source:)": {
   "abstract" : [
 
   ],
@@ -272,7 +238,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "homePage"
+      "text" : "source"
     },
     {
       "kind" : "text",
@@ -288,12 +254,46 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/init(homePage:)",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/init(source:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(homePage:)",
+  "title" : "init(source:)",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/jxpodmetadata\/init(homepage:)"
+  "url" : "\/documentation\/jxpod\/jxpodmetadata\/init(source:)"
+},
+"doc://JXPod/documentation/JXPod/JXPodMetaData/source": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "source"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation3URLV",
+      "text" : "URL"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/source",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "source",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/jxpodmetadata\/source"
 }
 }
 }

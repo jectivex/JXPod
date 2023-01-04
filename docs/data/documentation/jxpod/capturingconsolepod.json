@@ -112,7 +112,6 @@
     {
       "identifiers" : [
         "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/jxState-3js38",
-        "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/metadata",
         "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/namespace"
       ],
       "title" : "Instance Properties"
@@ -123,6 +122,12 @@
         "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/register(with:)"
       ],
       "title" : "Instance Methods"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/metadata"
+      ],
+      "title" : "Type Properties"
     },
     {
       "generated" : true,
@@ -338,6 +343,14 @@
 
   ],
   "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
     {
       "kind" : "keyword",
       "text" : "var"

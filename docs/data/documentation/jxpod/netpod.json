@@ -101,7 +101,6 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/metadata",
         "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/namespace"
       ],
       "title" : "Instance Properties"
@@ -111,6 +110,12 @@
         "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/register(with:)"
       ],
       "title" : "Instance Methods"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/metadata"
+      ],
+      "title" : "Type Properties"
     },
     {
       "generated" : true,
@@ -314,6 +319,14 @@
 
   ],
   "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
     {
       "kind" : "keyword",
       "text" : "var"

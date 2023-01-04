@@ -17,8 +17,8 @@ open class NetPod : JXPod, JXModule, JXBridging {
         self.session = session
     }
 
-    public var metadata: JXPodMetaData {
-        JXPodMetaData(homePage: URL(string: "https://www.example.com")!)
+    public static var metadata: JXPodMetaData {
+        JXPodMetaData(source: URL(string: "https://github.com/jectivex/JXPod.git")!)
     }
 
     public func register(with registry: JXRegistry) throws {

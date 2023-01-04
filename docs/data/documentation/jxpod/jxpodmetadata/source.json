@@ -9,11 +9,11 @@
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/homePage"
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/source"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:5JXPod0A8MetaDataV8homePage10Foundation3URLVvp",
+    "externalID" : "s:5JXPod0A8MetaDataV6source10Foundation3URLVvp",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -25,7 +25,7 @@
       },
       {
         "kind" : "identifier",
-        "text" : "homePage"
+        "text" : "source"
       },
       {
         "kind" : "text",
@@ -45,7 +45,7 @@
     "role" : "symbol",
     "roleHeading" : "Instance Property",
     "symbolKind" : "property",
-    "title" : "homePage"
+    "title" : "source"
   },
   "primaryContentSections" : [
     {
@@ -68,7 +68,7 @@
             },
             {
               "kind" : "identifier",
-              "text" : "homePage"
+              "text" : "source"
             },
             {
               "kind" : "text",
@@ -96,7 +96,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jxpod\/jxpodmetadata\/homepage"
+        "\/documentation\/jxpod\/jxpodmetadata\/source"
       ],
       "traits" : [
         {
@@ -152,7 +152,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/jxpodmetadata"
 },
-"doc://JXPod/documentation/JXPod/JXPodMetaData/homePage": {
+"doc://JXPod/documentation/JXPod/JXPodMetaData/source": {
   "abstract" : [
 
   ],
@@ -167,7 +167,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "homePage"
+      "text" : "source"
     },
     {
       "kind" : "text",
@@ -179,12 +179,12 @@
       "text" : "URL"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/homePage",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/source",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "homePage",
+  "title" : "source",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/jxpodmetadata\/homepage"
+  "url" : "\/documentation\/jxpod\/jxpodmetadata\/source"
 }
 }
 }

@@ -19,11 +19,6 @@
                 "type" : "property"
               },
               {
-                "path" : "\/documentation\/jxpod\/capturingconsolepod\/metadata",
-                "title" : "var metadata: JXPodMetaData",
-                "type" : "property"
-              },
-              {
                 "path" : "\/documentation\/jxpod\/capturingconsolepod\/namespace",
                 "title" : "let namespace: JXNamespace",
                 "type" : "property"
@@ -41,6 +36,15 @@
                 "path" : "\/documentation\/jxpod\/capturingconsolepod\/register(with:)",
                 "title" : "func register(with: JXRegistry) throws",
                 "type" : "method"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/capturingconsolepod\/metadata",
+                "title" : "static var metadata: JXPodMetaData",
+                "type" : "property"
               },
               {
                 "title" : "Default Implementations",
@@ -143,11 +147,6 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/jxpod\/chartpod\/metadata",
-                "title" : "var metadata: JXPodMetaData",
-                "type" : "property"
-              },
-              {
                 "path" : "\/documentation\/jxpod\/chartpod\/namespace",
                 "title" : "let namespace: JXNamespace",
                 "type" : "property"
@@ -160,6 +159,15 @@
                 "path" : "\/documentation\/jxpod\/chartpod\/register(with:)",
                 "title" : "func register(with: JXRegistry) throws",
                 "type" : "method"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/chartpod\/metadata",
+                "title" : "static var metadata: JXPodMetaData",
+                "type" : "property"
               },
               {
                 "title" : "Default Implementations",
@@ -267,11 +275,6 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/jxpod\/corelocationgeopod\/metadata",
-                "title" : "var metadata: JXPodMetaData",
-                "type" : "property"
-              },
-              {
                 "path" : "\/documentation\/jxpod\/corelocationgeopod\/namespace",
                 "title" : "let namespace: JXNamespace",
                 "type" : "property"
@@ -294,6 +297,15 @@
                 "path" : "\/documentation\/jxpod\/corelocationgeopod\/register(with:)",
                 "title" : "func register(with: JXRegistry) throws",
                 "type" : "method"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/corelocationgeopod\/metadata",
+                "title" : "static var metadata: JXPodMetaData",
+                "type" : "property"
               },
               {
                 "title" : "Default Implementations",
@@ -401,11 +413,6 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/jxpod\/filepod\/metadata",
-                "title" : "var metadata: JXPodMetaData",
-                "type" : "property"
-              },
-              {
                 "path" : "\/documentation\/jxpod\/filepod\/namespace",
                 "title" : "let namespace: JXNamespace",
                 "type" : "property"
@@ -423,6 +430,15 @@
                 "path" : "\/documentation\/jxpod\/filepod\/register(with:)",
                 "title" : "func register(with: JXRegistry) throws",
                 "type" : "method"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/filepod\/metadata",
+                "title" : "static var metadata: JXPodMetaData",
+                "type" : "property"
               },
               {
                 "title" : "Default Implementations",
@@ -491,11 +507,6 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/jxpod\/keypod\/metadata",
-                "title" : "var metadata: JXPodMetaData",
-                "type" : "property"
-              },
-              {
                 "path" : "\/documentation\/jxpod\/keypod\/namespace",
                 "title" : "let namespace: JXNamespace",
                 "type" : "property"
@@ -508,6 +519,15 @@
                 "path" : "\/documentation\/jxpod\/keypod\/register(with:)",
                 "title" : "func register(with: JXRegistry) throws",
                 "type" : "method"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/keypod\/metadata",
+                "title" : "static var metadata: JXPodMetaData",
+                "type" : "property"
               },
               {
                 "title" : "Default Implementations",
@@ -615,11 +635,6 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/jxpod\/netpod\/metadata",
-                "title" : "var metadata: JXPodMetaData",
-                "type" : "property"
-              },
-              {
                 "path" : "\/documentation\/jxpod\/netpod\/namespace",
                 "title" : "let namespace: JXNamespace",
                 "type" : "property"
@@ -632,6 +647,15 @@
                 "path" : "\/documentation\/jxpod\/netpod\/register(with:)",
                 "title" : "func register(with: JXRegistry) throws",
                 "type" : "method"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/netpod\/metadata",
+                "title" : "static var metadata: JXPodMetaData",
+                "type" : "property"
               },
               {
                 "title" : "Default Implementations",
@@ -744,11 +768,6 @@
                 "type" : "property"
               },
               {
-                "path" : "\/documentation\/jxpod\/oslogconsolepod\/metadata",
-                "title" : "var metadata: JXPodMetaData",
-                "type" : "property"
-              },
-              {
                 "path" : "\/documentation\/jxpod\/oslogconsolepod\/namespace",
                 "title" : "let namespace: JXNamespace",
                 "type" : "property"
@@ -771,6 +790,15 @@
                 "path" : "\/documentation\/jxpod\/oslogconsolepod\/sleep(duration:)",
                 "title" : "func sleep(duration: TimeInterval) async throws",
                 "type" : "method"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/oslogconsolepod\/metadata",
+                "title" : "static var metadata: JXPodMetaData",
+                "type" : "property"
               },
               {
                 "title" : "Default Implementations",
@@ -873,11 +901,6 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/metadata",
-                "title" : "var metadata: JXPodMetaData",
-                "type" : "property"
-              },
-              {
                 "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/namespace",
                 "title" : "let namespace: JXNamespace",
                 "type" : "property"
@@ -890,6 +913,15 @@
                 "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/register(with:)",
                 "title" : "func register(with: JXRegistry) throws",
                 "type" : "method"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/metadata",
+                "title" : "static var metadata: JXPodMetaData",
+                "type" : "property"
               },
               {
                 "title" : "Default Implementations",
@@ -997,11 +1029,6 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/jxpod\/themepod\/metadata",
-                "title" : "var metadata: JXPodMetaData",
-                "type" : "property"
-              },
-              {
                 "path" : "\/documentation\/jxpod\/themepod\/namespace",
                 "title" : "let namespace: JXNamespace",
                 "type" : "property"
@@ -1014,6 +1041,15 @@
                 "path" : "\/documentation\/jxpod\/themepod\/register(with:)",
                 "title" : "func register(with: JXRegistry) throws",
                 "type" : "method"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/themepod\/metadata",
+                "title" : "static var metadata: JXPodMetaData",
+                "type" : "property"
               },
               {
                 "title" : "Default Implementations",
@@ -1126,11 +1162,6 @@
                 "type" : "property"
               },
               {
-                "path" : "\/documentation\/jxpod\/timepod\/metadata",
-                "title" : "var metadata: JXPodMetaData",
-                "type" : "property"
-              },
-              {
                 "path" : "\/documentation\/jxpod\/timepod\/namespace",
                 "title" : "let namespace: JXNamespace",
                 "type" : "property"
@@ -1153,6 +1184,15 @@
                 "path" : "\/documentation\/jxpod\/timepod\/sleep(duration:)",
                 "title" : "func sleep(duration: TimeInterval) async throws",
                 "type" : "method"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/timepod\/metadata",
+                "title" : "static var metadata: JXPodMetaData",
+                "type" : "property"
               },
               {
                 "title" : "Enumerations",
@@ -1332,11 +1372,6 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/jxpod\/jxpod\/metadata",
-                "title" : "var metadata: JXPodMetaData",
-                "type" : "property"
-              },
-              {
                 "children" : [
                   {
                     "children" : [
@@ -1352,6 +1387,15 @@
                 ],
                 "path" : "\/documentation\/jxpod\/jxpod\/module-bx0v",
                 "title" : "var module: JXModule",
+                "type" : "property"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/jxpod\/metadata",
+                "title" : "static var metadata: JXPodMetaData",
                 "type" : "property"
               }
             ],
@@ -2505,8 +2549,8 @@
                 "type" : "init"
               },
               {
-                "path" : "\/documentation\/jxpod\/jxpodmetadata\/init(homepage:)",
-                "title" : "init(homePage: URL)",
+                "path" : "\/documentation\/jxpod\/jxpodmetadata\/init(source:)",
+                "title" : "init(source: URL)",
                 "type" : "init"
               },
               {
@@ -2514,8 +2558,8 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/jxpod\/jxpodmetadata\/homepage",
-                "title" : "var homePage: URL",
+                "path" : "\/documentation\/jxpod\/jxpodmetadata\/source",
+                "title" : "var source: URL",
                 "type" : "property"
               }
             ],

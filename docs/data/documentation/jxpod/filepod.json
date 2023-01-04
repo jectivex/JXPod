@@ -100,7 +100,6 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/metadata",
         "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/namespace"
       ],
       "title" : "Instance Properties"
@@ -111,6 +110,12 @@
         "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/register(with:)"
       ],
       "title" : "Instance Methods"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/FilePod\/metadata"
+      ],
+      "title" : "Type Properties"
     },
     {
       "generated" : true,
@@ -297,6 +302,14 @@
 
   ],
   "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
     {
       "kind" : "keyword",
       "text" : "var"

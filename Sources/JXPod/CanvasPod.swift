@@ -15,8 +15,8 @@ open class SwiftUICanvasPod<Symbols : SwiftUI.View> : JXPod, JXModule, JXBridgin
         self.canvas = canvas
     }
 
-    public var metadata: JXPodMetaData {
-        JXPodMetaData(homePage: URL(string: "https://www.example.com")!)
+    public static var metadata: JXPodMetaData {
+        JXPodMetaData(source: URL(string: "https://github.com/jectivex/JXPod.git")!)
     }
 
     public func register(with registry: JXRegistry) throws {
@@ -34,7 +34,7 @@ open class SwiftUICanvasPod<Symbols : SwiftUI.View> : JXPod, JXModule, JXBridgin
 //
 //open class AbstractCanvasPod : CanvasPod {
 //    public var metadata: JXPodMetaData {
-//        JXPodMetaData(homePage: URL(string: "https://www.example.com")!)
+//        JXPodMetaData(source: URL(string: "https://www.example.com")!)
 //    }
 //
 //    @Stack open var width: Double = 1
