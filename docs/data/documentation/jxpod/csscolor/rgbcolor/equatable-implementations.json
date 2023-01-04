@@ -37,6 +37,14 @@
         "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/!=(_:_:)"
       ],
       "title" : "Operators"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/represent()-3detq",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/represent()-8wtss"
+      ],
+      "title" : "Instance Methods"
     }
   ],
   "variants" : [
@@ -187,6 +195,92 @@
   "title" : "!=(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/!=(_:_:)"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/RGBColor/represent()-3detq": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "represent"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/represent()-3detq",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "represent()",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/represent()-3detq"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/RGBColor/represent()-8wtss": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "represent"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/represent()-8wtss",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "represent()",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/represent()-8wtss"
 }
 }
 }

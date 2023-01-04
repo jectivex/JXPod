@@ -116,6 +116,8 @@
     {
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/Location\/Decodable-Implementations",
+        "doc:\/\/JXPod\/documentation\/JXPod\/Location\/Encodable-Implementations",
         "doc:\/\/JXPod\/documentation\/JXPod\/Location\/Equatable-Implementations"
       ],
       "title" : "Default Implementations"
@@ -194,6 +196,28 @@
   "title" : "Location",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/location"
+},
+"doc://JXPod/documentation/JXPod/Location/Decodable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/Location\/Decodable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Decodable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/location\/decodable-implementations"
+},
+"doc://JXPod/documentation/JXPod/Location/Encodable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/Location\/Encodable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Encodable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/location\/encodable-implementations"
 },
 "doc://JXPod/documentation/JXPod/Location/Equatable-Implementations": {
   "abstract" : [

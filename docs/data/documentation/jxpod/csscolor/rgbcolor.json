@@ -126,6 +126,8 @@
     {
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/Decodable-Implementations",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/Encodable-Implementations",
         "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/Equatable-Implementations"
       ],
       "title" : "Default Implementations"
@@ -237,6 +239,28 @@
   "title" : "CSSColor.RGBColor",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/csscolor\/rgbcolor"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/RGBColor/Decodable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/Decodable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Decodable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/decodable-implementations"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/RGBColor/Encodable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/Encodable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Encodable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/encodable-implementations"
 },
 "doc://JXPod/documentation/JXPod/CSSColor/RGBColor/Equatable-Implementations": {
   "abstract" : [

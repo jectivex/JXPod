@@ -36,6 +36,14 @@
         "doc:\/\/JXPod\/documentation\/JXPod\/Location\/!=(_:_:)"
       ],
       "title" : "Operators"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/Location\/represent()-28p8p",
+        "doc:\/\/JXPod\/documentation\/JXPod\/Location\/represent()-8sj42"
+      ],
+      "title" : "Instance Methods"
     }
   ],
   "variants" : [
@@ -158,6 +166,92 @@
   "title" : "!=(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/location\/!=(_:_:)"
+},
+"doc://JXPod/documentation/JXPod/Location/represent()-28p8p": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "represent"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/Location\/represent()-28p8p",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "represent()",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/location\/represent()-28p8p"
+},
+"doc://JXPod/documentation/JXPod/Location/represent()-8sj42": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "represent"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/Location\/represent()-8sj42",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "represent()",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/location\/represent()-8sj42"
 }
 }
 }

@@ -271,6 +271,8 @@
     {
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/Decodable-Implementations",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/Encodable-Implementations",
         "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/Equatable-Implementations",
         "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/RawRepresentable-Implementations"
       ],
@@ -388,6 +390,28 @@
   "title" : "CSSColor.NamedColor",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/csscolor\/namedcolor"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/Decodable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/Decodable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Decodable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/decodable-implementations"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/Encodable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/Encodable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Encodable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/encodable-implementations"
 },
 "doc://JXPod/documentation/JXPod/CSSColor/NamedColor/Equatable-Implementations": {
   "abstract" : [

@@ -110,6 +110,14 @@
         "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/source"
       ],
       "title" : "Instance Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/Decodable-Implementations",
+        "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/Encodable-Implementations"
+      ],
+      "title" : "Default Implementations"
     }
   ],
   "variants" : [
@@ -180,6 +188,28 @@
   "title" : "JXPodMetaData",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/jxpodmetadata"
+},
+"doc://JXPod/documentation/JXPod/JXPodMetaData/Decodable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/Decodable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Decodable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/jxpodmetadata\/decodable-implementations"
+},
+"doc://JXPod/documentation/JXPod/JXPodMetaData/Encodable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/Encodable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Encodable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/jxpodmetadata\/encodable-implementations"
 },
 "doc://JXPod/documentation/JXPod/JXPodMetaData/init(from:)": {
   "abstract" : [

@@ -37,6 +37,14 @@
         "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/Errors\/!=(_:_:)"
       ],
       "title" : "Operators"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/Errors\/represent()-3297y",
+        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/Errors\/represent()-4qnew"
+      ],
+      "title" : "Instance Methods"
     }
   ],
   "variants" : [
@@ -187,6 +195,92 @@
   "title" : "!=(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/timepod\/errors\/!=(_:_:)"
+},
+"doc://JXPod/documentation/JXPod/TimePod/Errors/represent()-3297y": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "represent"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/Errors\/represent()-3297y",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "represent()",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/timepod\/errors\/represent()-3297y"
+},
+"doc://JXPod/documentation/JXPod/TimePod/Errors/represent()-4qnew": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "represent"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/Errors\/represent()-4qnew",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "represent()",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/timepod\/errors\/represent()-4qnew"
 }
 }
 }

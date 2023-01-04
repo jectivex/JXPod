@@ -36,6 +36,14 @@
         "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/!=(_:_:)"
       ],
       "title" : "Operators"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/represent()-2ens",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/represent()-83f5s"
+      ],
+      "title" : "Instance Methods"
     }
   ],
   "variants" : [
@@ -155,6 +163,92 @@
   "title" : "!=(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/csscolor\/!=(_:_:)"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/represent()-2ens": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "represent"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/represent()-2ens",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "represent()",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/represent()-2ens"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/represent()-83f5s": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "represent"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/represent()-83f5s",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "represent()",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/represent()-83f5s"
 }
 }
 }

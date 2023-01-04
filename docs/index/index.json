@@ -1228,6 +1228,20 @@
                         "path" : "\/documentation\/jxpod\/timepod\/errors\/!=(_:_:)",
                         "title" : "static func != (Self, Self) -> Bool",
                         "type" : "op"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/timepod\/errors\/represent()-3297y",
+                        "title" : "func represent<T>() -> T",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/timepod\/errors\/represent()-4qnew",
+                        "title" : "func represent<T>() -> T?",
+                        "type" : "method"
                       }
                     ],
                     "path" : "\/documentation\/jxpod\/timepod\/errors\/equatable-implementations",
@@ -1244,6 +1258,20 @@
                         "path" : "\/documentation\/jxpod\/timepod\/errors\/localizeddescription",
                         "title" : "var localizedDescription: String",
                         "type" : "property"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/timepod\/errors\/dumperror(out:)",
+                        "title" : "func dumpError<O>(out: inout O)",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/timepod\/errors\/withinfo(for:_:prefix:)",
+                        "title" : "func withInfo(for: String, () -> String, prefix: Bool?) -> Error",
+                        "type" : "method"
                       }
                     ],
                     "path" : "\/documentation\/jxpod\/timepod\/errors\/error-implementations",
@@ -1363,6 +1391,75 @@
             ],
             "path" : "\/documentation\/jxpod\/geopod",
             "title" : "GeoPod",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/jxdynamicmodule\/hubsource",
+                "title" : "static var hubSource: HubModuleSource",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/jxdynamicmodule\/localurl",
+                "title" : "static var localURL: URL?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/jxdynamicmodule\/remoteurl",
+                "title" : "static var remoteURL: URL?",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/jxpod\/jxdynamicmodule",
+            "title" : "JXDynamicModule",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Associated Types",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/jxdynamicmodulesource\/ref",
+                "title" : "Ref",
+                "type" : "associatedtype"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/jxdynamicmodulesource\/refs",
+                "title" : "var refs: [Self.RefInfo]",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/jxdynamicmodulesource\/archiveurl(for:)",
+                "title" : "func archiveURL(for: Self.Ref) -> URL",
+                "type" : "method"
+              },
+              {
+                "title" : "Type Aliases",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/jxdynamicmodulesource\/refinfo",
+                "title" : "JXDynamicModuleSource.RefInfo",
+                "type" : "typealias"
+              }
+            ],
+            "path" : "\/documentation\/jxpod\/jxdynamicmodulesource",
+            "title" : "JXDynamicModuleSource",
             "type" : "protocol"
           },
           {
@@ -2209,6 +2306,76 @@
                   {
                     "children" : [
                       {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/init(json:decoder:allowsjson5:datadecodingstrategy:datedecodingstrategy:nonconformingfloatdecodingstrategy:keydecodingstrategy:userinfo:)",
+                        "title" : "init(json: Data, decoder: () -> JSONDecoder, allowsJSON5: Bool, dataDecodingStrategy: JSONDecoder.DataDecodingStrategy?, dateDecodingStrategy: JSONDecoder.DateDecodingStrategy?, nonConformingFloatDecodingStrategy: JSONDecoder.NonConformingFloatDecodingStrategy?, keyDecodingStrategy: JSONDecoder.KeyDecodingStrategy?, userInfo: [CodingUserInfoKey : Any]?) throws",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/init(jsum:options:)",
+                        "title" : "init(jsum: JSum, options: JSumDecodingOptions?) throws",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/codablecomplete(data:encoder:decoder:)",
+                        "title" : "static func codableComplete(data: Data, encoder: JSONEncoder?, decoder: JSONDecoder?) throws -> (instance: Self, difference: JSum?)",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/decodable-implementations",
+                    "title" : "Decodable Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/canonicaljson",
+                        "title" : "var canonicalJSON: String",
+                        "type" : "property"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/debugjson",
+                        "title" : "var debugJSON: String",
+                        "type" : "property"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/prettyjson",
+                        "title" : "var prettyJSON: String",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/json(encoder:outputformatting:dateencodingstrategy:dataencodingstrategy:nonconformingfloatencodingstrategy:keyencodingstrategy:userinfo:)",
+                        "title" : "func json(encoder: () -> JSONEncoder, outputFormatting: JSONEncoder.OutputFormatting?, dateEncodingStrategy: JSONEncoder.DateEncodingStrategy?, dataEncodingStrategy: JSONEncoder.DataEncodingStrategy?, nonConformingFloatEncodingStrategy: JSONEncoder.NonConformingFloatEncodingStrategy?, keyEncodingStrategy: JSONEncoder.KeyEncodingStrategy?, userInfo: [CodingUserInfoKey : Any]?) throws -> Data",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/jsum(options:)",
+                        "title" : "func jsum(options: JSumEncodingOptions?) throws -> JSum",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/encodable-implementations",
+                    "title" : "Encodable Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
                         "title" : "Operators",
                         "type" : "groupMarker"
                       },
@@ -2216,6 +2383,20 @@
                         "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/!=(_:_:)",
                         "title" : "static func != (Self, Self) -> Bool",
                         "type" : "op"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/represent()-3p0sq",
+                        "title" : "func represent<T>() -> T",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/represent()-8f0pj",
+                        "title" : "func represent<T>() -> T?",
+                        "type" : "method"
                       }
                     ],
                     "path" : "\/documentation\/jxpod\/csscolor\/namedcolor\/equatable-implementations",
@@ -2342,6 +2523,76 @@
                   {
                     "children" : [
                       {
+                        "title" : "Initializers",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/init(json:decoder:allowsjson5:datadecodingstrategy:datedecodingstrategy:nonconformingfloatdecodingstrategy:keydecodingstrategy:userinfo:)",
+                        "title" : "init(json: Data, decoder: () -> JSONDecoder, allowsJSON5: Bool, dataDecodingStrategy: JSONDecoder.DataDecodingStrategy?, dateDecodingStrategy: JSONDecoder.DateDecodingStrategy?, nonConformingFloatDecodingStrategy: JSONDecoder.NonConformingFloatDecodingStrategy?, keyDecodingStrategy: JSONDecoder.KeyDecodingStrategy?, userInfo: [CodingUserInfoKey : Any]?) throws",
+                        "type" : "init"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/init(jsum:options:)",
+                        "title" : "init(jsum: JSum, options: JSumDecodingOptions?) throws",
+                        "type" : "init"
+                      },
+                      {
+                        "title" : "Type Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/codablecomplete(data:encoder:decoder:)",
+                        "title" : "static func codableComplete(data: Data, encoder: JSONEncoder?, decoder: JSONDecoder?) throws -> (instance: Self, difference: JSum?)",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/decodable-implementations",
+                    "title" : "Decodable Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
+                        "title" : "Instance Properties",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/canonicaljson",
+                        "title" : "var canonicalJSON: String",
+                        "type" : "property"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/debugjson",
+                        "title" : "var debugJSON: String",
+                        "type" : "property"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/prettyjson",
+                        "title" : "var prettyJSON: String",
+                        "type" : "property"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/json(encoder:outputformatting:dateencodingstrategy:dataencodingstrategy:nonconformingfloatencodingstrategy:keyencodingstrategy:userinfo:)",
+                        "title" : "func json(encoder: () -> JSONEncoder, outputFormatting: JSONEncoder.OutputFormatting?, dateEncodingStrategy: JSONEncoder.DateEncodingStrategy?, dataEncodingStrategy: JSONEncoder.DataEncodingStrategy?, nonConformingFloatEncodingStrategy: JSONEncoder.NonConformingFloatEncodingStrategy?, keyEncodingStrategy: JSONEncoder.KeyEncodingStrategy?, userInfo: [CodingUserInfoKey : Any]?) throws -> Data",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/jsum(options:)",
+                        "title" : "func jsum(options: JSumEncodingOptions?) throws -> JSum",
+                        "type" : "method"
+                      }
+                    ],
+                    "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/encodable-implementations",
+                    "title" : "Encodable Implementations",
+                    "type" : "symbol"
+                  },
+                  {
+                    "children" : [
+                      {
                         "title" : "Operators",
                         "type" : "groupMarker"
                       },
@@ -2349,6 +2600,20 @@
                         "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/!=(_:_:)",
                         "title" : "static func != (Self, Self) -> Bool",
                         "type" : "op"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/represent()-3detq",
+                        "title" : "func represent<T>() -> T?",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/represent()-8wtss",
+                        "title" : "func represent<T>() -> T",
+                        "type" : "method"
                       }
                     ],
                     "path" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/equatable-implementations",
@@ -2451,6 +2716,20 @@
                         "path" : "\/documentation\/jxpod\/csscolor\/colorerror\/localizeddescription",
                         "title" : "var localizedDescription: String",
                         "type" : "property"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/colorerror\/dumperror(out:)",
+                        "title" : "func dumpError<O>(out: inout O)",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/colorerror\/withinfo(for:_:prefix:)",
+                        "title" : "func withInfo(for: String, () -> String, prefix: Bool?) -> Error",
+                        "type" : "method"
                       }
                     ],
                     "path" : "\/documentation\/jxpod\/csscolor\/colorerror\/error-implementations",
@@ -2501,6 +2780,20 @@
                         "path" : "\/documentation\/jxpod\/csscolor\/colorrepresentation\/!=(_:_:)",
                         "title" : "static func != (Self, Self) -> Bool",
                         "type" : "op"
+                      },
+                      {
+                        "title" : "Instance Methods",
+                        "type" : "groupMarker"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/colorrepresentation\/represent()-1hmsx",
+                        "title" : "func represent<T>() -> T",
+                        "type" : "method"
+                      },
+                      {
+                        "path" : "\/documentation\/jxpod\/csscolor\/colorrepresentation\/represent()-81bti",
+                        "title" : "func represent<T>() -> T?",
+                        "type" : "method"
                       }
                     ],
                     "path" : "\/documentation\/jxpod\/csscolor\/colorrepresentation\/equatable-implementations",
@@ -2519,6 +2812,76 @@
               {
                 "children" : [
                   {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/init(json:decoder:allowsjson5:datadecodingstrategy:datedecodingstrategy:nonconformingfloatdecodingstrategy:keydecodingstrategy:userinfo:)",
+                    "title" : "init(json: Data, decoder: () -> JSONDecoder, allowsJSON5: Bool, dataDecodingStrategy: JSONDecoder.DataDecodingStrategy?, dateDecodingStrategy: JSONDecoder.DateDecodingStrategy?, nonConformingFloatDecodingStrategy: JSONDecoder.NonConformingFloatDecodingStrategy?, keyDecodingStrategy: JSONDecoder.KeyDecodingStrategy?, userInfo: [CodingUserInfoKey : Any]?) throws",
+                    "type" : "init"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/init(jsum:options:)",
+                    "title" : "init(jsum: JSum, options: JSumDecodingOptions?) throws",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/codablecomplete(data:encoder:decoder:)",
+                    "title" : "static func codableComplete(data: Data, encoder: JSONEncoder?, decoder: JSONDecoder?) throws -> (instance: Self, difference: JSum?)",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/csscolor\/decodable-implementations",
+                "title" : "Decodable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/canonicaljson",
+                    "title" : "var canonicalJSON: String",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/debugjson",
+                    "title" : "var debugJSON: String",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/prettyjson",
+                    "title" : "var prettyJSON: String",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/json(encoder:outputformatting:dateencodingstrategy:dataencodingstrategy:nonconformingfloatencodingstrategy:keyencodingstrategy:userinfo:)",
+                    "title" : "func json(encoder: () -> JSONEncoder, outputFormatting: JSONEncoder.OutputFormatting?, dateEncodingStrategy: JSONEncoder.DateEncodingStrategy?, dataEncodingStrategy: JSONEncoder.DataEncodingStrategy?, nonConformingFloatEncodingStrategy: JSONEncoder.NonConformingFloatEncodingStrategy?, keyEncodingStrategy: JSONEncoder.KeyEncodingStrategy?, userInfo: [CodingUserInfoKey : Any]?) throws -> Data",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/jsum(options:)",
+                    "title" : "func jsum(options: JSumEncodingOptions?) throws -> JSum",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/csscolor\/encodable-implementations",
+                "title" : "Encodable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
                     "title" : "Operators",
                     "type" : "groupMarker"
                   },
@@ -2526,6 +2889,20 @@
                     "path" : "\/documentation\/jxpod\/csscolor\/!=(_:_:)",
                     "title" : "static func != (Self, Self) -> Bool",
                     "type" : "op"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/represent()-2ens",
+                    "title" : "func represent<T>() -> T?",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/csscolor\/represent()-83f5s",
+                    "title" : "func represent<T>() -> T",
+                    "type" : "method"
                   }
                 ],
                 "path" : "\/documentation\/jxpod\/csscolor\/equatable-implementations",
@@ -2535,6 +2912,89 @@
             ],
             "path" : "\/documentation\/jxpod\/csscolor",
             "title" : "CSSColor",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/hubmodulesource\/init(repository:)",
+                "title" : "init(repository: URL) throws",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/hubmodulesource\/refs",
+                "title" : "var refs: [HubModuleSource.RefInfo]",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/hubmodulesource\/repository",
+                "title" : "let repository: URL",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/hubmodulesource\/tagversions",
+                "title" : "var tagVersions: [SemVer]",
+                "type" : "property"
+              },
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/hubmodulesource\/archiveurl(for:)",
+                "title" : "func archiveURL(for: HubModuleSource.Ref) -> URL",
+                "type" : "method"
+              },
+              {
+                "title" : "Enumerations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Enumeration Cases",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/branch(_:)",
+                    "title" : "case branch(String)",
+                    "type" : "case"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/tag(_:)",
+                    "title" : "case tag(String)",
+                    "type" : "case"
+                  },
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/name",
+                    "title" : "var name: String",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/semver",
+                    "title" : "var semver: SemVer?",
+                    "type" : "property"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/hubmodulesource\/ref",
+                "title" : "HubModuleSource.Ref",
+                "type" : "enum"
+              }
+            ],
+            "path" : "\/documentation\/jxpod\/hubmodulesource",
+            "title" : "HubModuleSource",
             "type" : "struct"
           },
           {
@@ -2561,6 +3021,80 @@
                 "path" : "\/documentation\/jxpod\/jxpodmetadata\/source",
                 "title" : "var source: URL",
                 "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/jxpodmetadata\/init(json:decoder:allowsjson5:datadecodingstrategy:datedecodingstrategy:nonconformingfloatdecodingstrategy:keydecodingstrategy:userinfo:)",
+                    "title" : "init(json: Data, decoder: () -> JSONDecoder, allowsJSON5: Bool, dataDecodingStrategy: JSONDecoder.DataDecodingStrategy?, dateDecodingStrategy: JSONDecoder.DateDecodingStrategy?, nonConformingFloatDecodingStrategy: JSONDecoder.NonConformingFloatDecodingStrategy?, keyDecodingStrategy: JSONDecoder.KeyDecodingStrategy?, userInfo: [CodingUserInfoKey : Any]?) throws",
+                    "type" : "init"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/jxpodmetadata\/init(jsum:options:)",
+                    "title" : "init(jsum: JSum, options: JSumDecodingOptions?) throws",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/jxpodmetadata\/codablecomplete(data:encoder:decoder:)",
+                    "title" : "static func codableComplete(data: Data, encoder: JSONEncoder?, decoder: JSONDecoder?) throws -> (instance: Self, difference: JSum?)",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/jxpodmetadata\/decodable-implementations",
+                "title" : "Decodable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/jxpodmetadata\/canonicaljson",
+                    "title" : "var canonicalJSON: String",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/jxpodmetadata\/debugjson",
+                    "title" : "var debugJSON: String",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/jxpodmetadata\/prettyjson",
+                    "title" : "var prettyJSON: String",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/jxpodmetadata\/json(encoder:outputformatting:dateencodingstrategy:dataencodingstrategy:nonconformingfloatencodingstrategy:keyencodingstrategy:userinfo:)",
+                    "title" : "func json(encoder: () -> JSONEncoder, outputFormatting: JSONEncoder.OutputFormatting?, dateEncodingStrategy: JSONEncoder.DateEncodingStrategy?, dataEncodingStrategy: JSONEncoder.DataEncodingStrategy?, nonConformingFloatEncodingStrategy: JSONEncoder.NonConformingFloatEncodingStrategy?, keyEncodingStrategy: JSONEncoder.KeyEncodingStrategy?, userInfo: [CodingUserInfoKey : Any]?) throws -> Data",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/jxpodmetadata\/jsum(options:)",
+                    "title" : "func jsum(options: JSumEncodingOptions?) throws -> JSum",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/jxpodmetadata\/encodable-implementations",
+                "title" : "Encodable Implementations",
+                "type" : "symbol"
               }
             ],
             "path" : "\/documentation\/jxpod\/jxpodmetadata",
@@ -2604,6 +3138,76 @@
               {
                 "children" : [
                   {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/location\/init(json:decoder:allowsjson5:datadecodingstrategy:datedecodingstrategy:nonconformingfloatdecodingstrategy:keydecodingstrategy:userinfo:)",
+                    "title" : "init(json: Data, decoder: () -> JSONDecoder, allowsJSON5: Bool, dataDecodingStrategy: JSONDecoder.DataDecodingStrategy?, dateDecodingStrategy: JSONDecoder.DateDecodingStrategy?, nonConformingFloatDecodingStrategy: JSONDecoder.NonConformingFloatDecodingStrategy?, keyDecodingStrategy: JSONDecoder.KeyDecodingStrategy?, userInfo: [CodingUserInfoKey : Any]?) throws",
+                    "type" : "init"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/location\/init(jsum:options:)",
+                    "title" : "init(jsum: JSum, options: JSumDecodingOptions?) throws",
+                    "type" : "init"
+                  },
+                  {
+                    "title" : "Type Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/location\/codablecomplete(data:encoder:decoder:)",
+                    "title" : "static func codableComplete(data: Data, encoder: JSONEncoder?, decoder: JSONDecoder?) throws -> (instance: Self, difference: JSum?)",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/location\/decodable-implementations",
+                "title" : "Decodable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/location\/canonicaljson",
+                    "title" : "var canonicalJSON: String",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/location\/debugjson",
+                    "title" : "var debugJSON: String",
+                    "type" : "property"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/location\/prettyjson",
+                    "title" : "var prettyJSON: String",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/location\/json(encoder:outputformatting:dateencodingstrategy:dataencodingstrategy:nonconformingfloatencodingstrategy:keyencodingstrategy:userinfo:)",
+                    "title" : "func json(encoder: () -> JSONEncoder, outputFormatting: JSONEncoder.OutputFormatting?, dateEncodingStrategy: JSONEncoder.DateEncodingStrategy?, dataEncodingStrategy: JSONEncoder.DataEncodingStrategy?, nonConformingFloatEncodingStrategy: JSONEncoder.NonConformingFloatEncodingStrategy?, keyEncodingStrategy: JSONEncoder.KeyEncodingStrategy?, userInfo: [CodingUserInfoKey : Any]?) throws -> Data",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/location\/jsum(options:)",
+                    "title" : "func jsum(options: JSumEncodingOptions?) throws -> JSum",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/jxpod\/location\/encodable-implementations",
+                "title" : "Encodable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
                     "title" : "Operators",
                     "type" : "groupMarker"
                   },
@@ -2611,6 +3215,20 @@
                     "path" : "\/documentation\/jxpod\/location\/!=(_:_:)",
                     "title" : "static func != (Self, Self) -> Bool",
                     "type" : "op"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/location\/represent()-28p8p",
+                    "title" : "func represent<T>() -> T?",
+                    "type" : "method"
+                  },
+                  {
+                    "path" : "\/documentation\/jxpod\/location\/represent()-8sj42",
+                    "title" : "func represent<T>() -> T",
+                    "type" : "method"
                   }
                 ],
                 "path" : "\/documentation\/jxpod\/location\/equatable-implementations",

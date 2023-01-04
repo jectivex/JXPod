@@ -37,6 +37,14 @@
         "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/ColorRepresentation\/!=(_:_:)"
       ],
       "title" : "Operators"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/ColorRepresentation\/represent()-1hmsx",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/ColorRepresentation\/represent()-81bti"
+      ],
+      "title" : "Instance Methods"
     }
   ],
   "variants" : [
@@ -187,6 +195,92 @@
   "title" : "!=(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/csscolor\/colorrepresentation\/!=(_:_:)"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/ColorRepresentation/represent()-1hmsx": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "represent"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/ColorRepresentation\/represent()-1hmsx",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "represent()",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/colorrepresentation\/represent()-1hmsx"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/ColorRepresentation/represent()-81bti": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "represent"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "genericParameter",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : ">() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "T"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/ColorRepresentation\/represent()-81bti",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "represent()",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/colorrepresentation\/represent()-81bti"
 }
 }
 }
