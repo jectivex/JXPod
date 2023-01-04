@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "A reference to a version of the module, which can then be converted into an archive URL",
+      "text" : "Returns the tag or branch name",
       "type" : "text"
     }
   ],
@@ -9,21 +9,22 @@
     "paths" : [
       [
         "doc:\/\/JXPod\/documentation\/JXPod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/JXDynamicModuleSource"
+        "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource",
+        "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/JXDynamicModuleSource\/Ref"
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/type"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:5JXPod21JXDynamicModuleSourceP3RefQa",
+    "externalID" : "s:5JXPod15HubModuleSourceV3RefO4typeSSvp",
     "fragments" : [
       {
         "kind" : "keyword",
-        "text" : "associatedtype"
+        "text" : "var"
       },
       {
         "kind" : "text",
@@ -31,16 +32,16 @@
       },
       {
         "kind" : "identifier",
-        "text" : "Ref"
+        "text" : "type"
       },
       {
         "kind" : "text",
-        "text" : " : "
+        "text" : ": "
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:SQ",
-        "text" : "Equatable"
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
       }
     ],
     "modules" : [
@@ -48,11 +49,10 @@
         "name" : "JXPod"
       }
     ],
-    "required" : true,
     "role" : "symbol",
-    "roleHeading" : "Associated Type",
-    "symbolKind" : "associatedtype",
-    "title" : "Ref"
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "type"
   },
   "primaryContentSections" : [
     {
@@ -67,7 +67,7 @@
           "tokens" : [
             {
               "kind" : "keyword",
-              "text" : "associatedtype"
+              "text" : "var"
             },
             {
               "kind" : "text",
@@ -75,16 +75,28 @@
             },
             {
               "kind" : "identifier",
-              "text" : "Ref"
+              "text" : "type"
             },
             {
               "kind" : "text",
-              "text" : " : "
+              "text" : ": "
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:SQ",
-              "text" : "Equatable"
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
             }
           ]
         }
@@ -103,7 +115,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jxpod\/jxdynamicmodulesource\/ref"
+        "\/documentation\/jxpod\/hubmodulesource\/ref\/type"
       ],
       "traits" : [
         {
@@ -125,17 +137,17 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod"
 },
-"doc://JXPod/documentation/JXPod/JXDynamicModuleSource": {
+"doc://JXPod/documentation/JXPod/HubModuleSource": {
   "abstract" : [
     {
-      "text" : "The source repository that hosts the tagged versions of the dynamic module source.",
+      "text" : "A module source that uses a GitHub repository’s tags and zipball archive URL for checking versions.",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "protocol"
+      "text" : "struct"
     },
     {
       "kind" : "text",
@@ -143,33 +155,30 @@
     },
     {
       "kind" : "identifier",
-      "text" : "JXDynamicModuleSource"
+      "text" : "HubModuleSource"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXDynamicModuleSource",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "JXDynamicModuleSource"
+      "text" : "HubModuleSource"
     }
   ],
   "role" : "symbol",
-  "title" : "JXDynamicModuleSource",
+  "title" : "HubModuleSource",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/jxdynamicmodulesource"
+  "url" : "\/documentation\/jxpod\/hubmodulesource"
 },
-"doc://JXPod/documentation/JXPod/JXDynamicModuleSource/Ref": {
+"doc://JXPod/documentation/JXPod/HubModuleSource/Ref": {
   "abstract" : [
-    {
-      "text" : "A reference to a version of the module, which can then be converted into an archive URL",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "associatedtype"
+      "text" : "enum"
     },
     {
       "kind" : "text",
@@ -178,24 +187,57 @@
     {
       "kind" : "identifier",
       "text" : "Ref"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Ref"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HubModuleSource.Ref",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/hubmodulesource\/ref"
+},
+"doc://JXPod/documentation/JXPod/HubModuleSource/Ref/type": {
+  "abstract" : [
+    {
+      "text" : "Returns the tag or branch name",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
     },
     {
       "kind" : "text",
-      "text" : " : "
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "type"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:SQ",
-      "text" : "Equatable"
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXDynamicModuleSource\/Ref",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/type",
   "kind" : "symbol",
-  "required" : true,
   "role" : "symbol",
-  "title" : "Ref",
+  "title" : "type",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/jxdynamicmodulesource\/ref"
+  "url" : "\/documentation\/jxpod\/hubmodulesource\/ref\/type"
 }
 }
 }

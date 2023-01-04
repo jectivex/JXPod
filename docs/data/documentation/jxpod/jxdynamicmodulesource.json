@@ -234,6 +234,15 @@
     {
       "kind" : "identifier",
       "text" : "Ref"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SQ",
+      "text" : "Equatable"
     }
   ],
   "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXDynamicModuleSource\/Ref",

@@ -87,6 +87,16 @@
       "kind" : "declarations"
     }
   ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/SQ"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
   "schemaVersion" : {
     "major" : 0,
     "minor" : 3,
@@ -106,9 +116,17 @@
     {
       "identifiers" : [
         "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/name",
-        "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/semver"
+        "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/semver",
+        "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/type"
       ],
       "title" : "Instance Properties"
+    },
+    {
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
     }
   ],
   "variants" : [
@@ -125,6 +143,11 @@
   ]
 , 
 "references": {
+"doc://JXPod/SQ": {
+  "identifier" : "doc:\/\/JXPod\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
 "doc://JXPod/documentation/JXPod": {
   "abstract" : [
 
@@ -200,6 +223,17 @@
   "title" : "HubModuleSource.Ref",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/hubmodulesource\/ref"
+},
+"doc://JXPod/documentation/JXPod/HubModuleSource/Ref/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/hubmodulesource\/ref\/equatable-implementations"
 },
 "doc://JXPod/documentation/JXPod/HubModuleSource/Ref/branch(_:)": {
   "abstract" : [
@@ -354,6 +388,43 @@
   "title" : "HubModuleSource.Ref.tag(_:)",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/hubmodulesource\/ref\/tag(_:)"
+},
+"doc://JXPod/documentation/JXPod/HubModuleSource/Ref/type": {
+  "abstract" : [
+    {
+      "text" : "Returns the tag or branch name",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "type"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/type",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "type",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/hubmodulesource\/ref\/type"
 }
 }
 }

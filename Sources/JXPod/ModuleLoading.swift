@@ -10,14 +10,14 @@ public protocol JXDynamicModule : JXModule {
     /// The path to the locally-installed folder containing the scripts and resources for the app.
     static var localURL: URL? { get }
 
-    /// The logical path to the remote root folder, whose contents to the
+    /// The logical path to the remote root folder in the source archive whose file and folder layout matches the structure of the localURL.
     static var remoteURL: URL? { get }
 }
 
 /// The source repository that hosts the tagged versions of the dynamic module source.
 public protocol JXDynamicModuleSource {
     /// A reference to a version of the module, which can then be converted into an archive URL
-    associatedtype Ref
+    associatedtype Ref : Equatable
 
     /// Information about the tags for the given module source
     typealias RefInfo = (ref: Ref, date: Date)
@@ -68,9 +68,17 @@ public struct HubModuleSource : JXDynamicModuleSource {
 
     public let repository: URL // e.g., https://github.com/Magic-Loupe/PetStore.git
 
-    public enum Ref {
+    public enum Ref : Equatable {
         case tag(String)
         case branch(String)
+
+        /// Returns the tag or branch name
+        public var type: String {
+            switch self {
+            case .tag: return "tag"
+            case .branch: return "branch"
+            }
+        }
 
         /// Returns the tag or branch name
         public var name: String {
@@ -151,7 +159,7 @@ public struct HubModuleSource : JXDynamicModuleSource {
             // TODO: this only works for GitHub … need to determine feed format for GitLab and Gitea
             let (data, _) = try await URLSession.shared.fetch(request: URLRequest(url: url("tags.atom")))
             let feed = try RSSFeed.parse(xml: data)
-            return feed.feed.entry.collectionMulti.map({ (Ref.tag($0.title), $0.updated) })
+            return feed.feed.entry?.collectionMulti.map({ (Ref.tag($0.title), $0.updated) }) ?? []
         }
     }
 
@@ -191,7 +199,7 @@ struct RSSFeed : Decodable {
 
         /// The list of entries, which when converted from XML might be translated as a single or multiple element
         typealias EntryList = ElementOrArray<Entry> // i.e. XOr<Entry>.Or<[Entry]>
-        var entry: EntryList
+        var entry: EntryList?
 
         struct Entry : Decodable {
             var id: String // tag:github.com,2008:Repository/584868941/0.0.2

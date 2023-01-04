@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "The logical path to the remote root folder, whose contents to the",
+      "text" : "The logical path to the remote root folder in the source archive whose file and folder layout matches the structure of the localURL.",
       "type" : "text"
     }
   ],
@@ -194,7 +194,7 @@
 "doc://JXPod/documentation/JXPod/JXDynamicModule/remoteURL": {
   "abstract" : [
     {
-      "text" : "The logical path to the remote root folder, whose contents to the",
+      "text" : "The logical path to the remote root folder in the source archive whose file and folder layout matches the structure of the localURL.",
       "type" : "text"
     }
   ],
