@@ -101,6 +101,7 @@
     },
     {
       "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/jxState-87r1f",
         "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/namespace"
       ],
       "title" : "Instance Properties"
@@ -299,6 +300,44 @@
   "title" : "init()",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/themepod\/init()"
+},
+"doc://JXPod/documentation/JXPod/ThemePod/jxState-87r1f": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "jxState"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge7JXStateC",
+      "text" : "JXState"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/jxState-87r1f",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "jxState",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/themepod\/jxstate-87r1f"
 },
 "doc://JXPod/documentation/JXPod/ThemePod/metadata": {
   "abstract" : [

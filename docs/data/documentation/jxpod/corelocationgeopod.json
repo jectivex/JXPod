@@ -117,6 +117,7 @@
     },
     {
       "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod\/jxState-6c8xy",
         "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod\/namespace"
       ],
       "title" : "Instance Properties"
@@ -341,6 +342,44 @@
   "title" : "init(manager:)",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/corelocationgeopod\/init(manager:)"
+},
+"doc://JXPod/documentation/JXPod/CoreLocationGeoPod/jxState-6c8xy": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "jxState"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge7JXStateC",
+      "text" : "JXState"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod\/jxState-6c8xy",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "jxState",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/corelocationgeopod\/jxstate-6c8xy"
 },
 "doc://JXPod/documentation/JXPod/CoreLocationGeoPod/locationManager(_:didUpdateLocations:)": {
   "abstract" : [

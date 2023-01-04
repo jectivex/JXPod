@@ -33,7 +33,7 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/KeyPod\/jxState"
+        "doc:\/\/JXPod\/documentation\/JXPod\/KeyPod\/jxState-s29z"
       ],
       "title" : "Instance Properties"
     },
@@ -209,7 +209,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/keypod\/jxnamespace"
 },
-"doc://JXPod/documentation/JXPod/KeyPod/jxState": {
+"doc://JXPod/documentation/JXPod/KeyPod/jxState-s29z": {
   "abstract" : [
 
   ],
@@ -240,12 +240,12 @@
       "text" : "?"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/KeyPod\/jxState",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/KeyPod\/jxState-s29z",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "jxState",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/keypod\/jxstate"
+  "url" : "\/documentation\/jxpod\/keypod\/jxstate-s29z"
 }
 }
 }

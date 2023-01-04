@@ -101,6 +101,7 @@
     },
     {
       "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/jxState-4zjct",
         "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/namespace"
       ],
       "title" : "Instance Properties"
@@ -313,6 +314,44 @@
   "title" : "init(session:)",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/netpod\/init(session:)"
+},
+"doc://JXPod/documentation/JXPod/NetPod/jxState-4zjct": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "jxState"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge7JXStateC",
+      "text" : "JXState"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/jxState-4zjct",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "jxState",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/netpod\/jxstate-4zjct"
 },
 "doc://JXPod/documentation/JXPod/NetPod/metadata": {
   "abstract" : [

@@ -1,13 +1,13 @@
 import Foundation
 import JXBridge
 
-
 #if canImport(SwiftUI)
 import SwiftUI
 
 @available(macOS 12, iOS 15, tvOS 15, *)
 open class SwiftUICanvasPod<Symbols : SwiftUI.View> : JXPod, JXModule, JXBridging {
     public let namespace: JXNamespace = "console"
+    public var jxState: JXState?
 
     private let canvas: SwiftUI.Canvas<Symbols>
 

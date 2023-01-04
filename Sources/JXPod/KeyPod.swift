@@ -9,6 +9,7 @@ import Foundation
 
 open class KeyPod : JXPod, JXModule, JXBridging {
     public let namespace: JXNamespace = "net"
+    public var jxState: JXState?
 
     public init() {
     }

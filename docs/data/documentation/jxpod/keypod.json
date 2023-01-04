@@ -101,6 +101,7 @@
     },
     {
       "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/KeyPod\/jxState-3jebu",
         "doc:\/\/JXPod\/documentation\/JXPod\/KeyPod\/namespace"
       ],
       "title" : "Instance Properties"
@@ -296,6 +297,44 @@
   "title" : "init()",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/keypod\/init()"
+},
+"doc://JXPod/documentation/JXPod/KeyPod/jxState-3jebu": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "jxState"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge7JXStateC",
+      "text" : "JXState"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/KeyPod\/jxState-3jebu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "jxState",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/keypod\/jxstate-3jebu"
 },
 "doc://JXPod/documentation/JXPod/KeyPod/metadata": {
   "abstract" : [

@@ -17,19 +17,17 @@
     "paths" : [
       [
         "doc:\/\/JXPod\/documentation\/JXPod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod\/JXBridging-Implementations"
+        "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod\/jxState"
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/jxState-87r1f"
   },
   "kind" : "symbol",
   "metadata" : {
-    "extendedModule" : "JXBridge",
-    "externalID" : "s:8JXBridge10JXBridgingPAAE7jxStateAA7JXStateCSgvp::SYNTHESIZED::c:@M@JXPod@objc(cs)CoreLocationGeoPod",
+    "externalID" : "s:5JXPod8ThemePodC7jxState8JXBridge7JXStateCSgvp",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -101,23 +99,7 @@
             },
             {
               "kind" : "text",
-              "text" : "? { "
-            },
-            {
-              "kind" : "keyword",
-              "text" : "get"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
-            {
-              "kind" : "keyword",
-              "text" : "set"
-            },
-            {
-              "kind" : "text",
-              "text" : " }"
+              "text" : "?"
             }
           ]
         }
@@ -136,7 +118,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jxpod\/corelocationgeopod\/jxstate"
+        "\/documentation\/jxpod\/themepod\/jxstate-87r1f"
       ],
       "traits" : [
         {
@@ -158,7 +140,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod"
 },
-"doc://JXPod/documentation/JXPod/CoreLocationGeoPod": {
+"doc://JXPod/documentation/JXPod/ThemePod": {
   "abstract" : [
 
   ],
@@ -173,34 +155,23 @@
     },
     {
       "kind" : "identifier",
-      "text" : "CoreLocationGeoPod"
+      "text" : "ThemePod"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "CoreLocationGeoPod"
+      "text" : "ThemePod"
     }
   ],
   "role" : "symbol",
-  "title" : "CoreLocationGeoPod",
+  "title" : "ThemePod",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/corelocationgeopod"
+  "url" : "\/documentation\/jxpod\/themepod"
 },
-"doc://JXPod/documentation/JXPod/CoreLocationGeoPod/JXBridging-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod\/JXBridging-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "JXBridging Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/jxpod\/corelocationgeopod\/jxbridging-implementations"
-},
-"doc://JXPod/documentation/JXPod/CoreLocationGeoPod/jxState": {
+"doc://JXPod/documentation/JXPod/ThemePod/jxState-87r1f": {
   "abstract" : [
 
   ],
@@ -231,12 +202,12 @@
       "text" : "?"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod\/jxState",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/jxState-87r1f",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "jxState",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/corelocationgeopod\/jxstate"
+  "url" : "\/documentation\/jxpod\/themepod\/jxstate-87r1f"
 }
 }
 }

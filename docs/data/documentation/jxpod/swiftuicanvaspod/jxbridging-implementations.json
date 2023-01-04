@@ -33,7 +33,7 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod\/jxState"
+        "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod\/jxState-1trdw"
       ],
       "title" : "Instance Properties"
     },
@@ -209,7 +209,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/swiftuicanvaspod\/jxnamespace"
 },
-"doc://JXPod/documentation/JXPod/SwiftUICanvasPod/jxState": {
+"doc://JXPod/documentation/JXPod/SwiftUICanvasPod/jxState-1trdw": {
   "abstract" : [
 
   ],
@@ -240,12 +240,12 @@
       "text" : "?"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod\/jxState",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod\/jxState-1trdw",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "jxState",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/swiftuicanvaspod\/jxstate"
+  "url" : "\/documentation\/jxpod\/swiftuicanvaspod\/jxstate-1trdw"
 }
 }
 }

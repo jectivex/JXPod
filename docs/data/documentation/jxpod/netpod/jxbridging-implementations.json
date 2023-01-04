@@ -33,7 +33,7 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/jxState"
+        "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/jxState-9wc9b"
       ],
       "title" : "Instance Properties"
     },
@@ -209,7 +209,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/netpod\/jxnamespace"
 },
-"doc://JXPod/documentation/JXPod/NetPod/jxState": {
+"doc://JXPod/documentation/JXPod/NetPod/jxState-9wc9b": {
   "abstract" : [
 
   ],
@@ -240,12 +240,12 @@
       "text" : "?"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/jxState",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/jxState-9wc9b",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "jxState",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/netpod\/jxstate"
+  "url" : "\/documentation\/jxpod\/netpod\/jxstate-9wc9b"
 }
 }
 }

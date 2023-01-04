@@ -17,19 +17,19 @@
     "paths" : [
       [
         "doc:\/\/JXPod\/documentation\/JXPod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/ChartPod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/ChartPod\/JXBridging-Implementations"
+        "doc:\/\/JXPod\/documentation\/JXPod\/NetPod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/JXBridging-Implementations"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/ChartPod\/jxState"
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/jxState-9wc9b"
   },
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "JXBridge",
-    "externalID" : "s:8JXBridge10JXBridgingPAAE7jxStateAA7JXStateCSgvp::SYNTHESIZED::s:5JXPod8ChartPodC",
+    "externalID" : "s:8JXBridge10JXBridgingPAAE7jxStateAA7JXStateCSgvp::SYNTHESIZED::s:5JXPod6NetPodC",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -136,7 +136,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jxpod\/chartpod\/jxstate"
+        "\/documentation\/jxpod\/netpod\/jxstate-9wc9b"
       ],
       "traits" : [
         {
@@ -158,7 +158,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod"
 },
-"doc://JXPod/documentation/JXPod/ChartPod": {
+"doc://JXPod/documentation/JXPod/NetPod": {
   "abstract" : [
 
   ],
@@ -173,34 +173,34 @@
     },
     {
       "kind" : "identifier",
-      "text" : "ChartPod"
+      "text" : "NetPod"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ChartPod",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NetPod",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "ChartPod"
+      "text" : "NetPod"
     }
   ],
   "role" : "symbol",
-  "title" : "ChartPod",
+  "title" : "NetPod",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/chartpod"
+  "url" : "\/documentation\/jxpod\/netpod"
 },
-"doc://JXPod/documentation/JXPod/ChartPod/JXBridging-Implementations": {
+"doc://JXPod/documentation/JXPod/NetPod/JXBridging-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ChartPod\/JXBridging-Implementations",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/JXBridging-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "JXBridging Implementations",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/chartpod\/jxbridging-implementations"
+  "url" : "\/documentation\/jxpod\/netpod\/jxbridging-implementations"
 },
-"doc://JXPod/documentation/JXPod/ChartPod/jxState": {
+"doc://JXPod/documentation/JXPod/NetPod/jxState-9wc9b": {
   "abstract" : [
 
   ],
@@ -231,12 +231,12 @@
       "text" : "?"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ChartPod\/jxState",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/jxState-9wc9b",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "jxState",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/chartpod\/jxstate"
+  "url" : "\/documentation\/jxpod\/netpod\/jxstate-9wc9b"
 }
 }
 }

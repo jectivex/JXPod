@@ -101,6 +101,7 @@
     },
     {
       "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/ChartPod\/jxState-8fw1c",
         "doc:\/\/JXPod\/documentation\/JXPod\/ChartPod\/namespace"
       ],
       "title" : "Instance Properties"
@@ -246,6 +247,44 @@
   "title" : "init()",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/chartpod\/init()"
+},
+"doc://JXPod/documentation/JXPod/ChartPod/jxState-8fw1c": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "jxState"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge7JXStateC",
+      "text" : "JXState"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ChartPod\/jxState-8fw1c",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "jxState",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/chartpod\/jxstate-8fw1c"
 },
 "doc://JXPod/documentation/JXPod/ChartPod/metadata": {
   "abstract" : [

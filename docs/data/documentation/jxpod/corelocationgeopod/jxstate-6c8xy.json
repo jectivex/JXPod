@@ -17,19 +17,17 @@
     "paths" : [
       [
         "doc:\/\/JXPod\/documentation\/JXPod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod\/JXBridging-Implementations"
+        "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod\/jxState"
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod\/jxState-6c8xy"
   },
   "kind" : "symbol",
   "metadata" : {
-    "extendedModule" : "JXBridge",
-    "externalID" : "s:8JXBridge10JXBridgingPAAE7jxStateAA7JXStateCSgvp::SYNTHESIZED::s:5JXPod16SwiftUICanvasPodC",
+    "externalID" : "s:5JXPod18CoreLocationGeoPodC7jxState8JXBridge7JXStateCSgvp",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -101,23 +99,7 @@
             },
             {
               "kind" : "text",
-              "text" : "? { "
-            },
-            {
-              "kind" : "keyword",
-              "text" : "get"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
-            {
-              "kind" : "keyword",
-              "text" : "set"
-            },
-            {
-              "kind" : "text",
-              "text" : " }"
+              "text" : "?"
             }
           ]
         }
@@ -136,7 +118,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jxpod\/swiftuicanvaspod\/jxstate"
+        "\/documentation\/jxpod\/corelocationgeopod\/jxstate-6c8xy"
       ],
       "traits" : [
         {
@@ -158,7 +140,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod"
 },
-"doc://JXPod/documentation/JXPod/SwiftUICanvasPod": {
+"doc://JXPod/documentation/JXPod/CoreLocationGeoPod": {
   "abstract" : [
 
   ],
@@ -173,34 +155,23 @@
     },
     {
       "kind" : "identifier",
-      "text" : "SwiftUICanvasPod"
+      "text" : "CoreLocationGeoPod"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "SwiftUICanvasPod"
+      "text" : "CoreLocationGeoPod"
     }
   ],
   "role" : "symbol",
-  "title" : "SwiftUICanvasPod",
+  "title" : "CoreLocationGeoPod",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/swiftuicanvaspod"
+  "url" : "\/documentation\/jxpod\/corelocationgeopod"
 },
-"doc://JXPod/documentation/JXPod/SwiftUICanvasPod/JXBridging-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod\/JXBridging-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "JXBridging Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/jxpod\/swiftuicanvaspod\/jxbridging-implementations"
-},
-"doc://JXPod/documentation/JXPod/SwiftUICanvasPod/jxState": {
+"doc://JXPod/documentation/JXPod/CoreLocationGeoPod/jxState-6c8xy": {
   "abstract" : [
 
   ],
@@ -231,12 +202,12 @@
       "text" : "?"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod\/jxState",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod\/jxState-6c8xy",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "jxState",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/swiftuicanvaspod\/jxstate"
+  "url" : "\/documentation\/jxpod\/corelocationgeopod\/jxstate-6c8xy"
 }
 }
 }

@@ -147,6 +147,11 @@
                 "type" : "groupMarker"
               },
               {
+                "path" : "\/documentation\/jxpod\/chartpod\/jxstate-8fw1c",
+                "title" : "var jxState: JXState?",
+                "type" : "property"
+              },
+              {
                 "path" : "\/documentation\/jxpod\/chartpod\/namespace",
                 "title" : "let namespace: JXNamespace",
                 "type" : "property"
@@ -180,7 +185,7 @@
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/jxpod\/chartpod\/jxstate",
+                    "path" : "\/documentation\/jxpod\/chartpod\/jxstate-4t817",
                     "title" : "var jxState: JXState?",
                     "type" : "property"
                   },
@@ -275,6 +280,11 @@
                 "type" : "groupMarker"
               },
               {
+                "path" : "\/documentation\/jxpod\/corelocationgeopod\/jxstate-6c8xy",
+                "title" : "var jxState: JXState?",
+                "type" : "property"
+              },
+              {
                 "path" : "\/documentation\/jxpod\/corelocationgeopod\/namespace",
                 "title" : "let namespace: JXNamespace",
                 "type" : "property"
@@ -318,7 +328,7 @@
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/jxpod\/corelocationgeopod\/jxstate",
+                    "path" : "\/documentation\/jxpod\/corelocationgeopod\/jxstate-5uo0h",
                     "title" : "var jxState: JXState?",
                     "type" : "property"
                   },
@@ -507,6 +517,11 @@
                 "type" : "groupMarker"
               },
               {
+                "path" : "\/documentation\/jxpod\/keypod\/jxstate-3jebu",
+                "title" : "var jxState: JXState?",
+                "type" : "property"
+              },
+              {
                 "path" : "\/documentation\/jxpod\/keypod\/namespace",
                 "title" : "let namespace: JXNamespace",
                 "type" : "property"
@@ -540,7 +555,7 @@
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/jxpod\/keypod\/jxstate",
+                    "path" : "\/documentation\/jxpod\/keypod\/jxstate-s29z",
                     "title" : "var jxState: JXState?",
                     "type" : "property"
                   },
@@ -635,6 +650,11 @@
                 "type" : "groupMarker"
               },
               {
+                "path" : "\/documentation\/jxpod\/netpod\/jxstate-4zjct",
+                "title" : "var jxState: JXState?",
+                "type" : "property"
+              },
+              {
                 "path" : "\/documentation\/jxpod\/netpod\/namespace",
                 "title" : "let namespace: JXNamespace",
                 "type" : "property"
@@ -668,7 +688,7 @@
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/jxpod\/netpod\/jxstate",
+                    "path" : "\/documentation\/jxpod\/netpod\/jxstate-9wc9b",
                     "title" : "var jxState: JXState?",
                     "type" : "property"
                   },
@@ -901,6 +921,11 @@
                 "type" : "groupMarker"
               },
               {
+                "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/jxstate-17wwk",
+                "title" : "var jxState: JXState?",
+                "type" : "property"
+              },
+              {
                 "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/namespace",
                 "title" : "let namespace: JXNamespace",
                 "type" : "property"
@@ -934,7 +959,7 @@
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/jxstate",
+                    "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/jxstate-1trdw",
                     "title" : "var jxState: JXState?",
                     "type" : "property"
                   },
@@ -1029,6 +1054,11 @@
                 "type" : "groupMarker"
               },
               {
+                "path" : "\/documentation\/jxpod\/themepod\/jxstate-87r1f",
+                "title" : "var jxState: JXState?",
+                "type" : "property"
+              },
+              {
                 "path" : "\/documentation\/jxpod\/themepod\/namespace",
                 "title" : "let namespace: JXNamespace",
                 "type" : "property"
@@ -1062,7 +1092,7 @@
                     "type" : "groupMarker"
                   },
                   {
-                    "path" : "\/documentation\/jxpod\/themepod\/jxstate",
+                    "path" : "\/documentation\/jxpod\/themepod\/jxstate-3nt17",
                     "title" : "var jxState: JXState?",
                     "type" : "property"
                   },

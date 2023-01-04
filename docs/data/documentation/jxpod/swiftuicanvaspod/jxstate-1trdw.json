@@ -17,19 +17,19 @@
     "paths" : [
       [
         "doc:\/\/JXPod\/documentation\/JXPod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/JXBridging-Implementations"
+        "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod\/JXBridging-Implementations"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/jxState"
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod\/jxState-1trdw"
   },
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "JXBridge",
-    "externalID" : "s:8JXBridge10JXBridgingPAAE7jxStateAA7JXStateCSgvp::SYNTHESIZED::s:5JXPod8ThemePodC",
+    "externalID" : "s:8JXBridge10JXBridgingPAAE7jxStateAA7JXStateCSgvp::SYNTHESIZED::s:5JXPod16SwiftUICanvasPodC",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -136,7 +136,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jxpod\/themepod\/jxstate"
+        "\/documentation\/jxpod\/swiftuicanvaspod\/jxstate-1trdw"
       ],
       "traits" : [
         {
@@ -158,7 +158,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod"
 },
-"doc://JXPod/documentation/JXPod/ThemePod": {
+"doc://JXPod/documentation/JXPod/SwiftUICanvasPod": {
   "abstract" : [
 
   ],
@@ -173,34 +173,34 @@
     },
     {
       "kind" : "identifier",
-      "text" : "ThemePod"
+      "text" : "SwiftUICanvasPod"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "ThemePod"
+      "text" : "SwiftUICanvasPod"
     }
   ],
   "role" : "symbol",
-  "title" : "ThemePod",
+  "title" : "SwiftUICanvasPod",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/themepod"
+  "url" : "\/documentation\/jxpod\/swiftuicanvaspod"
 },
-"doc://JXPod/documentation/JXPod/ThemePod/JXBridging-Implementations": {
+"doc://JXPod/documentation/JXPod/SwiftUICanvasPod/JXBridging-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/JXBridging-Implementations",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod\/JXBridging-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "JXBridging Implementations",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/themepod\/jxbridging-implementations"
+  "url" : "\/documentation\/jxpod\/swiftuicanvaspod\/jxbridging-implementations"
 },
-"doc://JXPod/documentation/JXPod/ThemePod/jxState": {
+"doc://JXPod/documentation/JXPod/SwiftUICanvasPod/jxState-1trdw": {
   "abstract" : [
 
   ],
@@ -231,12 +231,12 @@
       "text" : "?"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/jxState",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod\/jxState-1trdw",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "jxState",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/themepod\/jxstate"
+  "url" : "\/documentation\/jxpod\/swiftuicanvaspod\/jxstate-1trdw"
 }
 }
 }

@@ -157,6 +157,7 @@
     },
     {
       "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod\/jxState-17wwk",
         "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod\/namespace"
       ],
       "title" : "Instance Properties"
@@ -377,6 +378,44 @@
   "title" : "init(canvas:)",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/swiftuicanvaspod\/init(canvas:)"
+},
+"doc://JXPod/documentation/JXPod/SwiftUICanvasPod/jxState-17wwk": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "jxState"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8JXBridge7JXStateC",
+      "text" : "JXState"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/SwiftUICanvasPod\/jxState-17wwk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "jxState",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/swiftuicanvaspod\/jxstate-17wwk"
 },
 "doc://JXPod/documentation/JXPod/SwiftUICanvasPod/metadata": {
   "abstract" : [

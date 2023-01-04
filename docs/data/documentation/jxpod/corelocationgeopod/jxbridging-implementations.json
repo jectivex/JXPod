@@ -33,7 +33,7 @@
     {
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod\/jxState"
+        "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod\/jxState-5uo0h"
       ],
       "title" : "Instance Properties"
     },
@@ -209,7 +209,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/corelocationgeopod\/jxnamespace"
 },
-"doc://JXPod/documentation/JXPod/CoreLocationGeoPod/jxState": {
+"doc://JXPod/documentation/JXPod/CoreLocationGeoPod/jxState-5uo0h": {
   "abstract" : [
 
   ],
@@ -240,12 +240,12 @@
       "text" : "?"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod\/jxState",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod\/jxState-5uo0h",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "jxState",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/corelocationgeopod\/jxstate"
+  "url" : "\/documentation\/jxpod\/corelocationgeopod\/jxstate-5uo0h"
 }
 }
 }
