@@ -14,8 +14,8 @@ open class CapturingConsolePod : ConsolePod {
     public let namespace: JXNamespace = "console"
     public var jxState: JXState?
 
-    public var metadata: JXPodMetaData {
-        JXPodMetaData(homePage: URL(string: "https://www.example.com")!)
+    public static var metadata: JXPodMetaData {
+        JXPodMetaData(source: URL(string: "https://github.com/jectivex/JXPod.git")!)
     }
 
     public func initialize(in context: JXContext) throws {
@@ -35,8 +35,8 @@ open class OSLogConsolePod : ConsolePod {
     public let namespace: JXNamespace = "console"
     public var jxState: JXState?
 
-    open var metadata: JXPodMetaData {
-        JXPodMetaData(homePage: URL(string: "https://www.example.com")!)
+    public static var metadata: JXPodMetaData {
+        JXPodMetaData(source: URL(string: "https://github.com/jectivex/JXPod.git")!)
     }
 
     public func initialize(in context: JXContext) throws {

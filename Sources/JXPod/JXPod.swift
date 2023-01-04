@@ -10,19 +10,19 @@ import JXBridge
 
 /// A `JXPod` is a unit of native functionality that combines a `JXModule` with associated metadata.
 public protocol JXPod {
-    /// The metadata for this pod.
-    var metadata: JXPodMetaData { get }
+    /// The metadata for this pod, which can be used for querying the available versions.
+    static var metadata: JXPodMetaData { get }
     
-    /// Pod functionality.
+    /// The module for this pod..
     var module: JXModule { get }
 }
 
 /// Information about the pod.
 public struct JXPodMetaData : Codable {
-    public var homePage: URL
+    public var source: URL
 
-    public init(homePage: URL) {
-        self.homePage = homePage
+    public init(source: URL) {
+        self.source = source
     }
 }
 

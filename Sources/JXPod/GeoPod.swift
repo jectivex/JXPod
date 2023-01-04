@@ -35,8 +35,8 @@ open class CoreLocationGeoPod : NSObject, CLLocationManagerDelegate, GeoPod {
         manager.delegate = self
     }
 
-    public var metadata: JXPodMetaData {
-        JXPodMetaData(homePage: URL(string: "https://www.example.com")!)
+    public static var metadata: JXPodMetaData {
+        JXPodMetaData(source: URL(string: "https://github.com/jectivex/JXPod.git")!)
     }
 
     public func register(with registry: JXRegistry) throws {

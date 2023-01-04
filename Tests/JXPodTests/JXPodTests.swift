@@ -303,7 +303,7 @@ extension DemoTimePod : PodFactory {
 final class DemoTimePod: JXPod, JXModule, JXBridging {
     public let context: PodFactoryContext
     public let configuration: PodMetadata.Pod
-    public let metadata: JXPodMetaData = JXPodMetaData(homePage: URL(string: "https://www.example.com")!)
+    public static let metadata: JXPodMetaData = JXPodMetaData(source: URL(string: "https://www.example.com")!)
     public var jxState: JXState?
 
     private init(context: PodFactoryContext, configuration: PodMetadata.Pod) {
