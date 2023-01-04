@@ -25,6 +25,7 @@ import CoreLocation
 
 open class CoreLocationGeoPod : NSObject, CLLocationManagerDelegate, GeoPod {
     public let namespace: JXNamespace = "net"
+    public var jxState: JXState?
     private let manager: CLLocationManager
 
     //@Stack var locations: [Location] = []

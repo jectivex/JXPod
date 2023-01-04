@@ -8,6 +8,7 @@ import Foundation
 
 open class ThemePod : JXPod, JXModule, JXBridging {
     public let namespace: JXNamespace = "theme"
+    public var jxState: JXState?
 
     /// Should this be shared instead?
     public init() {

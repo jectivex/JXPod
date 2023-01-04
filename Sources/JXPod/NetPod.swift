@@ -11,6 +11,7 @@ import FoundationNetworking
 
 open class NetPod : JXPod, JXModule, JXBridging {
     public let namespace: JXNamespace = "net"
+    public var jxState: JXState?
     private let session: URLSession
 
     public init(session: URLSession = .shared) {

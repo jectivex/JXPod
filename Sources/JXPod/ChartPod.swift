@@ -8,6 +8,7 @@ import Charts
 
 open class ChartPod : JXPod, JXModule, JXBridging {
     public let namespace: JXNamespace = "chart"
+    public var jxState: JXState?
 
     public init() {
     }
