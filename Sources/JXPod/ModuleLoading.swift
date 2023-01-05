@@ -55,6 +55,9 @@ public struct HubModuleSource : JXDynamicModuleSource {
     //  repository: https://github.com/ORG/REPO.git
     //  tag list: https://github.com/ORG/REPO/tags.atom
     //  download: https://github.com/ORG/REPO/archive/refs/tags/TAG.zip
+    //  download: https://github.com/ORG/REPO/archive/refs/heads/BRANCH.zip
+    //   - redirects to: https://codeload.github.com/ORG/REPO/zip/refs/heads/BRANCH
+    //   - e.g.: https://codeload.github.com/Magic-Loupe/AnimalFarm/zip/refs/heads/main
 
     // Gitea:
     //  repository: https://try.gitea.io/ORG/REPO.git
@@ -72,12 +75,30 @@ public struct HubModuleSource : JXDynamicModuleSource {
         case tag(String)
         case branch(String)
 
+        /// Initialize with the given ref kind.
+        public init(kind: Kind, name: String) {
+            switch kind {
+            case .tag: self = .tag(name)
+            case .branch: self = .branch(name)
+            }
+        }
+
+        /// The ref kind
+        public enum Kind : String {
+            case tag
+            case branch
+        }
+
+        public var kind: Kind {
+            switch self {
+            case .tag: return .tag
+            case .branch: return .branch
+            }
+        }
+
         /// Returns the tag or branch name
         public var type: String {
-            switch self {
-            case .tag: return "tag"
-            case .branch: return "branch"
-            }
+            kind.rawValue
         }
 
         /// Returns the tag or branch name
@@ -172,7 +193,7 @@ public struct HubModuleSource : JXDynamicModuleSource {
 }
 
 extension AtomFeed {
-    /// Parses the given XML as an RSS feed
+    /// Parses the given XML as an Atom feed
     static func parse(xml: Data) throws -> Self {
         try AtomFeed(jsum: XMLNode.parse(data: xml).jsum(), options: .init(dateDecodingStrategy: .iso8601))
     }
