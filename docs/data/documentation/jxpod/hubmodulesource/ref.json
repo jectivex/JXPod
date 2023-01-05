@@ -116,11 +116,24 @@
     },
     {
       "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/init(kind:name:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/kind-swift.property",
         "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/name",
         "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/semver",
         "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/type"
       ],
       "title" : "Instance Properties"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/Kind-swift.enum"
+      ],
+      "title" : "Enumerations"
     },
     {
       "generated" : true,
@@ -241,6 +254,40 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/hubmodulesource\/ref\/equatable-implementations"
 },
+"doc://JXPod/documentation/JXPod/HubModuleSource/Ref/Kind-swift.enum": {
+  "abstract" : [
+    {
+      "text" : "The ref kind",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Kind"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/Kind-swift.enum",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Kind"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "HubModuleSource.Ref.Kind",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/hubmodulesource\/ref\/kind-swift.enum"
+},
 "doc://JXPod/documentation/JXPod/HubModuleSource/Ref/branch(_:)": {
   "abstract" : [
 
@@ -278,6 +325,134 @@
   "title" : "HubModuleSource.Ref.branch(_:)",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/hubmodulesource\/ref\/branch(_:)"
+},
+"doc://JXPod/documentation/JXPod/HubModuleSource/Ref/init(kind:name:)": {
+  "abstract" : [
+    {
+      "text" : "Initialize with the given ref kind.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "kind"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod15HubModuleSourceV",
+      "text" : "HubModuleSource"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod15HubModuleSourceV3RefO",
+      "text" : "Ref"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod15HubModuleSourceV3RefO4KindO",
+      "text" : "Kind"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/init(kind:name:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(kind:name:)",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/hubmodulesource\/ref\/init(kind:name:)"
+},
+"doc://JXPod/documentation/JXPod/HubModuleSource/Ref/kind-swift.property": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kind"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod15HubModuleSourceV",
+      "text" : "HubModuleSource"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod15HubModuleSourceV3RefO",
+      "text" : "Ref"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:5JXPod15HubModuleSourceV3RefO4KindO",
+      "text" : "Kind"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/kind-swift.property",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "kind",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/hubmodulesource\/ref\/kind-swift.property"
 },
 "doc://JXPod/documentation/JXPod/HubModuleSource/Ref/name": {
   "abstract" : [
