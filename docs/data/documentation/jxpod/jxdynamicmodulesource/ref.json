@@ -39,8 +39,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:SQ",
-        "text" : "Equatable"
+        "preciseIdentifier" : "s:SH",
+        "text" : "Hashable"
       }
     ],
     "modules" : [
@@ -83,8 +83,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:SQ",
-              "text" : "Equatable"
+              "preciseIdentifier" : "s:SH",
+              "text" : "Hashable"
             }
           ]
         }
@@ -185,8 +185,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:SQ",
-      "text" : "Equatable"
+      "preciseIdentifier" : "s:SH",
+      "text" : "Hashable"
     }
   ],
   "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXDynamicModuleSource\/Ref",

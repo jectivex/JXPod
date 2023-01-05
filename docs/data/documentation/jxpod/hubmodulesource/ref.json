@@ -90,7 +90,8 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/SQ"
+        "doc:\/\/JXPod\/SQ",
+        "doc:\/\/JXPod\/SH"
       ],
       "kind" : "relationships",
       "title" : "Conforms To",
@@ -143,6 +144,11 @@
   ]
 , 
 "references": {
+"doc://JXPod/SH": {
+  "identifier" : "doc:\/\/JXPod\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
 "doc://JXPod/SQ": {
   "identifier" : "doc:\/\/JXPod\/SQ",
   "title" : "Swift.Equatable",
