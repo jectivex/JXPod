@@ -17,7 +17,7 @@ public protocol JXDynamicModule : JXModule {
 /// The source repository that hosts the tagged versions of the dynamic module source.
 public protocol JXDynamicModuleSource {
     /// A reference to a version of the module, which can then be converted into an archive URL
-    associatedtype Ref : Equatable
+    associatedtype Ref : Hashable
 
     /// Information about the tags for the given module source
     typealias RefInfo = (ref: Ref, date: Date)
@@ -68,7 +68,7 @@ public struct HubModuleSource : JXDynamicModuleSource {
 
     public let repository: URL // e.g., https://github.com/Magic-Loupe/PetStore.git
 
-    public enum Ref : Equatable {
+    public enum Ref : Hashable {
         case tag(String)
         case branch(String)
 
@@ -110,7 +110,7 @@ public struct HubModuleSource : JXDynamicModuleSource {
 
     /// Returns true if the repository is managed by the given host
     func isHost(_ domain: String) -> Bool {
-        ("." + (repository.host ?? "")).hasSuffix(domain)
+        ("." + (repository.host ?? "")).hasSuffix("." + domain)
     }
 
     /// Returns the URL for the zipball of the repository at the given tag or branch.
@@ -158,7 +158,7 @@ public struct HubModuleSource : JXDynamicModuleSource {
         get async throws {
             // TODO: this only works for GitHub … need to determine feed format for GitLab and Gitea
             let (data, _) = try await URLSession.shared.fetch(request: URLRequest(url: url("tags.atom")))
-            let feed = try RSSFeed.parse(xml: data)
+            let feed = try AtomFeed.parse(xml: data)
             return feed.feed.entry?.collectionMulti.map({ (Ref.tag($0.title), $0.updated) }) ?? []
         }
     }
@@ -171,15 +171,15 @@ public struct HubModuleSource : JXDynamicModuleSource {
     }
 }
 
-extension RSSFeed {
+extension AtomFeed {
     /// Parses the given XML as an RSS feed
     static func parse(xml: Data) throws -> Self {
-        try RSSFeed(jsum: XMLNode.parse(data: xml).jsum(), options: .init(dateDecodingStrategy: .iso8601))
+        try AtomFeed(jsum: XMLNode.parse(data: xml).jsum(), options: .init(dateDecodingStrategy: .iso8601))
     }
 }
 
 /// A minimal RSS feed implementation for parsing GitHub tag feeds like https://github.com/Magic-Loupe/PetStore/tags.atom
-struct RSSFeed : Decodable {
+struct AtomFeed : Decodable {
     var feed: Feed
 
     struct Feed : Decodable {
