@@ -1426,32 +1426,6 @@
           {
             "children" : [
               {
-                "title" : "Type Properties",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/jxpod\/jxdynamicmodule\/hubsource",
-                "title" : "static var hubSource: HubModuleSource",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/jxpod\/jxdynamicmodule\/localurl",
-                "title" : "static var localURL: URL?",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/jxpod\/jxdynamicmodule\/remoteurl",
-                "title" : "static var remoteURL: URL?",
-                "type" : "property"
-              }
-            ],
-            "path" : "\/documentation\/jxpod\/jxdynamicmodule",
-            "title" : "JXDynamicModule",
-            "type" : "protocol"
-          },
-          {
-            "children" : [
-              {
                 "title" : "Associated Types",
                 "type" : "groupMarker"
               },
@@ -1528,6 +1502,41 @@
             ],
             "path" : "\/documentation\/jxpod\/jxpod",
             "title" : "JXPod",
+            "type" : "protocol"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/namedref\/init(type:name:)",
+                "title" : "init?(type: String, name: String)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/namedref\/name",
+                "title" : "var name: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/namedref\/semver",
+                "title" : "var semver: SemVer?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/namedref\/type",
+                "title" : "var type: String",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/jxpod\/namedref",
+            "title" : "NamedRef",
             "type" : "protocol"
           },
           {
@@ -2942,235 +2951,6 @@
             ],
             "path" : "\/documentation\/jxpod\/csscolor",
             "title" : "CSSColor",
-            "type" : "struct"
-          },
-          {
-            "children" : [
-              {
-                "title" : "Initializers",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/jxpod\/hubmodulesource\/init(repository:)",
-                "title" : "init(repository: URL) throws",
-                "type" : "init"
-              },
-              {
-                "title" : "Instance Properties",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/jxpod\/hubmodulesource\/refs",
-                "title" : "var refs: [HubModuleSource.RefInfo]",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/jxpod\/hubmodulesource\/repository",
-                "title" : "let repository: URL",
-                "type" : "property"
-              },
-              {
-                "path" : "\/documentation\/jxpod\/hubmodulesource\/tagversions",
-                "title" : "var tagVersions: [SemVer]",
-                "type" : "property"
-              },
-              {
-                "title" : "Instance Methods",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/jxpod\/hubmodulesource\/archiveurl(for:)",
-                "title" : "func archiveURL(for: HubModuleSource.Ref) -> URL",
-                "type" : "method"
-              },
-              {
-                "title" : "Enumerations",
-                "type" : "groupMarker"
-              },
-              {
-                "children" : [
-                  {
-                    "title" : "Enumeration Cases",
-                    "type" : "groupMarker"
-                  },
-                  {
-                    "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/branch(_:)",
-                    "title" : "case branch(String)",
-                    "type" : "case"
-                  },
-                  {
-                    "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/tag(_:)",
-                    "title" : "case tag(String)",
-                    "type" : "case"
-                  },
-                  {
-                    "title" : "Initializers",
-                    "type" : "groupMarker"
-                  },
-                  {
-                    "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/init(kind:name:)",
-                    "title" : "init(kind: HubModuleSource.Ref.Kind, name: String)",
-                    "type" : "init"
-                  },
-                  {
-                    "title" : "Instance Properties",
-                    "type" : "groupMarker"
-                  },
-                  {
-                    "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/kind-swift.property",
-                    "title" : "var kind: HubModuleSource.Ref.Kind",
-                    "type" : "property"
-                  },
-                  {
-                    "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/name",
-                    "title" : "var name: String",
-                    "type" : "property"
-                  },
-                  {
-                    "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/semver",
-                    "title" : "var semver: SemVer?",
-                    "type" : "property"
-                  },
-                  {
-                    "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/type",
-                    "title" : "var type: String",
-                    "type" : "property"
-                  },
-                  {
-                    "title" : "Enumerations",
-                    "type" : "groupMarker"
-                  },
-                  {
-                    "children" : [
-                      {
-                        "title" : "Enumeration Cases",
-                        "type" : "groupMarker"
-                      },
-                      {
-                        "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/kind-swift.enum\/branch",
-                        "title" : "case branch",
-                        "type" : "case"
-                      },
-                      {
-                        "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/kind-swift.enum\/tag",
-                        "title" : "case tag",
-                        "type" : "case"
-                      },
-                      {
-                        "title" : "Initializers",
-                        "type" : "groupMarker"
-                      },
-                      {
-                        "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/kind-swift.enum\/init(rawvalue:)",
-                        "title" : "init?(rawValue: String)",
-                        "type" : "init"
-                      },
-                      {
-                        "title" : "Default Implementations",
-                        "type" : "groupMarker"
-                      },
-                      {
-                        "children" : [
-                          {
-                            "title" : "Operators",
-                            "type" : "groupMarker"
-                          },
-                          {
-                            "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/kind-swift.enum\/!=(_:_:)",
-                            "title" : "static func != (Self, Self) -> Bool",
-                            "type" : "op"
-                          },
-                          {
-                            "title" : "Instance Methods",
-                            "type" : "groupMarker"
-                          },
-                          {
-                            "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/kind-swift.enum\/represent()-4g124",
-                            "title" : "func represent<T>() -> T?",
-                            "type" : "method"
-                          },
-                          {
-                            "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/kind-swift.enum\/represent()-lxjy",
-                            "title" : "func represent<T>() -> T",
-                            "type" : "method"
-                          }
-                        ],
-                        "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/kind-swift.enum\/equatable-implementations",
-                        "title" : "Equatable Implementations",
-                        "type" : "symbol"
-                      },
-                      {
-                        "children" : [
-                          {
-                            "title" : "Instance Properties",
-                            "type" : "groupMarker"
-                          },
-                          {
-                            "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/kind-swift.enum\/hashvalue",
-                            "title" : "var hashValue: Int",
-                            "type" : "property"
-                          },
-                          {
-                            "title" : "Instance Methods",
-                            "type" : "groupMarker"
-                          },
-                          {
-                            "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/kind-swift.enum\/hash(into:)",
-                            "title" : "func hash(into: inout Hasher)",
-                            "type" : "method"
-                          }
-                        ],
-                        "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/kind-swift.enum\/rawrepresentable-implementations",
-                        "title" : "RawRepresentable Implementations",
-                        "type" : "symbol"
-                      }
-                    ],
-                    "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/kind-swift.enum",
-                    "title" : "HubModuleSource.Ref.Kind",
-                    "type" : "enum"
-                  },
-                  {
-                    "title" : "Default Implementations",
-                    "type" : "groupMarker"
-                  },
-                  {
-                    "children" : [
-                      {
-                        "title" : "Operators",
-                        "type" : "groupMarker"
-                      },
-                      {
-                        "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/!=(_:_:)",
-                        "title" : "static func != (Self, Self) -> Bool",
-                        "type" : "op"
-                      },
-                      {
-                        "title" : "Instance Methods",
-                        "type" : "groupMarker"
-                      },
-                      {
-                        "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/represent()-743go",
-                        "title" : "func represent<T>() -> T",
-                        "type" : "method"
-                      },
-                      {
-                        "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/represent()-87uvg",
-                        "title" : "func represent<T>() -> T?",
-                        "type" : "method"
-                      }
-                    ],
-                    "path" : "\/documentation\/jxpod\/hubmodulesource\/ref\/equatable-implementations",
-                    "title" : "Equatable Implementations",
-                    "type" : "symbol"
-                  }
-                ],
-                "path" : "\/documentation\/jxpod\/hubmodulesource\/ref",
-                "title" : "HubModuleSource.Ref",
-                "type" : "enum"
-              }
-            ],
-            "path" : "\/documentation\/jxpod\/hubmodulesource",
-            "title" : "HubModuleSource",
             "type" : "struct"
           },
           {

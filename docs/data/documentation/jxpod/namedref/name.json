@@ -1,26 +1,19 @@
 {
-  "abstract" : [
-    {
-      "text" : "Returns the tag or branch name",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
         "doc:\/\/JXPod\/documentation\/JXPod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource",
-        "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref"
+        "doc:\/\/JXPod\/documentation\/JXPod\/NamedRef"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/name"
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/NamedRef\/name"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:5JXPod15HubModuleSourceV3RefO4nameSSvp",
+    "externalID" : "s:5JXPod8NamedRefP4nameSSvp",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -49,6 +42,7 @@
         "name" : "JXPod"
       }
     ],
+    "required" : true,
     "role" : "symbol",
     "roleHeading" : "Instance Property",
     "symbolKind" : "property",
@@ -115,7 +109,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jxpod\/hubmodulesource\/ref\/name"
+        "\/documentation\/jxpod\/namedref\/name"
       ],
       "traits" : [
         {
@@ -137,17 +131,17 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod"
 },
-"doc://JXPod/documentation/JXPod/HubModuleSource": {
+"doc://JXPod/documentation/JXPod/NamedRef": {
   "abstract" : [
     {
-      "text" : "A module source that uses a GitHub repository’s tags and zipball archive URL for checking versions.",
+      "text" : "A Ref that has a name and type that can be converted into a String",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "struct"
+      "text" : "protocol"
     },
     {
       "kind" : "text",
@@ -155,59 +149,25 @@
     },
     {
       "kind" : "identifier",
-      "text" : "HubModuleSource"
+      "text" : "NamedRef"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NamedRef",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "HubModuleSource"
+      "text" : "NamedRef"
     }
   ],
   "role" : "symbol",
-  "title" : "HubModuleSource",
+  "title" : "NamedRef",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/hubmodulesource"
+  "url" : "\/documentation\/jxpod\/namedref"
 },
-"doc://JXPod/documentation/JXPod/HubModuleSource/Ref": {
+"doc://JXPod/documentation/JXPod/NamedRef/name": {
   "abstract" : [
 
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "enum"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "Ref"
-    }
-  ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "Ref"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "HubModuleSource.Ref",
-  "type" : "topic",
-  "url" : "\/documentation\/jxpod\/hubmodulesource\/ref"
-},
-"doc://JXPod/documentation/JXPod/HubModuleSource/Ref/name": {
-  "abstract" : [
-    {
-      "text" : "Returns the tag or branch name",
-      "type" : "text"
-    }
   ],
   "fragments" : [
     {
@@ -232,12 +192,13 @@
       "text" : "String"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/name",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NamedRef\/name",
   "kind" : "symbol",
+  "required" : true,
   "role" : "symbol",
   "title" : "name",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/hubmodulesource\/ref\/name"
+  "url" : "\/documentation\/jxpod\/namedref\/name"
 }
 }
 }

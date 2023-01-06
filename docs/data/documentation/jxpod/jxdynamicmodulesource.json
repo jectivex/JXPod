@@ -78,16 +78,6 @@
       "kind" : "declarations"
     }
   ],
-  "relationshipsSections" : [
-    {
-      "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource"
-      ],
-      "kind" : "relationships",
-      "title" : "Conforming Types",
-      "type" : "conformingTypes"
-    }
-  ],
   "schemaVersion" : {
     "major" : 0,
     "minor" : 3,
@@ -147,40 +137,6 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod"
 },
-"doc://JXPod/documentation/JXPod/HubModuleSource": {
-  "abstract" : [
-    {
-      "text" : "A module source that uses a GitHub repository’s tags and zipball archive URL for checking versions.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "struct"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "HubModuleSource"
-    }
-  ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "HubModuleSource"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "HubModuleSource",
-  "type" : "topic",
-  "url" : "\/documentation\/jxpod\/hubmodulesource"
-},
 "doc://JXPod/documentation/JXPod/JXDynamicModuleSource": {
   "abstract" : [
     {
@@ -234,15 +190,6 @@
     {
       "kind" : "identifier",
       "text" : "Ref"
-    },
-    {
-      "kind" : "text",
-      "text" : " : "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:SH",
-      "text" : "Hashable"
     }
   ],
   "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXDynamicModuleSource\/Ref",

@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "A module with the capability of having its scripts and resources dynamically loaded from an external source.",
+      "text" : "A Ref that has a name and type that can be converted into a String",
       "type" : "text"
     }
   ],
@@ -14,11 +14,11 @@
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/JXDynamicModule"
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/NamedRef"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:5JXPod15JXDynamicModuleP",
+    "externalID" : "s:5JXPod8NamedRefP",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -30,7 +30,7 @@
       },
       {
         "kind" : "identifier",
-        "text" : "JXDynamicModule"
+        "text" : "NamedRef"
       }
     ],
     "modules" : [
@@ -41,13 +41,13 @@
     "navigatorTitle" : [
       {
         "kind" : "identifier",
-        "text" : "JXDynamicModule"
+        "text" : "NamedRef"
       }
     ],
     "role" : "symbol",
     "roleHeading" : "Protocol",
     "symbolKind" : "protocol",
-    "title" : "JXDynamicModule"
+    "title" : "NamedRef"
   },
   "primaryContentSections" : [
     {
@@ -70,7 +70,7 @@
             },
             {
               "kind" : "identifier",
-              "text" : "JXDynamicModule"
+              "text" : "NamedRef"
             },
             {
               "kind" : "text",
@@ -78,39 +78,20 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:8JXBridge8JXModuleP",
-              "text" : "JXModule"
+              "preciseIdentifier" : "s:SH",
+              "text" : "Hashable"
             }
           ]
         }
       ],
       "kind" : "declarations"
-    },
-    {
-      "content" : [
-        {
-          "anchor" : "overview",
-          "level" : 2,
-          "text" : "Overview",
-          "type" : "heading"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "The transport scheme and loading mechaism is to be implemented by the host container.",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        }
-      ],
-      "kind" : "content"
     }
   ],
   "relationshipsSections" : [
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/8JXBridge8JXModuleP"
+        "doc:\/\/JXPod\/SQ",
+        "doc:\/\/JXPod\/SH"
       ],
       "kind" : "relationships",
       "title" : "Inherits From",
@@ -128,17 +109,23 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/JXDynamicModule\/hubSource",
-        "doc:\/\/JXPod\/documentation\/JXPod\/JXDynamicModule\/localURL",
-        "doc:\/\/JXPod\/documentation\/JXPod\/JXDynamicModule\/remoteURL"
+        "doc:\/\/JXPod\/documentation\/JXPod\/NamedRef\/init(type:name:)"
       ],
-      "title" : "Type Properties"
+      "title" : "Initializers"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/JXPod\/documentation\/JXPod\/NamedRef\/name",
+        "doc:\/\/JXPod\/documentation\/JXPod\/NamedRef\/semver",
+        "doc:\/\/JXPod\/documentation\/JXPod\/NamedRef\/type"
+      ],
+      "title" : "Instance Properties"
     }
   ],
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jxpod\/jxdynamicmodule"
+        "\/documentation\/jxpod\/namedref"
       ],
       "traits" : [
         {
@@ -149,9 +136,14 @@
   ]
 , 
 "references": {
-"doc://JXPod/8JXBridge8JXModuleP": {
-  "identifier" : "doc:\/\/JXPod\/8JXBridge8JXModuleP",
-  "title" : "JXBridge.JXModule",
+"doc://JXPod/SH": {
+  "identifier" : "doc:\/\/JXPod\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://JXPod/SQ": {
+  "identifier" : "doc:\/\/JXPod\/SQ",
+  "title" : "Swift.Equatable",
   "type" : "unresolvable"
 },
 "doc://JXPod/documentation/JXPod": {
@@ -165,10 +157,10 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod"
 },
-"doc://JXPod/documentation/JXPod/JXDynamicModule": {
+"doc://JXPod/documentation/JXPod/NamedRef": {
   "abstract" : [
     {
-      "text" : "A module with the capability of having its scripts and resources dynamically loaded from an external source.",
+      "text" : "A Ref that has a name and type that can be converted into a String",
       "type" : "text"
     }
   ],
@@ -183,49 +175,41 @@
     },
     {
       "kind" : "identifier",
-      "text" : "JXDynamicModule"
+      "text" : "NamedRef"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXDynamicModule",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NamedRef",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "JXDynamicModule"
+      "text" : "NamedRef"
     }
   ],
   "role" : "symbol",
-  "title" : "JXDynamicModule",
+  "title" : "NamedRef",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/jxdynamicmodule"
+  "url" : "\/documentation\/jxpod\/namedref"
 },
-"doc://JXPod/documentation/JXPod/JXDynamicModule/hubSource": {
+"doc://JXPod/documentation/JXPod/NamedRef/init(type:name:)": {
   "abstract" : [
     {
-      "text" : "Returns a HubSource for this module, throwing an error if it is not a supported .git URL",
+      "text" : "Create this ref with the given type and name.",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
-      "kind" : "keyword",
-      "text" : "static"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "keyword",
-      "text" : "var"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
       "kind" : "identifier",
-      "text" : "hubSource"
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "type"
     },
     {
       "kind" : "text",
@@ -233,33 +217,44 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:5JXPod15HubModuleSourceV",
-      "text" : "HubModuleSource"
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXDynamicModule\/hubSource",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NamedRef\/init(type:name:)",
   "kind" : "symbol",
+  "required" : true,
   "role" : "symbol",
-  "title" : "hubSource",
+  "title" : "init(type:name:)",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/jxdynamicmodule\/hubsource"
+  "url" : "\/documentation\/jxpod\/namedref\/init(type:name:)"
 },
-"doc://JXPod/documentation/JXPod/JXDynamicModule/localURL": {
+"doc://JXPod/documentation/JXPod/NamedRef/name": {
   "abstract" : [
-    {
-      "text" : "The path to the locally-installed folder containing the scripts and resources for the app.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "static"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
     {
       "kind" : "keyword",
       "text" : "var"
@@ -270,7 +265,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "localURL"
+      "text" : "name"
     },
     {
       "kind" : "text",
@@ -278,38 +273,72 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10Foundation3URLV",
-      "text" : "URL"
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NamedRef\/name",
+  "kind" : "symbol",
+  "required" : true,
+  "role" : "symbol",
+  "title" : "name",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/namedref\/name"
+},
+"doc://JXPod/documentation/JXPod/NamedRef/semver": {
+  "abstract" : [
+    {
+      "text" : "Attempts to parse the name as a semantic version (e.g., ",
+      "type" : "text"
+    },
+    {
+      "code" : "1.2.3",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "semver"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8FairCore6SemVerV",
+      "text" : "SemVer"
     },
     {
       "kind" : "text",
       "text" : "?"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXDynamicModule\/localURL",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NamedRef\/semver",
   "kind" : "symbol",
-  "required" : true,
   "role" : "symbol",
-  "title" : "localURL",
+  "title" : "semver",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/jxdynamicmodule\/localurl"
+  "url" : "\/documentation\/jxpod\/namedref\/semver"
 },
-"doc://JXPod/documentation/JXPod/JXDynamicModule/remoteURL": {
+"doc://JXPod/documentation/JXPod/NamedRef/type": {
   "abstract" : [
-    {
-      "text" : "The logical path to the remote root folder in the source archive whose file and folder layout matches the structure of the localURL.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "static"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
     {
       "kind" : "keyword",
       "text" : "var"
@@ -320,7 +349,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "remoteURL"
+      "text" : "type"
     },
     {
       "kind" : "text",
@@ -328,21 +357,17 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10Foundation3URLV",
-      "text" : "URL"
-    },
-    {
-      "kind" : "text",
-      "text" : "?"
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXDynamicModule\/remoteURL",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NamedRef\/type",
   "kind" : "symbol",
   "required" : true,
   "role" : "symbol",
-  "title" : "remoteURL",
+  "title" : "type",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/jxdynamicmodule\/remoteurl"
+  "url" : "\/documentation\/jxpod\/namedref\/type"
 }
 }
 }

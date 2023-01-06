@@ -32,15 +32,6 @@
       {
         "kind" : "identifier",
         "text" : "Ref"
-      },
-      {
-        "kind" : "text",
-        "text" : " : "
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:SH",
-        "text" : "Hashable"
       }
     ],
     "modules" : [
@@ -76,15 +67,6 @@
             {
               "kind" : "identifier",
               "text" : "Ref"
-            },
-            {
-              "kind" : "text",
-              "text" : " : "
-            },
-            {
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:SH",
-              "text" : "Hashable"
             }
           ]
         }
@@ -178,15 +160,6 @@
     {
       "kind" : "identifier",
       "text" : "Ref"
-    },
-    {
-      "kind" : "text",
-      "text" : " : "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:SH",
-      "text" : "Hashable"
     }
   ],
   "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXDynamicModuleSource\/Ref",

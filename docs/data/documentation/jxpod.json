@@ -51,16 +51,15 @@
       "identifiers" : [
         "doc:\/\/JXPod\/documentation\/JXPod\/ConsolePod",
         "doc:\/\/JXPod\/documentation\/JXPod\/GeoPod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/JXDynamicModule",
         "doc:\/\/JXPod\/documentation\/JXPod\/JXDynamicModuleSource",
-        "doc:\/\/JXPod\/documentation\/JXPod\/JXPod"
+        "doc:\/\/JXPod\/documentation\/JXPod\/JXPod",
+        "doc:\/\/JXPod\/documentation\/JXPod\/NamedRef"
       ],
       "title" : "Protocols"
     },
     {
       "identifiers" : [
         "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor",
-        "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource",
         "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData",
         "doc:\/\/JXPod\/documentation\/JXPod\/Location"
       ],
@@ -321,74 +320,6 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/geopod"
 },
-"doc://JXPod/documentation/JXPod/HubModuleSource": {
-  "abstract" : [
-    {
-      "text" : "A module source that uses a GitHub repository’s tags and zipball archive URL for checking versions.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "struct"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "HubModuleSource"
-    }
-  ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "HubModuleSource"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "HubModuleSource",
-  "type" : "topic",
-  "url" : "\/documentation\/jxpod\/hubmodulesource"
-},
-"doc://JXPod/documentation/JXPod/JXDynamicModule": {
-  "abstract" : [
-    {
-      "text" : "A module with the capability of having its scripts and resources dynamically loaded from an external source.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "protocol"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "JXDynamicModule"
-    }
-  ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXDynamicModule",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "JXDynamicModule"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "JXDynamicModule",
-  "type" : "topic",
-  "url" : "\/documentation\/jxpod\/jxdynamicmodule"
-},
 "doc://JXPod/documentation/JXPod/JXDynamicModuleSource": {
   "abstract" : [
     {
@@ -571,6 +502,40 @@
   "title" : "Location",
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/location"
+},
+"doc://JXPod/documentation/JXPod/NamedRef": {
+  "abstract" : [
+    {
+      "text" : "A Ref that has a name and type that can be converted into a String",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "NamedRef"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NamedRef",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "NamedRef"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "NamedRef",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/namedref"
 },
 "doc://JXPod/documentation/JXPod/NetPod": {
   "abstract" : [

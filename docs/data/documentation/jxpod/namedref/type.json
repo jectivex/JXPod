@@ -1,26 +1,19 @@
 {
-  "abstract" : [
-    {
-      "text" : "If this is a tag and the string is a semantic version (e.g., 1.2.3), then return it.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
         "doc:\/\/JXPod\/documentation\/JXPod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource",
-        "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref"
+        "doc:\/\/JXPod\/documentation\/JXPod\/NamedRef"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/semver"
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/NamedRef\/type"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:5JXPod15HubModuleSourceV3RefO6semver8FairCore6SemVerVSgvp",
+    "externalID" : "s:5JXPod8NamedRefP4typeSSvp",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -32,7 +25,7 @@
       },
       {
         "kind" : "identifier",
-        "text" : "semver"
+        "text" : "type"
       },
       {
         "kind" : "text",
@@ -40,12 +33,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:8FairCore6SemVerV",
-        "text" : "SemVer"
-      },
-      {
-        "kind" : "text",
-        "text" : "?"
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
       }
     ],
     "modules" : [
@@ -53,10 +42,11 @@
         "name" : "JXPod"
       }
     ],
+    "required" : true,
     "role" : "symbol",
     "roleHeading" : "Instance Property",
     "symbolKind" : "property",
-    "title" : "semver"
+    "title" : "type"
   },
   "primaryContentSections" : [
     {
@@ -79,7 +69,7 @@
             },
             {
               "kind" : "identifier",
-              "text" : "semver"
+              "text" : "type"
             },
             {
               "kind" : "text",
@@ -87,12 +77,12 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:8FairCore6SemVerV",
-              "text" : "SemVer"
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
             },
             {
               "kind" : "text",
-              "text" : "? { "
+              "text" : " { "
             },
             {
               "kind" : "keyword",
@@ -119,7 +109,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jxpod\/hubmodulesource\/ref\/semver"
+        "\/documentation\/jxpod\/namedref\/type"
       ],
       "traits" : [
         {
@@ -141,17 +131,17 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod"
 },
-"doc://JXPod/documentation/JXPod/HubModuleSource": {
+"doc://JXPod/documentation/JXPod/NamedRef": {
   "abstract" : [
     {
-      "text" : "A module source that uses a GitHub repository’s tags and zipball archive URL for checking versions.",
+      "text" : "A Ref that has a name and type that can be converted into a String",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "struct"
+      "text" : "protocol"
     },
     {
       "kind" : "text",
@@ -159,59 +149,25 @@
     },
     {
       "kind" : "identifier",
-      "text" : "HubModuleSource"
+      "text" : "NamedRef"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NamedRef",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "HubModuleSource"
+      "text" : "NamedRef"
     }
   ],
   "role" : "symbol",
-  "title" : "HubModuleSource",
+  "title" : "NamedRef",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/hubmodulesource"
+  "url" : "\/documentation\/jxpod\/namedref"
 },
-"doc://JXPod/documentation/JXPod/HubModuleSource/Ref": {
+"doc://JXPod/documentation/JXPod/NamedRef/type": {
   "abstract" : [
 
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "enum"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "Ref"
-    }
-  ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "Ref"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "HubModuleSource.Ref",
-  "type" : "topic",
-  "url" : "\/documentation\/jxpod\/hubmodulesource\/ref"
-},
-"doc://JXPod/documentation/JXPod/HubModuleSource/Ref/semver": {
-  "abstract" : [
-    {
-      "text" : "If this is a tag and the string is a semantic version (e.g., 1.2.3), then return it.",
-      "type" : "text"
-    }
   ],
   "fragments" : [
     {
@@ -224,7 +180,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "semver"
+      "text" : "type"
     },
     {
       "kind" : "text",
@@ -232,20 +188,17 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:8FairCore6SemVerV",
-      "text" : "SemVer"
-    },
-    {
-      "kind" : "text",
-      "text" : "?"
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/semver",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NamedRef\/type",
   "kind" : "symbol",
+  "required" : true,
   "role" : "symbol",
-  "title" : "semver",
+  "title" : "type",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/hubmodulesource\/ref\/semver"
+  "url" : "\/documentation\/jxpod\/namedref\/type"
 }
 }
 }

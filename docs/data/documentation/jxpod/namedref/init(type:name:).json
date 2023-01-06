@@ -1,15 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Inherited from ",
-      "type" : "text"
-    },
-    {
-      "code" : "RawRepresentable.init(rawValue:)",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
+      "text" : "Create this ref with the given type and name.",
       "type" : "text"
     }
   ],
@@ -17,19 +9,17 @@
     "paths" : [
       [
         "doc:\/\/JXPod\/documentation\/JXPod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource",
-        "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref",
-        "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/Kind-swift.enum"
+        "doc:\/\/JXPod\/documentation\/JXPod\/NamedRef"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/Kind-swift.enum\/init(rawValue:)"
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/NamedRef\/init(type:name:)"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:5JXPod15HubModuleSourceV3RefO4KindO8rawValueAGSgSS_tcfc",
+    "externalID" : "s:5JXPod8NamedRefP4type4namexSgSS_SStcfc",
     "fragments" : [
       {
         "kind" : "identifier",
@@ -41,7 +31,24 @@
       },
       {
         "kind" : "externalParam",
-        "text" : "rawValue"
+        "text" : "type"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "name"
       },
       {
         "kind" : "text",
@@ -62,10 +69,11 @@
         "name" : "JXPod"
       }
     ],
+    "required" : true,
     "role" : "symbol",
     "roleHeading" : "Initializer",
     "symbolKind" : "init",
-    "title" : "init(rawValue:)"
+    "title" : "init(type:name:)"
   },
   "primaryContentSections" : [
     {
@@ -88,7 +96,24 @@
             },
             {
               "kind" : "externalParam",
-              "text" : "rawValue"
+              "text" : "type"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "name"
             },
             {
               "kind" : "text",
@@ -120,7 +145,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jxpod\/hubmodulesource\/ref\/kind-swift.enum\/init(rawvalue:)"
+        "\/documentation\/jxpod\/namedref\/init(type:name:)"
       ],
       "traits" : [
         {
@@ -142,17 +167,17 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod"
 },
-"doc://JXPod/documentation/JXPod/HubModuleSource": {
+"doc://JXPod/documentation/JXPod/NamedRef": {
   "abstract" : [
     {
-      "text" : "A module source that uses a GitHub repository’s tags and zipball archive URL for checking versions.",
+      "text" : "A Ref that has a name and type that can be converted into a String",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "struct"
+      "text" : "protocol"
     },
     {
       "kind" : "text",
@@ -160,90 +185,28 @@
     },
     {
       "kind" : "identifier",
-      "text" : "HubModuleSource"
+      "text" : "NamedRef"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NamedRef",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "HubModuleSource"
+      "text" : "NamedRef"
     }
   ],
   "role" : "symbol",
-  "title" : "HubModuleSource",
+  "title" : "NamedRef",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/hubmodulesource"
+  "url" : "\/documentation\/jxpod\/namedref"
 },
-"doc://JXPod/documentation/JXPod/HubModuleSource/Ref": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "enum"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "Ref"
-    }
-  ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "Ref"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "HubModuleSource.Ref",
-  "type" : "topic",
-  "url" : "\/documentation\/jxpod\/hubmodulesource\/ref"
-},
-"doc://JXPod/documentation/JXPod/HubModuleSource/Ref/Kind-swift.enum": {
+"doc://JXPod/documentation/JXPod/NamedRef/init(type:name:)": {
   "abstract" : [
     {
-      "text" : "The ref kind",
+      "text" : "Create this ref with the given type and name.",
       "type" : "text"
     }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "enum"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "Kind"
-    }
-  ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/Kind-swift.enum",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "Kind"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "HubModuleSource.Ref.Kind",
-  "type" : "topic",
-  "url" : "\/documentation\/jxpod\/hubmodulesource\/ref\/kind-swift.enum"
-},
-"doc://JXPod/documentation/JXPod/HubModuleSource/Ref/Kind-swift.enum/init(rawValue:)": {
-  "abstract" : [
-
   ],
   "fragments" : [
     {
@@ -256,7 +219,24 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "rawValue"
+      "text" : "type"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "name"
     },
     {
       "kind" : "text",
@@ -272,12 +252,13 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/HubModuleSource\/Ref\/Kind-swift.enum\/init(rawValue:)",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/NamedRef\/init(type:name:)",
   "kind" : "symbol",
+  "required" : true,
   "role" : "symbol",
-  "title" : "init(rawValue:)",
+  "title" : "init(type:name:)",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/hubmodulesource\/ref\/kind-swift.enum\/init(rawvalue:)"
+  "url" : "\/documentation\/jxpod\/namedref\/init(type:name:)"
 }
 }
 }
