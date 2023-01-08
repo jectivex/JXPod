@@ -24,7 +24,7 @@ public struct Location : Codable, Equatable {
 import CoreLocation
 
 open class CoreLocationGeoPod : NSObject, CLLocationManagerDelegate, GeoPod {
-    public let namespace: JXNamespace = "net"
+    public static let namespace: JXNamespace = "net"
     public var jxState: JXState?
     private let manager: CLLocationManager
 
@@ -41,7 +41,7 @@ open class CoreLocationGeoPod : NSObject, CLLocationManagerDelegate, GeoPod {
     }
 
     public func register(with registry: JXRegistry) throws {
-        try registry.registerBridge(for: self, namespace: namespace)
+        try registry.registerBridge(for: self, namespace: Self.namespace)
     }
 
     public func currentLocation() async throws -> Location {

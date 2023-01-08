@@ -311,10 +311,10 @@ final class DemoTimePod: JXPod, JXModule, JXBridging {
         self.configuration = configuration
     }
 
-    public let namespace: JXNamespace = "time"
+    public static let namespace: JXNamespace = "time"
 
     public func register(with registry: JXRegistry) async throws {
-        try registry.registerBridge(for: self, namespace: namespace)
+        try registry.registerBridge(for: self, namespace: Self.namespace)
     }
 
     public func initialize(in context: JXContext) async throws {

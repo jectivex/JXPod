@@ -10,7 +10,7 @@ import FoundationNetworking
 #endif
 
 open class NetPod : JXPod, JXModule, JXBridging {
-    public let namespace: JXNamespace = "net"
+    public static let namespace: JXNamespace = "net"
     public var jxState: JXState?
     private let session: URLSession
 
@@ -23,7 +23,7 @@ open class NetPod : JXPod, JXModule, JXBridging {
     }
 
     public func register(with registry: JXRegistry) throws {
-        try registry.registerBridge(for: self, namespace: namespace)
+        try registry.registerBridge(for: self, namespace: Self.namespace)
     }
     
     // TODO

@@ -7,7 +7,8 @@ import Foundation
 // theme.defaultTabItemHighlight = 'red';
 
 open class ThemePod : JXPod, JXModule, JXBridging {
-    public let namespace: JXNamespace = "theme"
+    public static var bundle = Bundle.module
+    public static let namespace: JXNamespace = "theme"
     public var jxState: JXState?
 
     /// Should this be shared instead?
@@ -22,7 +23,7 @@ open class ThemePod : JXPod, JXModule, JXBridging {
     //@Stack open var backgroundColor: CSSColor?
 
     public func register(with registry: JXRegistry) throws {
-        try registry.registerBridge(for: self, namespace: namespace)
+        try registry.registerBridge(for: self, namespace: Self.namespace)
     }
 
     private var observers: [AnyObject] = []
