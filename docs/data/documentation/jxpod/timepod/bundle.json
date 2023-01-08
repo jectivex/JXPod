@@ -1,33 +1,19 @@
 {
-  "abstract" : [
-    {
-      "text" : "Inherited from ",
-      "type" : "text"
-    },
-    {
-      "code" : "JXModule.namespace",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
         "doc:\/\/JXPod\/documentation\/JXPod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod"
+        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod\/namespace"
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/bundle"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:5JXPod18CoreLocationGeoPodC9namespace8JXBridge11JXNamespaceVvpZ",
+    "externalID" : "s:5JXPod7TimePodC6bundleSo8NSBundleCvpZ",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -39,7 +25,7 @@
       },
       {
         "kind" : "keyword",
-        "text" : "let"
+        "text" : "var"
       },
       {
         "kind" : "text",
@@ -47,7 +33,7 @@
       },
       {
         "kind" : "identifier",
-        "text" : "namespace"
+        "text" : "bundle"
       },
       {
         "kind" : "text",
@@ -55,8 +41,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:8JXBridge11JXNamespaceV",
-        "text" : "JXNamespace"
+        "preciseIdentifier" : "c:objc(cs)NSBundle",
+        "text" : "Bundle"
       }
     ],
     "modules" : [
@@ -67,7 +53,7 @@
     "role" : "symbol",
     "roleHeading" : "Type Property",
     "symbolKind" : "property",
-    "title" : "namespace"
+    "title" : "bundle"
   },
   "primaryContentSections" : [
     {
@@ -90,7 +76,7 @@
             },
             {
               "kind" : "keyword",
-              "text" : "let"
+              "text" : "var"
             },
             {
               "kind" : "text",
@@ -98,7 +84,7 @@
             },
             {
               "kind" : "identifier",
-              "text" : "namespace"
+              "text" : "bundle"
             },
             {
               "kind" : "text",
@@ -106,8 +92,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:8JXBridge11JXNamespaceV",
-              "text" : "JXNamespace"
+              "preciseIdentifier" : "c:objc(cs)NSBundle",
+              "text" : "Bundle"
             }
           ]
         }
@@ -126,7 +112,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jxpod\/corelocationgeopod\/namespace"
+        "\/documentation\/jxpod\/timepod\/bundle"
       ],
       "traits" : [
         {
@@ -148,7 +134,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod"
 },
-"doc://JXPod/documentation/JXPod/CoreLocationGeoPod": {
+"doc://JXPod/documentation/JXPod/TimePod": {
   "abstract" : [
 
   ],
@@ -163,23 +149,23 @@
     },
     {
       "kind" : "identifier",
-      "text" : "CoreLocationGeoPod"
+      "text" : "TimePod"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "CoreLocationGeoPod"
+      "text" : "TimePod"
     }
   ],
   "role" : "symbol",
-  "title" : "CoreLocationGeoPod",
+  "title" : "TimePod",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/corelocationgeopod"
+  "url" : "\/documentation\/jxpod\/timepod"
 },
-"doc://JXPod/documentation/JXPod/CoreLocationGeoPod/namespace": {
+"doc://JXPod/documentation/JXPod/TimePod/bundle": {
   "abstract" : [
 
   ],
@@ -194,7 +180,7 @@
     },
     {
       "kind" : "keyword",
-      "text" : "let"
+      "text" : "var"
     },
     {
       "kind" : "text",
@@ -202,7 +188,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "namespace"
+      "text" : "bundle"
     },
     {
       "kind" : "text",
@@ -210,16 +196,16 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:8JXBridge11JXNamespaceV",
-      "text" : "JXNamespace"
+      "preciseIdentifier" : "c:objc(cs)NSBundle",
+      "text" : "Bundle"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CoreLocationGeoPod\/namespace",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/bundle",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "namespace",
+  "title" : "bundle",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/corelocationgeopod\/namespace"
+  "url" : "\/documentation\/jxpod\/timepod\/bundle"
 }
 }
 }

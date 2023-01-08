@@ -3,7 +3,7 @@ import JXBridge
 import JXKit
 
 public class FilePod: JXPod, JXModule {
-    public let namespace: JXNamespace = "file"
+    public static let namespace: JXNamespace = "file"
     let fileManager: FileManager
 
     public init(fileManager: FileManager = .default) {
@@ -22,15 +22,16 @@ public class FilePod: JXPod, JXModule {
                 .func.changeCurrentDirectory { FileManager.changeCurrentDirectoryPath }
                 .func.contentsOfDirectory { FileManager.contentsOfDirectory(atPath:) }
                 .func.createDirectory { try $0.createDirectory(atPath: $1, withIntermediateDirectories: $2) }
+                .func.createFile { $0.createFile(atPath: $1, contents: $2, attributes: $3) }
                 .func.remove { FileManager.removeItem(atPath:) }
                 .func.copy { FileManager.copyItem(atPath:toPath:) }
                 .func.move { FileManager.moveItem(atPath:toPath:) }
-                .func.exists { FileManager.fileExists(atPath:) }
+                .func.exists { $0.fileExists(atPath: $1) }
                 .bridge
         }
     }
     
     public func initialize(in context: JXContext) throws {
-        try context.global.integrate(fileManager, namespace: namespace)
+        try context.global.integrate(fileManager, namespace: Self.namespace)
     }
 }

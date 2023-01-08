@@ -3,6 +3,8 @@ import JXBridge
 import JXKit
 
 public class TimePod: JXPod, JXModule, JXBridging {
+    public static var bundle = Bundle.module
+    public static let namespace: JXNamespace = "time"
     public var jxState: JXState?
 
     public init() {
@@ -12,10 +14,9 @@ public class TimePod: JXPod, JXModule, JXBridging {
         JXPodMetaData(source: URL(string: "https://github.com/jectivex/JXPod.git")!)
     }
 
-    public let namespace: JXNamespace = "time"
-    
+
     public func register(with registry: JXRegistry) throws {
-        try registry.registerBridge(for: self, namespace: namespace)
+        try registry.registerBridge(for: self, namespace: Self.namespace)
     }
     
     public func initialize(in context: JXContext) throws {

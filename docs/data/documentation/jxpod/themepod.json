@@ -101,8 +101,7 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/jxState-87r1f",
-        "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/namespace"
+        "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/jxState-87r1f"
       ],
       "title" : "Instance Properties"
     },
@@ -114,7 +113,9 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/metadata"
+        "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/bundle",
+        "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/metadata",
+        "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/namespace"
       ],
       "title" : "Type Properties"
     },
@@ -277,6 +278,48 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/themepod\/jxpod-implementations"
 },
+"doc://JXPod/documentation/JXPod/ThemePod/bundle": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bundle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSBundle",
+      "text" : "Bundle"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/ThemePod\/bundle",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "bundle",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/themepod\/bundle"
+},
 "doc://JXPod/documentation/JXPod/ThemePod/init()": {
   "abstract" : [
     {
@@ -386,6 +429,14 @@
 
   ],
   "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
     {
       "kind" : "keyword",
       "text" : "let"

@@ -101,8 +101,7 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/jxState-97vn5",
-        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/namespace"
+        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/jxState-97vn5"
       ],
       "title" : "Instance Properties"
     },
@@ -116,7 +115,9 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/metadata"
+        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/bundle",
+        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/metadata",
+        "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/namespace"
       ],
       "title" : "Type Properties"
     },
@@ -316,6 +317,48 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/timepod\/jxpod-implementations"
 },
+"doc://JXPod/documentation/JXPod/TimePod/bundle": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bundle"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)NSBundle",
+      "text" : "Bundle"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/TimePod\/bundle",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "bundle",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/timepod\/bundle"
+},
 "doc://JXPod/documentation/JXPod/TimePod/init()": {
   "abstract" : [
 
@@ -472,6 +515,14 @@
 
   ],
   "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
     {
       "kind" : "keyword",
       "text" : "let"

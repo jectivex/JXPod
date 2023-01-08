@@ -6,7 +6,7 @@ import SwiftUI
 
 @available(macOS 12, iOS 15, tvOS 15, *)
 open class SwiftUICanvasPod<Symbols : SwiftUI.View> : JXPod, JXModule, JXBridging {
-    public let namespace: JXNamespace = "console"
+    public static var namespace: JXNamespace { "console" }
     public var jxState: JXState?
 
     private let canvas: SwiftUI.Canvas<Symbols>
@@ -20,7 +20,7 @@ open class SwiftUICanvasPod<Symbols : SwiftUI.View> : JXPod, JXModule, JXBridgin
     }
 
     public func register(with registry: JXRegistry) throws {
-        try registry.registerBridge(for: self, namespace: namespace)
+        try registry.registerBridge(for: self, namespace: Self.namespace)
     }
 }
 #endif

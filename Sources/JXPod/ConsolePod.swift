@@ -11,7 +11,7 @@ public protocol ConsolePod : JXPod, JXModule, JXBridging {
 
 /// A ``ConsolePod`` that stores messages in a buffer
 open class CapturingConsolePod : ConsolePod {
-    public let namespace: JXNamespace = "console"
+    public static let namespace: JXNamespace = "console"
     public var jxState: JXState?
 
     public static var metadata: JXPodMetaData {
@@ -23,7 +23,7 @@ open class CapturingConsolePod : ConsolePod {
     }
 
     public func register(with registry: JXRegistry) throws {
-        try registry.registerBridge(for: self, namespace: namespace)
+        try registry.registerBridge(for: self, namespace: Self.namespace)
     }
 }
 
@@ -32,7 +32,7 @@ import OSLog
 
 /// A ``ConsolePod`` that forwards logged messages to the system consle
 open class OSLogConsolePod : ConsolePod {
-    public let namespace: JXNamespace = "console"
+    public static let namespace: JXNamespace = "console"
     public var jxState: JXState?
 
     public static var metadata: JXPodMetaData {
@@ -44,7 +44,7 @@ open class OSLogConsolePod : ConsolePod {
     }
 
     public func register(with registry: JXRegistry) throws {
-        try registry.registerBridge(for: self, namespace: namespace)
+        try registry.registerBridge(for: self, namespace: Self.namespace)
     }
 
     public init() {

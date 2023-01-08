@@ -19,11 +19,6 @@
                 "type" : "property"
               },
               {
-                "path" : "\/documentation\/jxpod\/capturingconsolepod\/namespace",
-                "title" : "let namespace: JXNamespace",
-                "type" : "property"
-              },
-              {
                 "title" : "Instance Methods",
                 "type" : "groupMarker"
               },
@@ -44,6 +39,11 @@
               {
                 "path" : "\/documentation\/jxpod\/capturingconsolepod\/metadata",
                 "title" : "static var metadata: JXPodMetaData",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/capturingconsolepod\/namespace",
+                "title" : "static let namespace: JXNamespace",
                 "type" : "property"
               },
               {
@@ -152,11 +152,6 @@
                 "type" : "property"
               },
               {
-                "path" : "\/documentation\/jxpod\/chartpod\/namespace",
-                "title" : "let namespace: JXNamespace",
-                "type" : "property"
-              },
-              {
                 "title" : "Instance Methods",
                 "type" : "groupMarker"
               },
@@ -172,6 +167,11 @@
               {
                 "path" : "\/documentation\/jxpod\/chartpod\/metadata",
                 "title" : "static var metadata: JXPodMetaData",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/chartpod\/namespace",
+                "title" : "static let namespace: JXNamespace",
                 "type" : "property"
               },
               {
@@ -285,11 +285,6 @@
                 "type" : "property"
               },
               {
-                "path" : "\/documentation\/jxpod\/corelocationgeopod\/namespace",
-                "title" : "let namespace: JXNamespace",
-                "type" : "property"
-              },
-              {
                 "title" : "Instance Methods",
                 "type" : "groupMarker"
               },
@@ -315,6 +310,11 @@
               {
                 "path" : "\/documentation\/jxpod\/corelocationgeopod\/metadata",
                 "title" : "static var metadata: JXPodMetaData",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/corelocationgeopod\/namespace",
+                "title" : "static let namespace: JXNamespace",
                 "type" : "property"
               },
               {
@@ -419,15 +419,6 @@
                 "type" : "init"
               },
               {
-                "title" : "Instance Properties",
-                "type" : "groupMarker"
-              },
-              {
-                "path" : "\/documentation\/jxpod\/filepod\/namespace",
-                "title" : "let namespace: JXNamespace",
-                "type" : "property"
-              },
-              {
                 "title" : "Instance Methods",
                 "type" : "groupMarker"
               },
@@ -448,6 +439,11 @@
               {
                 "path" : "\/documentation\/jxpod\/filepod\/metadata",
                 "title" : "static var metadata: JXPodMetaData",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/filepod\/namespace",
+                "title" : "static let namespace: JXNamespace",
                 "type" : "property"
               },
               {
@@ -522,11 +518,6 @@
                 "type" : "property"
               },
               {
-                "path" : "\/documentation\/jxpod\/keypod\/namespace",
-                "title" : "let namespace: JXNamespace",
-                "type" : "property"
-              },
-              {
                 "title" : "Instance Methods",
                 "type" : "groupMarker"
               },
@@ -542,6 +533,11 @@
               {
                 "path" : "\/documentation\/jxpod\/keypod\/metadata",
                 "title" : "static var metadata: JXPodMetaData",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/keypod\/namespace",
+                "title" : "static let namespace: JXNamespace",
                 "type" : "property"
               },
               {
@@ -655,11 +651,6 @@
                 "type" : "property"
               },
               {
-                "path" : "\/documentation\/jxpod\/netpod\/namespace",
-                "title" : "let namespace: JXNamespace",
-                "type" : "property"
-              },
-              {
                 "title" : "Instance Methods",
                 "type" : "groupMarker"
               },
@@ -675,6 +666,11 @@
               {
                 "path" : "\/documentation\/jxpod\/netpod\/metadata",
                 "title" : "static var metadata: JXPodMetaData",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/netpod\/namespace",
+                "title" : "static let namespace: JXNamespace",
                 "type" : "property"
               },
               {
@@ -788,11 +784,6 @@
                 "type" : "property"
               },
               {
-                "path" : "\/documentation\/jxpod\/oslogconsolepod\/namespace",
-                "title" : "let namespace: JXNamespace",
-                "type" : "property"
-              },
-              {
                 "title" : "Instance Methods",
                 "type" : "groupMarker"
               },
@@ -818,6 +809,11 @@
               {
                 "path" : "\/documentation\/jxpod\/oslogconsolepod\/metadata",
                 "title" : "static var metadata: JXPodMetaData",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/oslogconsolepod\/namespace",
+                "title" : "static let namespace: JXNamespace",
                 "type" : "property"
               },
               {
@@ -926,11 +922,6 @@
                 "type" : "property"
               },
               {
-                "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/namespace",
-                "title" : "let namespace: JXNamespace",
-                "type" : "property"
-              },
-              {
                 "title" : "Instance Methods",
                 "type" : "groupMarker"
               },
@@ -946,6 +937,11 @@
               {
                 "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/metadata",
                 "title" : "static var metadata: JXPodMetaData",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/swiftuicanvaspod\/namespace",
+                "title" : "static var namespace: JXNamespace",
                 "type" : "property"
               },
               {
@@ -1059,11 +1055,6 @@
                 "type" : "property"
               },
               {
-                "path" : "\/documentation\/jxpod\/themepod\/namespace",
-                "title" : "let namespace: JXNamespace",
-                "type" : "property"
-              },
-              {
                 "title" : "Instance Methods",
                 "type" : "groupMarker"
               },
@@ -1077,8 +1068,18 @@
                 "type" : "groupMarker"
               },
               {
+                "path" : "\/documentation\/jxpod\/themepod\/bundle",
+                "title" : "static var bundle: Bundle",
+                "type" : "property"
+              },
+              {
                 "path" : "\/documentation\/jxpod\/themepod\/metadata",
                 "title" : "static var metadata: JXPodMetaData",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/themepod\/namespace",
+                "title" : "static let namespace: JXNamespace",
                 "type" : "property"
               },
               {
@@ -1192,11 +1193,6 @@
                 "type" : "property"
               },
               {
-                "path" : "\/documentation\/jxpod\/timepod\/namespace",
-                "title" : "let namespace: JXNamespace",
-                "type" : "property"
-              },
-              {
                 "title" : "Instance Methods",
                 "type" : "groupMarker"
               },
@@ -1220,8 +1216,18 @@
                 "type" : "groupMarker"
               },
               {
+                "path" : "\/documentation\/jxpod\/timepod\/bundle",
+                "title" : "static var bundle: Bundle",
+                "type" : "property"
+              },
+              {
                 "path" : "\/documentation\/jxpod\/timepod\/metadata",
                 "title" : "static var metadata: JXPodMetaData",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/jxpod\/timepod\/namespace",
+                "title" : "static let namespace: JXNamespace",
                 "type" : "property"
               },
               {

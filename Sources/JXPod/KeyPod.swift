@@ -8,7 +8,7 @@ import Foundation
 // await key.keychain("login").lock()
 
 open class KeyPod : JXPod, JXModule, JXBridging {
-    public let namespace: JXNamespace = "net"
+    public static let namespace: JXNamespace = "net"
     public var jxState: JXState?
 
     public init() {
@@ -19,7 +19,7 @@ open class KeyPod : JXPod, JXModule, JXBridging {
     }
 
     public func register(with registry: JXRegistry) throws {
-        try registry.registerBridge(for: self, namespace: namespace)
+        try registry.registerBridge(for: self, namespace: Self.namespace)
     }
 
 //    @Jack("unlock") var _unlock = unlock

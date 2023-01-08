@@ -101,8 +101,7 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/jxState-4zjct",
-        "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/namespace"
+        "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/jxState-4zjct"
       ],
       "title" : "Instance Properties"
     },
@@ -114,7 +113,8 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/metadata"
+        "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/metadata",
+        "doc:\/\/JXPod\/documentation\/JXPod\/NetPod\/namespace"
       ],
       "title" : "Type Properties"
     },
@@ -400,6 +400,14 @@
 
   ],
   "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
     {
       "kind" : "keyword",
       "text" : "let"

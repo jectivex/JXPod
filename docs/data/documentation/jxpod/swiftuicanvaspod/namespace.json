@@ -27,11 +27,19 @@
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:5JXPod16SwiftUICanvasPodC9namespace8JXBridge11JXNamespaceVvp",
+    "externalID" : "s:5JXPod16SwiftUICanvasPodC9namespace8JXBridge11JXNamespaceVvpZ",
     "fragments" : [
       {
         "kind" : "keyword",
-        "text" : "let"
+        "text" : "static"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "var"
       },
       {
         "kind" : "text",
@@ -80,7 +88,7 @@
       }
     ],
     "role" : "symbol",
-    "roleHeading" : "Instance Property",
+    "roleHeading" : "Type Property",
     "symbolKind" : "property",
     "title" : "namespace"
   },
@@ -97,7 +105,15 @@
           "tokens" : [
             {
               "kind" : "keyword",
-              "text" : "let"
+              "text" : "static"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "var"
             },
             {
               "kind" : "text",
@@ -115,6 +131,18 @@
               "kind" : "typeIdentifier",
               "preciseIdentifier" : "s:8JXBridge11JXNamespaceV",
               "text" : "JXNamespace"
+            },
+            {
+              "kind" : "text",
+              "text" : " { "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "get"
+            },
+            {
+              "kind" : "text",
+              "text" : " }"
             }
           ]
         }
@@ -193,7 +221,15 @@
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "let"
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "var"
     },
     {
       "kind" : "text",

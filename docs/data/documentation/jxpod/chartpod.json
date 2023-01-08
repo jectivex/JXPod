@@ -101,8 +101,7 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/ChartPod\/jxState-8fw1c",
-        "doc:\/\/JXPod\/documentation\/JXPod\/ChartPod\/namespace"
+        "doc:\/\/JXPod\/documentation\/JXPod\/ChartPod\/jxState-8fw1c"
       ],
       "title" : "Instance Properties"
     },
@@ -114,7 +113,8 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/ChartPod\/metadata"
+        "doc:\/\/JXPod\/documentation\/JXPod\/ChartPod\/metadata",
+        "doc:\/\/JXPod\/documentation\/JXPod\/ChartPod\/namespace"
       ],
       "title" : "Type Properties"
     },
@@ -333,6 +333,14 @@
 
   ],
   "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
     {
       "kind" : "keyword",
       "text" : "let"

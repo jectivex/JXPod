@@ -117,8 +117,7 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/jxState-541gv",
-        "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/namespace"
+        "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/jxState-541gv"
       ],
       "title" : "Instance Properties"
     },
@@ -132,7 +131,8 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/metadata"
+        "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/metadata",
+        "doc:\/\/JXPod\/documentation\/JXPod\/OSLogConsolePod\/namespace"
       ],
       "title" : "Type Properties"
     },
@@ -494,6 +494,14 @@
 
   ],
   "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
     {
       "kind" : "keyword",
       "text" : "let"

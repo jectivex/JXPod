@@ -111,8 +111,7 @@
   "topicSections" : [
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/jxState-3js38",
-        "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/namespace"
+        "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/jxState-3js38"
       ],
       "title" : "Instance Properties"
     },
@@ -125,7 +124,8 @@
     },
     {
       "identifiers" : [
-        "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/metadata"
+        "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/metadata",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CapturingConsolePod\/namespace"
       ],
       "title" : "Type Properties"
     },
@@ -385,6 +385,14 @@
 
   ],
   "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
     {
       "kind" : "keyword",
       "text" : "let"
