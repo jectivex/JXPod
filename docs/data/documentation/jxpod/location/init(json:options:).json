@@ -5,7 +5,7 @@
       "type" : "text"
     },
     {
-      "code" : "Encodable.jsum(options:)",
+      "code" : "Decodable.init(json:options:)",
       "type" : "codeVoice"
     },
     {
@@ -17,35 +17,44 @@
     "paths" : [
       [
         "doc:\/\/JXPod\/documentation\/JXPod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData",
-        "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/Encodable-Implementations"
+        "doc:\/\/JXPod\/documentation\/JXPod\/Location",
+        "doc:\/\/JXPod\/documentation\/JXPod\/Location\/Decodable-Implementations"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/jsum(options:)"
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/Location\/init(json:options:)"
   },
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "Swift",
-    "externalID" : "s:SE4JSumE4jsum7optionsA2AOAA0A15EncodingOptionsCSg_tKF::SYNTHESIZED::s:5JXPod0A8MetaDataV",
+    "externalID" : "s:Se4JSONE4json7optionsxA2AV_AA19JSONDecodingOptionsCSgtKcfc::SYNTHESIZED::s:5JXPod8LocationV",
     "fragments" : [
       {
-        "kind" : "keyword",
-        "text" : "func"
-      },
-      {
-        "kind" : "text",
-        "text" : " "
-      },
-      {
         "kind" : "identifier",
-        "text" : "jsum"
+        "text" : "init"
       },
       {
         "kind" : "text",
         "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "json"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:4JSONAAV",
+        "text" : "JSON"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
       },
       {
         "kind" : "externalParam",
@@ -57,8 +66,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:4JSum0A15EncodingOptionsC",
-        "text" : "JSumEncodingOptions"
+        "preciseIdentifier" : "s:4JSON19JSONDecodingOptionsC",
+        "text" : "JSONDecodingOptions"
       },
       {
         "kind" : "text",
@@ -67,15 +76,6 @@
       {
         "kind" : "keyword",
         "text" : "throws"
-      },
-      {
-        "kind" : "text",
-        "text" : " -> "
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:4JSumAAO",
-        "text" : "JSum"
       }
     ],
     "modules" : [
@@ -84,9 +84,9 @@
       }
     ],
     "role" : "symbol",
-    "roleHeading" : "Instance Method",
-    "symbolKind" : "method",
-    "title" : "jsum(options:)"
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(json:options:)"
   },
   "primaryContentSections" : [
     {
@@ -101,19 +101,28 @@
           "tokens" : [
             {
               "kind" : "keyword",
-              "text" : "func"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
-            {
-              "kind" : "identifier",
-              "text" : "jsum"
+              "text" : "init"
             },
             {
               "kind" : "text",
               "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "json"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:4JSONAAV",
+              "text" : "JSON"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
             },
             {
               "kind" : "externalParam",
@@ -125,8 +134,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:4JSum0A15EncodingOptionsC",
-              "text" : "JSumEncodingOptions"
+              "preciseIdentifier" : "s:4JSON19JSONDecodingOptionsC",
+              "text" : "JSONDecodingOptions"
             },
             {
               "kind" : "text",
@@ -135,15 +144,6 @@
             {
               "kind" : "keyword",
               "text" : "throws"
-            },
-            {
-              "kind" : "text",
-              "text" : " -> "
-            },
-            {
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:4JSumAAO",
-              "text" : "JSum"
             }
           ]
         }
@@ -162,7 +162,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jxpod\/jxpodmetadata\/jsum(options:)"
+        "\/documentation\/jxpod\/location\/init(json:options:)"
       ],
       "traits" : [
         {
@@ -184,10 +184,10 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod"
 },
-"doc://JXPod/documentation/JXPod/JXPodMetaData": {
+"doc://JXPod/documentation/JXPod/Location": {
   "abstract" : [
     {
-      "text" : "Information about the pod.",
+      "text" : "A location on earth.",
       "type" : "text"
     }
   ],
@@ -202,53 +202,62 @@
     },
     {
       "kind" : "identifier",
-      "text" : "JXPodMetaData"
+      "text" : "Location"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/Location",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "JXPodMetaData"
+      "text" : "Location"
     }
   ],
   "role" : "symbol",
-  "title" : "JXPodMetaData",
+  "title" : "Location",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/jxpodmetadata"
+  "url" : "\/documentation\/jxpod\/location"
 },
-"doc://JXPod/documentation/JXPod/JXPodMetaData/Encodable-Implementations": {
+"doc://JXPod/documentation/JXPod/Location/Decodable-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/Encodable-Implementations",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/Location\/Decodable-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
-  "title" : "Encodable Implementations",
+  "title" : "Decodable Implementations",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/jxpodmetadata\/encodable-implementations"
+  "url" : "\/documentation\/jxpod\/location\/decodable-implementations"
 },
-"doc://JXPod/documentation/JXPod/JXPodMetaData/jsum(options:)": {
+"doc://JXPod/documentation/JXPod/Location/init(json:options:)": {
   "abstract" : [
 
   ],
   "fragments" : [
     {
-      "kind" : "keyword",
-      "text" : "func"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
       "kind" : "identifier",
-      "text" : "jsum"
+      "text" : "init"
     },
     {
       "kind" : "text",
       "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "json"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:4JSONAAV",
+      "text" : "JSON"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
     },
     {
       "kind" : "externalParam",
@@ -260,8 +269,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:4JSum0A15EncodingOptionsC",
-      "text" : "JSumEncodingOptions"
+      "preciseIdentifier" : "s:4JSON19JSONDecodingOptionsC",
+      "text" : "JSONDecodingOptions"
     },
     {
       "kind" : "text",
@@ -270,23 +279,14 @@
     {
       "kind" : "keyword",
       "text" : "throws"
-    },
-    {
-      "kind" : "text",
-      "text" : " -> "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:4JSumAAO",
-      "text" : "JSum"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/jsum(options:)",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/Location\/init(json:options:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "jsum(options:)",
+  "title" : "init(json:options:)",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/jxpodmetadata\/jsum(options:)"
+  "url" : "\/documentation\/jxpod\/location\/init(json:options:)"
 }
 }
 }

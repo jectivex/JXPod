@@ -5,7 +5,7 @@
       "type" : "text"
     },
     {
-      "code" : "Decodable.init(jsum:options:)",
+      "code" : "Decodable.init(json:options:)",
       "type" : "codeVoice"
     },
     {
@@ -18,18 +18,19 @@
       [
         "doc:\/\/JXPod\/documentation\/JXPod",
         "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor",
-        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/Decodable-Implementations"
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/Decodable-Implementations"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/init(jsum:options:)"
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/init(json:options:)"
   },
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "Swift",
-    "externalID" : "s:Se4JSumE4jsum7optionsxA2AO_AA0A15DecodingOptionsCSgtKcfc::SYNTHESIZED::s:5JXPod8CSSColorV",
+    "externalID" : "s:Se4JSONE4json7optionsxA2AV_AA19JSONDecodingOptionsCSgtKcfc::SYNTHESIZED::s:5JXPod8CSSColorV10NamedColorV",
     "fragments" : [
       {
         "kind" : "identifier",
@@ -41,7 +42,7 @@
       },
       {
         "kind" : "externalParam",
-        "text" : "jsum"
+        "text" : "json"
       },
       {
         "kind" : "text",
@@ -49,8 +50,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:4JSumAAO",
-        "text" : "JSum"
+        "preciseIdentifier" : "s:4JSONAAV",
+        "text" : "JSON"
       },
       {
         "kind" : "text",
@@ -66,8 +67,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:4JSum0A15DecodingOptionsC",
-        "text" : "JSumDecodingOptions"
+        "preciseIdentifier" : "s:4JSON19JSONDecodingOptionsC",
+        "text" : "JSONDecodingOptions"
       },
       {
         "kind" : "text",
@@ -86,7 +87,7 @@
     "role" : "symbol",
     "roleHeading" : "Initializer",
     "symbolKind" : "init",
-    "title" : "init(jsum:options:)"
+    "title" : "init(json:options:)"
   },
   "primaryContentSections" : [
     {
@@ -109,7 +110,7 @@
             },
             {
               "kind" : "externalParam",
-              "text" : "jsum"
+              "text" : "json"
             },
             {
               "kind" : "text",
@@ -117,8 +118,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:4JSumAAO",
-              "text" : "JSum"
+              "preciseIdentifier" : "s:4JSONAAV",
+              "text" : "JSON"
             },
             {
               "kind" : "text",
@@ -134,8 +135,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:4JSum0A15DecodingOptionsC",
-              "text" : "JSumDecodingOptions"
+              "preciseIdentifier" : "s:4JSON19JSONDecodingOptionsC",
+              "text" : "JSONDecodingOptions"
             },
             {
               "kind" : "text",
@@ -162,7 +163,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jxpod\/csscolor\/init(jsum:options:)"
+        "\/documentation\/jxpod\/csscolor\/namedcolor\/init(json:options:)"
       ],
       "traits" : [
         {
@@ -215,18 +216,49 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/csscolor"
 },
-"doc://JXPod/documentation/JXPod/CSSColor/Decodable-Implementations": {
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/Decodable-Implementations",
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "NamedColor"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CSSColor.NamedColor",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/Decodable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/Decodable-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "Decodable Implementations",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/csscolor\/decodable-implementations"
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/decodable-implementations"
 },
-"doc://JXPod/documentation/JXPod/CSSColor/init(jsum:options:)": {
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/init(json:options:)": {
   "abstract" : [
 
   ],
@@ -241,7 +273,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "jsum"
+      "text" : "json"
     },
     {
       "kind" : "text",
@@ -249,8 +281,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:4JSumAAO",
-      "text" : "JSum"
+      "preciseIdentifier" : "s:4JSONAAV",
+      "text" : "JSON"
     },
     {
       "kind" : "text",
@@ -266,8 +298,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:4JSum0A15DecodingOptionsC",
-      "text" : "JSumDecodingOptions"
+      "preciseIdentifier" : "s:4JSON19JSONDecodingOptionsC",
+      "text" : "JSONDecodingOptions"
     },
     {
       "kind" : "text",
@@ -278,12 +310,12 @@
       "text" : "throws"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/init(jsum:options:)",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/init(json:options:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(jsum:options:)",
+  "title" : "init(json:options:)",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/csscolor\/init(jsum:options:)"
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/init(json:options:)"
 }
 }
 }

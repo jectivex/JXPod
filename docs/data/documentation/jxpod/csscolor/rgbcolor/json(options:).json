@@ -5,7 +5,7 @@
       "type" : "text"
     },
     {
-      "code" : "Encodable.jsum(options:)",
+      "code" : "Encodable.json(options:)",
       "type" : "codeVoice"
     },
     {
@@ -18,19 +18,19 @@
       [
         "doc:\/\/JXPod\/documentation\/JXPod",
         "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor",
-        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor",
-        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/Encodable-Implementations"
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/Encodable-Implementations"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/jsum(options:)"
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/json(options:)"
   },
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "Swift",
-    "externalID" : "s:SE4JSumE4jsum7optionsA2AOAA0A15EncodingOptionsCSg_tKF::SYNTHESIZED::s:5JXPod8CSSColorV10NamedColorV",
+    "externalID" : "s:SE4JSONE4json7optionsA2AVAA19JSONEncodingOptionsCSg_tKF::SYNTHESIZED::s:5JXPod8CSSColorV8RGBColorV",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -42,7 +42,7 @@
       },
       {
         "kind" : "identifier",
-        "text" : "jsum"
+        "text" : "json"
       },
       {
         "kind" : "text",
@@ -58,8 +58,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:4JSum0A15EncodingOptionsC",
-        "text" : "JSumEncodingOptions"
+        "preciseIdentifier" : "s:4JSON19JSONEncodingOptionsC",
+        "text" : "JSONEncodingOptions"
       },
       {
         "kind" : "text",
@@ -75,8 +75,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:4JSumAAO",
-        "text" : "JSum"
+        "preciseIdentifier" : "s:4JSONAAV",
+        "text" : "JSON"
       }
     ],
     "modules" : [
@@ -87,7 +87,7 @@
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
-    "title" : "jsum(options:)"
+    "title" : "json(options:)"
   },
   "primaryContentSections" : [
     {
@@ -110,7 +110,7 @@
             },
             {
               "kind" : "identifier",
-              "text" : "jsum"
+              "text" : "json"
             },
             {
               "kind" : "text",
@@ -126,8 +126,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:4JSum0A15EncodingOptionsC",
-              "text" : "JSumEncodingOptions"
+              "preciseIdentifier" : "s:4JSON19JSONEncodingOptionsC",
+              "text" : "JSONEncodingOptions"
             },
             {
               "kind" : "text",
@@ -143,8 +143,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:4JSumAAO",
-              "text" : "JSum"
+              "preciseIdentifier" : "s:4JSONAAV",
+              "text" : "JSON"
             }
           ]
         }
@@ -163,7 +163,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jxpod\/csscolor\/namedcolor\/jsum(options:)"
+        "\/documentation\/jxpod\/csscolor\/rgbcolor\/json(options:)"
       ],
       "traits" : [
         {
@@ -216,7 +216,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/csscolor"
 },
-"doc://JXPod/documentation/JXPod/CSSColor/NamedColor": {
+"doc://JXPod/documentation/JXPod/CSSColor/RGBColor": {
   "abstract" : [
 
   ],
@@ -231,34 +231,34 @@
     },
     {
       "kind" : "identifier",
-      "text" : "NamedColor"
+      "text" : "RGBColor"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "NamedColor"
+      "text" : "RGBColor"
     }
   ],
   "role" : "symbol",
-  "title" : "CSSColor.NamedColor",
+  "title" : "CSSColor.RGBColor",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor"
+  "url" : "\/documentation\/jxpod\/csscolor\/rgbcolor"
 },
-"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/Encodable-Implementations": {
+"doc://JXPod/documentation/JXPod/CSSColor/RGBColor/Encodable-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/Encodable-Implementations",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/Encodable-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "Encodable Implementations",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/encodable-implementations"
+  "url" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/encodable-implementations"
 },
-"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/jsum(options:)": {
+"doc://JXPod/documentation/JXPod/CSSColor/RGBColor/json(options:)": {
   "abstract" : [
 
   ],
@@ -273,7 +273,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "jsum"
+      "text" : "json"
     },
     {
       "kind" : "text",
@@ -289,8 +289,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:4JSum0A15EncodingOptionsC",
-      "text" : "JSumEncodingOptions"
+      "preciseIdentifier" : "s:4JSON19JSONEncodingOptionsC",
+      "text" : "JSONEncodingOptions"
     },
     {
       "kind" : "text",
@@ -306,16 +306,16 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:4JSumAAO",
-      "text" : "JSum"
+      "preciseIdentifier" : "s:4JSONAAV",
+      "text" : "JSON"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/jsum(options:)",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/json(options:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "jsum(options:)",
+  "title" : "json(options:)",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/jsum(options:)"
+  "url" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/json(options:)"
 }
 }
 }

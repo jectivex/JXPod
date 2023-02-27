@@ -5,7 +5,7 @@
       "type" : "text"
     },
     {
-      "code" : "Decodable.init(jsum:options:)",
+      "code" : "Decodable.init(json:options:)",
       "type" : "codeVoice"
     },
     {
@@ -25,12 +25,12 @@
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/init(jsum:options:)"
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/init(json:options:)"
   },
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "Swift",
-    "externalID" : "s:Se4JSumE4jsum7optionsxA2AO_AA0A15DecodingOptionsCSgtKcfc::SYNTHESIZED::s:5JXPod8CSSColorV8RGBColorV",
+    "externalID" : "s:Se4JSONE4json7optionsxA2AV_AA19JSONDecodingOptionsCSgtKcfc::SYNTHESIZED::s:5JXPod8CSSColorV8RGBColorV",
     "fragments" : [
       {
         "kind" : "identifier",
@@ -42,7 +42,7 @@
       },
       {
         "kind" : "externalParam",
-        "text" : "jsum"
+        "text" : "json"
       },
       {
         "kind" : "text",
@@ -50,8 +50,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:4JSumAAO",
-        "text" : "JSum"
+        "preciseIdentifier" : "s:4JSONAAV",
+        "text" : "JSON"
       },
       {
         "kind" : "text",
@@ -67,8 +67,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:4JSum0A15DecodingOptionsC",
-        "text" : "JSumDecodingOptions"
+        "preciseIdentifier" : "s:4JSON19JSONDecodingOptionsC",
+        "text" : "JSONDecodingOptions"
       },
       {
         "kind" : "text",
@@ -87,7 +87,7 @@
     "role" : "symbol",
     "roleHeading" : "Initializer",
     "symbolKind" : "init",
-    "title" : "init(jsum:options:)"
+    "title" : "init(json:options:)"
   },
   "primaryContentSections" : [
     {
@@ -110,7 +110,7 @@
             },
             {
               "kind" : "externalParam",
-              "text" : "jsum"
+              "text" : "json"
             },
             {
               "kind" : "text",
@@ -118,8 +118,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:4JSumAAO",
-              "text" : "JSum"
+              "preciseIdentifier" : "s:4JSONAAV",
+              "text" : "JSON"
             },
             {
               "kind" : "text",
@@ -135,8 +135,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:4JSum0A15DecodingOptionsC",
-              "text" : "JSumDecodingOptions"
+              "preciseIdentifier" : "s:4JSON19JSONDecodingOptionsC",
+              "text" : "JSONDecodingOptions"
             },
             {
               "kind" : "text",
@@ -163,7 +163,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jxpod\/csscolor\/rgbcolor\/init(jsum:options:)"
+        "\/documentation\/jxpod\/csscolor\/rgbcolor\/init(json:options:)"
       ],
       "traits" : [
         {
@@ -258,7 +258,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/decodable-implementations"
 },
-"doc://JXPod/documentation/JXPod/CSSColor/RGBColor/init(jsum:options:)": {
+"doc://JXPod/documentation/JXPod/CSSColor/RGBColor/init(json:options:)": {
   "abstract" : [
 
   ],
@@ -273,7 +273,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "jsum"
+      "text" : "json"
     },
     {
       "kind" : "text",
@@ -281,8 +281,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:4JSumAAO",
-      "text" : "JSum"
+      "preciseIdentifier" : "s:4JSONAAV",
+      "text" : "JSON"
     },
     {
       "kind" : "text",
@@ -298,8 +298,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:4JSum0A15DecodingOptionsC",
-      "text" : "JSumDecodingOptions"
+      "preciseIdentifier" : "s:4JSON19JSONDecodingOptionsC",
+      "text" : "JSONDecodingOptions"
     },
     {
       "kind" : "text",
@@ -310,12 +310,12 @@
       "text" : "throws"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/init(jsum:options:)",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/init(json:options:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(jsum:options:)",
+  "title" : "init(json:options:)",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/init(jsum:options:)"
+  "url" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/init(json:options:)"
 }
 }
 }

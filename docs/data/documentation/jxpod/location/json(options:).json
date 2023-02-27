@@ -5,7 +5,7 @@
       "type" : "text"
     },
     {
-      "code" : "Encodable.jsum(options:)",
+      "code" : "Encodable.json(options:)",
       "type" : "codeVoice"
     },
     {
@@ -17,20 +17,19 @@
     "paths" : [
       [
         "doc:\/\/JXPod\/documentation\/JXPod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor",
-        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor",
-        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/Encodable-Implementations"
+        "doc:\/\/JXPod\/documentation\/JXPod\/Location",
+        "doc:\/\/JXPod\/documentation\/JXPod\/Location\/Encodable-Implementations"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/jsum(options:)"
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/Location\/json(options:)"
   },
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "Swift",
-    "externalID" : "s:SE4JSumE4jsum7optionsA2AOAA0A15EncodingOptionsCSg_tKF::SYNTHESIZED::s:5JXPod8CSSColorV8RGBColorV",
+    "externalID" : "s:SE4JSONE4json7optionsA2AVAA19JSONEncodingOptionsCSg_tKF::SYNTHESIZED::s:5JXPod8LocationV",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -42,7 +41,7 @@
       },
       {
         "kind" : "identifier",
-        "text" : "jsum"
+        "text" : "json"
       },
       {
         "kind" : "text",
@@ -58,8 +57,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:4JSum0A15EncodingOptionsC",
-        "text" : "JSumEncodingOptions"
+        "preciseIdentifier" : "s:4JSON19JSONEncodingOptionsC",
+        "text" : "JSONEncodingOptions"
       },
       {
         "kind" : "text",
@@ -75,8 +74,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:4JSumAAO",
-        "text" : "JSum"
+        "preciseIdentifier" : "s:4JSONAAV",
+        "text" : "JSON"
       }
     ],
     "modules" : [
@@ -87,7 +86,7 @@
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
-    "title" : "jsum(options:)"
+    "title" : "json(options:)"
   },
   "primaryContentSections" : [
     {
@@ -110,7 +109,7 @@
             },
             {
               "kind" : "identifier",
-              "text" : "jsum"
+              "text" : "json"
             },
             {
               "kind" : "text",
@@ -126,8 +125,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:4JSum0A15EncodingOptionsC",
-              "text" : "JSumEncodingOptions"
+              "preciseIdentifier" : "s:4JSON19JSONEncodingOptionsC",
+              "text" : "JSONEncodingOptions"
             },
             {
               "kind" : "text",
@@ -143,8 +142,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:4JSumAAO",
-              "text" : "JSum"
+              "preciseIdentifier" : "s:4JSONAAV",
+              "text" : "JSON"
             }
           ]
         }
@@ -163,7 +162,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jxpod\/csscolor\/rgbcolor\/jsum(options:)"
+        "\/documentation\/jxpod\/location\/json(options:)"
       ],
       "traits" : [
         {
@@ -185,9 +184,12 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod"
 },
-"doc://JXPod/documentation/JXPod/CSSColor": {
+"doc://JXPod/documentation/JXPod/Location": {
   "abstract" : [
-
+    {
+      "text" : "A location on earth.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -200,65 +202,34 @@
     },
     {
       "kind" : "identifier",
-      "text" : "CSSColor"
+      "text" : "Location"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/Location",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "CSSColor"
+      "text" : "Location"
     }
   ],
   "role" : "symbol",
-  "title" : "CSSColor",
+  "title" : "Location",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/csscolor"
+  "url" : "\/documentation\/jxpod\/location"
 },
-"doc://JXPod/documentation/JXPod/CSSColor/RGBColor": {
+"doc://JXPod/documentation/JXPod/Location/Encodable-Implementations": {
   "abstract" : [
 
   ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "struct"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "RGBColor"
-    }
-  ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "RGBColor"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "CSSColor.RGBColor",
-  "type" : "topic",
-  "url" : "\/documentation\/jxpod\/csscolor\/rgbcolor"
-},
-"doc://JXPod/documentation/JXPod/CSSColor/RGBColor/Encodable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/Encodable-Implementations",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/Location\/Encodable-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "Encodable Implementations",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/encodable-implementations"
+  "url" : "\/documentation\/jxpod\/location\/encodable-implementations"
 },
-"doc://JXPod/documentation/JXPod/CSSColor/RGBColor/jsum(options:)": {
+"doc://JXPod/documentation/JXPod/Location/json(options:)": {
   "abstract" : [
 
   ],
@@ -273,7 +244,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "jsum"
+      "text" : "json"
     },
     {
       "kind" : "text",
@@ -289,8 +260,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:4JSum0A15EncodingOptionsC",
-      "text" : "JSumEncodingOptions"
+      "preciseIdentifier" : "s:4JSON19JSONEncodingOptionsC",
+      "text" : "JSONEncodingOptions"
     },
     {
       "kind" : "text",
@@ -306,16 +277,16 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:4JSumAAO",
-      "text" : "JSum"
+      "preciseIdentifier" : "s:4JSONAAV",
+      "text" : "JSON"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/jsum(options:)",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/Location\/json(options:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "jsum(options:)",
+  "title" : "json(options:)",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/jsum(options:)"
+  "url" : "\/documentation\/jxpod\/location\/json(options:)"
 }
 }
 }

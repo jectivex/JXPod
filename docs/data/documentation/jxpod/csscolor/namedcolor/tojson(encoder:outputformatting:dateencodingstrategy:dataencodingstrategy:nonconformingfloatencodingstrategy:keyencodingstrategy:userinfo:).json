@@ -5,7 +5,7 @@
       "type" : "text"
     },
     {
-      "code" : "Encodable.json(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)",
+      "code" : "Encodable.toJSON(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)",
       "type" : "codeVoice"
     },
     {
@@ -17,19 +17,20 @@
     "paths" : [
       [
         "doc:\/\/JXPod\/documentation\/JXPod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/Location",
-        "doc:\/\/JXPod\/documentation\/JXPod\/Location\/Encodable-Implementations"
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/Encodable-Implementations"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/Location\/json(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)"
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/toJSON(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)"
   },
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "Swift",
-    "externalID" : "s:SE4JSumE4json7encoder16outputFormatting20dateEncodingStrategy04datagH0018nonConformingFloatgH003keygH08userInfo10Foundation4DataVAJ11JSONEncoderCyXK_AN06OutputE0VSgAN04DategH0OSgAN0qgH0OSgAN03NonklgH0OSgAN03KeygH0OSgSDys010CodingUseroV0VypGSgtKF::SYNTHESIZED::s:5JXPod8LocationV",
+    "externalID" : "s:SE4JSONE02toA07encoder16outputFormatting20dateEncodingStrategy04datagH0018nonConformingFloatgH003keygH08userInfo10Foundation4DataVAJ11JSONEncoderCyXK_AN06OutputE0VSgAN04DategH0OSgAN0qgH0OSgAN03NonklgH0OSgAN03KeygH0OSgSDys010CodingUseroV0VypGSgtKF::SYNTHESIZED::s:5JXPod8CSSColorV10NamedColorV",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -41,7 +42,7 @@
       },
       {
         "kind" : "identifier",
-        "text" : "json"
+        "text" : "toJSON"
       },
       {
         "kind" : "text",
@@ -241,7 +242,7 @@
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
-    "title" : "json(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)"
+    "title" : "toJSON(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)"
   },
   "primaryContentSections" : [
     {
@@ -264,7 +265,7 @@
             },
             {
               "kind" : "identifier",
-              "text" : "json"
+              "text" : "toJSON"
             },
             {
               "kind" : "text",
@@ -480,7 +481,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jxpod\/location\/json(encoder:outputformatting:dateencodingstrategy:dataencodingstrategy:nonconformingfloatencodingstrategy:keyencodingstrategy:userinfo:)"
+        "\/documentation\/jxpod\/csscolor\/namedcolor\/tojson(encoder:outputformatting:dateencodingstrategy:dataencodingstrategy:nonconformingfloatencodingstrategy:keyencodingstrategy:userinfo:)"
       ],
       "traits" : [
         {
@@ -502,12 +503,9 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod"
 },
-"doc://JXPod/documentation/JXPod/Location": {
+"doc://JXPod/documentation/JXPod/CSSColor": {
   "abstract" : [
-    {
-      "text" : "A location on earth.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -520,34 +518,65 @@
     },
     {
       "kind" : "identifier",
-      "text" : "Location"
+      "text" : "CSSColor"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/Location",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "Location"
+      "text" : "CSSColor"
     }
   ],
   "role" : "symbol",
-  "title" : "Location",
+  "title" : "CSSColor",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/location"
+  "url" : "\/documentation\/jxpod\/csscolor"
 },
-"doc://JXPod/documentation/JXPod/Location/Encodable-Implementations": {
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/Location\/Encodable-Implementations",
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "NamedColor"
+    }
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "NamedColor"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CSSColor.NamedColor",
+  "type" : "topic",
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor"
+},
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/Encodable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/Encodable-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "Encodable Implementations",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/location\/encodable-implementations"
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/encodable-implementations"
 },
-"doc://JXPod/documentation/JXPod/Location/json(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)": {
+"doc://JXPod/documentation/JXPod/CSSColor/NamedColor/toJSON(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)": {
   "abstract" : [
 
   ],
@@ -562,7 +591,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "json"
+      "text" : "toJSON"
     },
     {
       "kind" : "text",
@@ -754,12 +783,12 @@
       "text" : "Data"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/Location\/json(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/NamedColor\/toJSON(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "json(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)",
+  "title" : "toJSON(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/location\/json(encoder:outputformatting:dateencodingstrategy:dataencodingstrategy:nonconformingfloatencodingstrategy:keyencodingstrategy:userinfo:)"
+  "url" : "\/documentation\/jxpod\/csscolor\/namedcolor\/tojson(encoder:outputformatting:dateencodingstrategy:dataencodingstrategy:nonconformingfloatencodingstrategy:keyencodingstrategy:userinfo:)"
 }
 }
 }

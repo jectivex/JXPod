@@ -5,7 +5,7 @@
       "type" : "text"
     },
     {
-      "code" : "Encodable.json(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)",
+      "code" : "Encodable.toJSON(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)",
       "type" : "codeVoice"
     },
     {
@@ -24,12 +24,12 @@
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/json(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)"
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/toJSON(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)"
   },
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "Swift",
-    "externalID" : "s:SE4JSumE4json7encoder16outputFormatting20dateEncodingStrategy04datagH0018nonConformingFloatgH003keygH08userInfo10Foundation4DataVAJ11JSONEncoderCyXK_AN06OutputE0VSgAN04DategH0OSgAN0qgH0OSgAN03NonklgH0OSgAN03KeygH0OSgSDys010CodingUseroV0VypGSgtKF::SYNTHESIZED::s:5JXPod0A8MetaDataV",
+    "externalID" : "s:SE4JSONE02toA07encoder16outputFormatting20dateEncodingStrategy04datagH0018nonConformingFloatgH003keygH08userInfo10Foundation4DataVAJ11JSONEncoderCyXK_AN06OutputE0VSgAN04DategH0OSgAN0qgH0OSgAN03NonklgH0OSgAN03KeygH0OSgSDys010CodingUseroV0VypGSgtKF::SYNTHESIZED::s:5JXPod0A8MetaDataV",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -41,7 +41,7 @@
       },
       {
         "kind" : "identifier",
-        "text" : "json"
+        "text" : "toJSON"
       },
       {
         "kind" : "text",
@@ -241,7 +241,7 @@
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
-    "title" : "json(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)"
+    "title" : "toJSON(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)"
   },
   "primaryContentSections" : [
     {
@@ -264,7 +264,7 @@
             },
             {
               "kind" : "identifier",
-              "text" : "json"
+              "text" : "toJSON"
             },
             {
               "kind" : "text",
@@ -480,7 +480,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jxpod\/jxpodmetadata\/json(encoder:outputformatting:dateencodingstrategy:dataencodingstrategy:nonconformingfloatencodingstrategy:keyencodingstrategy:userinfo:)"
+        "\/documentation\/jxpod\/jxpodmetadata\/tojson(encoder:outputformatting:dateencodingstrategy:dataencodingstrategy:nonconformingfloatencodingstrategy:keyencodingstrategy:userinfo:)"
       ],
       "traits" : [
         {
@@ -547,7 +547,7 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/jxpodmetadata\/encodable-implementations"
 },
-"doc://JXPod/documentation/JXPod/JXPodMetaData/json(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)": {
+"doc://JXPod/documentation/JXPod/JXPodMetaData/toJSON(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)": {
   "abstract" : [
 
   ],
@@ -562,7 +562,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "json"
+      "text" : "toJSON"
     },
     {
       "kind" : "text",
@@ -754,12 +754,12 @@
       "text" : "Data"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/json(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/toJSON(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "json(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)",
+  "title" : "toJSON(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/jxpodmetadata\/json(encoder:outputformatting:dateencodingstrategy:dataencodingstrategy:nonconformingfloatencodingstrategy:keyencodingstrategy:userinfo:)"
+  "url" : "\/documentation\/jxpod\/jxpodmetadata\/tojson(encoder:outputformatting:dateencodingstrategy:dataencodingstrategy:nonconformingfloatencodingstrategy:keyencodingstrategy:userinfo:)"
 }
 }
 }

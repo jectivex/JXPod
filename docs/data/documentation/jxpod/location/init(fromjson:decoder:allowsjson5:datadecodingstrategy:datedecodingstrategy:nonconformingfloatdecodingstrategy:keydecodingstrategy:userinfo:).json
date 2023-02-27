@@ -5,7 +5,7 @@
       "type" : "text"
     },
     {
-      "code" : "Decodable.init(json:decoder:allowsJSON5:dataDecodingStrategy:dateDecodingStrategy:nonConformingFloatDecodingStrategy:keyDecodingStrategy:userInfo:)",
+      "code" : "Decodable.init(fromJSON:decoder:allowsJSON5:dataDecodingStrategy:dateDecodingStrategy:nonConformingFloatDecodingStrategy:keyDecodingStrategy:userInfo:)",
       "type" : "codeVoice"
     },
     {
@@ -17,19 +17,19 @@
     "paths" : [
       [
         "doc:\/\/JXPod\/documentation\/JXPod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData",
-        "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/Decodable-Implementations"
+        "doc:\/\/JXPod\/documentation\/JXPod\/Location",
+        "doc:\/\/JXPod\/documentation\/JXPod\/Location\/Decodable-Implementations"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/init(json:decoder:allowsJSON5:dataDecodingStrategy:dateDecodingStrategy:nonConformingFloatDecodingStrategy:keyDecodingStrategy:userInfo:)"
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/Location\/init(fromJSON:decoder:allowsJSON5:dataDecodingStrategy:dateDecodingStrategy:nonConformingFloatDecodingStrategy:keyDecodingStrategy:userInfo:)"
   },
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "Swift",
-    "externalID" : "s:Se4JSumE4json7decoder11allowsJSON520dataDecodingStrategy04dategH0018nonConformingFloatgH003keygH08userInfox10Foundation4DataV_AJ11JSONDecoderCyXKSbAN0qgH0OSgAN04DategH0OSgAN03NonklgH0OSgAN03KeygH0OSgSDys010CodingUseroU0VypGSgtKcfc::SYNTHESIZED::s:5JXPod0A8MetaDataV",
+    "externalID" : "s:Se4JSONE04fromA07decoder11allowsJSON520dataDecodingStrategy04dategH0018nonConformingFloatgH003keygH08userInfox10Foundation4DataV_AJ11JSONDecoderCyXKSbAN0qgH0OSgAN04DategH0OSgAN03NonklgH0OSgAN03KeygH0OSgSDys010CodingUseroU0VypGSgtKcfc::SYNTHESIZED::s:5JXPod8LocationV",
     "fragments" : [
       {
         "kind" : "identifier",
@@ -41,7 +41,7 @@
       },
       {
         "kind" : "externalParam",
-        "text" : "json"
+        "text" : "fromJSON"
       },
       {
         "kind" : "text",
@@ -232,7 +232,7 @@
     "role" : "symbol",
     "roleHeading" : "Initializer",
     "symbolKind" : "init",
-    "title" : "init(json:decoder:allowsJSON5:dataDecodingStrategy:dateDecodingStrategy:nonConformingFloatDecodingStrategy:keyDecodingStrategy:userInfo:)"
+    "title" : "init(fromJSON:decoder:allowsJSON5:dataDecodingStrategy:dateDecodingStrategy:nonConformingFloatDecodingStrategy:keyDecodingStrategy:userInfo:)"
   },
   "primaryContentSections" : [
     {
@@ -255,6 +255,14 @@
             },
             {
               "kind" : "externalParam",
+              "text" : "fromJSON"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
               "text" : "json"
             },
             {
@@ -462,7 +470,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jxpod\/jxpodmetadata\/init(json:decoder:allowsjson5:datadecodingstrategy:datedecodingstrategy:nonconformingfloatdecodingstrategy:keydecodingstrategy:userinfo:)"
+        "\/documentation\/jxpod\/location\/init(fromjson:decoder:allowsjson5:datadecodingstrategy:datedecodingstrategy:nonconformingfloatdecodingstrategy:keydecodingstrategy:userinfo:)"
       ],
       "traits" : [
         {
@@ -484,10 +492,10 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod"
 },
-"doc://JXPod/documentation/JXPod/JXPodMetaData": {
+"doc://JXPod/documentation/JXPod/Location": {
   "abstract" : [
     {
-      "text" : "Information about the pod.",
+      "text" : "A location on earth.",
       "type" : "text"
     }
   ],
@@ -502,34 +510,34 @@
     },
     {
       "kind" : "identifier",
-      "text" : "JXPodMetaData"
+      "text" : "Location"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/Location",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "JXPodMetaData"
+      "text" : "Location"
     }
   ],
   "role" : "symbol",
-  "title" : "JXPodMetaData",
+  "title" : "Location",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/jxpodmetadata"
+  "url" : "\/documentation\/jxpod\/location"
 },
-"doc://JXPod/documentation/JXPod/JXPodMetaData/Decodable-Implementations": {
+"doc://JXPod/documentation/JXPod/Location/Decodable-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/Decodable-Implementations",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/Location\/Decodable-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
   "title" : "Decodable Implementations",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/jxpodmetadata\/decodable-implementations"
+  "url" : "\/documentation\/jxpod\/location\/decodable-implementations"
 },
-"doc://JXPod/documentation/JXPod/JXPodMetaData/init(json:decoder:allowsJSON5:dataDecodingStrategy:dateDecodingStrategy:nonConformingFloatDecodingStrategy:keyDecodingStrategy:userInfo:)": {
+"doc://JXPod/documentation/JXPod/Location/init(fromJSON:decoder:allowsJSON5:dataDecodingStrategy:dateDecodingStrategy:nonConformingFloatDecodingStrategy:keyDecodingStrategy:userInfo:)": {
   "abstract" : [
 
   ],
@@ -544,7 +552,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "json"
+      "text" : "fromJSON"
     },
     {
       "kind" : "text",
@@ -727,12 +735,12 @@
       "text" : "throws"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/JXPodMetaData\/init(json:decoder:allowsJSON5:dataDecodingStrategy:dateDecodingStrategy:nonConformingFloatDecodingStrategy:keyDecodingStrategy:userInfo:)",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/Location\/init(fromJSON:decoder:allowsJSON5:dataDecodingStrategy:dateDecodingStrategy:nonConformingFloatDecodingStrategy:keyDecodingStrategy:userInfo:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(json:decoder:allowsJSON5:dataDecodingStrategy:dateDecodingStrategy:nonConformingFloatDecodingStrategy:keyDecodingStrategy:userInfo:)",
+  "title" : "init(fromJSON:decoder:allowsJSON5:dataDecodingStrategy:dateDecodingStrategy:nonConformingFloatDecodingStrategy:keyDecodingStrategy:userInfo:)",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/jxpodmetadata\/init(json:decoder:allowsjson5:datadecodingstrategy:datedecodingstrategy:nonconformingfloatdecodingstrategy:keydecodingstrategy:userinfo:)"
+  "url" : "\/documentation\/jxpod\/location\/init(fromjson:decoder:allowsjson5:datadecodingstrategy:datedecodingstrategy:nonconformingfloatdecodingstrategy:keydecodingstrategy:userinfo:)"
 }
 }
 }

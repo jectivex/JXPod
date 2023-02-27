@@ -5,7 +5,7 @@
       "type" : "text"
     },
     {
-      "code" : "Decodable.init(jsum:options:)",
+      "code" : "Encodable.json(options:)",
       "type" : "codeVoice"
     },
     {
@@ -17,44 +17,35 @@
     "paths" : [
       [
         "doc:\/\/JXPod\/documentation\/JXPod",
-        "doc:\/\/JXPod\/documentation\/JXPod\/Location",
-        "doc:\/\/JXPod\/documentation\/JXPod\/Location\/Decodable-Implementations"
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor",
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/Encodable-Implementations"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/Location\/init(jsum:options:)"
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/json(options:)"
   },
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "Swift",
-    "externalID" : "s:Se4JSumE4jsum7optionsxA2AO_AA0A15DecodingOptionsCSgtKcfc::SYNTHESIZED::s:5JXPod8LocationV",
+    "externalID" : "s:SE4JSONE4json7optionsA2AVAA19JSONEncodingOptionsCSg_tKF::SYNTHESIZED::s:5JXPod8CSSColorV",
     "fragments" : [
       {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
         "kind" : "identifier",
-        "text" : "init"
+        "text" : "json"
       },
       {
         "kind" : "text",
         "text" : "("
-      },
-      {
-        "kind" : "externalParam",
-        "text" : "jsum"
-      },
-      {
-        "kind" : "text",
-        "text" : ": "
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:4JSumAAO",
-        "text" : "JSum"
-      },
-      {
-        "kind" : "text",
-        "text" : ", "
       },
       {
         "kind" : "externalParam",
@@ -66,8 +57,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:4JSum0A15DecodingOptionsC",
-        "text" : "JSumDecodingOptions"
+        "preciseIdentifier" : "s:4JSON19JSONEncodingOptionsC",
+        "text" : "JSONEncodingOptions"
       },
       {
         "kind" : "text",
@@ -76,6 +67,15 @@
       {
         "kind" : "keyword",
         "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:4JSONAAV",
+        "text" : "JSON"
       }
     ],
     "modules" : [
@@ -84,9 +84,9 @@
       }
     ],
     "role" : "symbol",
-    "roleHeading" : "Initializer",
-    "symbolKind" : "init",
-    "title" : "init(jsum:options:)"
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "json(options:)"
   },
   "primaryContentSections" : [
     {
@@ -101,28 +101,19 @@
           "tokens" : [
             {
               "kind" : "keyword",
-              "text" : "init"
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "json"
             },
             {
               "kind" : "text",
               "text" : "("
-            },
-            {
-              "kind" : "externalParam",
-              "text" : "jsum"
-            },
-            {
-              "kind" : "text",
-              "text" : ": "
-            },
-            {
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:4JSumAAO",
-              "text" : "JSum"
-            },
-            {
-              "kind" : "text",
-              "text" : ", "
             },
             {
               "kind" : "externalParam",
@@ -134,8 +125,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:4JSum0A15DecodingOptionsC",
-              "text" : "JSumDecodingOptions"
+              "preciseIdentifier" : "s:4JSON19JSONEncodingOptionsC",
+              "text" : "JSONEncodingOptions"
             },
             {
               "kind" : "text",
@@ -144,6 +135,15 @@
             {
               "kind" : "keyword",
               "text" : "throws"
+            },
+            {
+              "kind" : "text",
+              "text" : " -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:4JSONAAV",
+              "text" : "JSON"
             }
           ]
         }
@@ -162,7 +162,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jxpod\/location\/init(jsum:options:)"
+        "\/documentation\/jxpod\/csscolor\/json(options:)"
       ],
       "traits" : [
         {
@@ -184,12 +184,9 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod"
 },
-"doc://JXPod/documentation/JXPod/Location": {
+"doc://JXPod/documentation/JXPod/CSSColor": {
   "abstract" : [
-    {
-      "text" : "A location on earth.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -202,62 +199,53 @@
     },
     {
       "kind" : "identifier",
-      "text" : "Location"
+      "text" : "CSSColor"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/Location",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "Location"
+      "text" : "CSSColor"
     }
   ],
   "role" : "symbol",
-  "title" : "Location",
+  "title" : "CSSColor",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/location"
+  "url" : "\/documentation\/jxpod\/csscolor"
 },
-"doc://JXPod/documentation/JXPod/Location/Decodable-Implementations": {
+"doc://JXPod/documentation/JXPod/CSSColor/Encodable-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/Location\/Decodable-Implementations",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/Encodable-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
-  "title" : "Decodable Implementations",
+  "title" : "Encodable Implementations",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/location\/decodable-implementations"
+  "url" : "\/documentation\/jxpod\/csscolor\/encodable-implementations"
 },
-"doc://JXPod/documentation/JXPod/Location/init(jsum:options:)": {
+"doc://JXPod/documentation/JXPod/CSSColor/json(options:)": {
   "abstract" : [
 
   ],
   "fragments" : [
     {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
       "kind" : "identifier",
-      "text" : "init"
+      "text" : "json"
     },
     {
       "kind" : "text",
       "text" : "("
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "jsum"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:4JSumAAO",
-      "text" : "JSum"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
     },
     {
       "kind" : "externalParam",
@@ -269,8 +257,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:4JSum0A15DecodingOptionsC",
-      "text" : "JSumDecodingOptions"
+      "preciseIdentifier" : "s:4JSON19JSONEncodingOptionsC",
+      "text" : "JSONEncodingOptions"
     },
     {
       "kind" : "text",
@@ -279,14 +267,23 @@
     {
       "kind" : "keyword",
       "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:4JSONAAV",
+      "text" : "JSON"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/Location\/init(jsum:options:)",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/json(options:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(jsum:options:)",
+  "title" : "json(options:)",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/location\/init(jsum:options:)"
+  "url" : "\/documentation\/jxpod\/csscolor\/json(options:)"
 }
 }
 }

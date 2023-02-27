@@ -5,7 +5,7 @@
       "type" : "text"
     },
     {
-      "code" : "Decodable.init(json:decoder:allowsJSON5:dataDecodingStrategy:dateDecodingStrategy:nonConformingFloatDecodingStrategy:keyDecodingStrategy:userInfo:)",
+      "code" : "Encodable.toJSON(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)",
       "type" : "codeVoice"
     },
     {
@@ -19,22 +19,30 @@
         "doc:\/\/JXPod\/documentation\/JXPod",
         "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor",
         "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor",
-        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/Decodable-Implementations"
+        "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/Encodable-Implementations"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/init(json:decoder:allowsJSON5:dataDecodingStrategy:dateDecodingStrategy:nonConformingFloatDecodingStrategy:keyDecodingStrategy:userInfo:)"
+    "url" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/toJSON(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)"
   },
   "kind" : "symbol",
   "metadata" : {
     "extendedModule" : "Swift",
-    "externalID" : "s:Se4JSumE4json7decoder11allowsJSON520dataDecodingStrategy04dategH0018nonConformingFloatgH003keygH08userInfox10Foundation4DataV_AJ11JSONDecoderCyXKSbAN0qgH0OSgAN04DategH0OSgAN03NonklgH0OSgAN03KeygH0OSgSDys010CodingUseroU0VypGSgtKcfc::SYNTHESIZED::s:5JXPod8CSSColorV8RGBColorV",
+    "externalID" : "s:SE4JSONE02toA07encoder16outputFormatting20dateEncodingStrategy04datagH0018nonConformingFloatgH003keygH08userInfo10Foundation4DataVAJ11JSONEncoderCyXK_AN06OutputE0VSgAN04DategH0OSgAN0qgH0OSgAN03NonklgH0OSgAN03KeygH0OSgSDys010CodingUseroV0VypGSgtKF::SYNTHESIZED::s:5JXPod8CSSColorV8RGBColorV",
     "fragments" : [
       {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
         "kind" : "identifier",
-        "text" : "init"
+        "text" : "toJSON"
       },
       {
         "kind" : "text",
@@ -42,24 +50,7 @@
       },
       {
         "kind" : "externalParam",
-        "text" : "json"
-      },
-      {
-        "kind" : "text",
-        "text" : ": "
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:10Foundation4DataV",
-        "text" : "Data"
-      },
-      {
-        "kind" : "text",
-        "text" : ", "
-      },
-      {
-        "kind" : "externalParam",
-        "text" : "decoder"
+        "text" : "encoder"
       },
       {
         "kind" : "text",
@@ -67,8 +58,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:10Foundation11JSONDecoderC",
-        "text" : "JSONDecoder"
+        "preciseIdentifier" : "s:10Foundation11JSONEncoderC",
+        "text" : "JSONEncoder"
       },
       {
         "kind" : "text",
@@ -76,7 +67,7 @@
       },
       {
         "kind" : "externalParam",
-        "text" : "allowsJSON5"
+        "text" : "outputFormatting"
       },
       {
         "kind" : "text",
@@ -84,25 +75,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:Sb",
-        "text" : "Bool"
-      },
-      {
-        "kind" : "text",
-        "text" : ", "
-      },
-      {
-        "kind" : "externalParam",
-        "text" : "dataDecodingStrategy"
-      },
-      {
-        "kind" : "text",
-        "text" : ": "
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:10Foundation11JSONDecoderC",
-        "text" : "JSONDecoder"
+        "preciseIdentifier" : "s:10Foundation11JSONEncoderC",
+        "text" : "JSONEncoder"
       },
       {
         "kind" : "text",
@@ -110,8 +84,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:10Foundation11JSONDecoderC20DataDecodingStrategyO",
-        "text" : "DataDecodingStrategy"
+        "preciseIdentifier" : "s:10Foundation11JSONEncoderC16OutputFormattingV",
+        "text" : "OutputFormatting"
       },
       {
         "kind" : "text",
@@ -119,7 +93,7 @@
       },
       {
         "kind" : "externalParam",
-        "text" : "dateDecodingStrategy"
+        "text" : "dateEncodingStrategy"
       },
       {
         "kind" : "text",
@@ -127,8 +101,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:10Foundation11JSONDecoderC",
-        "text" : "JSONDecoder"
+        "preciseIdentifier" : "s:10Foundation11JSONEncoderC",
+        "text" : "JSONEncoder"
       },
       {
         "kind" : "text",
@@ -136,8 +110,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:10Foundation11JSONDecoderC20DateDecodingStrategyO",
-        "text" : "DateDecodingStrategy"
+        "preciseIdentifier" : "s:10Foundation11JSONEncoderC20DateEncodingStrategyO",
+        "text" : "DateEncodingStrategy"
       },
       {
         "kind" : "text",
@@ -145,7 +119,7 @@
       },
       {
         "kind" : "externalParam",
-        "text" : "nonConformingFloatDecodingStrategy"
+        "text" : "dataEncodingStrategy"
       },
       {
         "kind" : "text",
@@ -153,8 +127,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:10Foundation11JSONDecoderC",
-        "text" : "JSONDecoder"
+        "preciseIdentifier" : "s:10Foundation11JSONEncoderC",
+        "text" : "JSONEncoder"
       },
       {
         "kind" : "text",
@@ -162,8 +136,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:10Foundation11JSONDecoderC34NonConformingFloatDecodingStrategyO",
-        "text" : "NonConformingFloatDecodingStrategy"
+        "preciseIdentifier" : "s:10Foundation11JSONEncoderC20DataEncodingStrategyO",
+        "text" : "DataEncodingStrategy"
       },
       {
         "kind" : "text",
@@ -171,7 +145,7 @@
       },
       {
         "kind" : "externalParam",
-        "text" : "keyDecodingStrategy"
+        "text" : "nonConformingFloatEncodingStrategy"
       },
       {
         "kind" : "text",
@@ -179,8 +153,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:10Foundation11JSONDecoderC",
-        "text" : "JSONDecoder"
+        "preciseIdentifier" : "s:10Foundation11JSONEncoderC",
+        "text" : "JSONEncoder"
       },
       {
         "kind" : "text",
@@ -188,8 +162,34 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:10Foundation11JSONDecoderC19KeyDecodingStrategyO",
-        "text" : "KeyDecodingStrategy"
+        "preciseIdentifier" : "s:10Foundation11JSONEncoderC34NonConformingFloatEncodingStrategyO",
+        "text" : "NonConformingFloatEncodingStrategy"
+      },
+      {
+        "kind" : "text",
+        "text" : "?, "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "keyEncodingStrategy"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation11JSONEncoderC",
+        "text" : "JSONEncoder"
+      },
+      {
+        "kind" : "text",
+        "text" : "."
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation11JSONEncoderC19KeyEncodingStrategyO",
+        "text" : "KeyEncodingStrategy"
       },
       {
         "kind" : "text",
@@ -223,6 +223,15 @@
       {
         "kind" : "keyword",
         "text" : "throws"
+      },
+      {
+        "kind" : "text",
+        "text" : " -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation4DataV",
+        "text" : "Data"
       }
     ],
     "modules" : [
@@ -231,9 +240,9 @@
       }
     ],
     "role" : "symbol",
-    "roleHeading" : "Initializer",
-    "symbolKind" : "init",
-    "title" : "init(json:decoder:allowsJSON5:dataDecodingStrategy:dateDecodingStrategy:nonConformingFloatDecodingStrategy:keyDecodingStrategy:userInfo:)"
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "toJSON(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)"
   },
   "primaryContentSections" : [
     {
@@ -248,7 +257,15 @@
           "tokens" : [
             {
               "kind" : "keyword",
-              "text" : "init"
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "toJSON"
             },
             {
               "kind" : "text",
@@ -256,24 +273,7 @@
             },
             {
               "kind" : "externalParam",
-              "text" : "json"
-            },
-            {
-              "kind" : "text",
-              "text" : ": "
-            },
-            {
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:10Foundation4DataV",
-              "text" : "Data"
-            },
-            {
-              "kind" : "text",
-              "text" : ", "
-            },
-            {
-              "kind" : "externalParam",
-              "text" : "decoder"
+              "text" : "encoder"
             },
             {
               "kind" : "text",
@@ -289,16 +289,16 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:10Foundation11JSONDecoderC",
-              "text" : "JSONDecoder"
+              "preciseIdentifier" : "s:10Foundation11JSONEncoderC",
+              "text" : "JSONEncoder"
             },
             {
               "kind" : "text",
-              "text" : " = JSONDecoder(), "
+              "text" : " = JSONEncoder(), "
             },
             {
               "kind" : "externalParam",
-              "text" : "allowsJSON5"
+              "text" : "outputFormatting"
             },
             {
               "kind" : "text",
@@ -306,25 +306,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:Sb",
-              "text" : "Bool"
-            },
-            {
-              "kind" : "text",
-              "text" : " = true, "
-            },
-            {
-              "kind" : "externalParam",
-              "text" : "dataDecodingStrategy"
-            },
-            {
-              "kind" : "text",
-              "text" : ": "
-            },
-            {
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:10Foundation11JSONDecoderC",
-              "text" : "JSONDecoder"
+              "preciseIdentifier" : "s:10Foundation11JSONEncoderC",
+              "text" : "JSONEncoder"
             },
             {
               "kind" : "text",
@@ -332,8 +315,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:10Foundation11JSONDecoderC20DataDecodingStrategyO",
-              "text" : "DataDecodingStrategy"
+              "preciseIdentifier" : "s:10Foundation11JSONEncoderC16OutputFormattingV",
+              "text" : "OutputFormatting"
             },
             {
               "kind" : "text",
@@ -341,7 +324,7 @@
             },
             {
               "kind" : "externalParam",
-              "text" : "dateDecodingStrategy"
+              "text" : "dateEncodingStrategy"
             },
             {
               "kind" : "text",
@@ -349,8 +332,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:10Foundation11JSONDecoderC",
-              "text" : "JSONDecoder"
+              "preciseIdentifier" : "s:10Foundation11JSONEncoderC",
+              "text" : "JSONEncoder"
             },
             {
               "kind" : "text",
@@ -358,8 +341,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:10Foundation11JSONDecoderC20DateDecodingStrategyO",
-              "text" : "DateDecodingStrategy"
+              "preciseIdentifier" : "s:10Foundation11JSONEncoderC20DateEncodingStrategyO",
+              "text" : "DateEncodingStrategy"
             },
             {
               "kind" : "text",
@@ -367,7 +350,7 @@
             },
             {
               "kind" : "externalParam",
-              "text" : "nonConformingFloatDecodingStrategy"
+              "text" : "dataEncodingStrategy"
             },
             {
               "kind" : "text",
@@ -375,8 +358,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:10Foundation11JSONDecoderC",
-              "text" : "JSONDecoder"
+              "preciseIdentifier" : "s:10Foundation11JSONEncoderC",
+              "text" : "JSONEncoder"
             },
             {
               "kind" : "text",
@@ -384,8 +367,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:10Foundation11JSONDecoderC34NonConformingFloatDecodingStrategyO",
-              "text" : "NonConformingFloatDecodingStrategy"
+              "preciseIdentifier" : "s:10Foundation11JSONEncoderC20DataEncodingStrategyO",
+              "text" : "DataEncodingStrategy"
             },
             {
               "kind" : "text",
@@ -393,7 +376,7 @@
             },
             {
               "kind" : "externalParam",
-              "text" : "keyDecodingStrategy"
+              "text" : "nonConformingFloatEncodingStrategy"
             },
             {
               "kind" : "text",
@@ -401,8 +384,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:10Foundation11JSONDecoderC",
-              "text" : "JSONDecoder"
+              "preciseIdentifier" : "s:10Foundation11JSONEncoderC",
+              "text" : "JSONEncoder"
             },
             {
               "kind" : "text",
@@ -410,8 +393,34 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:10Foundation11JSONDecoderC19KeyDecodingStrategyO",
-              "text" : "KeyDecodingStrategy"
+              "preciseIdentifier" : "s:10Foundation11JSONEncoderC34NonConformingFloatEncodingStrategyO",
+              "text" : "NonConformingFloatEncodingStrategy"
+            },
+            {
+              "kind" : "text",
+              "text" : "? = nil, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "keyEncodingStrategy"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10Foundation11JSONEncoderC",
+              "text" : "JSONEncoder"
+            },
+            {
+              "kind" : "text",
+              "text" : "."
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10Foundation11JSONEncoderC19KeyEncodingStrategyO",
+              "text" : "KeyEncodingStrategy"
             },
             {
               "kind" : "text",
@@ -445,6 +454,15 @@
             {
               "kind" : "keyword",
               "text" : "throws"
+            },
+            {
+              "kind" : "text",
+              "text" : " -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10Foundation4DataV",
+              "text" : "Data"
             }
           ]
         }
@@ -463,7 +481,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/jxpod\/csscolor\/rgbcolor\/init(json:decoder:allowsjson5:datadecodingstrategy:datedecodingstrategy:nonconformingfloatdecodingstrategy:keydecodingstrategy:userinfo:)"
+        "\/documentation\/jxpod\/csscolor\/rgbcolor\/tojson(encoder:outputformatting:dateencodingstrategy:dataencodingstrategy:nonconformingfloatencodingstrategy:keyencodingstrategy:userinfo:)"
       ],
       "traits" : [
         {
@@ -547,25 +565,33 @@
   "type" : "topic",
   "url" : "\/documentation\/jxpod\/csscolor\/rgbcolor"
 },
-"doc://JXPod/documentation/JXPod/CSSColor/RGBColor/Decodable-Implementations": {
+"doc://JXPod/documentation/JXPod/CSSColor/RGBColor/Encodable-Implementations": {
   "abstract" : [
 
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/Decodable-Implementations",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/Encodable-Implementations",
   "kind" : "article",
   "role" : "collectionGroup",
-  "title" : "Decodable Implementations",
+  "title" : "Encodable Implementations",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/decodable-implementations"
+  "url" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/encodable-implementations"
 },
-"doc://JXPod/documentation/JXPod/CSSColor/RGBColor/init(json:decoder:allowsJSON5:dataDecodingStrategy:dateDecodingStrategy:nonConformingFloatDecodingStrategy:keyDecodingStrategy:userInfo:)": {
+"doc://JXPod/documentation/JXPod/CSSColor/RGBColor/toJSON(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)": {
   "abstract" : [
 
   ],
   "fragments" : [
     {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
       "kind" : "identifier",
-      "text" : "init"
+      "text" : "toJSON"
     },
     {
       "kind" : "text",
@@ -573,24 +599,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "json"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10Foundation4DataV",
-      "text" : "Data"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "decoder"
+      "text" : "encoder"
     },
     {
       "kind" : "text",
@@ -598,8 +607,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10Foundation11JSONDecoderC",
-      "text" : "JSONDecoder"
+      "preciseIdentifier" : "s:10Foundation11JSONEncoderC",
+      "text" : "JSONEncoder"
     },
     {
       "kind" : "text",
@@ -607,7 +616,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "allowsJSON5"
+      "text" : "outputFormatting"
     },
     {
       "kind" : "text",
@@ -615,25 +624,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:Sb",
-      "text" : "Bool"
-    },
-    {
-      "kind" : "text",
-      "text" : ", "
-    },
-    {
-      "kind" : "externalParam",
-      "text" : "dataDecodingStrategy"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10Foundation11JSONDecoderC",
-      "text" : "JSONDecoder"
+      "preciseIdentifier" : "s:10Foundation11JSONEncoderC",
+      "text" : "JSONEncoder"
     },
     {
       "kind" : "text",
@@ -641,8 +633,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10Foundation11JSONDecoderC20DataDecodingStrategyO",
-      "text" : "DataDecodingStrategy"
+      "preciseIdentifier" : "s:10Foundation11JSONEncoderC16OutputFormattingV",
+      "text" : "OutputFormatting"
     },
     {
       "kind" : "text",
@@ -650,7 +642,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "dateDecodingStrategy"
+      "text" : "dateEncodingStrategy"
     },
     {
       "kind" : "text",
@@ -658,8 +650,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10Foundation11JSONDecoderC",
-      "text" : "JSONDecoder"
+      "preciseIdentifier" : "s:10Foundation11JSONEncoderC",
+      "text" : "JSONEncoder"
     },
     {
       "kind" : "text",
@@ -667,8 +659,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10Foundation11JSONDecoderC20DateDecodingStrategyO",
-      "text" : "DateDecodingStrategy"
+      "preciseIdentifier" : "s:10Foundation11JSONEncoderC20DateEncodingStrategyO",
+      "text" : "DateEncodingStrategy"
     },
     {
       "kind" : "text",
@@ -676,7 +668,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "nonConformingFloatDecodingStrategy"
+      "text" : "dataEncodingStrategy"
     },
     {
       "kind" : "text",
@@ -684,8 +676,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10Foundation11JSONDecoderC",
-      "text" : "JSONDecoder"
+      "preciseIdentifier" : "s:10Foundation11JSONEncoderC",
+      "text" : "JSONEncoder"
     },
     {
       "kind" : "text",
@@ -693,8 +685,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10Foundation11JSONDecoderC34NonConformingFloatDecodingStrategyO",
-      "text" : "NonConformingFloatDecodingStrategy"
+      "preciseIdentifier" : "s:10Foundation11JSONEncoderC20DataEncodingStrategyO",
+      "text" : "DataEncodingStrategy"
     },
     {
       "kind" : "text",
@@ -702,7 +694,7 @@
     },
     {
       "kind" : "externalParam",
-      "text" : "keyDecodingStrategy"
+      "text" : "nonConformingFloatEncodingStrategy"
     },
     {
       "kind" : "text",
@@ -710,8 +702,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10Foundation11JSONDecoderC",
-      "text" : "JSONDecoder"
+      "preciseIdentifier" : "s:10Foundation11JSONEncoderC",
+      "text" : "JSONEncoder"
     },
     {
       "kind" : "text",
@@ -719,8 +711,34 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10Foundation11JSONDecoderC19KeyDecodingStrategyO",
-      "text" : "KeyDecodingStrategy"
+      "preciseIdentifier" : "s:10Foundation11JSONEncoderC34NonConformingFloatEncodingStrategyO",
+      "text" : "NonConformingFloatEncodingStrategy"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "keyEncodingStrategy"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation11JSONEncoderC",
+      "text" : "JSONEncoder"
+    },
+    {
+      "kind" : "text",
+      "text" : "."
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation11JSONEncoderC19KeyEncodingStrategyO",
+      "text" : "KeyEncodingStrategy"
     },
     {
       "kind" : "text",
@@ -754,14 +772,23 @@
     {
       "kind" : "keyword",
       "text" : "throws"
+    },
+    {
+      "kind" : "text",
+      "text" : " -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
     }
   ],
-  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/init(json:decoder:allowsJSON5:dataDecodingStrategy:dateDecodingStrategy:nonConformingFloatDecodingStrategy:keyDecodingStrategy:userInfo:)",
+  "identifier" : "doc:\/\/JXPod\/documentation\/JXPod\/CSSColor\/RGBColor\/toJSON(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(json:decoder:allowsJSON5:dataDecodingStrategy:dateDecodingStrategy:nonConformingFloatDecodingStrategy:keyDecodingStrategy:userInfo:)",
+  "title" : "toJSON(encoder:outputFormatting:dateEncodingStrategy:dataEncodingStrategy:nonConformingFloatEncodingStrategy:keyEncodingStrategy:userInfo:)",
   "type" : "topic",
-  "url" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/init(json:decoder:allowsjson5:datadecodingstrategy:datedecodingstrategy:nonconformingfloatdecodingstrategy:keydecodingstrategy:userinfo:)"
+  "url" : "\/documentation\/jxpod\/csscolor\/rgbcolor\/tojson(encoder:outputformatting:dateencodingstrategy:dataencodingstrategy:nonconformingfloatencodingstrategy:keyencodingstrategy:userinfo:)"
 }
 }
 }
